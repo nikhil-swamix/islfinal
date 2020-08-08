@@ -1,0 +1,55 @@
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Table from "./Table";
+import Sidebar from "../Sidebar";
+
+const Syllabus = () => {
+  return (
+    <>
+      <section className="breadcrumb_details bg_cover">
+        <Container>
+          <Row>
+            <Col lg={8} md={8} sm={12}>
+              <div className="breadcrumb_details_content">
+                <h4 className="title">Syllabus</h4>
+                <div className="breadcrumb_content">
+                  <ul className="breadcrumb justify-content">
+                    <li>
+                      <a href="islengg.ac.in">
+                        <i class="fa fa-home" aria-hidden="true"></i> Home
+                      </a>
+                    </li>
+                    <li>
+                      <a href="islengg.ac.in">Almanac</a>
+                    </li>
+                    <li>
+                      <a className="active" href="islengg.ac.in">
+                        Syllabus
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
+      <section className="mt-60">
+        <Container>
+          <Row>
+            <Col lg={4} md={4} className="sidebar academic">
+              <aside>
+                <Sidebar />
+              </aside>
+            </Col>{" "}
+            <Col lg={8} className="syllabus">
+              <Table />
+            </Col>
+          </Row>
+        </Container>
+      </section>
+    </>
+  );
+};
+
+export default Syllabus;
