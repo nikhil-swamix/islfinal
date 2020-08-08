@@ -128,7 +128,7 @@ class Home extends React.Component {
               <Col md={4} sm={6} className="pt-25">
                 <section className="news  mb-25">
                   <div className="site-heading text-left">
-                    <h4>News & Updatess</h4>
+                    <h4>News & Updates</h4>
                   </div>
                   <div className="section-content">
                     <article>
@@ -395,8 +395,199 @@ class Home extends React.Component {
           </Container>
         </section>
 
-        <section className="courses_area pt-90 pb-50">
+        <section className="ner">
           <Container fluid>
+            <Row>
+              <Col md={6} sm={6} className="pt-25">
+                <section className="news  mb-25">
+                  <div className="site-heading text-left">
+                    <h4>News & Updates</h4>
+                  </div>
+                  <div className="section-content">
+                    <article>
+                      <figure className="date">24-4-2020</figure>
+                      <header>
+                        <a href="https://islengg.ac.in">
+                          Applications invited for Admissions-2020. Apply Now
+                        </a>
+                      </header>
+                    </article>
+
+                    <article>
+                      <figure className="date">24-4-2020</figure>
+                      <header>
+                        <a href="https://islengg.ac.in">
+                          Applications invited for Admissions-2020. Apply Now
+                        </a>
+                      </header>
+                    </article>
+                    <article>
+                      <figure className="date">24-4-2020</figure>
+                      <header>
+                        <a href="https://islengg.ac.in">
+                          Applications invited for Admissions-2020. Apply Now
+                        </a>
+                      </header>
+                    </article>
+                    <article>
+                      <figure className="date">24-4-2020</figure>
+                      <header>
+                        <a href="https://islengg.ac.in">
+                          Applications invited for Admissions-2020. Apply Now
+                        </a>
+                      </header>
+                    </article>
+                    <article>
+                      <figure className="date">24-4-2020</figure>
+                      <header>
+                        <a href="https://islengg.ac.in">
+                          Applications invited for Admissions-2020. Apply Now
+                        </a>
+                      </header>
+                    </article>
+                  </div>
+                </section>
+                <div className="stick-bottom">All News →</div>
+              </Col>
+              <Col md={6} sm={6} className="pt-25">
+                <section className="recents mb-25">
+                  <div className="site-heading text-left">
+                    <h4>Recents </h4>
+                  </div>
+                  <Row>
+                    <Col lg={6} sm={6}>
+                      <div className="single_courses courses_gray">
+                        <div className="courses_image">
+                          <img
+                            src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
+                            alt="courses"
+                          />
+                        </div>
+                        <div className="courses_content">
+                          <div className="courses_author d-flex">
+                            <div className="author_name media-body">
+                              <a href="https://islengg.ac.in">ESPIRIT</a>
+                            </div>
+                          </div>
+                          <h4 className="title">
+                            <a href="https://islengg.ac.in">
+                              Espirit is one of the finest Cultural event of ISL
+                              More
+                            </a>
+                          </h4>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col lg={6} sm={6}>
+                      <div className="single_courses courses_gray ">
+                        <div className="courses_image">
+                          <img
+                            src="https://i.ibb.co/b6mfmDY/enthusiac.jpg"
+                            alt="courses"
+                          />
+                        </div>
+                        <div className="courses_content">
+                          <div className="courses_author d-flex">
+                            <div className="author_name media-body">
+                              <a href="https://islengg.ac.in">ESPIRIT</a>
+                            </div>
+                          </div>
+                          <h4 className="title">
+                            <a href="https://islengg.ac.in">
+                              Espirit is one of the finest Cultural event of ISL
+                            </a>
+                          </h4>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col lg={6} sm={6}>
+                      <div className="single_courses courses_gray">
+                        <div className="courses_image">
+                          <img
+                            src="https://i.ibb.co/6Rfb82N/eloquence.jpg"
+                            alt="courses"
+                          />
+                        </div>
+                        <div className="courses_content">
+                          <div className="courses_author d-flex">
+                            <div className="author_name media-body">
+                              <a href="https://islengg.ac.in">ESPIRIT</a>
+                            </div>
+                          </div>
+                          <h4 className="title">
+                            <a href="https://islengg.ac.in">
+                              Espirit is one of the finest Cultural event of ISL
+                            </a>
+                          </h4>
+                        </div>
+                      </div>
+                    </Col>
+                    <Col lg={6} sm={6}>
+                      <div className="single_courses courses_gray">
+                        <div className="courses_image">
+                          <img
+                            src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
+                            alt="courses"
+                          />
+                        </div>
+                        <div className="courses_content">
+                          <div className="courses_author d-flex">
+                            <div className="author_name media-body">
+                              <a href="https://islengg.ac.in">ESPIRIT</a>
+                            </div>
+                          </div>
+                          <h4 className="title">
+                            <a href="https://islengg.ac.in">
+                              Espirit is one of the finest Cultural event of ISL
+                            </a>
+                          </h4>
+                        </div>
+                      </div>
+                    </Col>
+                  </Row>
+                </section>{" "}
+                {/* <section className="quick-link">
+              <div className="top text-center">
+                <i className="fa fa-link"></i>
+                <h3 className="title">Quick Links</h3>
+              </div>
+
+              <div className="wrapper">
+                <div className="link-list">
+                  <a href="https://india.gov">
+                    <h3 className="link">Alumni & Donors</h3>
+                  </a>
+                </div>
+                <div className="link-list">
+                  <a href="https://india.gov">
+                    <h3 className="link">NPTEL Online Course</h3>
+                  </a>
+                </div>
+                <div className="link-list">
+                  <a href="https://india.gov">
+                    <h3 className="link">Sports</h3>
+                  </a>
+                </div>
+                <div className="link-list">
+                  <a href="https://india.gov">
+                    <h3 className="link">NPTEL Online Course</h3>
+                  </a>
+                </div>
+                <div className="link-list">
+                  <a href="https://india.gov">
+                    <h3 className="link">NPTEL Online Course</h3>
+                  </a>
+                </div>
+              </div>
+            </section> */}
+                <div className="stick-bottom">All Recents →</div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+
+        <section className="courses_area pt-90 pb-50">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-lg-8">
                 <div className="site-heading text-left">
@@ -499,11 +690,11 @@ class Home extends React.Component {
                 </div>
               </div>
             </div>
-          </Container>
+          </div>
         </section>
 
         <section className="why_choose_area pt-60 pb-130">
-          <Container fluid>
+          <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6">
                 <div className="why_choose_content">
@@ -596,7 +787,7 @@ class Home extends React.Component {
                 </div>
               </div>
             </div>
-          </Container>
+          </div>
           <div className="why_choose_image d-none d-lg-table">
             <div className="image">
               <img

@@ -13,10 +13,17 @@ const NavigationBar = () => {
                 <div className="header_left">
                   <ul className="header_ul">
                     <li>
-                      <a href="https://islengg.ac.in#">
+                      <a href="tel:+04012345678">
                         <span className="fa fa-phone"></span> 040 - 12345678
                       </a>
                     </li>
+                    <li>
+                      <a href="mailto:info@islec.edu.in">
+                        <span className="fa fa-envelope"></span>{" "}
+                        info@islec.edu.in
+                      </a>
+                    </li>
+
                     <li>
                       <a href="https://islengg.ac.in#">Alumni</a>
                     </li>
@@ -27,7 +34,7 @@ const NavigationBar = () => {
                       <a href="https://islengg.ac.in#">Online Fee</a>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in#">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -68,15 +75,17 @@ const NavigationBar = () => {
             <Link to="/">
               <Nav.Link href="#home">Home</Nav.Link>
             </Link>
-            <NavDropdown title="About" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="#blog" as={Link} to="/blog">
+            <NavDropdown title="About us" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#chairman" as={Link} to="/chairman">
                 Chairman
               </NavDropdown.Item>
-              <NavDropdown.Item href="#secretary">Secretary</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#principal"> Principal</NavDropdown.Item>
             </NavDropdown>
 
+            <NavDropdown title="Administration" id="collasible-nav-dropdown">
+              <NavDropdown.Item href="#principal" as={Link} to="/principal">
+                Principal
+              </NavDropdown.Item>
+            </NavDropdown>
             <NavDropdown title="Academics" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#admissions" as={Link} to="/admissions">
                 Admissions
@@ -121,9 +130,6 @@ const NavigationBar = () => {
                 Master of Business Administraion
               </NavDropdown.Item>
             </NavDropdown>
-            <Link to="/rnd">
-              <Nav.Link href="#rnd">R & D</Nav.Link>
-            </Link>
             <Link to="/contact">
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Link>

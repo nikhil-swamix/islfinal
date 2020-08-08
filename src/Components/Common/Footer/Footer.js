@@ -148,12 +148,12 @@ const Footer = () => {
         <div className="footer-copyright">
           <Container>
             <Row>
-              <Col md={8}>
+              <Col md={8} className="text-center">
                 <div className="copyright text-md-left">
                   <p>&copy; Copyrights 2020 ISL Engineering College. </p>
                 </div>
               </Col>
-              <Col md={4}>
+              <Col md={4} className="text-center">
                 <div className="copyright text-md-right">
                   <ul class="mt-0">
                     <li>

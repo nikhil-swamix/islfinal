@@ -14,7 +14,8 @@ import Almanac from "./Components/Pages/Academic/Almanac";
 import Admissions from "./Components/Pages/Academic/Admission";
 import Blog from "./Components/Pages/Blog";
 import Contact from "./Components/Pages/contact";
-
+import Chairman from "./Components/Pages/About/chairman";
+import Principal from "./Components/Pages/About/principal";
 import NavBar from "./Components/Common/NavigationBar";
 import Footer from "./Components/Common/Footer";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -41,6 +42,8 @@ function App() {
           <Route path="/admissions" component={Admissions} />
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
+          <Route path="/chairman" component={Chairman} />
+          <Route path="/principal" component={Principal} />
         </Switch>
         <Footer />
       </Router>

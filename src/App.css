@@ -10,6 +10,12 @@ body {
 }
 
 /*===== All Form Style =====*/
+.navbar-nav a:hover {
+  text-decoration: none;
+}
+.header-top a:hover {
+  text-decoration: none;
+}
 
 .single_form {
   margin-top: 30px;
@@ -512,12 +518,11 @@ abbr.all-research-btn2 a {
 }
 
 .brand h3 {
-  margin-left: 90px;
+  margin-left: 70px;
   font-size: 15px;
-  margin-top: 10px;
   font-weight: 600;
   text-transform: none;
-  line-height: 1.55;
+  line-height: 1.4;
 }
 
 .brand .content {
@@ -525,8 +530,6 @@ abbr.all-research-btn2 a {
 }
 
 .brand img {
-  margin-right: 5px;
-  margin-left: 2%;
   float: left;
 }
 
@@ -1117,7 +1120,7 @@ abbr.all-research-btn2 a {
 /* Responsive */
 
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1500px) {
+@media (min-width: 1200px) and (max-width: 2599px) {
   .dropdown-menu {
     right: auto;
     left: 50%;
