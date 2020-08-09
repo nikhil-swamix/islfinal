@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+import Industrial from "./components/Industrial";
 
 const Blog = () => {
   return (
@@ -51,7 +52,9 @@ const Blog = () => {
                     <h1>Sports Data</h1>
                   </Tab.Pane>
                   <Tab.Pane eventKey="industrial">
-                    <h1>Industrial Data</h1>
+                    <Row>
+                      <Industrial />
+                    </Row>
                   </Tab.Pane>
                 </Tab.Content>
               </Col>

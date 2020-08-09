@@ -11,7 +11,7 @@ class Industrial extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      "https://backend-isl.herokuapp.com/api/carousels/ce"
+      "https://backend-isl.herokuapp.com/api/blogs/industrial"
     );
     try {
       this.setState({
@@ -32,19 +32,19 @@ class Industrial extends React.Component {
 
     return (
       <React.Fragment>
-        <Carousel>
-          {!isLoading ? (
-            carousel_list.map(carousel => {
-              const { _id, img, title, link } = carousel;
-              return (
-                <div className="card" style={{ width: 30 + "rem" }}>
+        {!isLoading ? (
+          carousel_list.map(carousel => {
+            const { img, descp, link } = carousel;
+            return (
+              <div classname="col-md-6">
+                <div className="card">
                   <img
                     className="card-img-top"
                     src={img}
                     alt="Card image cap"
                   />
                   <div className="card-body">
-                    <p className="card-text">{title}</p>
+                    <p className="card-text">{descp}</p>
                     {link ? (
                       <a href={link}>
                         <i
@@ -57,12 +57,12 @@ class Industrial extends React.Component {
                     )}
                   </div>
                 </div>
-              );
-            })
-          ) : (
-            <Skeleton height={350} width={640} />
-          )}
-        </Carousel>
+              </div>
+            );
+          })
+        ) : (
+          <Skeleton height={350} width={640} />
+        )}
       </React.Fragment>
     );
   }
