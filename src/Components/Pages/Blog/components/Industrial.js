@@ -1,9 +1,8 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
 import axios from "axios";
 import Skeleton from "react-loading-skeleton";
 
-class Slide extends React.Component {
+class Industrial extends React.Component {
   state = {
     carousel_list: [],
     isLoading: true,
@@ -36,17 +35,28 @@ class Slide extends React.Component {
         <Carousel>
           {!isLoading ? (
             carousel_list.map(carousel => {
-              const { _id, img, title } = carousel;
+              const { _id, img, title, link } = carousel;
               return (
-                <Carousel.Item>
+                <div className="card" style={{ width: 30 + "rem" }}>
                   <img
-                    key={_id}
+                    className="card-img-top"
                     src={img}
-                    className="img-fluid d-block w-100"
-                    alt="CE Carousel Images"
+                    alt="Card image cap"
                   />
-                  {title}
-                </Carousel.Item>
+                  <div className="card-body">
+                    <p className="card-text">{title}</p>
+                    {link ? (
+                      <a href={link}>
+                        <i
+                          className="fa fa-external-link"
+                          aria-hidden="true"
+                        ></i>
+                      </a>
+                    ) : (
+                      " "
+                    )}
+                  </div>
+                </div>
               );
             })
           ) : (
@@ -57,4 +67,4 @@ class Slide extends React.Component {
     );
   }
 }
-export default Slide;
+export default Industrial;

@@ -11,11 +11,11 @@ class Sidepost extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      "https://tranquil-springs-03360.herokuapp.com/json/sideposts"
+      "https://backend-isl.herokuapp.com/api/sideposts/ce"
     );
     try {
       this.setState({
-        sidepost_list: response.data.sidepost_list,
+        sidepost_list: response.data,
         isLoading: false,
       });
     } catch (error) {

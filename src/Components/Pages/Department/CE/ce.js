@@ -19,7 +19,7 @@ const ce = () => {
                   <ul className="breadcrumb justify-content">
                     <li>
                       <a href="https://islengg.ac.in">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
                       </a>
                     </li>
                     <li>

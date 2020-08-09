@@ -1004,7 +1004,7 @@ class Home extends React.Component {
             <h2>Listen to the Best Minds</h2>
           </div>
           <Container>
-            <Row noGutters classname="text-center">
+            <Row noGutters className="text-center">
               <Col lg={6} className="guest_col_1">
                 <div className="single_guest d-sm-flex flex-wrap align-items-center">
                   <img
