@@ -1,24 +1,25 @@
-import React from "react";
-import "./App.css";
-import "./App.scss";
-import Home from "./Components/Pages/Home";
-import CSE from "./Components/Pages/Department/CSE";
-import ECE from "./Components/Pages/Department/ECE";
-import EEE from "./Components/Pages/Department/EEE";
-import ME from "./Components/Pages/Department/ME";
-import IT from "./Components/Pages/Department/IT";
-import MBA from "./Components/Pages/Department/MBA";
-import CE from "./Components/Pages/Department/CE";
-import Syllabus from "./Components/Pages/Academic/Syllabus";
-import Almanac from "./Components/Pages/Academic/Almanac";
-import Admissions from "./Components/Pages/Academic/Admission";
-import Blog from "./Components/Pages/Blog";
-import Contact from "./Components/Pages/contact";
-import Chairman from "./Components/Pages/About/chairman";
-import Principal from "./Components/Pages/About/principal";
-import NavBar from "./Components/Common/NavigationBar";
-import Footer from "./Components/Common/Footer";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import React from 'react'
+import './App.css'
+import './App.scss'
+import Home from './Components/Pages/Home'
+import CSE from './Components/Pages/Department/CSE'
+import ECE from './Components/Pages/Department/ECE'
+import EEE from './Components/Pages/Department/EEE'
+import ME from './Components/Pages/Department/ME'
+import IT from './Components/Pages/Department/IT'
+import MBA from './Components/Pages/Department/MBA'
+import CE from './Components/Pages/Department/CE'
+import Syllabus from './Components/Pages/Academic/Syllabus'
+import Almanac from './Components/Pages/Academic/Almanac'
+import Admissions from './Components/Pages/Academic/Admission'
+import Blog from './Components/Pages/Blog'
+import Contact from './Components/Pages/contact'
+import Chairman from './Components/Pages/About/chairman'
+import Principal from './Components/Pages/About/principal'
+import Research from './Components/Pages/Research'
+import NavBar from './Components/Common/NavigationBar'
+import Footer from './Components/Common/Footer'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
@@ -44,11 +45,12 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/chairman" component={Chairman} />
           <Route path="/principal" component={Principal} />
+          <Route path="/research" component={Research} />
         </Switch>
         <Footer />
       </Router>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App

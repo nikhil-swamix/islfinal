@@ -1,6 +1,6 @@
-import React from "react";
-import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const NavigationBar = () => {
   return (
@@ -19,7 +19,7 @@ const NavigationBar = () => {
                     </li>
                     <li>
                       <a href="mailto:info@islec.edu.in">
-                        <span className="fa fa-envelope"></span>{" "}
+                        <span className="fa fa-envelope"></span>{' '}
                         info@islec.edu.in
                       </a>
                     </li>
@@ -45,7 +45,7 @@ const NavigationBar = () => {
                   <ul className="header_ul">
                     <li>
                       <a href="https://islengg.ac.in#">
-                        EAMCET & ICET Code : ISLC{" "}
+                        EAMCET & ICET Code : ISLC{' '}
                       </a>
                     </li>
                   </ul>
@@ -70,8 +70,7 @@ const NavigationBar = () => {
           className="order-first"
         />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="m-auto"></Nav>
-          <Nav>
+          <Nav className="ml-auto">
             <Link to="/">
               <Nav.Link href="#home">Home</Nav.Link>
             </Link>
@@ -130,6 +129,9 @@ const NavigationBar = () => {
                 Master of Business Administraion
               </NavDropdown.Item>
             </NavDropdown>
+            <Link to="/research">
+              <Nav.Link href="#research">Research & Development</Nav.Link>
+            </Link>
             <Link to="/contact">
               <Nav.Link href="#contact">Contact</Nav.Link>
             </Link>
@@ -137,7 +139,7 @@ const NavigationBar = () => {
         </Navbar.Collapse>
       </Navbar>
     </>
-  );
-};
+  )
+}
 
-export default NavigationBar;
+export default NavigationBar

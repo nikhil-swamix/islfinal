@@ -1,12 +1,17 @@
-import React from "react";
-import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
-import Industrial from "./components/Industrial";
+import React from 'react'
+import { Container, Row, Col, Nav, Tab } from 'react-bootstrap'
+import All from './components/All'
+import Seminar from './components/Seminar'
+import Inbound from './components/Inbound'
+import Outbound from './components/Outbound'
+import Sports from './components/Sports'
+import Industrial from './components/Industrial'
 
 const Blog = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
@@ -37,24 +42,22 @@ const Blog = () => {
               <Col lg={8}>
                 <Tab.Content>
                   <Tab.Pane eventKey="all">
-                    <h1>All Data Here</h1>
+                    <All />
                   </Tab.Pane>
                   <Tab.Pane eventKey="seminar">
-                    <h1>Seminar & Workshop</h1>
+                    <Seminar />
                   </Tab.Pane>
                   <Tab.Pane eventKey="inbound">
-                    <h1>In-Bound</h1>
+                    <Inbound />
                   </Tab.Pane>
                   <Tab.Pane eventKey="outbound">
-                    <h1>Out-Bound Data</h1>
+                    <Outbound />
                   </Tab.Pane>
                   <Tab.Pane eventKey="sports">
-                    <h1>Sports Data</h1>
+                    <Sports />
                   </Tab.Pane>
                   <Tab.Pane eventKey="industrial">
-                    <Row>
-                      <Industrial />
-                    </Row>
+                    <Industrial />
                   </Tab.Pane>
                 </Tab.Content>
               </Col>
@@ -91,7 +94,7 @@ const Blog = () => {
                     <ul>
                       <li>
                         <a href="#t">
-                          Time Table{" "}
+                          Time Table{' '}
                           <span>
                             <i class="fa fa-file" aria-hidden="true"></i>
                           </span>
@@ -99,7 +102,7 @@ const Blog = () => {
                       </li>
                       <li>
                         <a href="#t">
-                          NPTEL Online Courses{" "}
+                          NPTEL Online Courses{' '}
                           <span>
                             <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
                           </span>
@@ -107,7 +110,7 @@ const Blog = () => {
                       </li>
                       <li>
                         <a href="#t">
-                          Guest Lectures Conducted{" "}
+                          Guest Lectures Conducted{' '}
                           <span>
                             <i class="fa fa-list" aria-hidden="true"></i>
                           </span>
@@ -115,7 +118,7 @@ const Blog = () => {
                       </li>
                       <li>
                         <a href="#t">
-                          mentors List{" "}
+                          mentors List{' '}
                           <span>
                             <i class="fa fa-file" aria-hidden="true"></i>
                           </span>
@@ -130,7 +133,7 @@ const Blog = () => {
         </section>
       </Container>
     </>
-  );
-};
+  )
+}
 
-export default Blog;
+export default Blog

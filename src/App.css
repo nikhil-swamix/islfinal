@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -9,6 +9,22 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.navbar-light .navbar-nav .nav-link {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  color: #404040;
+  font-size: 15px;
+  font-weight: 600;
+  padding-right: 17px !important;
+  padding-left: 17px !important;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #07294d !important;
+  -webkit-transition: all 0.4s linear;
+  transition: all 0.4s linear;
+  padding: 16px 305px 16px 15px;
+  display: block;
+}
 /*===== All Form Style =====*/
 .navbar-nav a:hover {
   text-decoration: none;
@@ -158,7 +174,7 @@ abbr.all-research-btn2 a {
 
 .header_left ul li:first-child a::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 0px;
   width: 0px;
   background-color: #fff;
@@ -168,7 +184,7 @@ abbr.all-research-btn2 a {
 
 .header_left ul li a::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 12px;
   width: 1px;
   background-color: #fff;
@@ -200,7 +216,7 @@ abbr.all-research-btn2 a {
 
 .header_right ul li:first-child a::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 0px;
   width: 0px;
   background-color: #fff;
@@ -210,7 +226,7 @@ abbr.all-research-btn2 a {
 
 .header_right ul li a::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 12px;
   width: 1px;
   background-color: #fff;
@@ -233,7 +249,7 @@ abbr.all-research-btn2 a {
 
 .breadcrumb_details::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -328,7 +344,7 @@ abbr.all-research-btn2 a {
 
 .breadcrumb_content .breadcrumb li + li::before {
   position: absolute;
-  content: "/";
+  content: '/';
   top: 2px;
   left: -12px;
   color: #fff;
@@ -702,7 +718,7 @@ abbr.all-research-btn2 a {
 }
 
 .react-tabs__tab:focus:after {
-  content: "";
+  content: '';
   position: absolute;
   height: 5px;
   left: -4px;
@@ -867,7 +883,7 @@ abbr.all-research-btn2 a {
 .sidebar .sidebar-item .title h4::before {
   background: #ffb606 none repeat scroll 0 0;
   bottom: 0;
-  content: "";
+  content: '';
   height: 2px;
   left: 0;
   position: absolute;
@@ -876,7 +892,7 @@ abbr.all-research-btn2 a {
 .sidebar .sidebar-item .title h4::after {
   background: #ffb606 none repeat scroll 0 0;
   bottom: 0;
-  content: "";
+  content: '';
   height: 2px;
   left: 35px;
   position: absolute;
@@ -996,7 +1012,7 @@ abbr.all-research-btn2 a {
 .site-heading h2::before {
   background: #50bd77 none repeat scroll 0 0;
   bottom: 0;
-  content: "";
+  content: '';
   height: 3px;
   left: 50%;
   margin-left: -40px;
@@ -1015,7 +1031,7 @@ abbr.all-research-btn2 a {
 .site-heading h4::before {
   background: #50bd77 none repeat scroll 0 0;
   bottom: 0;
-  content: "";
+  content: '';
   height: 2px;
   left: 20%;
   margin-left: -40px;
@@ -1243,7 +1259,7 @@ p {
   border-color: #1a2742;
 }
 
-.newsletter input[type="email"] {
+.newsletter input[type='email'] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -1255,7 +1271,7 @@ p {
   border-color: transparent;
 }
 
-.newsletter input[type="submit"] {
+.newsletter input[type='submit'] {
   font-size: 15px;
   font-weight: 700;
   line-height: 20px;
@@ -1878,7 +1894,7 @@ a {
 
 .about_video::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
@@ -1912,7 +1928,7 @@ a {
 
 .video_play::before {
   position: absolute;
-  content: "";
+  content: '';
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -2038,7 +2054,7 @@ a {
 
 .about_2_image::before {
   position: absolute;
-  content: "";
+  content: '';
   top: 0;
   left: 0;
   width: 100%;
