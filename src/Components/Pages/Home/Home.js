@@ -17,12 +17,14 @@ class Home extends React.Component {
   render() {
     return (
       <>
-        <a
-          href="https://nptel.ac.in/LocalChapter/statistics/500/"
-          class="rum_sst_contents rum_sst_left"
-        >
-          NPTEL
-        </a>
+        <div className="nptel">
+          <a
+            href="https://nptel.ac.in/LocalChapter/statistics/500/"
+            class="nptel_content nptel_label"
+          >
+            NPTEL
+          </a>
+        </div>
         <Container fluid style={{ padding: '0px' }}>
           <Carousel>
             <Carousel.Item>
