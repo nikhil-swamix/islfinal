@@ -71,9 +71,6 @@ const NavigationBar = () => {
         />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Link to="/">
-              <Nav.Link href="#home">Home</Nav.Link>
-            </Link>
             <NavDropdown title="About us" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#chairman" as={Link} to="/chairman">
                 Chairman
@@ -100,9 +97,6 @@ const NavigationBar = () => {
                 Previous B.E Papers
               </NavDropdown.Item>
             </NavDropdown>
-            <Link to="/blog">
-              <Nav.Link href="#blog">Events</Nav.Link>
-            </Link>
 
             <NavDropdown title="Department" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#ce" as={Link} to="/department/ce">
@@ -129,6 +123,9 @@ const NavigationBar = () => {
                 Master of Business Administraion
               </NavDropdown.Item>
             </NavDropdown>
+            <Link to="/blog">
+              <Nav.Link href="#blog">Events</Nav.Link>
+            </Link>
             <Link to="/research">
               <Nav.Link href="#research">Research & Development</Nav.Link>
             </Link>
