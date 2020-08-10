@@ -56,8 +56,7 @@ const cse = () => {
                       />
                     </div>
                     <div className="media_content media-body">
-                      <p>Contact</p>
-                      <h6 className="title">
+                      <h6 className="title mt-2">
                         <a href="https://islengg.ac.in">abdul@islec.edu.in</a>
                       </h6>
                     </div>
