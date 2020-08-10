@@ -1,6 +1,9 @@
 import React from 'react'
 import { Container, Row, Col, Carousel } from 'react-bootstrap'
 import ModalVideo from 'react-modal-video'
+import Check from './components/Check'
+import News from './components/News'
+import Recent from './components/Recents'
 
 class Home extends React.Component {
   constructor() {
@@ -134,137 +137,11 @@ class Home extends React.Component {
           <Container fluid>
             <Row noGutters>
               <Col md={4} sm={6} className="pt-25">
-                <section className="news  mb-25">
-                  <div className="site-heading text-left">
-                    <h4>News & Updates</h4>
-                  </div>
-                  <div className="section-content">
-                    <article>
-                      <figure className="date">24-4-2020</figure>
-                      <header>
-                        <a href="https://islengg.ac.in">
-                          Applications invited for Admissions-2020. Apply Now
-                        </a>
-                      </header>
-                    </article>
-
-                    <article>
-                      <figure className="date">24-4-2020</figure>
-                      <header>
-                        <a href="https://islengg.ac.in">
-                          Applications invited for Admissions-2020. Apply Now
-                        </a>
-                      </header>
-                    </article>
-                    <article>
-                      <figure className="date">24-4-2020</figure>
-                      <header>
-                        <a href="https://islengg.ac.in">
-                          Applications invited for Admissions-2020. Apply Now
-                        </a>
-                      </header>
-                    </article>
-                  </div>
-                </section>
+                <News />
                 <div className="stick-bottom">All News →</div>
               </Col>
               <Col md={4} sm={6} className="pt-25">
-                <section className="events small  mb-25">
-                  <header>
-                    <div className="site-heading text-left">
-                      <h4>Upcoming Events</h4>
-                    </div>
-                  </header>
-                  <div className="section-content">
-                    <article className="event">
-                      <figure className="date">
-                        <span className="date-month">
-                          <div className="day">18</div>
-                          <div className="month">jan</div>
-                        </span>
-                      </figure>
-                      <aside>
-                        <header>
-                          <h3 className="content">
-                            <a href="event-detail.html">
-                              Online Seminar: Seminar on Cache Memory :
-                              Different Mapping Techniques
-                            </a>
-                          </h3>
-                        </header>
-                        <div className="additional-info">
-                          <i className="fa fa-clock-o" aria-hidden="true"></i>{' '}
-                          10:00 am - 3:00 pm
-                          <br />
-                          <i
-                            className="fa fa-map-marker"
-                            aria-hidden="true"
-                          ></i>
-                          Block - A
-                        </div>
-                      </aside>
-                    </article>
-
-                    <article className="event">
-                      <figure className="date">
-                        <span className="date-month">
-                          <div className="day">18</div>
-                          <div className="month">jan</div>
-                        </span>
-                      </figure>
-                      <aside>
-                        <header>
-                          <h3 className="content">
-                            <a href="event-detail.html">
-                              Laughter day: The Laughter day will be celebrated
-                              in campus
-                            </a>
-                          </h3>
-                        </header>
-                        <div className="additional-info">
-                          <i className="fa fa-clock-o" aria-hidden="true"></i>{' '}
-                          10:00 am - 3:00 pm
-                          <br />
-                          <i
-                            className="fa fa-map-marker"
-                            aria-hidden="true"
-                          ></i>
-                          Block - A
-                        </div>
-                      </aside>
-                    </article>
-
-                    <article className="event">
-                      <figure className="date">
-                        <span className="date-month">
-                          <div className="day">18</div>
-                          <div className="month">jan</div>
-                        </span>
-                      </figure>
-                      <aside>
-                        <header>
-                          <h3 className="content">
-                            <a href="event-detail.html">
-                              Laughter day: The Laughter day will be celebrated
-                              in campus
-                            </a>
-                          </h3>
-                        </header>
-                        <div className="additional-info">
-                          <i className="fa fa-clock-o" aria-hidden="true"></i>{' '}
-                          10:00 am - 3:00 pm
-                          <br />
-                          <i
-                            className="fa fa-map-marker"
-                            aria-hidden="true"
-                          ></i>
-                          Block - A
-                        </div>
-                      </aside>
-                    </article>
-                  </div>
-                </section>
-                <div className="stick-bottom">All Events →</div>
+                <Check />
               </Col>
               <Col md={4} sm={6} className="pt-25">
                 <section className="recents mb-25">
@@ -272,131 +149,10 @@ class Home extends React.Component {
                     <h4>Recents </h4>
                   </div>
                   <Row>
-                    <Col lg={6} sm={6}>
-                      <div className="single_courses courses_gray">
-                        <div className="courses_image">
-                          <img
-                            src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
-                            alt="courses"
-                          />
-                        </div>
-                        <div className="courses_content">
-                          <div className="courses_author d-flex">
-                            <div className="author_name media-body">
-                              <a href="https://islengg.ac.in">ESPIRIT</a>
-                            </div>
-                          </div>
-                          <h4 className="title">
-                            <a href="https://islengg.ac.in">
-                              Espirit is one of the finest Cultural event of ISL
-                              More
-                            </a>
-                          </h4>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col lg={6} sm={6}>
-                      <div className="single_courses courses_gray ">
-                        <div className="courses_image">
-                          <img
-                            src="https://i.ibb.co/b6mfmDY/enthusiac.jpg"
-                            alt="courses"
-                          />
-                        </div>
-                        <div className="courses_content">
-                          <div className="courses_author d-flex">
-                            <div className="author_name media-body">
-                              <a href="https://islengg.ac.in">ESPIRIT</a>
-                            </div>
-                          </div>
-                          <h4 className="title">
-                            <a href="https://islengg.ac.in">
-                              Espirit is one of the finest Cultural event of ISL
-                            </a>
-                          </h4>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col lg={6} sm={6}>
-                      <div className="single_courses courses_gray">
-                        <div className="courses_image">
-                          <img
-                            src="https://i.ibb.co/6Rfb82N/eloquence.jpg"
-                            alt="courses"
-                          />
-                        </div>
-                        <div className="courses_content">
-                          <div className="courses_author d-flex">
-                            <div className="author_name media-body">
-                              <a href="https://islengg.ac.in">ESPIRIT</a>
-                            </div>
-                          </div>
-                          <h4 className="title">
-                            <a href="https://islengg.ac.in">
-                              Espirit is one of the finest Cultural event of ISL
-                            </a>
-                          </h4>
-                        </div>
-                      </div>
-                    </Col>
-                    <Col lg={6} sm={6}>
-                      <div className="single_courses courses_gray">
-                        <div className="courses_image">
-                          <img
-                            src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
-                            alt="courses"
-                          />
-                        </div>
-                        <div className="courses_content">
-                          <div className="courses_author d-flex">
-                            <div className="author_name media-body">
-                              <a href="https://islengg.ac.in">ESPIRIT</a>
-                            </div>
-                          </div>
-                          <h4 className="title">
-                            <a href="https://islengg.ac.in">
-                              Espirit is one of the finest Cultural event of ISL
-                            </a>
-                          </h4>
-                        </div>
-                      </div>
-                    </Col>
+                    <Recent />
                   </Row>
-                </section>{' '}
-                {/* <section className="quick-link">
-              <div className="top text-center">
-                <i className="fa fa-link"></i>
-                <h3 className="title">Quick Links</h3>
-              </div>
+                </section>
 
-              <div className="wrapper">
-                <div className="link-list">
-                  <a href="https://india.gov">
-                    <h3 className="link">Alumni & Donors</h3>
-                  </a>
-                </div>
-                <div className="link-list">
-                  <a href="https://india.gov">
-                    <h3 className="link">NPTEL Online Course</h3>
-                  </a>
-                </div>
-                <div className="link-list">
-                  <a href="https://india.gov">
-                    <h3 className="link">Sports</h3>
-                  </a>
-                </div>
-                <div className="link-list">
-                  <a href="https://india.gov">
-                    <h3 className="link">NPTEL Online Course</h3>
-                  </a>
-                </div>
-                <div className="link-list">
-                  <a href="https://india.gov">
-                    <h3 className="link">NPTEL Online Course</h3>
-                  </a>
-                </div>
-              </div>
-            </section> */}
                 <div className="stick-bottom">All Recents →</div>
               </Col>
             </Row>

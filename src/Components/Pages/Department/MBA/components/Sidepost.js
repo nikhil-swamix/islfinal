@@ -1,40 +1,40 @@
-import React from "react";
-import axios from "axios";
-import Skeleton from "react-loading-skeleton";
+import React from 'react'
+import axios from 'axios'
+import Skeleton from 'react-loading-skeleton'
 
 class Sidepost extends React.Component {
   state = {
     sidepost_list: [],
     isLoading: true,
     errors: null,
-  };
+  }
 
   async getData() {
     const response = await axios.get(
-      "https://tranquil-springs-03360.herokuapp.com/json/sideposts"
-    );
+      'https://backend-isl.herokuapp.com/api/sideposts/mba',
+    )
     try {
       this.setState({
-        sidepost_list: response.data.sidepost_list,
+        sidepost_list: response.data,
         isLoading: false,
-      });
+      })
     } catch (error) {
-      this.setState({ error, isLoading: false });
+      this.setState({ error, isLoading: false })
     }
   }
 
   componentDidMount() {
-    this.getData();
+    this.getData()
   }
 
   render() {
-    const { isLoading, sidepost_list } = this.state;
+    const { isLoading, sidepost_list } = this.state
 
     return (
       <React.Fragment>
         {!isLoading ? (
-          sidepost_list.map(sidepost => {
-            const { img, title, descp, link, value } = sidepost;
+          sidepost_list.map((sidepost) => {
+            const { img, title, descp, link, value } = sidepost
             return (
               <div className="card mb-10">
                 <img className="card-img-top" src={img} alt="CardImage " />
@@ -43,7 +43,7 @@ class Sidepost extends React.Component {
                   <p className="card-text">{descp}</p>
 
                   {!link ? (
-                    " "
+                    ' '
                   ) : (
                     <a href={link} className="btn btn-primary btn-sm">
                       {value}
@@ -51,13 +51,13 @@ class Sidepost extends React.Component {
                   )}
                 </div>
               </div>
-            );
+            )
           })
         ) : (
           <Skeleton height={300} width={270} />
         )}
       </React.Fragment>
-    );
+    )
   }
 }
-export default Sidepost;
+export default Sidepost
