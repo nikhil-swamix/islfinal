@@ -45,7 +45,7 @@ const NavigationBar = () => {
                   <ul className="header_ul">
                     <li>
                       <a href="https://islengg.ac.in#">
-                        EAMCET & ICET Code : ISLC{' '}
+                        EAMCET, ECET & ICET Code : ISLC{' '}
                       </a>
                     </li>
                   </ul>

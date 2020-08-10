@@ -17,6 +17,12 @@ class Home extends React.Component {
   render() {
     return (
       <>
+        <a
+          href="https://nptel.ac.in/LocalChapter/statistics/500/"
+          class="rum_sst_contents rum_sst_left"
+        >
+          NPTEL
+        </a>
         <Container fluid style={{ padding: '0px' }}>
           <Carousel>
             <Carousel.Item>
