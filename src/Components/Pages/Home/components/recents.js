@@ -30,7 +30,7 @@ const Recents = () => {
         <Card key={_id} className="box">
           <Card.Img variant="top" src={card.img} />
           <Card.Body>
-            <a href="/blog">More >> </a>
+            <a href="/blog">More </a>
           </Card.Body>
         </Card>
       </Col>
