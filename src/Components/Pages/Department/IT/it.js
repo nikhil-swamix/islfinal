@@ -1,16 +1,16 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../IT/components/Sidebar";
-import Sidepost from "../IT/components/Sidepost";
-import Syllabus from "../IT/components/Syllabus";
-import Slide from "../IT/components/Slide";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../IT/components/Sidebar'
+import Sidepost from '../IT/components/Sidepost'
+import Syllabus from '../IT/components/Syllabus'
+import Slide from '../IT/components/Slide'
 
 const it = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
@@ -70,7 +70,7 @@ const it = () => {
       </section>
 
       <section className="course-details-area pt-60 pb-60">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8}>
               <Slide />
@@ -289,7 +289,7 @@ const it = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default it;
+export default it

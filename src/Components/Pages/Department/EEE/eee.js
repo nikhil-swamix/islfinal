@@ -1,16 +1,16 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../EEE/components/Sidebar";
-import Sidepost from "../EEE/components/Sidepost";
-import Syllabus from "../EEE/components/Syllabus";
-import Slide from "../EEE/components/Slide";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../EEE/components/Sidebar'
+import Sidepost from '../EEE/components/Sidepost'
+import Syllabus from '../EEE/components/Syllabus'
+import Slide from '../EEE/components/Slide'
 
 const eee = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
@@ -70,7 +70,7 @@ const eee = () => {
       </section>
 
       <section className="course-details-area pt-60 pb-60">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8}>
               <Slide />
@@ -293,7 +293,7 @@ const eee = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default eee;
+export default eee

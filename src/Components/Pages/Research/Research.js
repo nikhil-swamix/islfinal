@@ -5,7 +5,7 @@ const Research = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">

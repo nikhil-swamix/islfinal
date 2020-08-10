@@ -1,16 +1,16 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../CSE/components/Sidebar";
-import Sidepost from "../CSE/components/Sidepost";
-import Syllabus from "../CSE/components/Syllabus";
-import Slide from "../CSE/components/Slide";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../CSE/components/Sidebar'
+import Sidepost from '../CSE/components/Sidepost'
+import Syllabus from '../CSE/components/Syllabus'
+import Slide from '../CSE/components/Slide'
 
 const cse = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
@@ -70,7 +70,7 @@ const cse = () => {
       </section>
 
       <section className="course-details-area pt-60 pb-60">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8}>
               <Slide />
@@ -288,7 +288,7 @@ const cse = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default cse;
+export default cse

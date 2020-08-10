@@ -1,16 +1,16 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../ECE/components/Sidebar";
-import Sidepost from "../ECE/components/Sidepost";
-import Syllabus from "../ECE/components/Syllabus";
-import Slide from "../ECE/components/Slide";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../ECE/components/Sidebar'
+import Sidepost from '../ECE/components/Sidepost'
+import Syllabus from '../ECE/components/Syllabus'
+import Slide from '../ECE/components/Slide'
 
 const ece = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
@@ -72,7 +72,7 @@ const ece = () => {
       </section>
 
       <section className="course-details-area pt-60 pb-60">
-        <Container>
+        <Container fluid>
           <Row>
             <Col lg={8} md={8}>
               <Slide />
@@ -296,7 +296,7 @@ const ece = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default ece;
+export default ece

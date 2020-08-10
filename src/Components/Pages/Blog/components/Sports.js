@@ -15,11 +15,18 @@ const Sports = () => {
         </Spinner>
       </div>
     )
-  if (error) return <p>Error!</p>
+  if (error)
+    return (
+      <div className="text-center">
+        <Spinner animation="border" role="status">
+          <span className="sr-only">Something Went Wrong...</span>
+        </Spinner>
+      </div>
+    )
 
   const renderCard = (card, _id) => {
     return (
-      <Col md={4} lg={4}>
+      <Col md={4} lg={4} className="mt-15 mb-15">
         <Card key={_id} className="box">
           <Card.Img variant="top" src={card.img} />
           <Card.Body>
