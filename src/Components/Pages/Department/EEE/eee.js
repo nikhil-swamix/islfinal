@@ -10,7 +10,7 @@ const eee = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container fluid>
+        <Container>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
@@ -38,7 +38,7 @@ const eee = () => {
                     <div className="media_image">
                       <img
                         className="author"
-                        src="http://raistheme.com/html/edustdy/edustdy/assets/images/author-4.jpg"
+                        src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
                         alt="author"
                       />
                     </div>
@@ -51,7 +51,7 @@ const eee = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="http://raistheme.com/html/edustdy/edustdy/assets/images/mail.png"
+                        src="https://i.ibb.co/ScZkk24/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -70,7 +70,7 @@ const eee = () => {
       </section>
 
       <section className="course-details-area pt-60 pb-60">
-        <Container fluid>
+        <Container>
           <Row>
             <Col lg={8} md={8}>
               <Slide />

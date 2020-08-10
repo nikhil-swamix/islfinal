@@ -44,7 +44,7 @@ function App() {
           <Route path="/blog" component={Blog} />
           <Route path="/contact" component={Contact} />
           <Route path="/chairman" component={Chairman} />
-          <Route path="/principal" component={Principal} />
+          <Route exact path="/principal" component={Principal} />
           <Route path="/research" component={Research} />
         </Switch>
         <Footer />

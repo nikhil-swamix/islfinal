@@ -396,7 +396,7 @@ class Home extends React.Component {
         </section>
 
         <section className="courses_area pt-90 pb-50">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-lg-8">
                 <div className="site-heading text-left">
