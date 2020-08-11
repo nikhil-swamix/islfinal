@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import ModalVideo from 'react-modal-video'
 import Karousel from './components/Karousel'
+import Reecent from './components/Reecent'
 class Home extends React.Component {
   constructor() {
     super()
@@ -108,7 +109,7 @@ class Home extends React.Component {
                     <h4>Recents </h4>
                   </div>
                   <Row>
-                    <p>recents</p>
+                    <Reecent />
                   </Row>
                 </section>
 
