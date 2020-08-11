@@ -4,7 +4,7 @@ import ModalVideo from 'react-modal-video'
 import Check from './components/Check'
 import News from './components/News'
 import MainSlide from './components/MainSlide'
-import Recentsd from './components/Recents'
+import Recentsd from './components/Rsentpost'
 
 class Home extends React.Component {
   constructor() {
