@@ -11,7 +11,7 @@ class Sidepost extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://backend-isl.herokuapp.com/api/sideposts/mba',
+      'https://backend-isl.herokuapp.com/api/sideposts/me',
     )
     try {
       this.setState({
@@ -42,12 +42,12 @@ class Sidepost extends React.Component {
                   <h6 className="card-title">{title}</h6>
                   <p className="card-text">{descp}</p>
 
-                  {!link ? (
-                    ' '
-                  ) : (
+                  {link ? (
                     <a href={link} className="btn btn-primary btn-sm">
                       {value}
                     </a>
+                  ) : (
+                    ''
                   )}
                 </div>
               </div>

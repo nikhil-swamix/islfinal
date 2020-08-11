@@ -40,7 +40,7 @@ const ece = () => {
                     <div className="media_image">
                       <img
                         className="author"
-                        src="https://cdn.business2community.com/wp-content/uploads/2017/08/blank-profile-picture-973460_640.png"
+                        src="https://islengg.ac.in/gallery/image/profile-icon-png-898.png"
                         alt="author"
                       />
                     </div>
@@ -53,7 +53,7 @@ const ece = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://i.ibb.co/ScZkk24/mail.png"
+                        src="https://islengg.ac.in/gallery/image/mail.png"
                         alt="mail"
                       />
                     </div>
