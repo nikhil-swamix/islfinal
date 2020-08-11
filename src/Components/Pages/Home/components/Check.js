@@ -32,7 +32,7 @@ class Check extends React.Component {
 
     return (
       <React.Fragment>
-        {event_list.length === 0 ? (<Usefullinks/>) : (<Events/>)}
+        {event_list.length === 0 ? <Usefullinks /> : <Events />}
       </React.Fragment>
     )
   }

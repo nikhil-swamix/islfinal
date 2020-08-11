@@ -2,7 +2,7 @@ import React from 'react'
 import axios from 'axios'
 import Skeleton from 'react-loading-skeleton'
 
-class Sidepost extends React.Component {
+class News extends React.Component {
   state = {
     news_list: [],
     isLoading: true,
@@ -69,4 +69,4 @@ class Sidepost extends React.Component {
     )
   }
 }
-export default Sidepost
+export default News
