@@ -4,7 +4,7 @@ import ModalVideo from 'react-modal-video'
 import Check from './components/Check'
 import News from './components/News'
 import MainSlide from './components/MainSlide'
-import Recents from './components/Recents'
+import Recentsd from './components/Recents'
 
 class Home extends React.Component {
   constructor() {
@@ -112,7 +112,7 @@ class Home extends React.Component {
                     <h4>Recents </h4>
                   </div>
                   <Row>
-                    <Recents />
+                    <Recentsd />
                   </Row>
                 </section>
 
