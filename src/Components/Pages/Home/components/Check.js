@@ -1,6 +1,5 @@
 import React from 'react'
 import axios from 'axios'
-import Events from './Events'
 import Usefullinks from './Usefullinks'
 class Check extends React.Component {
   state = {
