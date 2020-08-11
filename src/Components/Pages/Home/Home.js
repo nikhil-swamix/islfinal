@@ -3,6 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap'
 import ModalVideo from 'react-modal-video'
 import Karousel from './components/Karousel'
 import Reecent from './components/Reecent'
+import News from './components/News'
+
 class Home extends React.Component {
   constructor() {
     super()
@@ -97,7 +99,7 @@ class Home extends React.Component {
           <Container fluid>
             <Row noGutters>
               <Col md={4} sm={6} className="pt-25">
-                <p>News</p>
+                <News />
                 <div className="stick-bottom">All News →</div>
               </Col>
               <Col md={4} sm={6} className="pt-25">
