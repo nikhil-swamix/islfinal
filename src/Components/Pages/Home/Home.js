@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import ModalVideo from 'react-modal-video'
-
+import Karousel from './components/Karousel'
 class Home extends React.Component {
   constructor() {
     super()
@@ -26,7 +26,7 @@ class Home extends React.Component {
           </a>
         </div>
         <Container fluid style={{ padding: '0px' }}>
-          <p>slide</p>
+          <Karousel />
         </Container>
 
         <section className="brand d-none d-sm-block">
