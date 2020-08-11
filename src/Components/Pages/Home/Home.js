@@ -1,9 +1,10 @@
 import React from 'react'
-import { Container, Row, Col, Carousel } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import ModalVideo from 'react-modal-video'
 import Check from './components/Check'
 import News from './components/News'
 import Recent from './components/Recents'
+import MainSlide from './components/MainSlide'
 
 class Home extends React.Component {
   constructor() {
@@ -29,45 +30,7 @@ class Home extends React.Component {
           </a>
         </div>
         <Container fluid style={{ padding: '0px' }}>
-          <Carousel>
-            <Carousel.Item>
-              <img
-                className="carousel-img d-block w-100"
-                src="https://i.ibb.co/MVPvtJ9/slider-2.jpg"
-                alt="First slide"
-              />
-              <Carousel.Caption>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://i.ibb.co/MVPvtJ9/slider-2.jpg"
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              </Carousel.Caption>
-            </Carousel.Item>
-            <Carousel.Item>
-              <img
-                className="d-block w-100"
-                src="https://i.ibb.co/MVPvtJ9/slider-2.jpg"
-                alt="Third slide"
-              />
-
-              <Carousel.Caption>
-                <p>
-                  Praesent commodo cursus magna, vel scelerisque nisl
-                  consectetur.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+          <MainSlide />
         </Container>
 
         <section className="brand d-none d-sm-block">
@@ -160,7 +123,7 @@ class Home extends React.Component {
         </section>
 
         <section className="courses_area pt-90 pb-50">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-lg-8">
                 <div className="site-heading text-left">
@@ -169,7 +132,7 @@ class Home extends React.Component {
               </div>
             </div>
             <div className="row">
-              <div className="col-lg-3 col-sm-6 mb-10">
+              <div className="col-lg-2 col-sm-6 mb-10">
                 <div className="single_courses courses_gray">
                   <div className="courses_image">
                     <img
@@ -192,7 +155,7 @@ class Home extends React.Component {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-sm-6 mb-10">
+              <div className="col-lg-2 col-sm-6 mb-10">
                 <div className="single_courses courses_gray">
                   <div className="courses_image">
                     <img
@@ -216,7 +179,7 @@ class Home extends React.Component {
                 </div>
               </div>
 
-              <div className="col-lg-3 col-sm-6 mb-10">
+              <div className="col-lg-2 col-sm-6 mb-10">
                 <div className="single_courses courses_gray">
                   <div className="courses_image">
                     <img
@@ -239,7 +202,8 @@ class Home extends React.Component {
                   </div>
                 </div>
               </div>
-              <div className="col-lg-3 col-sm-6 mb-10">
+
+              <div className="col-lg-2 col-sm-6 mb-10">
                 <div className="single_courses courses_gray">
                   <div className="courses_image">
                     <img
@@ -250,13 +214,37 @@ class Home extends React.Component {
                   <div className="courses_content">
                     <div className="courses_author d-flex">
                       <div className="author_name media-body">
-                        <a href="https://islengg.ac.in">Projects</a>
+                        <a href="https://islengg.ac.in">
+                          Departmental Projects
+                        </a>
                       </div>
                     </div>
                     <h4 className="title">
                       <a href="https://islengg.ac.in">
                         Departmental Projects Showcase by the Students in every
                         Semester{' '}
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div className="single_courses courses_gray">
+                  <div className="courses_image">
+                    <img
+                      src="https://i.ibb.co/s33qX2L/engg.jpg"
+                      alt="courses"
+                    />
+                  </div>
+                  <div className="courses_content">
+                    <div className="courses_author d-flex">
+                      <div className="author_name media-body">
+                        <a href="https://islengg.ac.in">Engineers Day</a>
+                      </div>
+                    </div>
+                    <h4 className="title">
+                      <a href="https://islengg.ac.in">
+                        Engineers Day is with pomp & grace in by ISL every year
                       </a>
                     </h4>
                   </div>

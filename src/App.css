@@ -8,6 +8,17 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.useful .wrapper h3 {
+  border-bottom: 1px solid #53607a;
+  padding: 20px;
+  width: 80%;
+  font-size: 16px;
+}
+.useful .wrapper a {
+  color: #3db166;
+  text-decoration: none;
+}
+
 .nptel a:hover {
   color: #ffffff;
   text-decoration: none !important;
@@ -238,14 +249,19 @@ abbr.all-research-btn2 a {
 }
 
 .header_right ul li a {
-  font-size: 12px;
   color: #fff;
   margin-left: 19px;
   padding-left: 19px;
   position: relative;
   transition: all ease-out 0.3s;
 }
-
+.header_right ul li a span {
+  margin-left: 15px;
+}
+.header_right ul li a span img {
+  background-color: #ffffff;
+  border-radius: 3px;
+}
 .header_right ul li:hover a {
   color: #fff;
 }

@@ -48,6 +48,19 @@ const NavigationBar = () => {
                         EAMCET, ECET & ICET Code : ISLC{' '}
                       </a>
                     </li>
+                    <li>
+                      <a href="tel:+04012345678">
+                        {' '}
+                        {''}
+                        Follow us{' '}
+                        <span className="linkedin">
+                          <img
+                            src="https://i.ibb.co/JvRV67t/LI-In-Bug.png"
+                            alt="linkedin"
+                          />
+                        </span>{' '}
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </div>
