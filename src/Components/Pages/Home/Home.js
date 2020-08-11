@@ -3,7 +3,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 import ModalVideo from 'react-modal-video'
 import Check from './components/Check'
 import News from './components/News'
-import Recent from './components/Recents'
 import MainSlide from './components/MainSlide'
 
 class Home extends React.Component {
@@ -112,7 +111,7 @@ class Home extends React.Component {
                     <h4>Recents </h4>
                   </div>
                   <Row>
-                    <Recent />
+                    <p>sas</p>
                   </Row>
                 </section>
 
