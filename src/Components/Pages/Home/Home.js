@@ -1,10 +1,6 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import ModalVideo from 'react-modal-video'
-import Check from './components/Check'
-import News from './components/News'
-import MainSlide from './components/MainSlide'
-import Recentsd from './components/Rsentpost'
 
 class Home extends React.Component {
   constructor() {
@@ -30,7 +26,7 @@ class Home extends React.Component {
           </a>
         </div>
         <Container fluid style={{ padding: '0px' }}>
-          <MainSlide />
+          <p>slide</p>
         </Container>
 
         <section className="brand d-none d-sm-block">
@@ -100,11 +96,11 @@ class Home extends React.Component {
           <Container fluid>
             <Row noGutters>
               <Col md={4} sm={6} className="pt-25">
-                <News />
+                <p>News</p>
                 <div className="stick-bottom">All News →</div>
               </Col>
               <Col md={4} sm={6} className="pt-25">
-                <Check />
+                <p>Check</p>
               </Col>
               <Col md={4} sm={6} className="pt-25">
                 <section className="recents mb-25">
@@ -112,7 +108,7 @@ class Home extends React.Component {
                     <h4>Recents </h4>
                   </div>
                   <Row>
-                    <Recentsd />
+                    <p>recents</p>
                   </Row>
                 </section>
 
