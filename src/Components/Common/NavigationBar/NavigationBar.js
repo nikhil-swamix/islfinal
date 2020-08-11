@@ -41,7 +41,7 @@ const NavigationBar = () => {
               </div>
 
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div className="header_right">
+                <div className="header_right text-center">
                   <ul className="header_ul">
                     <li>
                       <a href="https://islengg.ac.in#">
