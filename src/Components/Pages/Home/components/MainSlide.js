@@ -5,7 +5,7 @@ import Skeleton from 'react-loading-skeleton'
 
 class MainSlide extends React.Component {
   state = {
-    carousel_list: [],
+    main_list: [],
     isLoading: true,
     errors: null,
   }
@@ -16,7 +16,7 @@ class MainSlide extends React.Component {
     )
     try {
       this.setState({
-        carousel_list: response.data,
+        main_list: response.data,
         isLoading: false,
       })
     } catch (error) {
@@ -29,13 +29,13 @@ class MainSlide extends React.Component {
   }
 
   render() {
-    const { isLoading, carousel_list } = this.state
+    const { isLoading, main_list } = this.state
 
     return (
       <React.Fragment>
         <Carousel>
           {!isLoading ? (
-            carousel_list.map((carousel) => {
+            main_list.map((carousel) => {
               const { _id, img, title } = carousel
               return (
                 <Carousel.Item>
