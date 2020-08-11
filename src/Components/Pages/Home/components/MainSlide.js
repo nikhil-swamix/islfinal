@@ -35,8 +35,8 @@ class MainSlide extends React.Component {
       <React.Fragment>
         <Carousel>
           {!isLoading ? (
-            main_list.map((carousel) => {
-              const { _id, img, title } = carousel
+            main_list.map((main) => {
+              const { _id, img, title } = main
               return (
                 <Carousel.Item>
                   <img

@@ -1227,6 +1227,24 @@ abbr.all-research-btn2 a {
 
 /* small mobile :320px. */
 @media (min-width: 576px) and (max-width: 767.98px) {
+  .header_left ul li a {
+    font-size: 13px;
+    color: #fff;
+    margin-left: 10px;
+    padding-left: 10px;
+    position: relative;
+    transition: all ease-out 0.3s;
+  }
+
+  .header_right ul li a {
+    font-size: 13px;
+    color: #fff;
+    margin-left: 10px;
+    padding-left: 10px;
+    position: relative;
+    transition: all ease-out 0.3s;
+  }
+
   .feature-bg {
     top: auto;
     right: 0;
