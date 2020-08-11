@@ -25,7 +25,7 @@ class Home extends React.Component {
             href="https://nptel.ac.in/LocalChapter/statistics/500/"
             class="nptel_content nptel_label"
           >
-            NPTEL
+            NPTELs
           </a>
         </div>
         <Container fluid style={{ padding: '0px' }}>
