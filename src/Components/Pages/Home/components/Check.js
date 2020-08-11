@@ -1,5 +1,8 @@
 import React from 'react'
 import axios from 'axios'
+import Usefullinks from './Usefullinks'
+import Events from './Events'
+
 class Check extends React.Component {
   state = {
     event_list: [],
@@ -29,7 +32,7 @@ class Check extends React.Component {
 
     return (
       <React.Fragment>
-        {event_list.length === 0 ? 'Hello' : 'Hello'}
+        {event_list.length === 0 ? (<Usefullinks/>) : (<Events/>)}
       </React.Fragment>
     )
   }
