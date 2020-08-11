@@ -232,7 +232,7 @@ class Home extends React.Component {
                 <div className="single_courses courses_gray">
                   <div className="courses_image">
                     <img
-                      src="https://i.ibb.co/s33qX2L/engg.jpg"
+                      src="https://islengg.ac.in/gallery/image/engg.jpg"
                       alt="courses"
                     />
                   </div>
@@ -245,6 +245,32 @@ class Home extends React.Component {
                     <h4 className="title">
                       <a href="https://islengg.ac.in">
                         Engineers Day is with pomp & grace in by ISL every year
+                      </a>
+                    </h4>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div className="single_courses courses_gray">
+                  <div className="courses_image">
+                    <img
+                      src="https://islengg.ac.in/gallery/image/mot%20(1).jpg"
+                      alt="courses"
+                    />
+                  </div>
+                  <div className="courses_content">
+                    <div className="courses_author d-flex">
+                      <div className="author_name media-body">
+                        <a href="https://islengg.ac.in">
+                          Motivational Sessions
+                        </a>
+                      </div>
+                    </div>
+                    <h4 className="title">
+                      <a href="https://islengg.ac.in">
+                        Motivational sessions encourage students to make
+                        valuable contributions in their student and professional
+                        life.
                       </a>
                     </h4>
                   </div>
@@ -382,14 +408,7 @@ class Home extends React.Component {
             <div className="single_about_2 d-flex flex-wrap about_color_2">
               <div className="about_2_content">
                 <div className="about_2_content_wrapper">
-                  <h4 className="title">
-                    <a href="#/">Scholarships</a>
-                  </h4>
-                  <p>
-                    What do you think is better to receive after each lesson: a
-                    lovely looking
-                  </p>
-                  <a href="#/" className="main-btn">
+                  <a href="/blog" className="main-btn">
                     Learn More
                   </a>
                 </div>

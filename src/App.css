@@ -208,7 +208,7 @@ abbr.all-research-btn2 a {
 }
 
 .header_left ul li a {
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
   margin-left: 10px;
   padding-left: 10px;
@@ -250,7 +250,7 @@ abbr.all-research-btn2 a {
 }
 
 .header_right ul li a {
-  font-size: 15px;
+  font-size: 14px;
   color: #fff;
   margin-left: 19px;
   padding-left: 19px;
@@ -1562,7 +1562,8 @@ p {
 }
 
 .single_courses .courses_content .title a:hover {
-  color: #fcc741;
+  color: #192f59;
+  text-decoration: none;
 }
 
 .single_courses .courses_content .meta {
