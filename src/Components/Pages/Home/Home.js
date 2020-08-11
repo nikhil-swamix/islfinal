@@ -4,6 +4,7 @@ import ModalVideo from 'react-modal-video'
 import Karousel from './components/Karousel'
 import Reecent from './components/Reecent'
 import News from './components/News'
+import Check from './components/Check'
 
 class Home extends React.Component {
   constructor() {
@@ -25,7 +26,7 @@ class Home extends React.Component {
             href="https://nptel.ac.in/LocalChapter/statistics/500/"
             class="nptel_content nptel_label"
           >
-            NPTELs
+            NPTEL
           </a>
         </div>
         <Container fluid style={{ padding: '0px' }}>
@@ -103,7 +104,7 @@ class Home extends React.Component {
                 <div className="stick-bottom">All News →</div>
               </Col>
               <Col md={4} sm={6} className="pt-25">
-                <p>Check</p>
+                <Check />
               </Col>
               <Col md={4} sm={6} className="pt-25">
                 <section className="recents mb-25">
