@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
-const Research = () => {
+const Header = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
@@ -29,11 +29,8 @@ const Research = () => {
           </Row>
         </Container>
       </section>
-      <section className="pt-60 pb-60">
-        <p>Research work </p>
-      </section>
     </>
   )
 }
 
-export default Research
+export default Header

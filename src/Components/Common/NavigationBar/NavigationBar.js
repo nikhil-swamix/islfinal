@@ -49,9 +49,7 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="tel:+04012345678">
-                        {' '}
-                        {''}
+                      <a href="https://www.linkedin.com/school/isl-engineering-college/">
                         Follow us{' '}
                         <span className="linkedin">
                           <img
@@ -75,7 +73,7 @@ const NavigationBar = () => {
             width="200"
             height="50"
             className="img-fluid"
-            alt="logo"
+            alt="College Logo"
           />
         </Navbar.Brand>
         <Navbar.Toggle

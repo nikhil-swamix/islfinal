@@ -1,40 +1,59 @@
 import React from 'react'
-import { Card, Row, Col, Spinner } from 'react-bootstrap'
-import useAxios from 'axios-hooks'
+import Carousel from 'react-bootstrap/Carousel'
+import axios from 'axios'
+import Skeleton from 'react-loading-skeleton'
 
-const Reecents = () => {
-  const [{ data, loading, error }] = useAxios(
-    'https://backend-isl.herokuapp.com/api/blogs/recent',
-  )
-
-  if (loading)
-    return (
-      <div className="text-center">
-        <Spinner animation="border" role="status">
-          <span className="sr-only">Loading...</span>
-        </Spinner>
-      </div>
-    )
-  if (error)
-    return (
-      <div className="text-center">
-        <Spinner animation="border" role="status">
-          <span className="sr-only">Something Went Wrong...</span>
-        </Spinner>
-      </div>
-    )
-
-  const renderCard = (card, _id) => {
-    return (
-      <Col md={6} lg={6} className="mt-15 mb-15">
-        <Card key={_id} className="box">
-          <Card.Img variant="top" src={card.img} />
-        </Card>
-      </Col>
-    )
+class Reecent extends React.Component {
+  state = {
+    main_list: [],
+    isLoading: true,
+    errors: null,
   }
 
-  return <Row>{data.map(renderCard)}</Row>
-}
+  async getData() {
+    const response = await axios.get(
+      'https://backend-isl.herokuapp.com/api/blogs/recent',
+    )
+    try {
+      this.setState({
+        main_list: response.data,
+        isLoading: false,
+      })
+    } catch (error) {
+      this.setState({ error, isLoading: false })
+    }
+  }
 
-export default Reecents
+  componentDidMount() {
+    this.getData()
+  }
+
+  render() {
+    const { isLoading, main_list } = this.state
+
+    return (
+      <React.Fragment>
+        <Carousel>
+          {!isLoading ? (
+            main_list.map((main) => {
+              const { _id, img } = main
+              return (
+                <Carousel.Item>
+                  <img
+                    key={_id}
+                    src={img}
+                    className="img-fluid d-block w-100"
+                    alt="CE Carousel Images"
+                  />
+                </Carousel.Item>
+              )
+            })
+          ) : (
+            <Skeleton height={350} width={90000} />
+          )}
+        </Carousel>
+      </React.Fragment>
+    )
+  }
+}
+export default Reecent

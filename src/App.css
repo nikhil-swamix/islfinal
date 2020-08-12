@@ -8,6 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+a:hover {
+  text-decoration: none !important;
+}
 .useful .wrapper h3 {
   border-bottom: 1px solid #53607a;
   padding: 20px;
@@ -875,6 +878,62 @@ abbr.all-research-btn2 a {
   box-shadow: inherit;
   margin-bottom: 15px;
 }
+/*Research and dev*/
+.research .pagination {
+  position: absolute;
+  bottom: 0px !important;
+}
+
+.research .container {
+  margin-left: -14px;
+}
+.research .table {
+  margin-bottom: 80px;
+}
+.research ul {
+  margin-left: 12px;
+  display: flex;
+  padding-left: 0;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+
+.research li {
+  margin: 0 5px;
+}
+
+.research li a {
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  border: 2px solid #dbdbdb;
+  font-size: 18px;
+  color: #333333;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.research input {
+  display: none;
+}
+
+.research label {
+  display: none;
+}
+.research select {
+  display: none;
+}
+.research .table td,
+.table th {
+  text-transform: none;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+/**/
+
 .syllabus .syll input {
   outline: 0;
   height: 42px;

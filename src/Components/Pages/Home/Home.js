@@ -96,17 +96,17 @@ class Home extends React.Component {
           </Container>
         </section>
 
-        <section className="ner">
+        <section className="">
           <Container fluid>
-            <Row noGutters>
-              <Col md={4} sm={6} className="pt-25">
+            <Row>
+              <Col md={4} className="pt-25">
                 <News />
                 <div className="stick-bottom">All News →</div>
               </Col>
-              <Col md={4} sm={6} className="pt-25">
+              <Col md={4} className="pt-25">
                 <Check />
               </Col>
-              <Col md={4} sm={6} className="pt-25">
+              <Col md={4} className="pt-25">
                 <section className="recents mb-25">
                   <div className="site-heading text-left">
                     <h4>Recents </h4>
@@ -280,7 +280,7 @@ class Home extends React.Component {
           </div>
         </section>
 
-        <section className="why_choose_area pt-60 pb-130">
+        <section className="why_choose_area pt-60 pb-230">
           <div className="container-fluid">
             <div className="row">
               <div className="col-lg-6">
