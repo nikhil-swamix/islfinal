@@ -378,7 +378,7 @@ class Home extends React.Component {
           <div className="why_choose_image d-none d-lg-table">
             <div className="image">
               <img
-                src="https://lh3.googleusercontent.com/-e3FkBVVyu6izCtUHAFflSvKeHjcrQHkfvcP24e9b1-7BlE0g-oQ41WJHFZcaX4ZmDhqIopoDhULpTMIy3hpc2tNHc2oOrArFPfedBU_h_JFR8vVxagWUOYYwP_tZ3Oc5aaKd-9Aj8FUjwXL2yqyzTqWFHvVE9dvmFXTPR020X0m8dYG40sPvCviihB6RysjXJdPTCtAPkScLz6nNQInPGQQ2JCDYPD7X0uhH7Vdq9DKXXqYTSKvh01v-PBe4N3zFlzte2fsYVdrR0CYDcylXtHTrwQyGgf3FfTjU2AvScUtWm98V5Qigrr1q8fxrEi4xJ-bArERVVJ1Tntt1QwjV86F_g7VAWxYYQvKWI0Ia8gtofJo7s7-_pTtIC_tJoAmu9nmMjaog72fy6Plm3BOrvZoge9yuIbfgfSeWmNqsQBgzklkJzFfWYd8cFvx0RuGmrel9gIzjTGYPRhTYN0AMaIWBBB3-QBY2l3Co5X5-e7fGoLo0B8sdiYqOMNi3BwfojQDL7i7D2kwBw4ios9z82Ne7_d_2nprz5dqg9hOkfVamUe-_M8vym5SVKn84hbGvgOnrbWHsrRvj-TZ25EA6wB8wOXhXTxOqBTWrsgHeTV4vDMlfkpV00sObbJc7KIhRaxNkSZ6LUIXJJGPQvtqrFKjX_5aNJKMP2lR61HH0xx-SE4LhE2AeSqv3u-m-w=w792-h635-no?authuser=1"
+                src="https://islengg.ac.in/gallery/image/WhatsApp%20Image%202020-08-12%20at%2017.40.39.jpeg"
                 alt=""
               />
             </div>
