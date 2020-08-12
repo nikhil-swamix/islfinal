@@ -19,12 +19,14 @@ import Principal from './Components/Pages/About/principal'
 import Research from './Components/Pages/Research/components/publication'
 import NavBar from './Components/Common/NavigationBar'
 import Footer from './Components/Common/Footer'
+import TopNav from './Components/Pages/Home/TopAlert'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="App">
       <Router>
+        <TopNav />
         <NavBar />
 
         {/* A <Switch> looks through its children <Route>s and

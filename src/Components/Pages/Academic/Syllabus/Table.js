@@ -1,47 +1,47 @@
-import React from "react";
-import axios from "axios";
-import { DataTable } from "react-data-components";
-import { Spinner } from "react-bootstrap";
+import React from 'react'
+import axios from 'axios'
+import { DataTable } from 'react-data-components'
+import { Spinner } from 'react-bootstrap'
 
 class Table extends React.Component {
   state = {
     syllabus_list: [],
     isLoading: true,
     errors: null,
-  };
+  }
 
   async getData() {
     const response = await axios.get(
-      "https://tranquil-springs-03360.herokuapp.com/json/syllabus"
-    );
+      'https://tranquil-springs-03360.herokuapp.com/json/syllabus',
+    )
     try {
       this.setState({
         syllabus_list: response.data.syllabus_list,
         isLoading: false,
-      });
+      })
     } catch (error) {
-      this.setState({ error, isLoading: false });
+      this.setState({ error, isLoading: false })
     }
   }
 
   componentDidMount() {
-    this.getData();
+    this.getData()
   }
 
   render() {
     const renderSyllabusUrl = (val, row) => (
-      <a href={`${row["syllabus"]}`}>
+      <a href={`${row['syllabus']}`}>
         <i class="fa fa-download" aria-hidden="true"></i>
       </a>
-    );
+    )
 
-    const { isLoading, syllabus_list } = this.state;
+    const { isLoading, syllabus_list } = this.state
     const tableColumns = [
-      { title: "Dept", prop: "dept" },
-      { title: "Sem", prop: "sem" },
-      { title: "Type", prop: "type" },
-      { title: "Download", prop: "syllabus", render: renderSyllabusUrl },
-    ];
+      { title: 'Dept', prop: 'dept' },
+      { title: 'Sem', prop: 'sem' },
+      { title: 'Type', prop: 'type' },
+      { title: 'Download', prop: 'syllabus', render: renderSyllabusUrl },
+    ]
 
     return (
       <>
@@ -62,13 +62,13 @@ class Table extends React.Component {
           <>
             <div className="d-flex align-items-center ">
               <div className="container text-center">
-                <Spinner animation="border" variant="primary" />
+                <Spinner animation="border" style={{ color: '#192f59' }} />
               </div>
             </div>
           </>
         )}
       </>
-    );
+    )
   }
 }
-export default Table;
+export default Table

@@ -8,6 +8,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.alert {
+  margin-bottom: 0rem !important;
+}
 a:hover {
   text-decoration: none !important;
 }

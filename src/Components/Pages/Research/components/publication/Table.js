@@ -57,7 +57,7 @@ class Table extends React.Component {
           <>
             <div className="d-flex align-items-center ">
               <div className="container text-center">
-                <Spinner animation="border" variant="primary" />
+                <Spinner animation="border" style={{ color: '#192f59' }} />
               </div>
             </div>
           </>
