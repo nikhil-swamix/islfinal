@@ -10,7 +10,31 @@ body {
 }
 .alert {
   margin-bottom: 0rem !important;
+  padding-top: 10px !important;
+  padding-bottom: 0px !important;
 }
+.alertContent a {
+  text-decoration: underline;
+}
+.alert-dismissible .close {
+  padding-top: 10px !important;
+}
+.alert-warning {
+  color: #215888 !important;
+  background-color: #d3f6ef !important;
+  border-color: linear-gradient(
+    -45deg,
+    rgb(212, 245, 251),
+    rgb(234, 250, 255),
+    rgb(234, 250, 255),
+    #d3f6ef
+  ) !important;
+}
+.alert p {
+  color: #215888;
+  font-weight: bolder;
+}
+
 a:hover {
   text-decoration: none !important;
 }
@@ -1532,9 +1556,6 @@ p {
   position: absolute;
   top: 30px;
   right: 30%;
-}
-
-.single_courses {
 }
 
 .single_courses .courses_image {
