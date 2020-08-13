@@ -7,7 +7,7 @@ import Outbound from './components/Outbound'
 import Sports from './components/Sports'
 import Industrial from './components/Industrial'
 
-const Blog = () => {
+const Event = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
@@ -136,4 +136,4 @@ const Blog = () => {
   )
 }
 
-export default Blog
+export default Event

@@ -12,11 +12,11 @@ class Syllabus extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://tranquil-springs-03360.herokuapp.com/json/syllabus',
+      'https://backend-isl.herokuapp.com/api/papers/it',
     )
     try {
       this.setState({
-        syllabus_list: response.data.syllabus_list,
+        syllabus_list: response.data,
         isLoading: false,
       })
     } catch (error) {
@@ -49,8 +49,8 @@ class Syllabus extends React.Component {
     const { isLoading, syllabus_list } = this.state
 
     const tableColumns = [
-      { title: 'Subject Code', prop: 'course_code' },
-      { title: 'Subject Name', prop: 'name' },
+      { title: 'Subject Code', prop: 'subject_code' },
+      { title: 'Subject Name', prop: 'subject_name' },
       { title: 'Sem', prop: 'sem' },
       { title: 'Type', prop: 'type' },
       { title: 'Syllabus', prop: 'syllabus', render: renderSyllabusUrl },

@@ -22,13 +22,7 @@ body {
 .alert-warning {
   color: #215888 !important;
   background-color: #d3f6ef !important;
-  border-color: linear-gradient(
-    -45deg,
-    rgb(212, 245, 251),
-    rgb(234, 250, 255),
-    rgb(234, 250, 255),
-    #d3f6ef
-  ) !important;
+  border-color: #d3f6ef !important;
 }
 .alert p {
   color: #215888;

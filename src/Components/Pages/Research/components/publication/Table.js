@@ -5,18 +5,18 @@ import { Spinner } from 'react-bootstrap'
 
 class Table extends React.Component {
   state = {
-    syllabus_list: [],
+    publication_list: [],
     isLoading: true,
     errors: null,
   }
 
   async getData() {
     const response = await axios.get(
-      'https://tranquil-springs-03360.herokuapp.com/json/syllabus',
+      'https://backend-isl.herokuapp.com/api/research/publications',
     )
     try {
       this.setState({
-        syllabus_list: response.data.syllabus_list,
+        publication_list: response.data,
         isLoading: false,
       })
     } catch (error) {
@@ -29,14 +29,14 @@ class Table extends React.Component {
   }
 
   render() {
-    const { isLoading, syllabus_list } = this.state
+    const { isLoading, publication_list } = this.state
     const tableColumns = [
       {
         title: 'Title of the National / International Conference / Journal',
-        prop: 'sem',
+        prop: 'descp',
       },
-      { title: 'Title of The Paper', prop: 'type' },
-      { title: 'Date', prop: 'sem' },
+      { title: 'Title of The Paper', prop: 'title' },
+      { title: 'Date', prop: 'date' },
     ]
 
     return (
@@ -48,7 +48,7 @@ class Table extends React.Component {
             <DataTable
               keys="id"
               columns={tableColumns}
-              initialData={syllabus_list}
+              initialData={publication_list}
               initialPageLength={5}
               pageLengthOptions={[10, 20, 30, 40, 50, 60]}
             />

@@ -12,11 +12,11 @@ class Table extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://tranquil-springs-03360.herokuapp.com/json/syllabus',
+      'https://backend-isl.herokuapp.com/api/syllabs/',
     )
     try {
       this.setState({
-        syllabus_list: response.data.syllabus_list,
+        syllabus_list: response.data,
         isLoading: false,
       })
     } catch (error) {

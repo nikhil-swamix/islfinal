@@ -104,9 +104,6 @@ const NavigationBar = () => {
                 Syllabus
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#papers">
-                Previous B.E Papers
-              </NavDropdown.Item>
             </NavDropdown>
 
             <NavDropdown title="Department" id="collasible-nav-dropdown">
@@ -134,7 +131,7 @@ const NavigationBar = () => {
                 Master of Business Administraion
               </NavDropdown.Item>
             </NavDropdown>
-            <Link to="/blog">
+            <Link to="/events">
               <Nav.Link href="#blog">Events</Nav.Link>
             </Link>
             <Link to="/research">
