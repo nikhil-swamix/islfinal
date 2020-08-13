@@ -254,7 +254,7 @@ class Home extends React.Component {
                 <div className="single_courses courses_gray">
                   <div className="courses_image">
                     <img
-                      src="https://islengg.ac.in/gallery/image/mot%20(1).jpg"
+                      src="https://www.islengg.ac.in/gallery/image/motivatiospeechsas.jpeg"
                       alt="courses"
                     />
                   </div>
