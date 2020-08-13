@@ -31,7 +31,6 @@ function App() {
         <NavBar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route path="*" component={NotFound} />
           <Route path="/syllabus" component={Syllabus} />
           <Route path="/almanac" component={Almanac} />
           <Route path="/admissions" component={Admissions} />
@@ -47,6 +46,7 @@ function App() {
           <Route path="/department/me" component={ME} />
           <Route path="/department/ce" component={CE} />
           <Route path="/department/mba" component={MBA} />
+          <Route component={NotFound} />
         </Switch>
         <Footer />
       </Router>

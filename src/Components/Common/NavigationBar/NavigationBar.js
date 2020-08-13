@@ -50,7 +50,7 @@ const NavigationBar = () => {
                     </li>
                     <li>
                       <a href="https://www.linkedin.com/school/isl-engineering-college/">
-                        Follow us{' '}
+                        Follow{' '}
                         <span className="linkedin">
                           <img
                             src="https://i.ibb.co/vvsfnVL/LI-In-Bug.png"

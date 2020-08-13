@@ -130,7 +130,7 @@ a:hover {
 
 .single_form textarea:focus,
 .single_form input:focus {
-  border-color: #fcc741;
+  border-color: #50bd77;
 }
 
 /*========== ontact   css
@@ -161,8 +161,7 @@ ol {
   font-size: 16px;
   height: 50px;
   line-height: 50px;
-  border-radius: 50px;
-  color: #252628;
+  color: #192f59;
   cursor: pointer;
   z-index: 5;
   -webkit-transition: all 0.3s linear;
@@ -282,7 +281,7 @@ abbr.all-research-btn2 a {
   transition: all ease-out 0.3s;
 }
 .header_right ul li a span {
-  margin-left: 15px;
+  margin-left: 5px;
 }
 .header_right ul li a span img {
   background-color: #ffffff;
@@ -768,7 +767,7 @@ abbr.all-research-btn2 a {
   cursor: pointer;
 
   background: #f4f4f4 none repeat scroll 0 0;
-  color: #002147;
+  color: #192f59;
   border: 1px solid #e7e7e7;
   border-radius: inherit;
   font-weight: 600;
@@ -784,7 +783,7 @@ abbr.all-research-btn2 a {
 }
 .react-tabs__tab--selected {
   border-radius: inherit;
-  background: #ffb606 none repeat scroll 0 0;
+  background: #fcc741 none repeat scroll 0 0;
   border: 1px solid transparent;
   color: #002147;
 }
