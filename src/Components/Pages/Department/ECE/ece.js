@@ -46,7 +46,8 @@ const ece = () => {
                     </div>
                     <div className="media_content media-body">
                       <p>Head of Department</p>
-                      <h6 className="title">Hod Name </h6>
+                      <h6 className="title">Dr. khan Sohel Rana</h6>
+                      <h6 className="title">B.E., M-tech, PhD, MIE, MIEEE</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
@@ -84,7 +85,7 @@ const ece = () => {
                     <Tab>Labs</Tab>
                   </TabList>
 
-                  <TabPanel className="tab-content tab-content-info text-justify d-none d-sm-block">
+                  <TabPanel className="tab-content tab-content-info text-justify ">
                     <div className="">
                       <h4>Course Description</h4>
                       <p>

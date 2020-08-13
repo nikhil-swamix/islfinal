@@ -82,7 +82,7 @@ const eee = () => {
                     <Tab>Labs</Tab>
                   </TabList>
 
-                  <TabPanel className="tab-content tab-content-info text-justify d-none d-sm-block">
+                  <TabPanel className="tab-content tab-content-info text-justify ">
                     <div className="">
                       <h4>Course Description</h4>
                       <p>

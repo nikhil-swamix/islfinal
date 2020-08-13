@@ -36,15 +36,20 @@ class Reecent extends React.Component {
         <Carousel>
           {!isLoading ? (
             main_list.map((main) => {
-              const { _id, img } = main
+              const { _id, img, title } = main
               return (
                 <Carousel.Item>
                   <img
                     key={_id}
                     src={img}
-                    className="img-fluid d-block w-100"
-                    alt="CE Carousel Images"
+                    className="d-block w-100"
+                    alt="slide"
                   />
+
+                  <Carousel.Caption>
+                    <h3>{title}</h3>
+                    <p>{title}</p>
+                  </Carousel.Caption>
                 </Carousel.Item>
               )
             })
