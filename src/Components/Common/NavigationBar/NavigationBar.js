@@ -53,7 +53,7 @@ const NavigationBar = () => {
                         Follow us{' '}
                         <span className="linkedin">
                           <img
-                            src="https://i.ibb.co/JvRV67t/LI-In-Bug.png"
+                            src="https://i.ibb.co/vvsfnVL/LI-In-Bug.png"
                             alt="linkedin"
                           />
                         </span>{' '}

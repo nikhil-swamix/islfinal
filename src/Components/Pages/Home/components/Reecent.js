@@ -36,7 +36,7 @@ class Reecent extends React.Component {
         <Carousel>
           {!isLoading ? (
             main_list.map((main) => {
-              const { _id, img, title } = main
+              const { _id, img } = main
               return (
                 <Carousel.Item>
                   <img
@@ -45,11 +45,6 @@ class Reecent extends React.Component {
                     className="d-block w-100"
                     alt="slide"
                   />
-
-                  <Carousel.Caption>
-                    <h3>{title}</h3>
-                    <p>{title}</p>
-                  </Carousel.Caption>
                 </Carousel.Item>
               )
             })

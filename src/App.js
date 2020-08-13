@@ -20,19 +20,26 @@ import Research from './Components/Pages/Research/components/publication'
 import NavBar from './Components/Common/NavigationBar'
 import Footer from './Components/Common/Footer'
 import TopNav from './Components/Pages/Home/TopAlert'
+import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Router>
         <TopNav />
         <NavBar />
-
-        {/* A <Switch> looks through its children <Route>s and
-            renders the first one that matches the current URL. */}
         <Switch>
-          <Route exact path="/" component={Home}></Route>
+          <Route exact path="/" component={Home} />
+          <Route path="*" component={NotFound} />
+          <Route path="/syllabus" component={Syllabus} />
+          <Route path="/almanac" component={Almanac} />
+          <Route path="/admissions" component={Admissions} />
+          <Route path="/events" component={Event} />
+          <Route path="/contact" component={Contact} />
+          <Route path="/chairman" component={Chairman} />
+          <Route path="/principal" component={Principal} />
+          <Route path="/research" component={Research} />
           <Route path="/department/cse" component={CSE} />
           <Route path="/department/ece" component={ECE} />
           <Route path="/department/eee" component={EEE} />
@@ -40,18 +47,10 @@ function App() {
           <Route path="/department/me" component={ME} />
           <Route path="/department/ce" component={CE} />
           <Route path="/department/mba" component={MBA} />
-          <Route path="/syllabus" component={Syllabus} />
-          <Route path="/almanac" component={Almanac} />
-          <Route path="/admissions" component={Admissions} />
-          <Route path="/events" component={Event} />
-          <Route path="/contact" component={Contact} />
-          <Route path="/chairman" component={Chairman} />
-          <Route exact path="/principal" component={Principal} />
-          <Route path="/research" component={Research} />
         </Switch>
         <Footer />
       </Router>
-    </div>
+    </>
   )
 }
 
