@@ -115,13 +115,18 @@ const ece = () => {
                           develop skills to solve complex technological problems
                           of current times.
                         </li>
+                        <li>
+                          <i className="fa fa-check"></i> To motivate, mould and
+                          transform individuals to aspire bigger, work harder,
+                          think smarter and contribute towards green
+                          engineering.
+                        </li>
                       </ul>
                       <h4>Vision</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To produce the
-                          fineness electronics and communication engineers in
-                          India
+                          <i className="fa fa-check"></i> To produce finest
+                          Electronics & Communication Engineers in India.
                         </li>
                         <li>
                           <i className="fa fa-check"></i> To establish the
@@ -137,31 +142,43 @@ const ece = () => {
                       </ul>
                       <h4>Program Educational Objectives (PEOs)</h4>
                       <p>
-                        The Program Educational Objectives of undergraduate
-                        program in Electronics & Communication Engineering are
-                        to prepare graduates who will:
+                        Within the four to five years, our graduates passing out
+                        of the department of Electronics & Communication
+                        Engineering are expected to achieve:
                       </p>
                       <ul>
                         <li>
                           <i className="fa fa-check"></i>
-                          PEO1: Excel in comprehension of basic sciences and
-                          engineering facilitating professional accomplishments
-                          and/or pursue higher qualification with an
-                          appreciation to lifelong learning.
+                          PEO1: Core competence : Graduates will be able to
+                          provide engineering solutions with strong base of
+                          science and mathematics, subject domain knowledge for
+                          challenging problems in electronics and
+                          multidisciplinary disciplines such as IoT, Robotics
+                          and Mechatronics etc.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO2: Provide solutions
-                          to real time problems by designing, analyzing,
-                          demonstrating creativity and innovations to enable the
-                          development of State of Art equipment and technologies
-                          of multidisciplinary nature for societal requirements.
+                          <i className="fa fa-check"></i>PEO2: Career building:
+                          Graduates will be able to fulfill professional and
+                          social responsibilities effectively in all the
+                          disciplines including teaching by synchronizing
+                          theoretical and practical skills through our rigorous
+                          yet love and logic approached teaching learning
+                          methodologies.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> PEO3: Inculcate
-                          positive attitude, professional ethics, effective
-                          communication and interpersonal skills to succeed in
-                          chosen profession, as a team member and as well as
-                          leader
+                          <i className="fa fa-check"></i> PEO3: Technical
+                          proficiency : Graduates will be able to practice
+                          analytical, creative and innovative skills in the
+                          chosen area of education, research or industrial
+                          development.
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> PEO4: Managerial
+                          Skills : Graduates will be able to manage future fast
+                          communication and smart cities complex problems using
+                          moral/ethical practice, managerial and entrepreneurial
+                          skills for the welfare of country using green
+                          engineering concepts.
                         </li>
                       </ul>
                     </div>

@@ -1,5 +1,5 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
 
 const Footer = () => {
   return (
@@ -28,7 +28,7 @@ const Footer = () => {
                     <p>View Location on Google Map</p>
                   </a>
                 </div>
-              </Col>{" "}
+              </Col>{' '}
               <Col lg={3} md={6} sm={6}>
                 <div className="footer-link mt-40">
                   <div className="footer-title pb-25">
@@ -36,27 +36,27 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="index.html">
+                      <a href="/admissions">
                         <i className="fa fa-angle-right"></i>Admissions
                       </a>
                     </li>
                     <li>
-                      <a href="about.html">
+                      <a href="/almanac">
                         <i className="fa fa-angle-right"></i>Almanac
                       </a>
                     </li>
                     <li>
-                      <a href="courses.html">
+                      <a href="/syllabus">
                         <i className="fa fa-angle-right"></i>Syllabus
                       </a>
                     </li>
                     <li>
-                      <a href="blog.html">
-                        <i className="fa fa-angle-right"></i>R & D{" "}
+                      <a href="/research">
+                        <i className="fa fa-angle-right"></i>R & D{' '}
                       </a>
                     </li>
                     <li>
-                      <a href="events.html">
+                      <a href="https://drive.google.com/file/d/1T1kL1677llUwx56Ruc7JIU1SfSY2bqw7/view">
                         <i className="fa fa-angle-right"></i>Rules & Regulations
                       </a>
                     </li>
@@ -70,37 +70,37 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="courses.html">
+                      <a href="/department/ce">
                         <i className="fa fa-angle-right"></i>Civil Engineering
                         Department
                       </a>
                     </li>
                     <li>
-                      <a href="blog.html">
+                      <a href="/department/cse">
                         <i className="fa fa-angle-right"></i>Computer Science
                         Engineering
                       </a>
                     </li>
                     <li>
-                      <a href="events.html">
+                      <a href="/department/ece">
                         <i className="fa fa-angle-right"></i>Electronics &
                         Communication Engineering
                       </a>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in#">
+                      <a href="/department/eee">
                         <i className="fa fa-angle-right"></i>Electronics &
-                        Electrical Engineering{" "}
+                        Electrical Engineering{' '}
                       </a>
                     </li>
                     <li>
-                      <a href="shop.html">
+                      <a href="/department/it">
                         <i className="fa fa-angle-right"></i>Information
                         Technology
                       </a>
                     </li>
                     <li>
-                      <a href="shop.html">
+                      <a href="/department/me">
                         <i className="fa fa-angle-right"></i>Mechanical
                         Engineering
                       </a>
@@ -115,27 +115,27 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="index.html">
+                      <a href="#/">
                         <i className="fa fa-angle-right"></i>Library
                       </a>
                     </li>
                     <li>
-                      <a href="about.html">
+                      <a href="#/">
                         <i className="fa fa-angle-right"></i>Laboratories
                       </a>
                     </li>
                     <li>
-                      <a href="courses.html">
+                      <a href="#/">
                         <i className="fa fa-angle-right"></i>Student Life
                       </a>
                     </li>
                     <li>
-                      <a href="blog.html">
+                      <a href="#/">
                         <i className="fa fa-angle-right"></i>Gallery
                       </a>
                     </li>
                     <li>
-                      <a href="events.html">
+                      <a href="#/">
                         <i className="fa fa-angle-right"></i>Events
                       </a>
                     </li>
@@ -184,7 +184,7 @@ const Footer = () => {
         </div>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

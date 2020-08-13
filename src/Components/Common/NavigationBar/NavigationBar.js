@@ -14,7 +14,7 @@ const NavigationBar = () => {
                   <ul className="header_ul">
                     <li>
                       <a href="tel:+04012345678">
-                        <span className="fa fa-phone"></span> 040 - 12345678
+                        <span className="fa fa-phone"></span>040 - 29880083
                       </a>
                     </li>
                     <li>
@@ -25,13 +25,13 @@ const NavigationBar = () => {
                     </li>
 
                     <li>
-                      <a href="https://islengg.ac.in#">Alumni</a>
+                      <a href="#/">Alumni</a>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in#">E-Mail</a>
+                      <a href="#/">E-Mail</a>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in#">Online Fee</a>
+                      <a href="#/">Online Fee</a>
                     </li>
                     <li>
                       <a href="/contact">Contact</a>
@@ -103,7 +103,6 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#syllabus" as={Link} to="/syllabus">
                 Syllabus
               </NavDropdown.Item>
-              <NavDropdown.Divider />
             </NavDropdown>
 
             <NavDropdown title="Department" id="collasible-nav-dropdown">
