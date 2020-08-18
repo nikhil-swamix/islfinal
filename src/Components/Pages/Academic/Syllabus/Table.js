@@ -37,7 +37,7 @@ class Table extends React.Component {
 
     const { isLoading, syllabus_list } = this.state
     const tableColumns = [
-      { title: 'Dept', prop: 'dept' },
+      { title: 'Department', prop: 'dept' },
       { title: 'Sem', prop: 'sem' },
       { title: 'Type', prop: 'type' },
       { title: 'Download', prop: 'syllabus', render: renderSyllabusUrl },

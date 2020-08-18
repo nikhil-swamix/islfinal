@@ -1,42 +1,42 @@
-import React from "react";
-import Carousel from "react-bootstrap/Carousel";
-import axios from "axios";
-import Skeleton from "react-loading-skeleton";
+import React from 'react'
+import Carousel from 'react-bootstrap/Carousel'
+import axios from 'axios'
+import Skeleton from 'react-loading-skeleton'
 
 class Slide extends React.Component {
   state = {
     carousel_list: [],
     isLoading: true,
     errors: null,
-  };
+  }
 
   async getData() {
     const response = await axios.get(
-      "https://backend-isl.herokuapp.com/api/carousels/ce"
-    );
+      'https://mern1ayaz.herokuapp.com/api/carousels/ce',
+    )
     try {
       this.setState({
         carousel_list: response.data,
         isLoading: false,
-      });
+      })
     } catch (error) {
-      this.setState({ error, isLoading: false });
+      this.setState({ error, isLoading: false })
     }
   }
 
   componentDidMount() {
-    this.getData();
+    this.getData()
   }
 
   render() {
-    const { isLoading, carousel_list } = this.state;
+    const { isLoading, carousel_list } = this.state
 
     return (
       <React.Fragment>
         <Carousel>
           {!isLoading ? (
-            carousel_list.map(carousel => {
-              const { _id, img, title } = carousel;
+            carousel_list.map((carousel) => {
+              const { _id, img } = carousel
               return (
                 <Carousel.Item>
                   <img
@@ -45,16 +45,15 @@ class Slide extends React.Component {
                     className="img-fluid d-block w-100"
                     alt="CE Carousel Images"
                   />
-                  {title}
                 </Carousel.Item>
-              );
+              )
             })
           ) : (
             <Skeleton height={350} width={640} />
           )}
         </Carousel>
       </React.Fragment>
-    );
+    )
   }
 }
-export default Slide;
+export default Slide

@@ -11,7 +11,7 @@ class Sidepost extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://backend-isl.herokuapp.com/api/sideposts/cse',
+      'https://mern1ayaz.herokuapp.com/api/blogs/cse',
     )
     try {
       this.setState({
@@ -34,7 +34,7 @@ class Sidepost extends React.Component {
       <React.Fragment>
         {!isLoading ? (
           sidepost_list.map((sidepost) => {
-            const { img, title, descp, link, value } = sidepost
+            const { img, title, descp, link } = sidepost
             return (
               <div className="card mb-10">
                 <img className="card-img-top" src={img} alt="CardImage " />
@@ -45,8 +45,8 @@ class Sidepost extends React.Component {
                   {!link ? (
                     ' '
                   ) : (
-                    <a href={link} className="btn btn-primary btn-sm">
-                      {value}
+                    <a href={link}>
+                      <i className="fa fa-external-link" aria-hidden="true"></i>
                     </a>
                   )}
                 </div>

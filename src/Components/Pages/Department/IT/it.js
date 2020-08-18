@@ -263,7 +263,6 @@ const it = () => {
                   </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
-                      <h6>Subject wise B.E Syllabus & Previous Exam Papers</h6>
                       <Syllabus />
                     </div>
                   </TabPanel>

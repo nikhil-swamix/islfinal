@@ -12,7 +12,7 @@ class Syllabus extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://backend-isl.herokuapp.com/api/papers/mba',
+      'https://mern1ayaz.herokuapp.com/api/syllabs/mba',
     )
     try {
       this.setState({
@@ -29,18 +29,6 @@ class Syllabus extends React.Component {
   }
 
   render() {
-    const renderPaperUrl = (val, row) => (
-      <a href={`${row['paper']}`}>
-        {row['paper'] === 'na' ? (
-          <a href="#na" class="badge badge-light">
-            N/A
-          </a>
-        ) : (
-          <i class="fa fa-download" aria-hidden="true"></i>
-        )}
-      </a>
-    )
-
     const renderSyllabusUrl = (val, row) => (
       <a href={`${row['syllabus']}`}>
         <i class="fa fa-download" aria-hidden="true"></i>
@@ -49,12 +37,8 @@ class Syllabus extends React.Component {
     const { isLoading, syllabus_list } = this.state
 
     const tableColumns = [
-      { title: 'Subject Code', prop: 'subject_code' },
-      { title: 'Subject Name', prop: 'subject_name' },
       { title: 'Sem', prop: 'sem' },
-      { title: 'Type', prop: 'type' },
       { title: 'Syllabus', prop: 'syllabus', render: renderSyllabusUrl },
-      { title: 'Paper', prop: 'paper', render: renderPaperUrl },
     ]
 
     return (
@@ -65,7 +49,7 @@ class Syllabus extends React.Component {
               keys="id"
               columns={tableColumns}
               initialData={syllabus_list}
-              initialPageLength={5}
+              initialPageLength={4}
               pageLengthOptions={[5, 20, 30, 40, 50, 60]}
             />
           </div>

@@ -12,7 +12,7 @@ class Slide extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://backend-isl.herokuapp.com/api/carousels/eee',
+      'https://mern1ayaz.herokuapp.com/api/carousels/eee',
     )
     try {
       this.setState({
@@ -36,7 +36,7 @@ class Slide extends React.Component {
         <Carousel>
           {!isLoading ? (
             carousel_list.map((carousel) => {
-              const { _id, img, title } = carousel
+              const { _id, img } = carousel
               return (
                 <Carousel.Item>
                   <img
@@ -45,7 +45,6 @@ class Slide extends React.Component {
                     className="img-fluid d-block w-100"
                     alt="CE Carousel Images"
                   />
-                  {title}
                 </Carousel.Item>
               )
             })

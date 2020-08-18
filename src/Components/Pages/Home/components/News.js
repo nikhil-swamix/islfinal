@@ -1,7 +1,7 @@
 import React from 'react'
 import axios from 'axios'
 import Skeleton from 'react-loading-skeleton'
-
+import moment from 'moment'
 class News extends React.Component {
   state = {
     news_list: [],
@@ -11,7 +11,7 @@ class News extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://backend-isl.herokuapp.com/api/infos/news',
+      'https://mern1ayaz.herokuapp.com/api/infos/news',
     )
     try {
       this.setState({
@@ -43,7 +43,9 @@ class News extends React.Component {
               return (
                 <div className="section-content">
                   <article>
-                    <figure className="date">{date}</figure>
+                    <figure className="date">
+                      {moment(date).format('Do MMM YYYY')}
+                    </figure>
                     <header>
                       <a href={link}>
                         {title}{' '}

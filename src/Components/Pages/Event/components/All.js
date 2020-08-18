@@ -4,7 +4,7 @@ import useAxios from 'axios-hooks'
 
 const All = () => {
   const [{ data, loading, error }] = useAxios(
-    'https://backend-isl.herokuapp.com/api/blogs',
+    'https://mern1ayaz.herokuapp.com/api/blogs',
   )
 
   if (loading)

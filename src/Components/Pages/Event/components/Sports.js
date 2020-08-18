@@ -4,7 +4,7 @@ import useAxios from 'axios-hooks'
 
 const Sports = () => {
   const [{ data, loading, error }] = useAxios(
-    'https://backend-isl.herokuapp.com/api/blogs/Sport',
+    'https://mern1ayaz.herokuapp.com/api/blogs/sports',
   )
 
   if (loading)
