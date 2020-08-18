@@ -113,8 +113,24 @@ class Enquiry extends Component {
                       onChange={this.handleInputChange}
                     >
                       <option>Choose...</option>
-                      <option value="cse">CSE</option>
-                      <option value="ece">ECE</option>
+                      <option value="Civil Engineering">
+                        Civil Engineering
+                      </option>
+                      <option value="Computer Science Engineering">
+                        Computer Science Engineering
+                      </option>
+                      <option value="Electronics & Communication Engineering">
+                        Electronics & Communication Engineering
+                      </option>
+                      <option value="Electrical & Electronics Engineering">
+                        Electrical & Electronics Engineering
+                      </option>
+                      <option value="Information Technology">
+                        Information Technology
+                      </option>
+                      <option value="Mechanical Engineering">
+                        Mechanical Engineering
+                      </option>
                     </Form.Control>
                   </Form.Group>
 
