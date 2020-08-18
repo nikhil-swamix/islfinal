@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800');
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800");
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-style: normal;
   overflow-x: hidden;
@@ -84,7 +84,7 @@ a:hover {
 }
 .navbar-light .navbar-nav .nav-link {
   text-decoration: none;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #404040;
   font-size: 15px;
   font-weight: 600;
@@ -245,7 +245,7 @@ abbr.all-research-btn2 a {
 
 .header_left ul li:first-child a::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 0px;
   width: 0px;
   background-color: #fff;
@@ -255,7 +255,7 @@ abbr.all-research-btn2 a {
 
 .header_left ul li a::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 12px;
   width: 1px;
   background-color: #fff;
@@ -293,7 +293,7 @@ abbr.all-research-btn2 a {
 
 .header_right ul li:first-child a::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 0px;
   width: 0px;
   background-color: #fff;
@@ -303,7 +303,7 @@ abbr.all-research-btn2 a {
 
 .header_right ul li a::before {
   position: absolute;
-  content: '';
+  content: "";
   height: 12px;
   width: 1px;
   background-color: #fff;
@@ -326,7 +326,7 @@ abbr.all-research-btn2 a {
 
 .breadcrumb_details::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -421,7 +421,7 @@ abbr.all-research-btn2 a {
 
 .breadcrumb_content .breadcrumb li + li::before {
   position: absolute;
-  content: '/';
+  content: "/";
   top: 2px;
   left: -12px;
   color: #fff;
@@ -795,7 +795,7 @@ abbr.all-research-btn2 a {
 }
 
 .react-tabs__tab:focus:after {
-  content: '';
+  content: "";
   position: absolute;
   height: 5px;
   left: -4px;
@@ -1016,7 +1016,7 @@ abbr.all-research-btn2 a {
 .sidebar .sidebar-item .title h4::before {
   background: #ffb606 none repeat scroll 0 0;
   bottom: 0;
-  content: '';
+  content: "";
   height: 2px;
   left: 0;
   position: absolute;
@@ -1025,7 +1025,7 @@ abbr.all-research-btn2 a {
 .sidebar .sidebar-item .title h4::after {
   background: #ffb606 none repeat scroll 0 0;
   bottom: 0;
-  content: '';
+  content: "";
   height: 2px;
   left: 35px;
   position: absolute;
@@ -1145,7 +1145,7 @@ abbr.all-research-btn2 a {
 .site-heading h2::before {
   background: #50bd77 none repeat scroll 0 0;
   bottom: 0;
-  content: '';
+  content: "";
   height: 3px;
   left: 50%;
   margin-left: -40px;
@@ -1164,7 +1164,7 @@ abbr.all-research-btn2 a {
 .site-heading h4::before {
   background: #50bd77 none repeat scroll 0 0;
   bottom: 0;
-  content: '';
+  content: "";
   height: 2px;
   left: 20%;
   margin-left: -40px;
@@ -1410,7 +1410,7 @@ p {
   border-color: #1a2742;
 }
 
-.newsletter input[type='email'] {
+.newsletter input[type="email"] {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -1422,7 +1422,7 @@ p {
   border-color: transparent;
 }
 
-.newsletter input[type='submit'] {
+.newsletter input[type="submit"] {
   font-size: 15px;
   font-weight: 700;
   line-height: 20px;
@@ -1510,8 +1510,12 @@ p {
 }
 
 /*===========================
-    10.Courses css 
+    Courses css 
 ===========================*/
+
+.short-text span {
+  color: #3db166 !important;
+}
 
 .courses_area {
   position: relative;
@@ -1575,7 +1579,6 @@ p {
 }
 
 .single_courses.courses_gray .courses_content {
-  background-color: #f3f8fc;
 }
 
 .single_courses .courses_content .tag {
@@ -1593,7 +1596,7 @@ p {
 }
 
 .single_courses .courses_content .tag li a {
-  font-size: 13px;
+  font-size: 15px;
   padding: 0 10px;
   height: 20px;
   line-height: 20px;
@@ -1630,7 +1633,7 @@ p {
 
 .single_courses .courses_content .title a {
   color: #484848;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   -webkit-transition: all 0.3s linear;
   transition: all 0.3s linear;
@@ -2043,7 +2046,7 @@ a {
 
 .about_video::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;
@@ -2077,7 +2080,7 @@ a {
 
 .video_play::before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 100%;
   background-color: #fff;
@@ -2203,7 +2206,7 @@ a {
 
 .about_2_image::before {
   position: absolute;
-  content: '';
+  content: "";
   top: 0;
   left: 0;
   width: 100%;

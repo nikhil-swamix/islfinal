@@ -1,22 +1,23 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import ModalVideo from 'react-modal-video'
-import Karousel from './components/Karousel'
-import Reecent from './components/Reecent'
-import News from './components/News'
-import Check from './components/Check'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import ModalVideo from "react-modal-video";
+import Karousel from "./components/Karousel";
+import Reecent from "./components/Reecent";
+import News from "./components/News";
+import Check from "./components/Check";
+import ReadMoreAndLess from "react-read-more-less";
 
 class Home extends React.Component {
   constructor() {
-    super()
+    super();
     this.state = {
       isOpen: false,
-    }
-    this.openModal = this.openModal.bind(this)
+    };
+    this.openModal = this.openModal.bind(this);
   }
 
   openModal() {
-    this.setState({ isOpen: true })
+    this.setState({ isOpen: true });
   }
   render() {
     return (
@@ -29,7 +30,7 @@ class Home extends React.Component {
             NPTEL
           </a>
         </div>
-        <Container fluid style={{ padding: '0px' }}>
+        <Container fluid style={{ padding: "0px" }}>
           <Karousel />
         </Container>
 
@@ -63,7 +64,7 @@ class Home extends React.Component {
                 <div className="">
                   <h3>CE | CSE | ECE | EEE | IT | ME | MBA</h3>
                 </div>
-              </Col>{' '}
+              </Col>{" "}
               <Col lg={3}>
                 <div className="content">
                   <img
@@ -133,146 +134,150 @@ class Home extends React.Component {
             </div>
             <div className="row">
               <div className="col-lg-2 col-sm-6 mb-10">
-                <div className="single_courses courses_gray">
-                  <div className="courses_image">
-                    <img
-                      src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
-                      alt="courses"
-                    />
-                  </div>
-                  <div className="courses_content">
-                    <div className="courses_author d-flex">
-                      <div className="author_name media-body">
-                        <a href="https://islengg.ac.in">ESPIRIT</a>
-                      </div>
-                    </div>
-                    <h4 className="title">
-                      <a href="https://islengg.ac.in">
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Espirit</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
                         Espirit is one of the finest Cultural event of ISL
-                      </a>
-                    </h4>
+                      </ReadMoreAndLess>
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-2 col-sm-6 mb-10">
-                <div className="single_courses courses_gray">
-                  <div className="courses_image">
-                    <img
-                      src="https://i.ibb.co/b6mfmDY/enthusiac.jpg"
-                      alt="courses"
-                    />
-                  </div>
-                  <div className="courses_content">
-                    <div className="courses_author d-flex">
-                      <div className="author_name media-body">
-                        <a href="https://islengg.ac.in">ENTHUSIAC</a>
-                      </div>
-                    </div>
-                    <h4 className="title">
-                      <a href="https://islengg.ac.in">
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://i.ibb.co/b6mfmDY/enthusiac.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Enthusiac</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
                         Enthusiac is an Annual Sports Meet of ISL. Scintillating
-                        performance creates aura of festivit{' '}
-                      </a>
-                    </h4>
+                        performance creates aura of festivit
+                      </ReadMoreAndLess>
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-2 col-sm-6 mb-10">
-                <div className="single_courses courses_gray">
-                  <div className="courses_image">
-                    <img
-                      src="https://i.ibb.co/6Rfb82N/eloquence.jpg"
-                      alt="courses"
-                    />
-                  </div>
-                  <div className="courses_content">
-                    <div className="courses_author d-flex">
-                      <div className="author_name media-body">
-                        <a href="https://islengg.ac.in">Eloquence</a>
-                      </div>
-                    </div>
-                    <h4 className="title">
-                      <a href="https://islengg.ac.in">
-                        Eloquence The English Festival of ISL. With the power of
-                        WordsS & Ideas...there comes a be{' '}
-                      </a>
-                    </h4>
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://i.ibb.co/6Rfb82N/eloquence.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Eloquence</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Eloquence The English Festival of ISL.
+                      </ReadMoreAndLess>
+                    </p>
                   </div>
                 </div>
               </div>
 
               <div className="col-lg-2 col-sm-6 mb-10">
-                <div className="single_courses courses_gray">
-                  <div className="courses_image">
-                    <img
-                      src="https://i.ibb.co/F5PjW2c/deptfest.jpg"
-                      alt="courses"
-                    />
-                  </div>
-                  <div className="courses_content">
-                    <div className="courses_author d-flex">
-                      <div className="author_name media-body">
-                        <a href="https://islengg.ac.in">
-                          Departmental Projects
-                        </a>
-                      </div>
-                    </div>
-                    <h4 className="title">
-                      <a href="https://islengg.ac.in">
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://i.ibb.co/F5PjW2c/deptfest.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Departmental Projects</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
                         Departmental Projects Showcase by the Students in every
-                        Semester{' '}
-                      </a>
-                    </h4>
+                        Semester
+                      </ReadMoreAndLess>
+                    </p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-2 col-sm-6 mb-10">
-                <div className="single_courses courses_gray">
-                  <div className="courses_image">
-                    <img
-                      src="https://islengg.ac.in/gallery/image/engg.jpg"
-                      alt="courses"
-                    />
-                  </div>
-                  <div className="courses_content">
-                    <div className="courses_author d-flex">
-                      <div className="author_name media-body">
-                        <a href="https://islengg.ac.in">Engineers Day</a>
-                      </div>
-                    </div>
-                    <h4 className="title">
-                      <a href="https://islengg.ac.in">
-                        Engineers Day is with pomp & grace in by ISL every year
-                      </a>
-                    </h4>
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://islengg.ac.in/gallery/image/engg.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Engineers Day</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Engineers Day is celebrated with pomp & grace every year
+                        in ISL
+                      </ReadMoreAndLess>
+                    </p>
                   </div>
                 </div>
               </div>
+
               <div className="col-lg-2 col-sm-6 mb-10">
-                <div className="single_courses courses_gray">
-                  <div className="courses_image">
-                    <img
-                      src="https://www.islengg.ac.in/gallery/image/motivatiospeechsas.jpeg"
-                      alt="courses"
-                    />
-                  </div>
-                  <div className="courses_content">
-                    <div className="courses_author d-flex">
-                      <div className="author_name media-body">
-                        <a href="https://islengg.ac.in">
-                          Motivational Sessions
-                        </a>
-                      </div>
-                    </div>
-                    <h4 className="title">
-                      <a href="https://islengg.ac.in">
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://www.islengg.ac.in/gallery/image/motivatiospeechsas.jpeg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Motivational Sessions</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
                         Motivational sessions encourage students to make
                         valuable contributions in their student and professional
                         life.
-                      </a>
-                    </h4>
+                      </ReadMoreAndLess>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -281,7 +286,7 @@ class Home extends React.Component {
         </section>
 
         <section className="why_choose_area pt-60 pb-230">
-          <div className="container-fluid">
+          <div className="container">
             <div className="row">
               <div className="col-lg-6">
                 <div className="why_choose_content">
@@ -296,12 +301,6 @@ class Home extends React.Component {
                   <div className="row">
                     <div className="col-sm-6 choose_col">
                       <div className="single_choose mt-30">
-                        <div className="choose_icon">
-                          <img
-                            src="https://lh3.googleusercontent.com/UopasBK0MROxPtM_TUdzm7JYICXE9JjsEITRfA9TCnaOsubTyMzJxu8Zj33UxXGbtz3PylJ78CsVRvzM9MCayBM0VC5QN3iL1B3t_v29rpmLH37I12qYXhTRhFf7yPPeX1RM-1a9MQoizqUZbeLMqD2f4S0tG0hCUF2fOVx3RzW6yHEiYovaezHhSd-1IX4HkN-2S5O2acRD-r15xl38-7cCrX8D5-cI0PCGz-EPHDcdTpdeu4UuRZ1s-DRmIDYJ9D5NjC-QjgIEWwNAJYhO3T7vDKmq2cKHFxeNXEG2c6Gc7iCDSfGWNJAHoqHSyeotGrB4-JuR6JJpv6BA1bCtuTjT97rJF8qSpZ3_oZmoAD92smZ7y9ACqzsK5ON7vx4nPEonF6cGKTnfkA5-vzCuuRoa18bZOcwLc0pTVbT3YNxObb4cGe5Y7WcE2MhgJo0WMqotfOLOGqPx_j7cNv_yXWApJgMFLJKnr_2u8czs5r7I5SiGeRaHINxbyrAKRBtp1pVBc46tcC2o4IXTp-aMkfQGHosRM7euiU46Zyr2AUaCtMgjdbudDsk67o730y87pCFhSI4u2-iquMk8ZUyVKiJiF1jpxZP8msgMw8Fq__cMbbeFHleJaLFefhLzBtuXL51nkuLy2VZup6qhsBaDudazrm96yvxAaaDNhjqtfqtZh81CUdxjXnjdgtc2CA=s40-no?authuser=1"
-                            alt="Icon"
-                          />
-                        </div>
                         <div className="choose_content">
                           <h5 className="title">
                             <a href="#/">Big Library</a>
@@ -315,12 +314,6 @@ class Home extends React.Component {
                     </div>
                     <div className="col-sm-6 choose_col">
                       <div className="single_choose mt-30">
-                        <div className="choose_icon">
-                          <img
-                            src="https://lh3.googleusercontent.com/VDn3paKPgUap8_Lx2q6VfQm6j03-mhT_NoDFCr6pWFl4zkMI6SW82O2s2BJZtIvVFcgtHqosb6Mh5VSBnbtULzyk_Moi7QId6RN2ehQX3_SfcNUg169CZDPJttCDgNVFp1PyduvNV2od5_sypenm3KZrBJpXAu0QTi7MEwHyztT_B25KJXPnHdWpMznZ4bcUILbPAqwmBFa1wbMM5f_MfE3Y_DyYGtdeDrUL6T-i1Wdgc5cS-IEYjnDbPaetHXWvLtiotOCxJxJQAeKs0EHUQwrfs51WxtBFyKgF3dciCCpRI3TqS-0cK0ZVxeQ2lN0Ip0Ad-OhT5hyOQHtAHrMxtUT6625mBec-F4WEG6pkSoTZX-VXYM9KlnkFBkWp0DZutkeOmsGMmB5cZm5aT3TW9dhfCWUMkM7PVmPkR2mo0B4k_PFCr6hKsNfp96yjtx_tf-KF1yoZzh_Xt4LBi0ZbLfYdHhIELsxhr1M5TlHeLS02_j9HOx465yu4n1_vTOy2UUrA3BaLhluotbNytfn5DnbIyGu65ok_a8yOcj9CK4NYKr7-treWK26GmxofK8QLhGN0YHrkHGfL6yBOrYK5r-zSx9n4tGgEK_tvNkE1H_tA4xsQQMcvXjM6gLkoS-dbSGfPUyOZ4tySGu5NdH0eDSSpQ3jDAce20fJ7hjBEOKF1-MwOa8sSfWrWTYxUhw=s40-no?authuser=1"
-                            alt="Icon"
-                          />
-                        </div>
                         <div className="choose_content">
                           <h5 className="title">
                             <a href="#/">Certification</a>
@@ -334,12 +327,6 @@ class Home extends React.Component {
                     </div>
                     <div className="col-sm-6 choose_col">
                       <div className="single_choose mt-30">
-                        <div className="choose_icon">
-                          <img
-                            src="https://lh3.googleusercontent.com/6GA-t7YPB92Uz_MG6pdEE7W1nVKYXz6MY5cohlacbHT04JrpWCj-qssVnJzX0Erm_onYj5Oqe0tNxAeKZdyi2njjiYcS1K0lvw0LS7PSD-n6G38JPL7vRFv5AO7kYNsv7OO_JdfYyhWzyTG2HZAxJi7LCkeLuJFC_uNw5wThpQJwgb9A03Zjwi9NCcmG96GifYb0Kz9a-_mqmgHwrhIN40oltPdywZQAWtLsqUMXKhHpF6JRuFXc31O3v_ayib9To06f5uZd84afaaK4awfm_pEXw1Dlpcy2vBEgip8g9A4QxETGYuuwaMpOFAZww0rRBSnfWSLs_FmEZyfmH6mMsWPJy2Aa82V60H2whyKs98okOdfTuTFieJVGMU5uHo7IKDFWIUjrRczRWSLfsl7g9juH9fUqfFpulpRRR78HB1k9zSQ7TvhFOCsTwS5_33jnL_8OZeZXRn12tyn08b_NnfovbH8ku8KRc2nqnaqL5Q5Kv-r7n4NScMXYt_jVJLfDjiGc4mvb-h5hDtZeNRMlNwesjy9Bck2E-pIVcq8r-2FgxOUR8mxm2Re5evLpV0j6NVuKCTfdWW4HUCPFjvluRWPrRMHhLScTgPfP0V8LY0cxRzoH4wzAspeEhEu3K09Cz_hJ6biEU_Stso41Sf4UGnVdKn-t65nDO88uBP53_1MSHRs43ZlJ9pYoNmFoRQ=s40-no?authuser=1"
-                            alt="Icon"
-                          />
-                        </div>
                         <div className="choose_content">
                           <h5 className="title">
                             <a href="#/">Alumnai</a>
@@ -353,12 +340,6 @@ class Home extends React.Component {
                     </div>
                     <div className="col-sm-6 choose_col">
                       <div className="single_choose mt-30">
-                        <div className="choose_icon">
-                          <img
-                            src="https://lh3.googleusercontent.com/VDn3paKPgUap8_Lx2q6VfQm6j03-mhT_NoDFCr6pWFl4zkMI6SW82O2s2BJZtIvVFcgtHqosb6Mh5VSBnbtULzyk_Moi7QId6RN2ehQX3_SfcNUg169CZDPJttCDgNVFp1PyduvNV2od5_sypenm3KZrBJpXAu0QTi7MEwHyztT_B25KJXPnHdWpMznZ4bcUILbPAqwmBFa1wbMM5f_MfE3Y_DyYGtdeDrUL6T-i1Wdgc5cS-IEYjnDbPaetHXWvLtiotOCxJxJQAeKs0EHUQwrfs51WxtBFyKgF3dciCCpRI3TqS-0cK0ZVxeQ2lN0Ip0Ad-OhT5hyOQHtAHrMxtUT6625mBec-F4WEG6pkSoTZX-VXYM9KlnkFBkWp0DZutkeOmsGMmB5cZm5aT3TW9dhfCWUMkM7PVmPkR2mo0B4k_PFCr6hKsNfp96yjtx_tf-KF1yoZzh_Xt4LBi0ZbLfYdHhIELsxhr1M5TlHeLS02_j9HOx465yu4n1_vTOy2UUrA3BaLhluotbNytfn5DnbIyGu65ok_a8yOcj9CK4NYKr7-treWK26GmxofK8QLhGN0YHrkHGfL6yBOrYK5r-zSx9n4tGgEK_tvNkE1H_tA4xsQQMcvXjM6gLkoS-dbSGfPUyOZ4tySGu5NdH0eDSSpQ3jDAce20fJ7hjBEOKF1-MwOa8sSfWrWTYxUhw=s40-no?authuser=1"
-                            alt="Icon"
-                          />
-                        </div>
                         <div className="choose_content">
                           <h5 className="title">
                             <a href="#/">Abroad Student</a>
@@ -378,14 +359,14 @@ class Home extends React.Component {
           <div className="why_choose_image d-none d-lg-table">
             <div className="image">
               <img
-                src="https://islengg.ac.in/gallery/image/WhatsApp%20Image%202020-08-12%20at%2017.40.39.jpeg"
+                src="https://i.ibb.co/P6r70fF/Whats-App-Image-2020-08-12-at-17-40-39-1.jpg"
                 alt=""
               />
             </div>
           </div>
         </section>
 
-        <section className="about_area_2 d-flex flex-wrap">
+        <section className="about_area_2 d-flex flex-wrap pt-90">
           <div className="about_video bg_cover">
             <div className="video">
               <ModalVideo
@@ -445,7 +426,7 @@ class Home extends React.Component {
             </div>
             <abbr className="all-research-btn2">
               <a href="https://islengg.ac.in">
-                View All{' '}
+                View All{" "}
                 <i className="fa fa-arrow-right" aria-hidden="true"></i>
               </a>
             </abbr>
@@ -462,7 +443,7 @@ class Home extends React.Component {
                   <p>
                     &#8220;
                     <span className="font-weight-bold">
-                      Robot that can deliver medicines to patients{' '}
+                      Robot that can deliver medicines to patients{" "}
                     </span>
                     &#8221;. ECE Department Students recieved invitation from
                     Chief Secretary Telangana
@@ -672,8 +653,8 @@ class Home extends React.Component {
           </Container>
         </section>
       </>
-    )
+    );
   }
 }
 
-export default Home
+export default Home;
