@@ -1,5 +1,5 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
 const Contact = () => {
   return (
     <>
@@ -88,7 +88,7 @@ const Contact = () => {
                       </div>
                       <div className="info_content media-body">
                         <p>
-                          International Airport Road, Bandlaguda 500005 <br />{" "}
+                          International Airport Road, Bandlaguda 500005 <br />{' '}
                           Hyderabad, India
                         </p>
                       </div>
@@ -126,7 +126,7 @@ const Contact = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

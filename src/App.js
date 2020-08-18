@@ -20,6 +20,8 @@ import Research from './Components/Pages/Research/components/publication'
 import NavBar from './Components/Common/NavigationBar'
 import Footer from './Components/Common/Footer'
 import TopNav from './Components/Pages/Home/TopAlert'
+import Enquiry from './Components/Pages/Home/Enquiry'
+
 import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -29,6 +31,7 @@ function App() {
       <Router>
         <TopNav />
         <NavBar />
+        <Enquiry />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/syllabus" component={Syllabus} />
