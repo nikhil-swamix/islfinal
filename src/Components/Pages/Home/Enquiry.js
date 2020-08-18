@@ -66,7 +66,7 @@ class Enquiry extends Component {
 
   render() {
     return (
-      <div>
+      <div className="admission">
         <Modal show={this.state.show} onHide={this.handleClose}>
           <Modal.Dialog>
             <Modal.Header closeButton>
