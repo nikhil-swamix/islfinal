@@ -7,6 +7,7 @@ import News from './components/News'
 import Check from './components/Check'
 import ReadMoreAndLess from 'react-read-more-less'
 import Admission from './Enquiry'
+import BottomAlert from './BottomAlert'
 
 class Home extends React.Component {
   constructor() {
@@ -39,7 +40,7 @@ class Home extends React.Component {
         <div className="nptel1">
           <a
             href="#/apply"
-            class="nptel_content1 nptel_label1"
+            className="nptel_content1 nptel_label1"
             onClick={this._onButtonClick}
           >
             Apply Now
@@ -47,6 +48,9 @@ class Home extends React.Component {
           {this.state.showComponent ? <Admission /> : null}
         </div>
 
+        <div className="bottom_alert">
+          <BottomAlert />
+        </div>
         <Container fluid style={{ padding: '0px' }}>
           <Karousel />
         </Container>

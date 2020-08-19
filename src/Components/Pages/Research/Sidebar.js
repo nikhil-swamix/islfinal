@@ -10,7 +10,7 @@ class Sidebar extends React.Component {
   }
   getPosts() {
     axios
-      .get('https://backend-isl.herokuapp.com/api/quicklinks/academics')
+      .get('https://mern1ayaz.herokuapp.com/api/sidebars/research')
       .then((response) => {
         this.setState({
           quicklink_list: response.data,
@@ -33,21 +33,17 @@ class Sidebar extends React.Component {
           <div className="sidebar-info">
             {!isLoading ? (
               quicklink_list.map((quicklist) => {
-                const { _id, title, link, type } = quicklist
+                const { _id, title, link } = quicklist
                 return (
                   <ul>
                     <li key={_id}>
                       <a href={link}>
                         {title}
                         <span>
-                          {type === 'internal' ? (
-                            <i class="fa fa-file" aria-hidden="true"></i>
-                          ) : (
-                            <i
-                              class="fa fa-external-link"
-                              aria-hidden="true"
-                            ></i>
-                          )}
+                          <i
+                            className="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
                         </span>
                       </a>
                     </li>

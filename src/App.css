@@ -11,6 +11,10 @@ body {
 .admission .modal-dialog {
   margin: 0px auto !important;
 }
+
+.bottom_alert .alert {
+  padding-top: 20px !important;
+}
 .alert {
   margin-bottom: 0rem !important;
   padding-top: 10px !important;
@@ -50,6 +54,21 @@ a:hover {
   color: #ffffff;
   text-decoration: none !important;
 }
+.bottom_alert {
+  bottom: -2px;
+  position: fixed;
+  margin: 0;
+  text-decoration: none;
+  text-align: center;
+  z-index: 200;
+  width: 100%;
+}
+
+.alertContent a {
+  text-decoration: none !important;
+  margin-right: 20px !important;
+}
+
 .nptel_label {
   left: -2px;
   cursor: pointer;
@@ -83,7 +102,7 @@ a:hover {
   font-weight: bold;
   border-style: solid;
   display: block;
-  z-index: 100000;
+  z-index: 100;
 }
 
 .nptel1 a:hover {
@@ -123,7 +142,7 @@ a:hover {
   font-weight: bold;
   border-style: solid;
   display: block;
-  z-index: 100000;
+  z-index: 100;
 }
 
 .navbar-light .navbar-nav .nav-link {

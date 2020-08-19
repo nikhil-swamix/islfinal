@@ -13,8 +13,8 @@ const NavigationBar = () => {
                 <div className="header_left">
                   <ul className="header_ul">
                     <li>
-                      <a href="tel:+04012345678">
-                        <span className="fa fa-phone"></span>040 - 29880083
+                      <a href="tel:040 - 29880083+04012345678">
+                        <span className="fa fa-phone"></span> 040 - 29880083
                       </a>
                     </li>
                     <li>

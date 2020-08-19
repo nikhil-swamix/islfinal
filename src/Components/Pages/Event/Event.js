@@ -6,6 +6,7 @@ import Inbound from './components/Inbound'
 import Outbound from './components/Outbound'
 import Sports from './components/Sports'
 import Industrial from './components/Industrial'
+import Sidebar from './Sidebar'
 
 const Event = () => {
   return (
@@ -86,46 +87,8 @@ const Event = () => {
                     <Nav.Link eventKey="industrial">Industrial Visits</Nav.Link>
                   </Nav.Item>
                 </Nav>
-                <div className="sidebar-item category">
-                  <div className="title">
-                    <h4>Quick Links</h4>
-                  </div>
-                  <div className="sidebar-info">
-                    <ul>
-                      <li>
-                        <a href="#t">
-                          Time Table{' '}
-                          <span>
-                            <i class="fa fa-file" aria-hidden="true"></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#t">
-                          NPTEL Online Courses{' '}
-                          <span>
-                            <i class="fa fa-file-pdf-o" aria-hidden="true"></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#t">
-                          Guest Lectures Conducted{' '}
-                          <span>
-                            <i class="fa fa-list" aria-hidden="true"></i>
-                          </span>
-                        </a>
-                      </li>
-                      <li>
-                        <a href="#t">
-                          mentors List{' '}
-                          <span>
-                            <i class="fa fa-file" aria-hidden="true"></i>
-                          </span>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                <div>
+                  <Sidebar />
                 </div>
               </Col>
             </Row>
