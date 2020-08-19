@@ -39,7 +39,7 @@ class Syllabus extends React.Component {
     const tableColumns = [
       { title: 'Sem', prop: 'sem' },
       { title: 'Type', prop: 'type' },
-      { title: 'Syllabus', prop: 'syllabus', render: renderSyllabusUrl },
+      { title: 'Download', prop: 'syllabus', render: renderSyllabusUrl },
     ]
 
     return (

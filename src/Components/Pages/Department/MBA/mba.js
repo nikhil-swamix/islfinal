@@ -77,7 +77,7 @@ const mba = () => {
                 <Tabs className="dept-tab">
                   <TabList>
                     <Tab>Overview</Tab>
-                    <Tab>Syllabus</Tab>
+                    <Tab>Curriculum</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">

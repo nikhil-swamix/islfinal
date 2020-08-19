@@ -6,14 +6,22 @@ import Reecent from './components/Reecent'
 import News from './components/News'
 import Check from './components/Check'
 import ReadMoreAndLess from 'react-read-more-less'
+import Admission from './Enquiry'
 
 class Home extends React.Component {
   constructor() {
     super()
     this.state = {
       isOpen: false,
+      showComponent: false,
     }
     this.openModal = this.openModal.bind(this)
+    this._onButtonClick = this._onButtonClick.bind(this)
+  }
+  _onButtonClick() {
+    this.setState({
+      showComponent: true,
+    })
   }
 
   openModal() {
@@ -27,6 +35,18 @@ class Home extends React.Component {
             NPTEL
           </a>
         </div>
+
+        <div className="nptel1">
+          <a
+            href="#/apply"
+            class="nptel_content1 nptel_label1"
+            onClick={this._onButtonClick}
+          >
+            Apply Now
+          </a>
+          {this.state.showComponent ? <Admission /> : null}
+        </div>
+
         <Container fluid style={{ padding: '0px' }}>
           <Karousel />
         </Container>
@@ -296,7 +316,7 @@ class Home extends React.Component {
                     </p>
                   </div>
                   <div className="row">
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -319,7 +339,7 @@ class Home extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -342,7 +362,7 @@ class Home extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -364,7 +384,7 @@ class Home extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -387,7 +407,7 @@ class Home extends React.Component {
                       </div>
                     </div>
 
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -411,7 +431,7 @@ class Home extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -434,7 +454,7 @@ class Home extends React.Component {
                         </div>
                       </div>
                     </div>
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -457,7 +477,7 @@ class Home extends React.Component {
                       </div>
                     </div>
 
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">
@@ -479,7 +499,7 @@ class Home extends React.Component {
                       </div>
                     </div>
 
-                    <div className="col-sm-4 choose_col">
+                    <div className="col-sm-4 choose_col  col-xs-6">
                       <div className="single_choose mt-30">
                         <div className="choose_content">
                           <h5 className="title">

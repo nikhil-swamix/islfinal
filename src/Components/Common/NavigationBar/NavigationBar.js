@@ -34,7 +34,7 @@ const NavigationBar = () => {
                       <a href="#/">Online Fee</a>
                     </li>
                     <li>
-                      <a href="/contact">Contact</a>
+                      <a href="/">Contact</a>
                     </li>
                   </ul>
                 </div>
@@ -69,7 +69,7 @@ const NavigationBar = () => {
       <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Navbar.Brand as={Link} to="/" className="m-auto">
           <img
-            src="https://www.islengg.ac.in/images/islLogoDesktop.png"
+            src="https://i.ibb.co/2t1dcK0/isl-Logo-Desktop.png"
             className="img-fluid"
             alt="College Logo"
           />

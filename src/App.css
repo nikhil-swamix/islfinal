@@ -85,6 +85,47 @@ a:hover {
   display: block;
   z-index: 100000;
 }
+
+.nptel1 a:hover {
+  color: #ffffff;
+  text-decoration: none !important;
+}
+.nptel_label1 {
+  right: -70px !important;
+  cursor: pointer;
+  -webkit-transform-origin: 0 0;
+  -moz-transform-origin: 0 0;
+  -o-transform-origin: 0 0;
+  -ms-transform-origin: 0 0;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(90deg);
+  -moz-border-radius-bottomright: 0px;
+  border-top-right-radius: 10px;
+  -moz-border-radius-bottomleft: 0px;
+  border-bottom-left-radius: 0px;
+  top: 500px;
+  transform: rotate(270deg);
+  background-color: #192f59;
+  color: #ffffff;
+  border-style: solid;
+  border-width: 0px;
+}
+.nptel_content1 {
+  position: fixed;
+  margin: 0;
+  padding: 6px 13px 8px 13px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  border-style: solid;
+  display: block;
+  z-index: 100000;
+}
+
 .navbar-light .navbar-nav .nav-link {
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
@@ -94,7 +135,7 @@ a:hover {
   padding-right: 17px !important;
   padding-left: 17px !important;
   letter-spacing: 0px;
-  color: #07294d !important;
+  color: #192f59 !important;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
   padding: 16px 305px 16px 15px;
@@ -788,7 +829,7 @@ abbr.all-research-btn2 a {
   border-radius: inherit;
   background: #fcc741 none repeat scroll 0 0;
   border: 1px solid transparent;
-  color: #002147;
+  color: #192f59;
 }
 
 .react-tabs__tab:focus {
@@ -886,6 +927,9 @@ abbr.all-research-btn2 a {
   border-top: 1px solid #dee2e6;
 }
 .syll input {
+  display: none;
+}
+/* .syll input {
   outline: 0;
   height: 42px;
   width: 290px;
@@ -900,7 +944,7 @@ abbr.all-research-btn2 a {
   border-radius: inherit;
   box-shadow: inherit;
   margin-bottom: 15px;
-}
+} */
 /*Research and dev*/
 .research .pagination {
   position: absolute;
@@ -1067,7 +1111,7 @@ abbr.all-research-btn2 a {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  color: #002147;
+  color: #192f59;
   float: right;
   padding: 0 5px;
   position: relative;
@@ -1311,6 +1355,9 @@ abbr.all-research-btn2 a {
 
 /* small mobile :320px. */
 @media (min-width: 276px) and (max-width: 767.98px) {
+  .navbar img {
+    width: 220px;
+  }
   .header_left ul li a {
     font-size: 13px;
     color: #fff;
@@ -1838,7 +1885,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #002147;
+  color: #192f59;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: 0;

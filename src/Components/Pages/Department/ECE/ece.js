@@ -81,7 +81,7 @@ const ece = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
-                    <Tab>Syllabus</Tab>
+                    <Tab>Curriculum</Tab>
                     <Tab>Labs</Tab>
                   </TabList>
 
