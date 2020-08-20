@@ -8,6 +8,7 @@ import Check from './components/Check'
 import ReadMoreAndLess from 'react-read-more-less'
 import Admission from './Enquiry'
 import BottomAlert from './BottomAlert'
+import Enquiry from './Enquiry'
 
 class Home extends React.Component {
   constructor() {
@@ -31,6 +32,7 @@ class Home extends React.Component {
   render() {
     return (
       <>
+        <Enquiry />
         <div className="nptel">
           <a href="https://nptel.ac.in/" class="nptel_content nptel_label">
             NPTEL

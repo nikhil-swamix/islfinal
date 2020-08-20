@@ -35,6 +35,12 @@ body {
   color: #215888;
   font-weight: bolder;
 }
+.bottom_alert .alert p {
+  color: #ffffff;
+}
+.bottom_alert .alert-dark {
+  border-color: #192f59 !important;
+}
 
 a:hover {
   text-decoration: none !important;
@@ -102,7 +108,7 @@ a:hover {
   font-weight: bold;
   border-style: solid;
   display: block;
-  z-index: 100;
+  z-index: 10;
 }
 
 .nptel1 a:hover {
@@ -142,7 +148,7 @@ a:hover {
   font-weight: bold;
   border-style: solid;
   display: block;
-  z-index: 100;
+  z-index: 10;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -1757,6 +1763,11 @@ p {
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+  .alertContent a {
+    text-decoration: none !important;
+    margin-right: 0px !important;
+  }
+
   .single_guest .team_image {
     width: 100%;
   }

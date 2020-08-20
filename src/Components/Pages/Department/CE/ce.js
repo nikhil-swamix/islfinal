@@ -33,7 +33,7 @@ const ce = () => {
                   </ul>
                 </div>
 
-                <div className="d-flex flex-wrap">
+                {/* <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_image">
                       <img
@@ -61,7 +61,7 @@ const ce = () => {
                       </h6>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </Col>
           </Row>

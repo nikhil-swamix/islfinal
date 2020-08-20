@@ -1,10 +1,12 @@
 import React from 'react'
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
+import TopAlert from '../../Pages/Home/TopAlert'
 
 const NavigationBar = () => {
   return (
     <>
+      <TopAlert />
       <header>
         <div className="header-top">
           <Container fluid>
@@ -69,7 +71,7 @@ const NavigationBar = () => {
       <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Navbar.Brand as={Link} to="/" className="m-auto">
           <img
-            src="https://i.ibb.co/2t1dcK0/isl-Logo-Desktop.png"
+            src="https://i.ibb.co/wSVW3mq/312-x-35.png"
             className="img-fluid"
             alt="College Logo"
           />
@@ -128,15 +130,18 @@ const NavigationBar = () => {
                 Master of Business Administraion
               </NavDropdown.Item>
             </NavDropdown>
-            <Link to="/events">
-              <Nav.Link href="#blog">Events</Nav.Link>
-            </Link>
-            <Link to="/research">
-              <Nav.Link href="#research">Research & Development</Nav.Link>
-            </Link>
-            <Link to="/contact">
-              <Nav.Link href="#contact">Contact</Nav.Link>
-            </Link>
+
+            <Nav.Link href="#events" as={Link} to="/events">
+              Events
+            </Nav.Link>
+
+            <Nav.Link href="#Research" as={Link} to="/research">
+              Research & Development
+            </Nav.Link>
+
+            <Nav.Link href="#contact" as={Link} to="/contact">
+              Contact
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

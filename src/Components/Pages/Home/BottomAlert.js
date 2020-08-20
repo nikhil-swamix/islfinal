@@ -18,12 +18,19 @@ class BottomAlert extends React.Component {
     return (
       <React.Fragment>
         {isActive ? (
-          <div className="alert alert-dark alert-dismissible " role="alert">
+          <div
+            className="alert alert-dark alert-dismissible "
+            style={{
+              backgroundColor: '#192f59',
+              color: 'white',
+            }}
+            role="alert"
+          >
             <p className="alertContent">
-              Newsletter, Brochure & Booklet{' '}
+              Download our Newsletter, Brochure & Booklet{' '}
               <a
                 href="https://drive.google.com/file/d/1AueQSqZcrH6p0pfq-EoNahbIq9VRgjsm/view"
-                class="btn btn-primary btn-sm active"
+                class="btn btn-primary btn-md active"
                 role="button"
                 aria-pressed="true"
               >
@@ -31,7 +38,7 @@ class BottomAlert extends React.Component {
               </a>
               <a
                 href="https://drive.google.com/file/d/1W1zyVr8zmE_OGt6ibgJyb8voECePDwbY/view"
-                class="btn btn-secondary btn-sm active"
+                class="btn btn-secondary btn-md active"
                 role="button"
                 aria-pressed="true"
               >
@@ -39,11 +46,11 @@ class BottomAlert extends React.Component {
               </a>
               <a
                 href="https://drive.google.com/file/d/1v3wDuxFOuomXZJ5e4VkV3VX4FChoEdvi/view"
-                class="btn btn-info btn-sm active"
+                class="btn btn-info btn-md active"
                 role="button"
                 aria-pressed="true"
               >
-                College Booklet
+                Booklet
               </a>
             </p>
 

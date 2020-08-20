@@ -67,7 +67,16 @@ class Enquiry extends Component {
   render() {
     return (
       <div className="admission">
-        <Modal show={this.state.show} onHide={this.handleClose}>
+        <Modal
+          size="lg"
+          show={this.state.show}
+          onHide={this.handleClose}
+          className="text-center"
+        >
+          <h5 className="mt-5">
+            For Management quota Seats, call : 9985958422, 9989405490
+          </h5>
+
           <Modal.Dialog>
             <Modal.Header closeButton>
               <Modal.Title>Admissions 2020 - Enquiry Form</Modal.Title>
@@ -91,7 +100,7 @@ class Enquiry extends Component {
                   <Form.Group as={Col}>
                     <Form.Label>Mobile</Form.Label>
                     <Form.Control
-                      type="mobile"
+                      type="number"
                       placeholder="Mobile No"
                       required
                       name="mobile"
