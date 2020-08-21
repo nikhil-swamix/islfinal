@@ -49,7 +49,7 @@ class News extends React.Component {
                     <header>
                       <a href={link}>
                         {title}{' '}
-                        {link.length === 2 ? (
+                        {link ? (
                           <i class="fa fa-external-link" aria-hidden="true"></i>
                         ) : (
                           ''
