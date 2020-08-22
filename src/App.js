@@ -20,6 +20,8 @@ import Research from './Components/Pages/Research/components/publication'
 import NavBar from './Components/Common/NavigationBar'
 import Footer from './Components/Common/Footer'
 import Payment from './Components/Pages/Other/components/payment'
+import AllNews from './Components/Pages/Other/components/allnews'
+import Exambranch from './Components/Pages/Exambranch'
 import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -45,7 +47,11 @@ function App() {
           <Route path="/department/me" component={ME} />
           <Route path="/department/ce" component={CE} />
           <Route path="/department/mba" component={MBA} />
+          <Route path="/news" component={AllNews} />
+          <Route path="/exambranch" component={Exambranch} />
+
           <Route path="/payment" component={Payment} />
+
           <Route component={NotFound} />
         </Switch>
         <Footer />

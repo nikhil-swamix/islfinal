@@ -125,7 +125,9 @@ class Home extends React.Component {
             <Row>
               <Col md={4} className="pt-25">
                 <News />
-                <div className="stick-bottom">All News →</div>
+                <a href="/news" className="stick-bottom">
+                  All News →
+                </a>
               </Col>
               <Col md={4} className="pt-25">
                 <Check />
@@ -140,7 +142,9 @@ class Home extends React.Component {
                   </Row>
                 </section>
 
-                <div className="stick-bottom">All Recents →</div>
+                <a href="/events" className="stick-bottom">
+                  All Recents →
+                </a>
               </Col>
             </Row>
           </Container>
@@ -174,7 +178,11 @@ class Home extends React.Component {
                         readLessText="Read less"
                       >
                         Espirit is one of the finest Cultural event of ISL
-                      </ReadMoreAndLess>
+                      </ReadMoreAndLess>{' '}
+                      <a href="https://photos.app.goo.gl/2GKx2HbRnh6aJ2Vh9">
+                        {' '}
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -200,6 +208,9 @@ class Home extends React.Component {
                         Enthusiac is an Annual Sports Meet of ISL. Scintillating
                         performance creates aura of festivit
                       </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/8H5kvb6gRw7dgqzb7">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -224,6 +235,9 @@ class Home extends React.Component {
                       >
                         Eloquence The English Festival of ISL.
                       </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/iCdtZ7j4BxKLe5Lr7">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -249,6 +263,9 @@ class Home extends React.Component {
                         Departmental Projects Showcase by the Students in every
                         Semester
                       </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/HzSb4fC6fPButvfr7">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -274,6 +291,9 @@ class Home extends React.Component {
                         Engineers Day is celebrated with pomp & grace every year
                         in ISL
                       </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/xtAA8mZ5SGidk1Y56">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -300,6 +320,9 @@ class Home extends React.Component {
                         valuable contributions in their student and professional
                         life.
                       </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/XbHg1NG6KMRtRfyD9">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
                     </p>
                   </div>
                 </div>
@@ -595,9 +618,9 @@ class Home extends React.Component {
               </h2>
             </div>
             <abbr className="all-research-btn2">
-              <a href="https://islengg.ac.in">
+              <a href="/events">
                 View All{' '}
-                <i className="fa fa-arrow-right" aria-hidden="true"></i>
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i>
               </a>
             </abbr>
             <Row>

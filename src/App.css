@@ -8,6 +8,52 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #192f59 !important;
+}
+
+.courses_area a {
+  color: #3db166;
+}
+
+.exambranch .syll .table td,
+.table th {
+  text-transform: none;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.allnews .syll .table td,
+.table th {
+  text-transform: none;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.allnews .syll ul {
+  display: none;
+}
+
+.exambranch .syll ul {
+  display: none;
+}
+.recents .carousel-indicators {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+}
+.recents ol {
+  margin-bottom: 0px !important;
+}
+.recents .carousel-indicators {
+  width: auto !important;
+  background: rgba(0, 0, 0, 0.6) !important;
+}
+
 .admission .modal-dialog {
   margin: 0px auto !important;
 }
@@ -951,6 +997,7 @@ abbr.all-research-btn2 a {
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
+
 .syll input {
   display: none;
 }
