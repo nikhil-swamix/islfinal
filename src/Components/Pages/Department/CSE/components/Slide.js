@@ -36,7 +36,7 @@ class Slide extends React.Component {
         <Carousel>
           {!isLoading ? (
             carousel_list.map((carousel) => {
-              const { _id, img } = carousel
+              const { _id, img, descp } = carousel
               return (
                 <Carousel.Item>
                   <img
@@ -45,6 +45,10 @@ class Slide extends React.Component {
                     className="img-fluid d-block w-100"
                     alt="CE Carousel Images"
                   />
+
+                  <Carousel.Caption>
+                    <p>{descp}</p>
+                  </Carousel.Caption>
                 </Carousel.Item>
               )
             })

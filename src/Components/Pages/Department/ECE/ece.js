@@ -71,7 +71,7 @@ const ece = () => {
         </Container>
       </section>
 
-      <section className="course-details-area pt-60 pb-60">
+      <section className="course-details-area dept pt-60 pb-60">
         <Container>
           <Row>
             <Col lg={8} md={8}>
