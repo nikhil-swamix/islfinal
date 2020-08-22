@@ -46,7 +46,7 @@ class Table extends React.Component {
     return (
       <>
         {!isLoading ? (
-          <div className="syll text-center table-responsive">
+          <div className="text-center table-responsive">
             <p className="font-weight-bold">
               Year I Common Group-A(ECE, IT, ME) -- Group-B(CE, CSE, EEE)
             </p>

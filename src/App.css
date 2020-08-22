@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.nur a {
+  color: #192f59 !important;
+}
+
 .dept .carousel-caption {
   position: absolute;
   background: rgba(0, 0, 0, 0.6) !important;
@@ -1015,13 +1019,12 @@ abbr.all-research-btn2 a {
   border-top: 1px solid #dee2e6;
 }
 
-.syll input {
-  display: none;
+.academic .syll input {
 }
-/* .syll input {
+ .academic .syll  input {
   outline: 0;
   height: 42px;
-  width: 290px;
+  width: 450px;
   line-height: 42px;
   padding: 0 6px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -1033,7 +1036,7 @@ abbr.all-research-btn2 a {
   border-radius: inherit;
   box-shadow: inherit;
   margin-bottom: 15px;
-} */
+} 
 /*Research and dev*/
 .research .pagination {
   position: absolute;
@@ -1088,12 +1091,16 @@ abbr.all-research-btn2 a {
   border-top: 1px solid #dee2e6;
 }
 
+.syll input {
+  display: none;
+}
 /**/
 
-.syllabus .syll input {
+ .academic input {
   outline: 0;
   height: 42px;
-  width: 290px;
+  width: 450px;
+  margin-left: 25px;
   line-height: 42px;
   padding: 0 6px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -1105,6 +1112,24 @@ abbr.all-research-btn2 a {
   border-radius: inherit;
   box-shadow: inherit;
   margin-bottom: 15px;
+}
+.academic input {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='100%'><text x='20' y='25' fill='gray' font-size='15'> Type Depart Name CE, ECE, CSE, IT, EEE, ME </text></svg>");
+  background-repeat: no-repeat;
+}
+.academic input:focus {
+  outline: 0;
+  background-color: #fff;
+  background-image: none;
+
+}
+
+
+.academic label, select{
+  display: none;
+}
+.academic .pagination {
+  display: none;
 }
 
 .syll input:focus {
@@ -2182,10 +2207,18 @@ a {
 }
 
 .a2b1 {
-  background-image: url(https://i.ibb.co/8XpdTPL/football.jpg);
+  background-image: url(https://www.islengg.ac.in/gallery/image/Pic-2.png);
 }
 .a2b2 {
-  background-image: url(https://i.ibb.co/gZSqr1R/conv.jpg);
+  background-image: url(https://www.islengg.ac.in/gallery/image/Pic-3.png);
+}
+
+
+.a2b3 {
+  background-image: url(https://www.islengg.ac.in/gallery/image/Pic-3.png);
+}
+.a2b4 {
+  background-image: url(https://www.islengg.ac.in/gallery/image/Pic-3.png);
 }
 
 .about_video::before {
@@ -2293,7 +2326,34 @@ a {
   padding: 40px;
 }
 
-.single_about_2 .about_2_content .about_2_content_wrapper {
+
+.single_about_2 .about_2_content  .about_2_content_wrapper1 {
+  background-image: url("https://i.ibb.co/HVgVGqr/Pic-1.png");
+  background-repeat: no-repeat, repeat;
+  max-width: 390px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.single_about_2 .about_2_content .about_2_content_wrapper2 {
+  background-image: url("https://i.ibb.co/6FgTqS2/Pic-2.png");
+  background-repeat: no-repeat, repeat;
+  max-width: 390px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.single_about_2 .about_2_content .about_2_content_wrapper4 {
+  background-image: url("https://i.ibb.co/6FgTqS2/Pic-2.png");
+  background-repeat: no-repeat, repeat;
+  max-width: 390px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.single_about_2 .about_2_content .about_2_content_wrapper3 {
+  background-image: url("https://i.ibb.co/s6DJ60R/Pic-3.png");
+  background-repeat: no-repeat, repeat;
   max-width: 390px;
   display: table-cell;
   vertical-align: middle;

@@ -34,7 +34,7 @@ const Syllabus = () => {
           </Row>
         </Container>
       </section>
-      <section className="mt-60">
+      <section className="mt-60 academic">
         <Container>
           <Row>
             <Col lg={4} md={4} className="sidebar academic">
@@ -42,7 +42,7 @@ const Syllabus = () => {
                 <Sidebar />
               </aside>
             </Col>{" "}
-            <Col lg={8} className="syllabus">
+            <Col lg={8} >
               <Table />
             </Col>
           </Row>

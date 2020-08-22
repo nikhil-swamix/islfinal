@@ -120,7 +120,7 @@ class Home extends React.Component {
           </Container>
         </section>
 
-        <section className="">
+        <section className="nur">
           <Container fluid>
             <Row>
               <Col md={4} className="pt-25">
@@ -192,11 +192,11 @@ class Home extends React.Component {
                 <div class="card">
                   <img
                     className="card-img-top"
-                    src="https://i.ibb.co/b6mfmDY/enthusiac.jpg"
+                    src="https://www.islengg.ac.in/gallery/image/12360109_804863866292632_5655372927831286769_n.jpg"
                     alt="Card "
                   />
                   <div className="card-body">
-                    <h6 className="card-title bold">Enthusiac</h6>
+                    <h6 className="card-title bold">Sports</h6>
                     <p className="card-text">
                       <ReadMoreAndLess
                         ref={this.ReadMore}
@@ -559,7 +559,7 @@ class Home extends React.Component {
           <div className="why_choose_image d-none d-lg-table">
             <div className="image">
               <img
-                src="https://i.ibb.co/P6r70fF/Whats-App-Image-2020-08-12-at-17-40-39-1.jpg"
+                src="https://www.islengg.ac.in/gallery/image/Campus%20Pic.jpg"
                 alt=""
               />
             </div>
@@ -587,25 +587,26 @@ class Home extends React.Component {
 
           <div className="about_content_2">
             <div className="single_about_2 d-flex flex-wrap about_color_2">
-              <div className="about_2_content">
-                <div className="about_2_content_wrapper">
-                  <a href="/events" className="main-btn">
-                    Learn More
-                  </a>
+              <div className="about_2_content one">
+                <div className="about_2_content_wrapper1">
                 </div>
               </div>
-              <div className="about_2_image a2b1 bg_cover"></div>
+              <div className="about_2_content two order-md-last">
+                <div className="about_2_content_wrapper2">
+                </div>
+              </div>
+
             </div>
 
             <div className="single_about_2 d-flex flex-wrap about_color_2">
-              <div className="about_2_content order-md-last">
-                <div className="about_2_content_wrapper">
-                  <a href="/events" className="main-btn">
-                    Learn More
-                  </a>
+              <div className="about_2_content two order-md-last">
+                <div className="about_2_content_wrapper3">
                 </div>
               </div>
-              <div className="about_2_image a2b2 bg_cover order-md-first"></div>
+              <div className="about_2_content two order-md-last">
+                <div className="about_2_content_wrapper4">
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -677,7 +678,7 @@ class Home extends React.Component {
                   <div className="col-12 col-md-6 col-lg-6 col-xl-6 mb-20">
                     <div className="student_work_overlay student_work_img">
                       <img
-                        src="https://i.ibb.co/b6mfmDY/enthusiac.jpg"
+                        src="https://www.islengg.ac.in/gallery/image/22366246_1315432218569125_4106898326753213867_n.jpg"
                         alt="Img"
                       />
                       <h4>Participation in National Level Sporting Events</h4>

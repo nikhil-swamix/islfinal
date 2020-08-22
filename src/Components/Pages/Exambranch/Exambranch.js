@@ -36,8 +36,8 @@ const Exambranch = () => {
                       />
                     </div>
                     <div className="media_content media-body">
-                      <p>In-Charge</p>
-                      <h6 className="title">Mr Raghavendra Reddy</h6>
+                      <p>Exam Branch In Charge</p>
+                      <h6 className="title">Mr Raghavender Reddy</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
