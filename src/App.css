@@ -980,9 +980,16 @@ abbr.all-research-btn2 a {
 .syll label {
   display: none;
 }
+
 .syll ul {
   display: flex;
-  padding-left: 0;
+  padding-left: 0px;
+  list-style: none;
+  border-radius: 0.25rem;
+}
+.academic_table ul {
+  display: flex;
+  padding-left: 20px;
   list-style: none;
   border-radius: 0.25rem;
 }
@@ -1002,14 +1009,26 @@ abbr.all-research-btn2 a {
   transition: all 0.3s linear;
 }
 
+.academic_table li {
+  margin: 0 5px;
+}
+.academic_table li a {
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  border: 2px solid #dbdbdb;
+  font-size: 18px;
+  color: #333333;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
 .pagination li a:hover,
 .pagination li.active {
   background-color: #f9c540;
   color: #fff;
   border-color: #f9c540;
-}
-.syll select {
-  display: none;
 }
 .syll .table td,
 .table th {
@@ -1020,8 +1039,6 @@ abbr.all-research-btn2 a {
 }
 
 .academic .syll input {
-}
- .academic .syll  input {
   outline: 0;
   height: 42px;
   width: 450px;
@@ -1036,7 +1053,7 @@ abbr.all-research-btn2 a {
   border-radius: inherit;
   box-shadow: inherit;
   margin-bottom: 15px;
-} 
+}
 /*Research and dev*/
 .research .pagination {
   position: absolute;
@@ -1091,12 +1108,20 @@ abbr.all-research-btn2 a {
   border-top: 1px solid #dee2e6;
 }
 
+.academic_table .table td,
+.table th {
+  text-transform: uppercase;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
 .syll input {
   display: none;
 }
 /**/
 
- .academic input {
+.academic input {
   outline: 0;
   height: 42px;
   width: 450px;
@@ -1121,14 +1146,10 @@ abbr.all-research-btn2 a {
   outline: 0;
   background-color: #fff;
   background-image: none;
-
 }
 
-
-.academic label, select{
-  display: none;
-}
-.academic .pagination {
+.academic label,
+select {
   display: none;
 }
 
@@ -1431,6 +1452,9 @@ abbr.all-research-btn2 a {
 
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 2599px) {
+  .dept .carousel img {
+    height: 350px;
+  }
   .dropdown-menu {
     right: auto;
     left: 50%;
@@ -1442,6 +1466,10 @@ abbr.all-research-btn2 a {
 
 /* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  .dept .carousel img {
+    height: 350px;
+  }
+
   .dropdown-menu {
     right: auto;
     left: 50%;
@@ -1453,6 +1481,10 @@ abbr.all-research-btn2 a {
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .dept .carousel img {
+    height: 350px;
+  }
+
   .feature-bg {
     top: auto;
     right: 0;
@@ -2213,7 +2245,6 @@ a {
   background-image: url(https://www.islengg.ac.in/gallery/image/Pic-3.png);
 }
 
-
 .a2b3 {
   background-image: url(https://www.islengg.ac.in/gallery/image/Pic-3.png);
 }
@@ -2326,9 +2357,8 @@ a {
   padding: 40px;
 }
 
-
-.single_about_2 .about_2_content  .about_2_content_wrapper1 {
-  background-image: url("https://i.ibb.co/HVgVGqr/Pic-1.png");
+.single_about_2 .about_2_content .about_2_content_wrapper1 {
+  background-image: url('https://i.ibb.co/HVgVGqr/Pic-1.png');
   background-repeat: no-repeat, repeat;
   max-width: 390px;
   display: table-cell;
@@ -2336,7 +2366,7 @@ a {
 }
 
 .single_about_2 .about_2_content .about_2_content_wrapper2 {
-  background-image: url("https://i.ibb.co/6FgTqS2/Pic-2.png");
+  background-image: url('https://i.ibb.co/6FgTqS2/Pic-2.png');
   background-repeat: no-repeat, repeat;
   max-width: 390px;
   display: table-cell;
@@ -2344,7 +2374,7 @@ a {
 }
 
 .single_about_2 .about_2_content .about_2_content_wrapper4 {
-  background-image: url("https://i.ibb.co/6FgTqS2/Pic-2.png");
+  background-image: url('https://i.ibb.co/6FgTqS2/Pic-2.png');
   background-repeat: no-repeat, repeat;
   max-width: 390px;
   display: table-cell;
@@ -2352,7 +2382,7 @@ a {
 }
 
 .single_about_2 .about_2_content .about_2_content_wrapper3 {
-  background-image: url("https://i.ibb.co/s6DJ60R/Pic-3.png");
+  background-image: url('https://i.ibb.co/s6DJ60R/Pic-3.png');
   background-repeat: no-repeat, repeat;
   max-width: 390px;
   display: table-cell;

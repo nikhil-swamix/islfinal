@@ -36,7 +36,7 @@ const Exambranch = () => {
                       />
                     </div>
                     <div className="media_content media-body">
-                      <p>Exam Branch In Charge</p>
+                      <p>Superintendent</p>
                       <h6 className="title">Mr Raghavender Reddy</h6>
                     </div>
                   </div>
@@ -65,11 +65,12 @@ const Exambranch = () => {
       <section className="mt-60 mb-60 exambranch">
         <Container>
           <Row>
-            <Col md={9}>
-              <Table />
-            </Col>
             <Col md={3} className="sidebar academic">
               <Sidebar />
+            </Col>
+
+            <Col md={9}>
+              <Table />
             </Col>
           </Row>
         </Container>

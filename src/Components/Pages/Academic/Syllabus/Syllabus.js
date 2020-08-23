@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Table from "./Table";
-import Sidebar from "../Sidebar";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import Table from './Table'
+import Sidebar from '../Sidebar'
 
 const Syllabus = () => {
   return (
@@ -37,19 +37,19 @@ const Syllabus = () => {
       <section className="mt-60 academic">
         <Container>
           <Row>
-            <Col lg={4} md={4} className="sidebar academic">
+            <Col lg={4} md={4} className="sidebar academic ac1">
               <aside>
                 <Sidebar />
               </aside>
-            </Col>{" "}
-            <Col lg={8} >
+            </Col>{' '}
+            <Col lg={8} className="academic_table">
               <Table />
             </Col>
           </Row>
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Syllabus;
+export default Syllabus

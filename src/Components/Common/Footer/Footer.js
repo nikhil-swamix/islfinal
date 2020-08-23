@@ -21,8 +21,13 @@ const Footer = () => {
                     International Airport Road, Bandlaguda, Hyderabad Telangana
                     India 500005.
                   </p>
-                  <p>040 - 29880083</p>
-                  <p>info@islec.edu.in</p>
+                  <a className="map" href="tel:04029880083">
+                    <p>040 - 29880083</p>
+                  </a>
+                  <br />
+                  <a className="map" href="mailto:info@islec.edu.in">
+                    <p>info@islec.edu.in</p>
+                  </a>
 
                   <a className="map" href="https://g.page/ISLEC?share">
                     <p>View Location on Google Map</p>
@@ -135,7 +140,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#/">
+                      <a href="/events">
                         <i className="fa fa-angle-right"></i>Events
                       </a>
                     </li>

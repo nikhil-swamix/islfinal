@@ -299,6 +299,15 @@ const ce = () => {
                 </div>
 
                 <Sidepost />
+                <div className="text-right">
+                  <a href="/events" className="pt-10 ">
+                    More{' '}
+                    <i
+                      className="fa fa-long-arrow-right"
+                      aria-hidden="true"
+                    ></i>
+                  </a>
+                </div>
               </aside>
             </Col>
           </Row>
