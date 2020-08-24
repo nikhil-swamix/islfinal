@@ -1,42 +1,39 @@
-const CACHE_NAME = 'version-1'
-const urlsToCache = ['index.html', 'offline.html', 'images/nointernet.png']
+'use strict'
 
-const self = this
+var cacheVersion = 1
+var currentCache = {
+  offline: 'offline-cache' + cacheVersion,
+}
+const offlineUrl = 'offline.html'
 
-// Install SW
-self.addEventListener('install', (event) => {
+this.addEventListener('install', (event) => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then((cache) => {
-      console.log('Opened cache')
-
-      return cache.addAll(['./images/nointernet.png', urlsToCache])
+    caches.open(currentCache.offline).then(function (cache) {
+      return cache.addAll(['./images/nointernet.png', offlineUrl])
     }),
   )
 })
 
-// Listen for requests
-self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request).then(() => {
-      return fetch(event.request).catch(() => caches.match('offline.html'))
-    }),
-  )
-})
-
-// Activate the SW
-self.addEventListener('activate', (event) => {
-  const cacheWhitelist = []
-  cacheWhitelist.push(CACHE_NAME)
-
-  event.waitUntil(
-    caches.keys().then((cacheNames) =>
-      Promise.all(
-        cacheNames.map((cacheName) => {
-          if (!cacheWhitelist.includes(cacheName)) {
-            return caches.delete(cacheName)
-          }
-        }),
-      ),
-    ),
-  )
+this.addEventListener('fetch', (event) => {
+  // request.mode = navigate isn't supported in all browsers
+  // so include a check for Accept: text/html header.
+  if (
+    event.request.mode === 'navigate' ||
+    (event.request.method === 'GET' &&
+      event.request.headers.get('accept').includes('text/html'))
+  ) {
+    event.respondWith(
+      fetch(event.request.url).catch((error) => {
+        // Return the offline page
+        return caches.match(offlineUrl)
+      }),
+    )
+  } else {
+    // Respond with everything else if we can
+    event.respondWith(
+      caches.match(event.request).then(function (response) {
+        return response || fetch(event.request)
+      }),
+    )
+  }
 })
