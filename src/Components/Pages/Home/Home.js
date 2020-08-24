@@ -588,24 +588,20 @@ class Home extends React.Component {
           <div className="about_content_2">
             <div className="single_about_2 d-flex flex-wrap about_color_2">
               <div className="about_2_content one">
-                <div className="about_2_content_wrapper1">
-                </div>
-              </div>
-              <div className="about_2_content two order-md-last">
-                <div className="about_2_content_wrapper2">
-                </div>
+                <div className="about_2_content_wrapper1"></div>
               </div>
 
+              <div className="about_2_content two order-md-last">
+                <div className="about_2_content_wrapper2"></div>
+              </div>
             </div>
 
             <div className="single_about_2 d-flex flex-wrap about_color_2">
               <div className="about_2_content two order-md-last">
-                <div className="about_2_content_wrapper3">
-                </div>
+                <div className="about_2_content_wrapper3"></div>
               </div>
               <div className="about_2_content two order-md-last">
-                <div className="about_2_content_wrapper4">
-                </div>
+                <div className="about_2_content_wrapper4"></div>
               </div>
             </div>
           </div>

@@ -820,8 +820,6 @@ abbr.all-research-btn2 a {
 }
 
 .single_guest .team_content .team_content_wrapper {
-  display: table-cell;
-  vertical-align: middle;
 }
 
 .single_guest .team_content .title a {
@@ -2358,15 +2356,13 @@ a {
 }
 
 .single_about_2 .about_2_content .about_2_content_wrapper1 {
-  background-image: url('https://i.ibb.co/HVgVGqr/Pic-1.png');
-  background-repeat: no-repeat, repeat;
-  max-width: 390px;
+  background-image: url('https://i.ibb.co/PT0KsV3/Pic-1.png');
+  background-repeat: no-repeat;
   display: table-cell;
-  vertical-align: middle;
 }
 
 .single_about_2 .about_2_content .about_2_content_wrapper2 {
-  background-image: url('https://i.ibb.co/6FgTqS2/Pic-2.png');
+  background-image: url('https://i.ibb.co/ykKpy55/carrrr.png');
   background-repeat: no-repeat, repeat;
   max-width: 390px;
   display: table-cell;
@@ -2382,7 +2378,7 @@ a {
 }
 
 .single_about_2 .about_2_content .about_2_content_wrapper3 {
-  background-image: url('https://i.ibb.co/s6DJ60R/Pic-3.png');
+  background-image: url('https://i.ibb.co/ggWnxMj/Pic-2.png');
   background-repeat: no-repeat, repeat;
   max-width: 390px;
   display: table-cell;

@@ -97,9 +97,9 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#admissions" as={Link} to="/admissions">
                 Admissions
               </NavDropdown.Item>
-              <NavDropdown.Item href="#almanac" as={Link} to="/almanac">
+              {/* <NavDropdown.Item href="#almanac" as={Link} to="/almanac">
                 Almanac
-              </NavDropdown.Item>
+              </NavDropdown.Item> */}
               <NavDropdown.Item href="#syllabus" as={Link} to="/syllabus">
                 Syllabus
               </NavDropdown.Item>

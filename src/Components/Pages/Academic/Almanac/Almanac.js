@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col, Table } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../Sidebar";
+import React from 'react'
+import { Container, Row, Col, Table } from 'react-bootstrap'
+import { Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../Sidebar'
 const Almanac = () => {
   return (
     <>
@@ -40,20 +40,16 @@ const Almanac = () => {
               <aside>
                 <Sidebar />
               </aside>
-            </Col>{" "}
+            </Col>{' '}
             <Col lg={8}>
               <section className="course-details-info">
                 <Tabs className="myClass">
-                  <TabList>
-                    <Tab>B.E I Year </Tab>
-                    <Tab>B.E II, III & IV Year</Tab>
-                    <Tab>MBA </Tab>
-                  </TabList>
+                  <TabList></TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="">
                       <h4>
-                        B.E I - Semester{" "}
+                        B.E I - Semester{' '}
                         <i class="fa fa-download" aria-hidden="true"></i>
                       </h4>
                       <Table striped bordered hover responsive>
@@ -100,7 +96,7 @@ const Almanac = () => {
                     </div>
                     <div className="">
                       <h4>
-                        B.E II - Semester{" "}
+                        B.E II - Semester{' '}
                         <i class="fa fa-download" aria-hidden="true"></i>
                       </h4>
                       <Table striped bordered hover responsive>
@@ -151,7 +147,7 @@ const Almanac = () => {
                   <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="">
                       <h4>
-                        B.E III, V, VII - Semester{" "}
+                        B.E III, V, VII - Semester{' '}
                         <i class="fa fa-download" aria-hidden="true"></i>
                       </h4>
                       <Table striped bordered hover responsive>
@@ -198,7 +194,7 @@ const Almanac = () => {
                     </div>
                     <div className="">
                       <h4>
-                        B.E IV, VI, VIII - Semester{" "}
+                        B.E IV, VI, VIII - Semester{' '}
                         <i class="fa fa-download" aria-hidden="true"></i>
                       </h4>
                       <Table striped bordered hover responsive>
@@ -249,7 +245,7 @@ const Almanac = () => {
                   <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="">
                       <h4>
-                        MBA I & III - Semester{" "}
+                        MBA I & III - Semester{' '}
                         <i class="fa fa-download" aria-hidden="true"></i>
                       </h4>
                       <Table striped bordered hover responsive>
@@ -291,7 +287,7 @@ const Almanac = () => {
                     </div>
                     <div className="">
                       <h4>
-                        MBA II & IV - Semester{" "}
+                        MBA II & IV - Semester{' '}
                         <i class="fa fa-download" aria-hidden="true"></i>
                       </h4>
                       <Table striped bordered hover responsive>
@@ -339,7 +335,7 @@ const Almanac = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Almanac;
+export default Almanac
