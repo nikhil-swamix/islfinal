@@ -1,39 +1,40 @@
-'use strict'
+const ASSETS = [
+  './images/nointernet.png',
+  '/style.css',
+  '/index.html',
+  '/offline.html',
+  '/',
+]
 
-var cacheVersion = 1
-var currentCache = {
-  offline: 'offline-cache' + cacheVersion,
-}
-const offlineUrl = 'offline.html'
+let cache_name = 'ISLEC' // The string used to identify our cache
 
-this.addEventListener('install', (event) => {
+self.addEventListener('install', (event) => {
+  console.log('installing...')
   event.waitUntil(
-    caches.open(currentCache.offline).then(function (cache) {
-      return cache.addAll(['./images/nointernet.png', offlineUrl])
-    }),
+    caches
+      .open(cache_name)
+      .then((cache) => {
+        return cache.addAll(assets)
+      })
+      .catch((err) => console.log(err)),
   )
 })
 
-this.addEventListener('fetch', (event) => {
-  // request.mode = navigate isn't supported in all browsers
-  // so include a check for Accept: text/html header.
-  if (
-    event.request.mode === 'navigate' ||
-    (event.request.method === 'GET' &&
-      event.request.headers.get('accept').includes('text/html'))
-  ) {
+self.addEventListener('fetch', (event) => {
+  if (event.request.url === 'https://www.islec.edu.in/') {
+    // or whatever your app's URL is
     event.respondWith(
-      fetch(event.request.url).catch((error) => {
-        // Return the offline page
-        return caches.match(offlineUrl)
-      }),
+      fetch(event.request).catch((err) =>
+        self.cache
+          .open(cache_name)
+          .then((cache) => cache.match('/offline.html')),
+      ),
     )
   } else {
-    // Respond with everything else if we can
     event.respondWith(
-      caches.match(event.request).then(function (response) {
-        return response || fetch(event.request)
-      }),
+      fetch(event.request).catch((err) =>
+        caches.match(event.request).then((response) => response),
+      ),
     )
   }
 })
