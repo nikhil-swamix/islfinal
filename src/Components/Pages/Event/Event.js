@@ -1,16 +1,27 @@
-import React from 'react'
-import { Container, Row, Col, Nav, Tab } from 'react-bootstrap'
-import All from './components/All'
-import Seminar from './components/Seminar'
-import Inbound from './components/Inbound'
-import Outbound from './components/Outbound'
-import Sports from './components/Sports'
-import Industrial from './components/Industrial'
-import Sidebar from './Sidebar'
+import React from "react";
+import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+import All from "./components/All";
+import Seminar from "./components/Seminar";
+import Inbound from "./components/Inbound";
+import Outbound from "./components/Outbound";
+import Sports from "./components/Sports";
+import Industrial from "./components/Industrial";
+import Sidebar from "./Sidebar";
+import { Helmet } from "react-helmet";
 
 const Event = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Events</title>
+        <meta
+          name="description"
+          content="Seminar & Workshops, In-Bounds, out-Bounds,  Sports, Industrial Visits"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in/events" />
+      </Helmet>
       <section className="breadcrumb_details bg_cover">
         <Container fluid>
           <Row>
@@ -96,7 +107,7 @@ const Event = () => {
         </section>
       </Container>
     </>
-  )
-}
+  );
+};
 
-export default Event
+export default Event;

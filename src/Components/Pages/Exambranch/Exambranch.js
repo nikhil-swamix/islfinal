@@ -1,11 +1,20 @@
-import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
-import Table from './Table'
-import Sidebar from '../Academic/Sidebar'
+import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import Table from "./Table";
+import Sidebar from "../Academic/Sidebar";
+import { Helmet } from "react-helmet";
 
 const Exambranch = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Exam Branch</title>
+        <meta name="description" content="Exam Timetable & Notifications" />
+
+        <link rel="canonical" href="http://islec.edu.in/exambranch" />
+      </Helmet>
+
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -76,7 +85,7 @@ const Exambranch = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Exambranch
+export default Exambranch;

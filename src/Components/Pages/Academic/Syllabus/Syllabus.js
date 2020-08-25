@@ -1,11 +1,22 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import Table from './Table'
-import Sidebar from '../Sidebar'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Table from "./Table";
+import Sidebar from "../Sidebar";
+import { Helmet } from "react-helmet";
 
 const Syllabus = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Syllabus</title>
+        <meta
+          name="description"
+          content="Latest Syllabus issued by Dean Faculty of Engineering Osmania University, Hyderabad"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in/syllabus" />
+      </Helmet>
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -41,7 +52,7 @@ const Syllabus = () => {
               <aside>
                 <Sidebar />
               </aside>
-            </Col>{' '}
+            </Col>{" "}
             <Col lg={8} className="academic_table">
               <Table />
             </Col>
@@ -49,7 +60,7 @@ const Syllabus = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Syllabus
+export default Syllabus;
