@@ -126,7 +126,8 @@ class Home extends React.Component {
               <Col md={4} className="pt-25">
                 <News />
                 <a href="/news" className="stick-bottom">
-                  All News →
+                  All News{' '}
+                  <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </Col>
               <Col md={4} className="pt-25">
@@ -143,7 +144,8 @@ class Home extends React.Component {
                 </section>
 
                 <a href="/events" className="stick-bottom">
-                  All Recents →
+                  All Recents{' '}
+                  <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
                 </a>
               </Col>
             </Row>

@@ -67,13 +67,8 @@ class Enquiry extends Component {
   render() {
     return (
       <div className="admission">
-        <Modal
-          size="lg"
-          show={this.state.show}
-          onHide={this.handleClose}
-          className="text-center"
-        >
-          <h5 className="mt-5">
+        <Modal size="lg" show={this.state.show} onHide={this.handleClose}>
+          <h5 className="mt-5 text-center">
             For Management quota Seats, call : 9985958422, 9989405490
           </h5>
 

@@ -13,7 +13,7 @@ class Table extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://raghavender-islec.herokuapp.com/api/exams',
+      'https://mern1ayaz.herokuapp.com/api/exams',
     )
     try {
       this.setState({

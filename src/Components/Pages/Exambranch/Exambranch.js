@@ -65,11 +65,11 @@ const Exambranch = () => {
       <section className="mt-60 mb-60 exambranch">
         <Container>
           <Row>
-            <Col md={3} className="sidebar academic">
+            <Col md={4} className="sidebar academic">
               <Sidebar />
             </Col>
 
-            <Col md={9}>
+            <Col md={8}>
               <Table />
             </Col>
           </Row>

@@ -162,22 +162,22 @@ const Footer = () => {
                 <div className="copyright text-md-right">
                   <ul className="mt-0">
                     <li>
-                      <a href="https://islengg.ac.in#">
+                      <a href="#/">
                         <i className="fa fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in#">
+                      <a href="#/">
                         <i className="fa fa-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in">
+                      <a href="https://www.linkedin.com/school/isl-engineering-college/">
                         <i className="fa fa-linkedin"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in">
+                      <a href="#/">
                         <i className="fa fa-instagram"></i>
                       </a>
                     </li>
