@@ -18,7 +18,7 @@ const Publication = () => {
 
       <Header />
       <section className="mt-60">
-        <Container fluid>
+        <Container>
           <Row>
             <Col lg={8} className="syllabus">
               <Table />

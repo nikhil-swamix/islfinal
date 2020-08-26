@@ -71,7 +71,7 @@ const NavigationBar = () => {
       <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Navbar.Brand as={Link} to="/" className="m-auto">
           <img
-            src="https://i.ibb.co/wSVW3mq/312-x-35.png"
+            src="https://i.ibb.co/VwX0qt4/312-x-35.png"
             className="img-fluid"
             alt="College Logo"
           />
