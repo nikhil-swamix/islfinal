@@ -9,7 +9,7 @@ import ReadMoreAndLess from 'react-read-more-less'
 import Admission from './Enquiry'
 import BottomAlert from './BottomAlert'
 import Enquiry from './Enquiry'
-
+import {Helmet} from 'react-helmet'
 class Home extends React.Component {
   constructor() {
     super()
@@ -32,6 +32,14 @@ class Home extends React.Component {
   render() {
     return (
       <>
+        <Helmet>
+        <meta charSet="utf-8" />
+        <title>ISL Engineering College | Home</title>
+        <meta name="description" content="Approved by AICTE and Affiliated to Osmania University" />
+
+        <link rel="canonical" href="http://islec.edu.in" />
+      </Helmet>
+
         <Enquiry />
         <div className="nptel">
           <a href="https://nptel.ac.in/" class="nptel_content nptel_label">
