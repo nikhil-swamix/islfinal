@@ -46,7 +46,7 @@ const Exambranch = () => {
                     </div>
                     <div className="media_content media-body">
                       <p>Superintendent</p>
-                      <h6 className="title">Mr Raghavender Reddy</h6>
+                      <h6 className="title">Raghavender Reddy</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">

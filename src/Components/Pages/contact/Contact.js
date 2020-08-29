@@ -42,31 +42,21 @@ const Contact = () => {
                   </div>
                 </div>
 
-                <form action="contact.php" method="POST">
+                <form action="/" method="POST">
                   <div className="row">
                     <div className="col-md-6">
                       <div className="single_form">
-                        <input type="text" placeholder="Name" />
+                        <input type="text" placeholder="Name" required/>
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single_form">
-                        <input type="email" placeholder="Email" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="single_form">
-                        <input type="text" placeholder="Subject" />
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="single_form">
-                        <input type="text" placeholder="Number" />
+                        <input type="email" placeholder="Email" required/>
                       </div>
                     </div>
                     <div className="col-md-12">
                       <div className="single_form">
-                        <textarea placeholder="Massage"></textarea>
+                        <textarea placeholder="Message" required></textarea>
                       </div>
                     </div>
                     <div className="col-md-12">
@@ -88,8 +78,9 @@ const Contact = () => {
                       </div>
                       <div className="info_content media-body">
                         <p>
-                          International Airport Road, Bandlaguda 500005 <br />{' '}
-                          Hyderabad, India
+                          International Airport Road, Bandlaguda, <br />{' '}
+                          Hyderabad - 500005,
+                          Telangana, India
                         </p>
                       </div>
                     </div>
@@ -101,7 +92,6 @@ const Contact = () => {
                       </div>
                       <div className="info_content media-body">
                         <p>040 - 29880083</p>
-                        <p>040 - 29880084</p>
                       </div>
                     </div>
                   </li>

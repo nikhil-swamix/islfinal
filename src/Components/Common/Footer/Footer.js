@@ -18,8 +18,8 @@ const Footer = () => {
                     />
                   </div>
                   <p>
-                    International Airport Road, Bandlaguda, Hyderabad Telangana
-                    India 500005.
+                    International Airport Road, Bandlaguda, Hyderabad - 500005 
+                    Telangana, India.
                   </p>
                   <a className="map" href="tel:04029880083">
                     <p>040 - 29880083</p>

@@ -36,7 +36,7 @@ const NavigationBar = () => {
                       <a href="#/">Online Fee</a>
                     </li>
                     <li>
-                      <a href="/">Contact</a>
+                      <a href="/contact">Contact</a>
                     </li>
                   </ul>
                 </div>
