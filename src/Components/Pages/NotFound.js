@@ -6,7 +6,7 @@ const NotFound = () => {
       <Container>
         <Row>
           <Col lg={12} className="pt-90 pb-90 text-center">
-            <h1>Page Not Found..</h1>
+            <h1>Page Not Found</h1>
           </Col>
         </Row>
       </Container>
