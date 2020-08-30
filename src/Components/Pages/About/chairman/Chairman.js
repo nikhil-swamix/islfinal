@@ -1,5 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 const Chairman = () => {
   return (
     <>
@@ -12,9 +14,9 @@ const Chairman = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="/">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
                       <a className="active" href="#active">

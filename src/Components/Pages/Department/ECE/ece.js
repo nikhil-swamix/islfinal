@@ -1,10 +1,11 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import Sidebar from '../ECE/components/Sidebar'
-import Sidepost from '../ECE/components/Sidepost'
-import Syllabus from '../ECE/components/Syllabus'
-import Slide from '../ECE/components/Slide'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Sidebar from "../ECE/components/Sidebar";
+import Sidepost from "../ECE/components/Sidepost";
+import Syllabus from "../ECE/components/Syllabus";
+import Slide from "../ECE/components/Slide";
+import { Link } from "react-router-dom";
 
 const ece = () => {
   return (
@@ -20,15 +21,15 @@ const ece = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="https://islengg.ac.in">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in">Department</a>
+                      <a href="#/">Department</a>
                     </li>
                     <li>
-                      <a className="active" href="https://islengg.ac.in">
+                      <a className="active" href="#/">
                         Electronics & Communication Engineering
                       </a>
                     </li>
@@ -308,7 +309,7 @@ const ece = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{' '}
+                    More{" "}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -321,7 +322,7 @@ const ece = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default ece
+export default ece;

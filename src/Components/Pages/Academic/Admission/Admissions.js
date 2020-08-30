@@ -2,6 +2,8 @@ import React from "react";
 import { Container, Row, Col, Table } from "react-bootstrap";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Sidebar from "../Sidebar";
+import { Link } from "react-router-dom";
+
 const Admissions = () => {
   return (
     <>
@@ -14,9 +16,9 @@ const Admissions = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="/">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
                       <a href="#academics">Academics</a>

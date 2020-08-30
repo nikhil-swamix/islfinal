@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Table from "./Table";
 import Sidebar from "../Sidebar";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const Syllabus = () => {
   return (
@@ -26,15 +27,15 @@ const Syllabus = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="islengg.ac.in">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
-                      <a href="islengg.ac.in">Almanac</a>
+                      <a href="#/">Almanac</a>
                     </li>
                     <li>
-                      <a className="active" href="islengg.ac.in">
+                      <a className="active" href="#/">
                         Syllabus
                       </a>
                     </li>

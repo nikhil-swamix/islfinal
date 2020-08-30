@@ -1,10 +1,11 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import Sidebar from '../MBA/components/Sidebar'
-import Sidepost from '../MBA/components/Sidepost'
-import Syllabus from '../MBA/components/Syllabus'
-import Slide from '../MBA/components/Slide'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Sidebar from "../MBA/components/Sidebar";
+import Sidepost from "../MBA/components/Sidepost";
+import Syllabus from "../MBA/components/Syllabus";
+import Slide from "../MBA/components/Slide";
+import { Link } from "react-router-dom";
 
 const mba = () => {
   return (
@@ -18,15 +19,15 @@ const mba = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="https://islengg.ac.in">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in">Department</a>
+                      <a href="#/">Department</a>
                     </li>
                     <li>
-                      <a className="active" href="https://islengg.ac.in">
+                      <a className="active" href="#/">
                         Master of Business Administration
                       </a>
                     </li>
@@ -163,7 +164,7 @@ const mba = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default mba
+export default mba;

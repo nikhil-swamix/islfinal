@@ -1,10 +1,11 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import Sidebar from '../EEE/components/Sidebar'
-import Sidepost from '../EEE/components/Sidepost'
-import Syllabus from '../EEE/components/Syllabus'
-import Slide from '../EEE/components/Slide'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Sidebar from "../EEE/components/Sidebar";
+import Sidepost from "../EEE/components/Sidepost";
+import Syllabus from "../EEE/components/Syllabus";
+import Slide from "../EEE/components/Slide";
+import { Link } from "react-router-dom";
 
 const eee = () => {
   return (
@@ -18,15 +19,15 @@ const eee = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="https://islengg.ac.in">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in">Department</a>
+                      <a href="#/">Department</a>
                     </li>
                     <li>
-                      <a className="active" href="https://islengg.ac.in">
+                      <a className="active" href="#/">
                         Electrical & Electronics Engineering
                       </a>
                     </li>
@@ -287,7 +288,7 @@ const eee = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{' '}
+                    More{" "}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -300,7 +301,7 @@ const eee = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default eee
+export default eee;

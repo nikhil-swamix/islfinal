@@ -1,10 +1,11 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import Sidebar from '../CE/components/Sidebar'
-import Sidepost from '../CE/components/Sidepost'
-import Syllabus from '../CE/components/Syllabus'
-import Slide from '../CE/components/Slide'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import Sidebar from "../CE/components/Sidebar";
+import Sidepost from "../CE/components/Sidepost";
+import Syllabus from "../CE/components/Syllabus";
+import Slide from "../CE/components/Slide";
+import { Link } from "react-router-dom";
 
 const ce = () => {
   return (
@@ -18,15 +19,15 @@ const ce = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="https://islengg.ac.in">
+                      <Link href="#home" as={Link} to="/">
                         <i className="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="https://islengg.ac.in">Department</a>
+                      <a href="#/">Department</a>
                     </li>
                     <li>
-                      <a className="active" href="https://islengg.ac.in">
+                      <a className="active" href="#/">
                         Civil Engineering
                       </a>
                     </li>
@@ -148,7 +149,7 @@ const ce = () => {
                           mathematics, basic sciences and engineering
                           fundamentals, to successfully compete for entry-level
                           positions or pursue postgraduate programme in Civil
-                          Engineering and related fields.{' '}
+                          Engineering and related fields.{" "}
                         </li>
                         <li>
                           <i className="fa fa-check"></i>ontemporary Civil
@@ -156,7 +157,7 @@ const ce = () => {
                           / interpretation and presentation of data, including
                           hands-on laboratory experience, exposure to modern
                           software, creativity, and innovation to successfully
-                          compete in the local, national and global market.{' '}
+                          compete in the local, national and global market.{" "}
                         </li>
                         <li>
                           <i className="fa fa-check"></i> Strong communication
@@ -301,7 +302,7 @@ const ce = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{' '}
+                    More{" "}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -314,7 +315,7 @@ const ce = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default ce
+export default ce;

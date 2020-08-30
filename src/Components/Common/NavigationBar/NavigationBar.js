@@ -1,7 +1,7 @@
-import React from 'react'
-import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
-import TopAlert from '../../Pages/Home/TopAlert'
+import React from "react";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import TopAlert from "../../Pages/Home/TopAlert";
 
 const NavigationBar = () => {
   return (
@@ -21,7 +21,7 @@ const NavigationBar = () => {
                     </li>
                     <li>
                       <a href="mailto:info@islec.edu.in">
-                        <span className="fa fa-envelope"></span>{' '}
+                        <span className="fa fa-envelope"></span>{" "}
                         info@islec.edu.in
                       </a>
                     </li>
@@ -36,7 +36,9 @@ const NavigationBar = () => {
                       <a href="#/">Online Fee</a>
                     </li>
                     <li>
-                      <a href="/contact">Contact</a>
+                      <Link href="#contact" as={Link} to="/contact">
+                        Contact
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -47,18 +49,18 @@ const NavigationBar = () => {
                   <ul className="header_ul">
                     <li>
                       <a href="https://islengg.ac.in#">
-                        EAMCET, ECET & ICET Code : ISLC{' '}
+                        EAMCET, ECET & ICET Code : ISLC{" "}
                       </a>
                     </li>
                     <li>
                       <a href="https://www.linkedin.com/school/isl-engineering-college/">
-                        Follow{' '}
+                        Follow{" "}
                         <span className="linkedin">
                           <img
                             src="https://i.ibb.co/vvsfnVL/LI-In-Bug.png"
                             alt="linkedin"
                           />
-                        </span>{' '}
+                        </span>{" "}
                       </a>
                     </li>
                   </ul>
@@ -146,7 +148,7 @@ const NavigationBar = () => {
         </Navbar.Collapse>
       </Navbar>
     </>
-  )
-}
+  );
+};
 
-export default NavigationBar
+export default NavigationBar;

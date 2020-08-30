@@ -1,5 +1,7 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 const Contact = () => {
   return (
     <>
@@ -12,9 +14,9 @@ const Contact = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="https://islengg.ac.in">
+                      <Link href="#home" as={Link} to="/">
                         <i className="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a className="active" href="https://islengg.ac.in">
@@ -46,12 +48,12 @@ const Contact = () => {
                   <div className="row">
                     <div className="col-md-6">
                       <div className="single_form">
-                        <input type="text" placeholder="Name" required/>
+                        <input type="text" placeholder="Name" required />
                       </div>
                     </div>
                     <div className="col-md-6">
                       <div className="single_form">
-                        <input type="email" placeholder="Email" required/>
+                        <input type="email" placeholder="Email" required />
                       </div>
                     </div>
                     <div className="col-md-12">
@@ -78,9 +80,8 @@ const Contact = () => {
                       </div>
                       <div className="info_content media-body">
                         <p>
-                          International Airport Road, Bandlaguda, <br />{' '}
-                          Hyderabad - 500005,
-                          Telangana, India
+                          International Airport Road, Bandlaguda, <br />{" "}
+                          Hyderabad - 500005, Telangana, India
                         </p>
                       </div>
                     </div>
@@ -116,7 +117,7 @@ const Contact = () => {
         </div>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;

@@ -1,11 +1,12 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
     <>
       <section className="breadcrumb_details bg_cover">
-        <Container >
+        <Container>
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
@@ -13,12 +14,12 @@ const Header = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="https://islengg.ac.in">
+                      <Link href="#home" as={Link} to="/">
                         <i className="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a className="active" href="https://islengg.ac.in">
+                      <a className="active" href="#/">
                         Research & Development
                       </a>
                     </li>
@@ -30,7 +31,7 @@ const Header = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

@@ -3,6 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import Table from "./Table";
 import Sidebar from "../Academic/Sidebar";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const Exambranch = () => {
   return (
@@ -24,9 +25,9 @@ const Exambranch = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="/">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
                       <a className="active" href="#active">

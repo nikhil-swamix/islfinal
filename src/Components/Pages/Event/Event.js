@@ -8,6 +8,7 @@ import Sports from "./components/Sports";
 import Industrial from "./components/Industrial";
 import Sidebar from "./Sidebar";
 import { Helmet } from "react-helmet";
+import { Link } from "react-router-dom";
 
 const Event = () => {
   return (
@@ -31,9 +32,9 @@ const Event = () => {
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
-                      <a href="/">
-                        <i class="fa fa-home" aria-hidden="true"></i> Home
-                      </a>
+                      <Link href="#home" as={Link} to="/">
+                        <i className="fa fa-home" aria-hidden="true"></i> Home
+                      </Link>
                     </li>
                     <li>
                       <a className="active" href="#active">
