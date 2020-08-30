@@ -22,6 +22,7 @@ import Footer from './Components/Common/Footer'
 import Payment from './Components/Pages/Other/components/payment'
 import AllNews from './Components/Pages/Other/components/allnews'
 import Exambranch from './Components/Pages/Exambranch'
+import Library from './Components/Pages/Other/components/library'
 import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -49,6 +50,7 @@ function App() {
           <Route path="/department/mba" component={MBA} />
           <Route path="/news" component={AllNews} />
           <Route path="/exambranch" component={Exambranch} />
+          <Route path="/library" component={Library} />
 
           <Route path="/payment" component={Payment} />
 

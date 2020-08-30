@@ -1,5 +1,6 @@
-import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,7 +19,7 @@ const Footer = () => {
                     />
                   </div>
                   <p>
-                    International Airport Road, Bandlaguda, Hyderabad - 500005 
+                    International Airport Road, Bandlaguda, Hyderabad - 500005
                     Telangana, India.
                   </p>
                   <a className="map" href="tel:04029880083">
@@ -33,7 +34,7 @@ const Footer = () => {
                     <p>View Location on Google Map</p>
                   </a>
                 </div>
-              </Col>{' '}
+              </Col>{" "}
               <Col lg={3} md={6} sm={6}>
                 <div className="footer-link mt-40">
                   <div className="footer-title pb-25">
@@ -41,24 +42,24 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="/admissions">
+                      <Link href="#admissions" as={Link} to="/admissions">
                         <i className="fa fa-angle-right"></i>Admissions
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/almanac">
+                      <a href="/#">
                         <i className="fa fa-angle-right"></i>Almanac
                       </a>
                     </li>
                     <li>
-                      <a href="/syllabus">
+                      <Link href="#syllabus" as={Link} to="/syllabus">
                         <i className="fa fa-angle-right"></i>Syllabus
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/research">
-                        <i className="fa fa-angle-right"></i>R & D{' '}
-                      </a>
+                      <Link href="#research" as={Link} to="/research">
+                        <i className="fa fa-angle-right"></i>R & D
+                      </Link>
                     </li>
                     <li>
                       <a href="https://drive.google.com/file/d/1T1kL1677llUwx56Ruc7JIU1SfSY2bqw7/view">
@@ -75,40 +76,40 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="/department/ce">
+                      <Link href="#ce" as={Link} to="/department/ce">
                         <i className="fa fa-angle-right"></i>Civil Engineering
                         Department
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/department/cse">
+                      <Link href="#cse" as={Link} to="/department/cse">
                         <i className="fa fa-angle-right"></i>Computer Science
                         Engineering
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/department/ece">
+                      <Link href="#ece" as={Link} to="/department/ece">
                         <i className="fa fa-angle-right"></i>Electronics &
                         Communication Engineering
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/department/eee">
+                      <Link href="#ee" as={Link} to="/department/eee">
                         <i className="fa fa-angle-right"></i>Electronics &
-                        Electrical Engineering{' '}
-                      </a>
+                        Electrical Engineering{" "}
+                      </Link>
                     </li>
                     <li>
-                      <a href="/department/it">
+                      <Link href="#it" as={Link} to="/department/it">
                         <i className="fa fa-angle-right"></i>Information
                         Technology
-                      </a>
+                      </Link>
                     </li>
                     <li>
-                      <a href="/department/me">
+                      <Link href="#me" as={Link} to="/department/me">
                         <i className="fa fa-angle-right"></i>Mechanical
                         Engineering
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -120,9 +121,9 @@ const Footer = () => {
                   </div>
                   <ul>
                     <li>
-                      <a href="#/">
+                      <Link href="#library" as={Link} to="/library">
                         <i className="fa fa-angle-right"></i>Library
-                      </a>
+                      </Link>
                     </li>
                     <li>
                       <a href="#/">
@@ -140,9 +141,9 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="/events">
+                      <Link href="#events" as={Link} to="/events">
                         <i className="fa fa-angle-right"></i>Events
-                      </a>
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -189,7 +190,7 @@ const Footer = () => {
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

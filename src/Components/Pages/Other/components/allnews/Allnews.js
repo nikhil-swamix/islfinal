@@ -1,11 +1,23 @@
-import React from 'react'
-import { Row, Col, Container } from 'react-bootstrap'
-import Table from './Table'
-import Sidebar from '../../../Academic/Sidebar'
+import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import Table from "./Table";
+import { Helmet } from "react-helmet";
+
+import Sidebar from "../../../Academic/Sidebar";
 
 const Allnews = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>News & Updates </title>
+        <meta
+          name="description"
+          content="News & Updates - ISL Engineering College"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in/news" />
+      </Helmet>
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -45,7 +57,7 @@ const Allnews = () => {
         </Container>
       </section>
     </>
-  )
-}
+  );
+};
 
-export default Allnews
+export default Allnews;
