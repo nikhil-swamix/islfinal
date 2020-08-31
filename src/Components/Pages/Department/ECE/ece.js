@@ -83,7 +83,6 @@ const ece = () => {
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
                     <Tab>Curriculum</Tab>
-                    <Tab>Labs</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
