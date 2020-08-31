@@ -1,9 +1,9 @@
-import React from "react";
-import { Row, Col, Container } from "react-bootstrap";
-import Table from "./Table";
-import Sidebar from "../Academic/Sidebar";
-import { Helmet } from "react-helmet";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Row, Col, Container } from 'react-bootstrap'
+import Table from './Table'
+import Sidebar from '../Academic/Sidebar'
+import { Helmet } from 'react-helmet'
+import { Link } from 'react-router-dom'
 
 const Exambranch = () => {
   return (
@@ -40,8 +40,8 @@ const Exambranch = () => {
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_image">
                       <img
-                        className="author"
-                        src="https://islengg.ac.in/gallery/image/profile-icon-png-898.png"
+                        className="authorExam"
+                        src="https://i.ibb.co/RC8C8jx/raghavender-removebg-preview-1.jpg"
                         alt="author"
                       />
                     </div>
@@ -54,7 +54,7 @@ const Exambranch = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://islengg.ac.in/gallery/image/mail.png"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -86,7 +86,7 @@ const Exambranch = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Exambranch;
+export default Exambranch

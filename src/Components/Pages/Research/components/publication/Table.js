@@ -29,13 +29,15 @@ class Table extends React.Component {
   }
 
   render() {
+
+
     const { isLoading, publication_list } = this.state
     const tableColumns = [
       {
-        title: 'Title of the National / International Conference / Journal',
+        title: 'Title',
         prop: 'descp',
       },
-      { title: 'Title of The Paper', prop: 'title' },
+      { title: 'IEEE / Journal', prop: 'title' },
       { title: 'Date', prop: 'date' },
     ]
 

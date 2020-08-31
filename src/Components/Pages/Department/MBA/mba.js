@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../MBA/components/Sidebar";
-import Sidepost from "../MBA/components/Sidepost";
-import Syllabus from "../MBA/components/Syllabus";
-import Slide from "../MBA/components/Slide";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../MBA/components/Sidebar'
+import Sidepost from '../MBA/components/Sidepost'
+import Syllabus from '../MBA/components/Syllabus'
+import Slide from '../MBA/components/Slide'
+import { Link } from 'react-router-dom'
 
 const mba = () => {
   return (
@@ -52,7 +52,7 @@ const mba = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://islengg.ac.in/gallery/image/mail.png"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -164,7 +164,7 @@ const mba = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default mba;
+export default mba

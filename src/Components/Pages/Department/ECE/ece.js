@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../ECE/components/Sidebar";
-import Sidepost from "../ECE/components/Sidepost";
-import Syllabus from "../ECE/components/Syllabus";
-import Slide from "../ECE/components/Slide";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../ECE/components/Sidebar'
+import Sidepost from '../ECE/components/Sidepost'
+import Syllabus from '../ECE/components/Syllabus'
+import Slide from '../ECE/components/Slide'
+import { Link } from 'react-router-dom'
 
 const ece = () => {
   return (
@@ -55,7 +55,7 @@ const ece = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://islengg.ac.in/gallery/image/mail.png"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -309,7 +309,7 @@ const ece = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{" "}
+                    More{' '}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -322,7 +322,7 @@ const ece = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default ece;
+export default ece

@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../CE/components/Sidebar";
-import Sidepost from "../CE/components/Sidepost";
-import Syllabus from "../CE/components/Syllabus";
-import Slide from "../CE/components/Slide";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../CE/components/Sidebar'
+import Sidepost from '../CE/components/Sidepost'
+import Syllabus from '../CE/components/Syllabus'
+import Slide from '../CE/components/Slide'
+import { Link } from 'react-router-dom'
 
 const ce = () => {
   return (
@@ -52,7 +52,7 @@ const ce = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://islengg.ac.in/gallery/image/mail.png"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -149,7 +149,7 @@ const ce = () => {
                           mathematics, basic sciences and engineering
                           fundamentals, to successfully compete for entry-level
                           positions or pursue postgraduate programme in Civil
-                          Engineering and related fields.{" "}
+                          Engineering and related fields.{' '}
                         </li>
                         <li>
                           <i className="fa fa-check"></i>ontemporary Civil
@@ -157,7 +157,7 @@ const ce = () => {
                           / interpretation and presentation of data, including
                           hands-on laboratory experience, exposure to modern
                           software, creativity, and innovation to successfully
-                          compete in the local, national and global market.{" "}
+                          compete in the local, national and global market.{' '}
                         </li>
                         <li>
                           <i className="fa fa-check"></i> Strong communication
@@ -302,7 +302,7 @@ const ce = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{" "}
+                    More{' '}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -315,7 +315,7 @@ const ce = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default ce;
+export default ce

@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.exambranch a {
+  color: #212529;
+}
+
 .nur a {
   color: #192f59 !important;
 }
@@ -114,6 +118,8 @@ a:hover {
 }
 .useful .wrapper h3 {
   border-bottom: 1px solid #53607a;
+  padding-top: 20px;
+  padding-bottom: 20px;
   padding: 20px;
   width: 80%;
   font-size: 16px;
@@ -503,6 +509,10 @@ abbr.all-research-btn2 a {
 .breadcrumb_media .media_image .author {
   width: 50px;
   border-radius: 50%;
+}
+.breadcrumb_media .media_image .authorExam {
+  width: 50px;
+  border-radius: 10%;
 }
 
 .breadcrumb_media .media_image .bookmark {

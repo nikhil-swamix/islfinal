@@ -164,7 +164,7 @@ class Home extends React.Component {
         </section>
 
         <section className="why_choose_area pt-60 pb-230">
-          <div className="site-heading text-center pt-90">
+          <div className="site-heading text-center">
             <h2>Why Choose Us?</h2>
           </div>
 
@@ -442,7 +442,7 @@ class Home extends React.Component {
           </div>
         </section>
 
-        <section className="guest pt-60 pb-50">
+        <section className="guest pt-90">
           <div className="site-heading text-center">
             <h2>Listen to the Best Minds</h2>
           </div>

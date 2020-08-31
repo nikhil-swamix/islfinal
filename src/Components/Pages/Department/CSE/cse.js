@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../CSE/components/Sidebar";
-import Sidepost from "../CSE/components/Sidepost";
-import Syllabus from "../CSE/components/Syllabus";
-import Slide from "../CSE/components/Slide";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../CSE/components/Sidebar'
+import Sidepost from '../CSE/components/Sidepost'
+import Syllabus from '../CSE/components/Syllabus'
+import Slide from '../CSE/components/Slide'
+import { Link } from 'react-router-dom'
 
 const cse = () => {
   return (
@@ -52,7 +52,7 @@ const cse = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://islengg.ac.in/gallery/image/mail.png"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -283,7 +283,7 @@ const cse = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{" "}
+                    More{' '}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -296,7 +296,7 @@ const cse = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default cse;
+export default cse

@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../EEE/components/Sidebar";
-import Sidepost from "../EEE/components/Sidepost";
-import Syllabus from "../EEE/components/Syllabus";
-import Slide from "../EEE/components/Slide";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../EEE/components/Sidebar'
+import Sidepost from '../EEE/components/Sidepost'
+import Syllabus from '../EEE/components/Syllabus'
+import Slide from '../EEE/components/Slide'
+import { Link } from 'react-router-dom'
 
 const eee = () => {
   return (
@@ -52,7 +52,7 @@ const eee = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://islengg.ac.in/gallery/image/mail.png"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -288,7 +288,7 @@ const eee = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{" "}
+                    More{' '}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -301,7 +301,7 @@ const eee = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default eee;
+export default eee

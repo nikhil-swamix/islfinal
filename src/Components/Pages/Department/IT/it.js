@@ -1,11 +1,11 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../IT/components/Sidebar";
-import Sidepost from "../IT/components/Sidepost";
-import Syllabus from "../IT/components/Syllabus";
-import Slide from "../IT/components/Slide";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../IT/components/Sidebar'
+import Sidepost from '../IT/components/Sidepost'
+import Syllabus from '../IT/components/Syllabus'
+import Slide from '../IT/components/Slide'
+import { Link } from 'react-router-dom'
 
 const it = () => {
   return (
@@ -52,7 +52,7 @@ const it = () => {
                     <div className="media_image">
                       <img
                         className="bookmark"
-                        src="https://islengg.ac.in/gallery/image/mail.png"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
                         alt="mail"
                       />
                     </div>
@@ -284,7 +284,7 @@ const it = () => {
                 <Sidepost />
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
-                    More{" "}
+                    More{' '}
                     <i
                       className="fa fa-long-arrow-right"
                       aria-hidden="true"
@@ -297,7 +297,7 @@ const it = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default it;
+export default it
