@@ -6,7 +6,13 @@ const NotFound = () => {
       <Container>
         <Row>
           <Col lg={12} className="pt-90 pb-90 text-center">
-            <h1>Page Not Found</h1>
+            <div>
+              <img
+                src="https://i.ibb.co/R7kWXgM/404.png"
+                className="img-fluid"
+                alt="404"
+              />
+            </div>
           </Col>
         </Row>
       </Container>

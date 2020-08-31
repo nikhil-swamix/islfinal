@@ -9,7 +9,7 @@ import ReadMoreAndLess from 'react-read-more-less'
 import Admission from './Enquiry'
 import BottomAlert from './BottomAlert'
 import Enquiry from './Enquiry'
-import {Helmet} from 'react-helmet'
+import { Helmet } from 'react-helmet'
 class Home extends React.Component {
   constructor() {
     super()
@@ -33,12 +33,15 @@ class Home extends React.Component {
     return (
       <>
         <Helmet>
-        <meta charSet="utf-8" />
-        <title>ISL Engineering College | Home</title>
-        <meta name="description" content="Approved by AICTE and Affiliated to Osmania University" />
+          <meta charSet="utf-8" />
+          <title>ISL Engineering College | Home</title>
+          <meta
+            name="description"
+            content="Approved by AICTE and Affiliated to Osmania University"
+          />
 
-        <link rel="canonical" href="http://islec.edu.in" />
-      </Helmet>
+          <link rel="canonical" href="http://islec.edu.in" />
+        </Helmet>
 
         <Enquiry />
         <div className="nptel">
@@ -160,194 +163,16 @@ class Home extends React.Component {
           </Container>
         </section>
 
-        <section className="courses_area pt-90 pb-50">
-          <div className="container-fluid">
-            <div className="row">
-              <div className="col-lg-8">
-                <div className="site-heading text-left">
-                  <h2>In-House Events</h2>
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-lg-2 col-sm-6 mb-10">
-                <div class="card">
-                  <img
-                    className="card-img-top"
-                    src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
-                    alt="Card "
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title bold">Espirit</h6>
-                    <p className="card-text">
-                      <ReadMoreAndLess
-                        ref={this.ReadMore}
-                        className="read-more-content"
-                        charLimit={22}
-                        readMoreText="Read more"
-                        readLessText="Read less"
-                      >
-                        Espirit is one of the finest Cultural event of ISL
-                      </ReadMoreAndLess>{' '}
-                      <a href="https://photos.app.goo.gl/2GKx2HbRnh6aJ2Vh9">
-                        {' '}
-                        <i class="fa fa-external-link" aria-hidden="true"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-2 col-sm-6 mb-10">
-                <div class="card">
-                  <img
-                    className="card-img-top"
-                    src="https://www.islengg.ac.in/gallery/image/12360109_804863866292632_5655372927831286769_n.jpg"
-                    alt="Card "
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title bold">Sports</h6>
-                    <p className="card-text">
-                      <ReadMoreAndLess
-                        ref={this.ReadMore}
-                        className="read-more-content"
-                        charLimit={22}
-                        readMoreText="Read more"
-                        readLessText="Read less"
-                      >
-                        Enthusiac is an Annual Sports Meet of ISL. Scintillating
-                        performance creates aura of festivit
-                      </ReadMoreAndLess>
-                      <a href="https://photos.app.goo.gl/8H5kvb6gRw7dgqzb7">
-                        <i class="fa fa-external-link" aria-hidden="true"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-2 col-sm-6 mb-10">
-                <div class="card">
-                  <img
-                    className="card-img-top"
-                    src="https://i.ibb.co/6Rfb82N/eloquence.jpg"
-                    alt="Card "
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title bold">Eloquence</h6>
-                    <p className="card-text">
-                      <ReadMoreAndLess
-                        ref={this.ReadMore}
-                        className="read-more-content"
-                        charLimit={22}
-                        readMoreText="Read more"
-                        readLessText="Read less"
-                      >
-                        Eloquence The English Festival of ISL.
-                      </ReadMoreAndLess>
-                      <a href="https://photos.app.goo.gl/iCdtZ7j4BxKLe5Lr7">
-                        <i class="fa fa-external-link" aria-hidden="true"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-2 col-sm-6 mb-10">
-                <div class="card">
-                  <img
-                    className="card-img-top"
-                    src="https://i.ibb.co/F5PjW2c/deptfest.jpg"
-                    alt="Card "
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title bold">Departmental Projects</h6>
-                    <p className="card-text">
-                      <ReadMoreAndLess
-                        ref={this.ReadMore}
-                        className="read-more-content"
-                        charLimit={22}
-                        readMoreText="Read more"
-                        readLessText="Read less"
-                      >
-                        Departmental Projects Showcase by the Students in every
-                        Semester
-                      </ReadMoreAndLess>
-                      <a href="https://photos.app.goo.gl/HzSb4fC6fPButvfr7">
-                        <i class="fa fa-external-link" aria-hidden="true"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-2 col-sm-6 mb-10">
-                <div class="card">
-                  <img
-                    className="card-img-top"
-                    src="https://islengg.ac.in/gallery/image/engg.jpg"
-                    alt="Card "
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title bold">Engineers Day</h6>
-                    <p className="card-text">
-                      <ReadMoreAndLess
-                        ref={this.ReadMore}
-                        className="read-more-content"
-                        charLimit={22}
-                        readMoreText="Read more"
-                        readLessText="Read less"
-                      >
-                        Engineers Day is celebrated with pomp & grace every year
-                        in ISL
-                      </ReadMoreAndLess>
-                      <a href="https://photos.app.goo.gl/xtAA8mZ5SGidk1Y56">
-                        <i class="fa fa-external-link" aria-hidden="true"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-2 col-sm-6 mb-10">
-                <div class="card">
-                  <img
-                    className="card-img-top"
-                    src="https://www.islengg.ac.in/gallery/image/motivatiospeechsas.jpeg"
-                    alt="Card "
-                  />
-                  <div className="card-body">
-                    <h6 className="card-title bold">Motivational Sessions</h6>
-                    <p className="card-text">
-                      <ReadMoreAndLess
-                        ref={this.ReadMore}
-                        className="read-more-content"
-                        charLimit={22}
-                        readMoreText="Read more"
-                        readLessText="Read less"
-                      >
-                        Motivational sessions encourage students to make
-                        valuable contributions in their student and professional
-                        life.
-                      </ReadMoreAndLess>
-                      <a href="https://photos.app.goo.gl/XbHg1NG6KMRtRfyD9">
-                        <i class="fa fa-external-link" aria-hidden="true"></i>
-                      </a>
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
         <section className="why_choose_area pt-60 pb-230">
+          <div className="site-heading text-center pt-90">
+            <h2>Why Choose Us?</h2>
+          </div>
+
           <div className="container">
             <div className="row">
               <div className="col-lg-8">
                 <div className="why_choose_content">
-                  <div className="section_title pb-20">
-                    <h3 className="main_title">Why choose us?</h3>
+                  <div className="section_title">
                     <p>
                       What do you think is better to receive after each lesson:
                       a lovely looking badge or important skills you can
@@ -568,15 +393,15 @@ class Home extends React.Component {
           </div>
           <div className="why_choose_image d-none d-lg-table">
             <div className="image">
-              <img
-                src="https://www.islengg.ac.in/gallery/image/Campus%20Pic.jpg"
-                alt=""
-              />
+              <img src="https://i.ibb.co/5B1dkzm/Campus-Pic.jpg" alt="" />
             </div>
           </div>
         </section>
 
-        <section className="about_area_2 d-flex flex-wrap pt-90">
+        <div className="site-heading text-center pt-90">
+          <h2>Free to be !</h2>
+        </div>
+        <section className="about_area_2 d-flex flex-wrap">
           <div className="about_video bg_cover">
             <div className="video">
               <ModalVideo
@@ -617,12 +442,103 @@ class Home extends React.Component {
           </div>
         </section>
 
+        <section className="guest pt-60 pb-50">
+          <div className="site-heading text-center">
+            <h2>Listen to the Best Minds</h2>
+          </div>
+          <>
+            <Row noGutters className="text-center">
+              <Col lg={6} className="guest_col_1">
+                <div className="single_guest d-sm-flex flex-wrap align-items-center">
+                  <img
+                    className="guest_arrow"
+                    src="https://i.ibb.co/25W559r/left.png"
+                    alt="left"
+                  />
+                  <div className="team_image">
+                    <img src="https://i.ibb.co/xjXCp00/2.png" alt="team" />
+                  </div>
+                  <div className="team_content">
+                    <div className="team_content_wrapper">
+                      <h4 className="title">
+                        <a href="#/">Ansar Shaikh</a>
+                      </h4>
+                      <span>Youngest IAS Officer</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="single_guest d-sm-flex flex-wrap align-items-center flex-row-reverse">
+                  <img
+                    className="guest_arrow"
+                    src="https://i.ibb.co/hZCCYRn/right.png"
+                    alt="left"
+                  />
+                  <div className="team_image">
+                    <img src="https://i.ibb.co/bjVw1CG/1.jpg" alt="team" />
+                  </div>
+                  <div className="team_content">
+                    <div className="team_content_wrapper">
+                      <h4 className="title">
+                        <a href="#/">Javed Jaffrey</a>
+                      </h4>
+                      <span>Actor, Philanthropist</span>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+              <Col lg={6} className="team_col_2">
+                <div className="single_guest d-sm-flex flex-wrap align-items-center">
+                  <img
+                    className="guest_arrow"
+                    src="https://i.ibb.co/25W559r/left.png"
+                    alt="left"
+                  />
+                  <div className="team_image">
+                    <img
+                      src="https://i.ibb.co/3TCsQB6/EUUu-WKGXg-AAe-Pv-V.jpg"
+                      alt="team"
+                    />
+                  </div>
+                  <div className="team_content">
+                    <div className="team_content_wrapper">
+                      <h4 className="title">
+                        <a href="#/">Simerjeet Singh</a>
+                      </h4>
+                      <span>International Motivational Speaker</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="single_guest d-sm-flex flex-wrap align-items-center flex-row-reverse">
+                  <img
+                    className="guest_arrow"
+                    src="https://i.ibb.co/hZCCYRn/right.png"
+                    alt="left"
+                  />
+                  <div className="team_image">
+                    <img
+                      src="https://i.ibb.co/K6NwnJv/unnamed.jpg"
+                      alt="team"
+                    />
+                  </div>
+                  <div className="team_content">
+                    <div className="team_content_wrapper">
+                      <h4 className="title">
+                        <a href="#/">Wali Rehmani</a>
+                      </h4>
+                      <span>Social Entrepreneur | Social Activist</span>
+                    </div>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </>
+        </section>
+
         <section className="student_work">
           <Container className="pt-60 pb-60">
-            <div className="site-heading text-left">
-              <h2>
-                STUDENT <span className="text-white">LIFE</span>
-              </h2>
+            <div className="site-heading text-center">
+              <h2>Student Life</h2>
             </div>
             <abbr className="all-research-btn2">
               <a href="/events">
@@ -684,7 +600,7 @@ class Home extends React.Component {
                   <div className="col-12 col-md-6 col-lg-6 col-xl-6 mb-20">
                     <div className="student_work_overlay student_work_img">
                       <img
-                        src="https://www.islengg.ac.in/gallery/image/22366246_1315432218569125_4106898326753213867_n.jpg"
+                        src="https://i.ibb.co/fGmmJ54/22366246-1315432218569125-4106898326753213867-n.jpg"
                         alt="Img"
                       />
                       <h4>Participation in National Level Sporting Events</h4>
@@ -760,97 +676,183 @@ class Home extends React.Component {
           <div className="feature-bg"></div>
         </section> */}
 
-        <section className="guest pt-60 pb-50">
+        <section className="courses_area pt-90 pb-50">
           <div className="site-heading text-center">
-            <h2>Listen to the Best Minds</h2>
+            <h2>In-House Events</h2>
           </div>
-          <Container>
-            <Row noGutters className="text-center">
-              <Col lg={6} className="guest_col_1">
-                <div className="single_guest d-sm-flex flex-wrap align-items-center">
-                  <img
-                    className="guest_arrow"
-                    src="https://i.ibb.co/25W559r/left.png"
-                    alt="left"
-                  />
-                  <div className="team_image">
-                    <img src="https://i.ibb.co/xjXCp00/2.png" alt="team" />
-                  </div>
-                  <div className="team_content">
-                    <div className="team_content_wrapper">
-                      <h4 className="title">
-                        <a href="https://islengg.ac.in">Ansar Shaikh</a>
-                      </h4>
-                      <span>Youngest IAS Officer</span>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="single_guest d-sm-flex flex-wrap align-items-center flex-row-reverse">
+          <div className="container-fluid">
+            <div className="row"></div>
+            <div className="row">
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div class="card">
                   <img
-                    className="guest_arrow"
-                    src="https://i.ibb.co/hZCCYRn/right.png"
-                    alt="left"
+                    className="card-img-top"
+                    src="https://i.ibb.co/XVvcsVD/Espirit.jpg"
+                    alt="Card "
                   />
-                  <div className="team_image">
-                    <img src="https://i.ibb.co/bjVw1CG/1.jpg" alt="team" />
-                  </div>
-                  <div className="team_content">
-                    <div className="team_content_wrapper">
-                      <h4 className="title">
-                        <a href="https://islengg.ac.in">Javed Jaffrey</a>
-                      </h4>
-                      <span>Actor, Philanthropist</span>
-                    </div>
+                  <div className="card-body">
+                    <h6 className="card-title bold">Espirit</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Espirit is one of the finest Cultural event of ISL
+                      </ReadMoreAndLess>{' '}
+                      <a href="https://photos.app.goo.gl/2GKx2HbRnh6aJ2Vh9">
+                        {' '}
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+                    </p>
                   </div>
                 </div>
-              </Col>
-              <Col lg={6} className="team_col_2">
-                <div className="single_guest d-sm-flex flex-wrap align-items-center">
+              </div>
+
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div class="card">
                   <img
-                    className="guest_arrow"
-                    src="https://i.ibb.co/25W559r/left.png"
-                    alt="left"
+                    className="card-img-top"
+                    src="https://i.ibb.co/LrTrqx8/12360109-804863866292632-5655372927831286769-n.jpg"
+                    alt="Card "
                   />
-                  <div className="team_image">
-                    <img
-                      src="https://i.ibb.co/3TCsQB6/EUUu-WKGXg-AAe-Pv-V.jpg"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="team_content">
-                    <div className="team_content_wrapper">
-                      <h4 className="title">
-                        <a href="https://islengg.ac.in">Simerjeet Singh</a>
-                      </h4>
-                      <span>International Motivational Speaker</span>
-                    </div>
+                  <div className="card-body">
+                    <h6 className="card-title bold">Sports</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Enthusiac is an Annual Sports Meet of ISL. Scintillating
+                        performance creates aura of festivit
+                      </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/8H5kvb6gRw7dgqzb7">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+                    </p>
                   </div>
                 </div>
-                <div className="single_guest d-sm-flex flex-wrap align-items-center flex-row-reverse">
+              </div>
+
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div class="card">
                   <img
-                    className="guest_arrow"
-                    src="https://i.ibb.co/hZCCYRn/right.png"
-                    alt="left"
+                    className="card-img-top"
+                    src="https://i.ibb.co/6Rfb82N/eloquence.jpg"
+                    alt="Card "
                   />
-                  <div className="team_image">
-                    <img
-                      src="https://i.ibb.co/K6NwnJv/unnamed.jpg"
-                      alt="team"
-                    />
-                  </div>
-                  <div className="team_content">
-                    <div className="team_content_wrapper">
-                      <h4 className="title">
-                        <a href="https://islengg.ac.in">Wali Rehmani</a>
-                      </h4>
-                      <span>Social Entrepreneur | Social Activist</span>
-                    </div>
+                  <div className="card-body">
+                    <h6 className="card-title bold">Eloquence</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Eloquence The English Festival of ISL.
+                      </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/iCdtZ7j4BxKLe5Lr7">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+                    </p>
                   </div>
                 </div>
-              </Col>
-            </Row>
-          </Container>
+              </div>
+
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://i.ibb.co/F5PjW2c/deptfest.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Departmental Projects</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Departmental Projects Showcase by the Students in every
+                        Semester
+                      </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/HzSb4fC6fPButvfr7">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://i.ibb.co/BfhjfXh/mechp.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Engineers Day</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Engineers Day is celebrated with pomp & grace every year
+                        in ISL
+                      </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/xtAA8mZ5SGidk1Y56">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="col-lg-2 col-sm-6 mb-10">
+                <div class="card">
+                  <img
+                    className="card-img-top"
+                    src="https://i.ibb.co/Wx6qyyd/motivatiospeechsas.jpg"
+                    alt="Card "
+                  />
+                  <div className="card-body">
+                    <h6 className="card-title bold">Motivational Sessions</h6>
+                    <p className="card-text">
+                      <ReadMoreAndLess
+                        ref={this.ReadMore}
+                        className="read-more-content"
+                        charLimit={22}
+                        readMoreText="Read more"
+                        readLessText="Read less"
+                      >
+                        Motivational sessions encourage students to make
+                        valuable contributions in their student and professional
+                        life.
+                      </ReadMoreAndLess>
+                      <a href="https://photos.app.goo.gl/XbHg1NG6KMRtRfyD9">
+                        <i class="fa fa-external-link" aria-hidden="true"></i>
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </section>
       </>
     )
