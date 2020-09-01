@@ -140,6 +140,15 @@ a:hover {
   color: #3db166;
 }
 
+.topAlert a {
+  color: #215888;
+  font-weight: bolder;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-size: 14px;
+  line-height: 24px;
+}
+
 .nptel a:hover {
   color: #ffffff;
   text-decoration: none !important;
