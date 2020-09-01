@@ -18,7 +18,7 @@ const Useful = () => {
             </h3>
             <h3 className="list">
               <a href="https://www.vlab.co.in/">
-                Virtual Labs: an MHRD Govt of India Initiative{' '}
+                Virtual Labs: an MoE Govt of India Initiative{' '}
                 <i class="fa fa-external-link" aria-hidden="true"></i>
               </a>
             </h3>

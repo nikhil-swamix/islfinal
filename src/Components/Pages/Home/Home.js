@@ -175,8 +175,7 @@ class Home extends React.Component {
                   <div className="section_title">
                     <p>
                       What do you think is better to receive after each lesson:
-                      a lovely looking badge or important skills you can
-                      immediately put into practice.
+                      an important skills you can immediately put into practice.
                     </p>
                   </div>
                   <div className="row">
