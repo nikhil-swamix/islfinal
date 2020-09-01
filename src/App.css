@@ -13,6 +13,10 @@ body {
   color: #212529;
 }
 
+.allnews a {
+  color: #212529;
+}
+
 .nur a {
   color: #192f59 !important;
 }

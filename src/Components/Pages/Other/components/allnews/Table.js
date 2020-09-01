@@ -30,10 +30,14 @@ class Table extends React.Component {
   }
 
   render() {
+    const renderSyllabusUrl = (val, row) => (
+      <a href={`${row['link']}`}> {`${row['title']}`} </a>
+    )
+
     const { isLoading, news_list } = this.state
 
     const tableColumns = [
-      { title: 'News & Updates', prop: 'title' },
+      { title: 'News & Updates', prop: 'title', render: renderSyllabusUrl },
       {
         title: 'Date',
         prop: 'date',
