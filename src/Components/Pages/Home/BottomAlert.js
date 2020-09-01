@@ -27,14 +27,14 @@ class BottomAlert extends React.Component {
             role="alert"
           >
             <p className="alertContent">
-              Download our Newsletter, Brochure & Booklet{' '}
+              Download our Newsletter & Brochure{' '}
               <a
                 href="https://drive.google.com/file/d/1AueQSqZcrH6p0pfq-EoNahbIq9VRgjsm/view"
                 class="btn btn-primary btn-md active"
                 role="button"
                 aria-pressed="true"
               >
-                Newsletter
+                Newsletter <i className="fa fa-download" aria-hidden="true"></i>
               </a>
               <a
                 href="https://drive.google.com/file/d/1W1zyVr8zmE_OGt6ibgJyb8voECePDwbY/view"
@@ -42,15 +42,7 @@ class BottomAlert extends React.Component {
                 role="button"
                 aria-pressed="true"
               >
-                Brochure
-              </a>
-              <a
-                href="https://drive.google.com/file/d/1v3wDuxFOuomXZJ5e4VkV3VX4FChoEdvi/view"
-                class="btn btn-info btn-md active"
-                role="button"
-                aria-pressed="true"
-              >
-                Booklet
+                Brochure <i className="fa fa-download" aria-hidden="true"></i>
               </a>
             </p>
 

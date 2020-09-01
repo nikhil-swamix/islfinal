@@ -94,8 +94,9 @@ body {
 .alertContent a {
   text-decoration: underline;
 }
-.alert-dismissible .close {
+.bottom_alert .alert-dismissible .close {
   padding-top: 10px !important;
+  color: #ffffff !important;
 }
 .alert-warning {
   color: #215888 !important;
@@ -754,13 +755,39 @@ abbr.all-research-btn2 a {
 .brand .container {
   margin: 0px;
 }
-
+.trips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-direction: row;
+}
+trips_icons {
+  width: 55px;
+  height: 55px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: 12px;
+  background: rgba(0, 186, 116, 0.1);
+  border-radius: 50%;
+  color: #00ba74;
+  font-size: 1.3rem;
+}
+.trips_detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
 .brand h3 {
   margin-left: 70px;
   font-size: 15px;
   font-weight: 600;
   text-transform: none;
   line-height: 1.4;
+  color: #404040;
 }
 
 .brand .content {

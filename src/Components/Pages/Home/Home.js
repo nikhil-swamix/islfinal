@@ -34,7 +34,7 @@ class Home extends React.Component {
       <>
         <Helmet>
           <meta charSet="utf-8" />
-          <title>ISL Engineering College | Home</title>
+          <title>ISL Engineering College</title>
           <meta
             name="description"
             content="Approved by AICTE and Affiliated to Osmania University"
