@@ -129,6 +129,10 @@ a:hover {
   text-decoration: none;
 }
 
+.useful .fa {
+  color: #3db166;
+}
+
 .nptel a:hover {
   color: #ffffff;
   text-decoration: none !important;
