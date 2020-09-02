@@ -30,7 +30,7 @@ const NavigationBar = () => {
                       <a href="#/">Alumni</a>
                     </li>
                     <li>
-                      <a href="https://accounts.google.com/signin/v2/identifier?continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ltmpl=default&hd=islec.edu.in&service=mail&sacu=1&rip=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                      <a href="https://mail.google.com/a/islec.edu.in">
                         E-Mail
                       </a>
                     </li>

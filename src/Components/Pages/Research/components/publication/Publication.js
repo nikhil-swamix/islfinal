@@ -1,9 +1,9 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import Header from "../../Header";
-import Table from "./Table";
-import Sidebar from "../../Sidebar";
-import { Helmet } from "react-helmet";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import Header from '../../Header'
+import Table from './Table'
+import Sidebar from '../../Sidebar'
+import { Helmet } from 'react-helmet'
 
 const Publication = () => {
   return (
@@ -32,7 +32,7 @@ const Publication = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Publication;
+export default Publication

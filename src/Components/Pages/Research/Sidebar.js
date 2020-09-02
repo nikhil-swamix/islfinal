@@ -27,9 +27,9 @@ class Sidebar extends React.Component {
     return (
       <React.Fragment>
         <div className="sidebar-item category">
-          <div className="title">
+          {/* <div className="title">
             <h4>Quick Links</h4>
-          </div>
+          </div> */}
           <div className="sidebar-info">
             {!isLoading ? (
               quicklink_list.map((quicklist) => {

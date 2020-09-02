@@ -1,6 +1,6 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -34,7 +34,7 @@ const Footer = () => {
                     <p>View Location on Google Map</p>
                   </a>
                 </div>
-              </Col>{" "}
+              </Col>{' '}
               <Col lg={3} md={6} sm={6}>
                 <div className="footer-link mt-40">
                   <div className="footer-title pb-25">
@@ -96,7 +96,7 @@ const Footer = () => {
                     <li>
                       <Link href="#ee" as={Link} to="/department/eee">
                         <i className="fa fa-angle-right"></i>Electronics &
-                        Electrical Engineering{" "}
+                        Electrical Engineering{' '}
                       </Link>
                     </li>
                     <li>
@@ -160,27 +160,15 @@ const Footer = () => {
                 </div>
               </Col>
               <Col md={4} className="text-center">
-                <div className="copyright text-md-right">
+                <div className="copyright social text-md-right">
                   <ul className="mt-0">
                     <li>
-                      <a href="#/">
-                        <i className="fa fa-facebook-f"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#/">
-                        <i className="fa fa-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://www.linkedin.com/school/isl-engineering-college/">
-                        <i className="fa fa-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="#/">
-                        <i className="fa fa-instagram"></i>
-                      </a>
+                      <span>
+                        Follow us{' '}
+                        <a href="https://www.linkedin.com/school/isl-engineering-college/">
+                          <i className="fa fa-linkedin"></i>
+                        </a>
+                      </span>
                     </li>
                   </ul>
                 </div>
@@ -190,7 +178,7 @@ const Footer = () => {
         </div>
       </footer>
     </div>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer
