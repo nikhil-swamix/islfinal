@@ -42,7 +42,6 @@ class Enquiry extends Component {
         'Content-Type': 'application/json',
       },
     })
-    this.setState({ isSubmitting: false })
     const data = await res.json()
     !data.hasOwnProperty('error')
       ? this.setState({ message: data.success })
