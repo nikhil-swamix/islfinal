@@ -12,7 +12,7 @@ class Table extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/publications/allPublications',
+      'https://mern1ayaz.herokuapp.com/api/publications/eee',
     )
     try {
       this.setState({
@@ -36,16 +36,12 @@ class Table extends React.Component {
     const { isLoading, publication_list } = this.state
     const tableColumns = [
       {
-        title: 'Department',
-        prop: 'dept',
-      },
-      {
         title: 'Title',
         prop: 'title',
         render: renderSyllabusUrl,
       },
       {
-        title: 'National, International - Journal / Conference',
+        title: 'National / International Journal / Conference',
         prop: 'journal',
       },
     ]
@@ -53,9 +49,7 @@ class Table extends React.Component {
     return (
       <>
         {!isLoading ? (
-          <div className="research table-responsive">
-            <h4>Publication</h4>
-
+          <div className="table-responsive publication mt-10">
             <DataTable
               keys="id"
               columns={tableColumns}

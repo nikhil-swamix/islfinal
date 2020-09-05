@@ -5,6 +5,7 @@ import Sidebar from '../ECE/components/Sidebar'
 import Sidepost from '../ECE/components/Sidepost'
 import Syllabus from '../ECE/components/Syllabus'
 import Slide from '../ECE/components/Slide'
+import Table from './components/Table'
 import { Link } from 'react-router-dom'
 
 const ece = () => {
@@ -83,6 +84,7 @@ const ece = () => {
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
                     <Tab>Curriculum</Tab>
+                    <Tab>Publications</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
@@ -289,6 +291,11 @@ const ece = () => {
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />
+                    </div>
+                  </TabPanel>
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <Table />
                     </div>
                   </TabPanel>
                 </Tabs>

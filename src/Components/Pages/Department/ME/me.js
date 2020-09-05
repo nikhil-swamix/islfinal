@@ -5,6 +5,7 @@ import Sidebar from '../ME/components/Sidebar'
 import Sidepost from '../ME/components/Sidepost'
 import Syllabus from '../ME/components/Syllabus'
 import Slide from '../ME/components/Slide'
+import Table from './components/Table'
 import { Link } from 'react-router-dom'
 
 const me = () => {
@@ -80,6 +81,7 @@ const me = () => {
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
                     <Tab>Curriculum</Tab>
+                    <Tab>Publications</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
@@ -271,6 +273,11 @@ const me = () => {
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />
+                    </div>
+                  </TabPanel>
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <Table />
                     </div>
                   </TabPanel>
                 </Tabs>

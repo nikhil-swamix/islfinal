@@ -6,7 +6,7 @@ import Sidepost from '../CSE/components/Sidepost'
 import Syllabus from '../CSE/components/Syllabus'
 import Slide from '../CSE/components/Slide'
 import { Link } from 'react-router-dom'
-
+import Table from './components/Table'
 const cse = () => {
   return (
     <>
@@ -80,6 +80,7 @@ const cse = () => {
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
                     <Tab>Curriculum</Tab>
+                    <Tab>Publications</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
@@ -263,6 +264,11 @@ const cse = () => {
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />
+                    </div>
+                  </TabPanel>
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <Table />
                     </div>
                   </TabPanel>
                 </Tabs>

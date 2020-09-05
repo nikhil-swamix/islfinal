@@ -9,6 +9,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.research .table td:first-child {
+  text-transform: uppercase !important;
+}
+
+.research .table td:nth-child(3) {
+  text-transform: uppercase !important;
+}
+
+.research a {
+  color: #212945;
+}
+.research a:hover {
+  color: #0056b3;
+}
+
+.syll .publication a {
+  color: #212529;
+  text-transform: none !important;
+}
+.syll .publication a:hover {
+  color: #0056b3;
+}
+
 .exambranch a {
   color: #212529;
 }
