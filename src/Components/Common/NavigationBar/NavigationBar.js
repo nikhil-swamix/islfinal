@@ -35,9 +35,6 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="#/">Online Fee</a>
-                    </li>
-                    <li>
                       <Link href="#contact" as={Link} to="/contact">
                         Contact
                       </Link>
