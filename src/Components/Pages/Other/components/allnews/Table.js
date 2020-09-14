@@ -42,7 +42,7 @@ class Table extends React.Component {
         title: 'Date',
         prop: 'date',
         render: function (data, type, row, meta) {
-          return moment(data).format('Do MMMM YYYY')
+          return moment(data).format('Do MMM YYYY')
         },
       },
     ]

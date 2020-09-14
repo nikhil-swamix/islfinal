@@ -1,10 +1,22 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 const Contact = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact</title>
+        <meta
+          name="description"
+          content="ISLEC is Approved by AICTE and Affiliated to Osmania University"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in" />
+      </Helmet>
+
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -80,7 +92,7 @@ const Contact = () => {
                       </div>
                       <div className="info_content media-body">
                         <p>
-                          International Airport Road, Bandlaguda, <br />{" "}
+                          International Airport Road, Bandlaguda, <br />{' '}
                           Hyderabad - 500005, Telangana, India
                         </p>
                       </div>
@@ -117,7 +129,7 @@ const Contact = () => {
         </div>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Contact;
+export default Contact

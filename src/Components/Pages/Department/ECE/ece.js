@@ -7,10 +7,22 @@ import Syllabus from '../ECE/components/Syllabus'
 import Slide from '../ECE/components/Slide'
 import Table from './components/Table'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 const ece = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Electronics & Communicate Engineering</title>
+        <meta
+          name="description"
+          content="ISLEC is Approved by AICTE and Affiliated to Osmania University"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in" />
+      </Helmet>
+
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -37,19 +49,19 @@ const ece = () => {
                   </ul>
                 </div>
 
-                {/* <div className="d-flex flex-wrap">
+                <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_image">
                       <img
                         className="author"
-                        src="https://islengg.ac.in/gallery/image/profile-icon-png-898.png"
+                        src="https://www.cornwallbusinessawards.co.uk/wp-content/uploads/2017/11/dummy450x450.jpg"
                         alt="author"
                       />
                     </div>
                     <div className="media_content media-body">
                       <p>Head of Department</p>
                       <h6 className="title">Dr. khan Sohel Rana</h6>
-                      <p className="edu">B.E., M-tech, PhD, MIE, MIEEE</p>
+                      {/* <p className="edu">B.E., M-tech, PhD, MIE, MIEEE</p> */}
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
@@ -62,11 +74,13 @@ const ece = () => {
                     </div>
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
-                        <a href="https://islengg.ac.in">@islec.edu.in</a>
+                        <a href="mailto:ece.hod@islec.edu.in">
+                          ece.hod@islec.edu.in
+                        </a>
                       </h6>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </Col>
           </Row>

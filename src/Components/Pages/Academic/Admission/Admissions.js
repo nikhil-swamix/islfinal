@@ -1,12 +1,23 @@
-import React from "react";
-import { Container, Row, Col, Table } from "react-bootstrap";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import Sidebar from "../Sidebar";
-import { Link } from "react-router-dom";
-
+import React from 'react'
+import { Container, Row, Col, Table } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
+import Sidebar from '../Sidebar'
+import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 const Admissions = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Admissions</title>
+        <meta
+          name="description"
+          content="ISLEC is Approved by AICTE and Affiliated to Osmania University"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in" />
+      </Helmet>
+
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -42,7 +53,7 @@ const Admissions = () => {
               <aside>
                 <Sidebar />
               </aside>
-            </Col>{" "}
+            </Col>{' '}
             <Col lg={8}>
               <section className="course-details-info">
                 <Tabs className="myClass">
@@ -132,7 +143,7 @@ const Admissions = () => {
         </Container>
       </section>
     </>
-  );
-};
+  )
+}
 
-export default Admissions;
+export default Admissions

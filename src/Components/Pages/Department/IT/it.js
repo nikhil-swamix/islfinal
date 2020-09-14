@@ -7,10 +7,21 @@ import Syllabus from '../IT/components/Syllabus'
 import Slide from '../IT/components/Slide'
 import Table from './components/Table'
 import { Link } from 'react-router-dom'
-
+import { Helmet } from 'react-helmet'
 const it = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Information Technology</title>
+        <meta
+          name="description"
+          content="ISLEC is Approved by AICTE and Affiliated to Osmania University"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in" />
+      </Helmet>
+
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -35,18 +46,18 @@ const it = () => {
                   </ul>
                 </div>
 
-                {/* <div className="d-flex flex-wrap">
+                <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_image">
                       <img
                         className="author"
-                        src="https://islengg.ac.in/gallery/image/profile-icon-png-898.png"
+                        src="https://www.cornwallbusinessawards.co.uk/wp-content/uploads/2017/11/dummy450x450.jpg"
                         alt="author"
                       />
                     </div>
                     <div className="media_content media-body">
                       <p>Head of Department</p>
-                      <h6 className="title">Samreen</h6>
+                      <h6 className="title">Rafath Samrin</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
@@ -59,11 +70,13 @@ const it = () => {
                     </div>
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
-                        <a href="https://islengg.ac.in">samreen@islec.edu.in</a>
+                        <a href="mailto:it.hod@islec.edu.in">
+                          it.hod@islec.edu.in
+                        </a>
                       </h6>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </Col>
           </Row>

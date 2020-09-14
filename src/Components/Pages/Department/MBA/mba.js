@@ -6,10 +6,22 @@ import Sidepost from '../MBA/components/Sidepost'
 import Syllabus from '../MBA/components/Syllabus'
 import Slide from '../MBA/components/Slide'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet'
 
 const mba = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Master of Business Administration</title>
+        <meta
+          name="description"
+          content="ISLEC is Approved by AICTE and Affiliated to Osmania University"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in" />
+      </Helmet>
+
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
@@ -34,12 +46,12 @@ const mba = () => {
                   </ul>
                 </div>
 
-                {/* <div className="d-flex flex-wrap">
+                <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_image">
                       <img
                         className="author"
-                        src="https://islengg.ac.in/gallery/image/profile-icon-png-898.png"
+                        src="https://www.cornwallbusinessawards.co.uk/wp-content/uploads/2017/11/dummy450x450.jpg"
                         alt="author"
                       />
                     </div>
@@ -58,11 +70,13 @@ const mba = () => {
                     </div>
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
-                        <a href="https://islengg.ac.in">@islec.edu.in</a>
+                        <a href="mailto:mba.hod@islec.edu.in">
+                          mba@islec.edu.in
+                        </a>
                       </h6>
                     </div>
                   </div>
-                </div> */}
+                </div>
               </div>
             </Col>
           </Row>
