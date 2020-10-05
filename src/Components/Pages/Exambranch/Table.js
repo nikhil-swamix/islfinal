@@ -59,7 +59,7 @@ class Table extends React.Component {
               keys="id"
               columns={tableColumns}
               initialData={news_list}
-              initialPageLength={10}
+              initialPageLength={50}
               pageLengthOptions={[10, 20, 30, 40, 50, 60]}
             />
           </div>

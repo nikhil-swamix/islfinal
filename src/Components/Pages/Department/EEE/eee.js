@@ -48,16 +48,9 @@ const eee = () => {
 
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
-                    <div className="media_image">
-                      <img
-                        className="author"
-                        src="https://www.cornwallbusinessawards.co.uk/wp-content/uploads/2017/11/dummy450x450.jpg"
-                        alt="author"
-                      />
-                    </div>
                     <div className="media_content media-body">
                       <p>Head of Department</p>
-                      <h6 className="title">Mansoor Ali </h6>
+                      <h6 className="title">Mohd Mansoor Ali </h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">

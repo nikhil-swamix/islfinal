@@ -48,7 +48,7 @@ const mba = () => {
 
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
-                    <div className="media_image">
+                    {/* <div className="media_image">
                       <img
                         className="author"
                         src="https://www.cornwallbusinessawards.co.uk/wp-content/uploads/2017/11/dummy450x450.jpg"
@@ -58,7 +58,7 @@ const mba = () => {
                     <div className="media_content media-body">
                       <p>Head of Department</p>
                       <h6 className="title">Hod Name </h6>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_image">

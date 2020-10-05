@@ -39,7 +39,7 @@ class TopAlert extends React.Component {
       <React.Fragment>
         {isActive
           ? news_list.map((news) => {
-              const { _id, title, link } = news
+              const { _id, title, link, value } = news
               return (
                 <div
                   className="alert alert-warning alert-dismissible text-center topAlert"
@@ -47,11 +47,7 @@ class TopAlert extends React.Component {
                   key={_id}
                 >
                   <a href={link} className="alertContent">
-                    {title}{' '}
-                    <i
-                      className="fa fa-angle-double-right"
-                      aria-hidden="true"
-                    ></i>
+                    {title} <u>{value}</u>
                   </a>
                   <button
                     type="button"

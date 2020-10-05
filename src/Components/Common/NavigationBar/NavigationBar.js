@@ -25,13 +25,15 @@ const NavigationBar = () => {
                         info@islec.edu.in
                       </a>
                     </li>
-
                     <li>
-                      <a href="#/">Alumni</a>
+                      <a href="z">
+                        <span className="fa fa-envelope"></span>{' '}
+                        careers@islec.edu.in
+                      </a>
                     </li>
                     <li>
                       <a href="https://mail.google.com/a/islec.edu.in">
-                        E-Mail
+                        <span className="fa fa-sign-in"></span> Email Login
                       </a>
                     </li>
                     <li>
