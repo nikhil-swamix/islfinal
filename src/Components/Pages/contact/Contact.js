@@ -115,7 +115,7 @@ const Contact = () => {
                       </div>
                       <div className="info_content media-body">
                         <p>info@islec.edu.in</p>
-                        <p>meetislwcollege@gmail.com</p>
+                        <p>principal@islec.edu.in</p>
                       </div>
                     </div>
                   </li>

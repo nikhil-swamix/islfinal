@@ -23,6 +23,7 @@ import Payment from './Components/Pages/Other/components/payment'
 import AllNews from './Components/Pages/Other/components/allnews'
 import Exambranch from './Components/Pages/Exambranch'
 import Library from './Components/Pages/Other/components/library'
+import Nptel from './Components/Pages/Other/components/nptel'
 import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -53,6 +54,7 @@ function App() {
           <Route path="/library" component={Library} />
 
           <Route path="/payment" component={Payment} />
+          <Route path="/nptel" component={Nptel} />
 
           <Route component={NotFound} />
         </Switch>

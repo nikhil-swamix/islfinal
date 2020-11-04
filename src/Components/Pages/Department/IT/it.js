@@ -50,7 +50,7 @@ const it = () => {
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
                       <p>Head of Department</p>
-                      <h6 className="title">Rafath Samrin</h6>
+                      <h6 className="title">Sheena Mohammed</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">

@@ -45,7 +45,7 @@ class Home extends React.Component {
 
         <Enquiry />
         <div className="nptel">
-          <a href="https://nptel.ac.in/" class="nptel_content nptel_label">
+          <a href="/nptel" class="nptel_content nptel_label">
             NPTEL
           </a>
         </div>
