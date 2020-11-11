@@ -134,15 +134,18 @@ class Enquiry extends Component {
                       <option value="Mechanical Engineering">
                         Mechanical Engineering
                       </option>
+                      <option value="Mechanical Engineering">
+                        MBA
+                      </option>
                     </Form.Control>
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>Total Marks in Intermediate</Form.Label>
+                    <Form.Label>Total Marks in Intermediate(Engineering) or UG Percentage(MBA)</Form.Label>
                     <Form.Control
                       required
                       type="number"
-                      placeholder="Total Intermediate Marks"
+                      placeholder="Total Intermediate Marks "
                       name="mark"
                       value={this.state.values.mark}
                       onChange={this.handleInputChange}
