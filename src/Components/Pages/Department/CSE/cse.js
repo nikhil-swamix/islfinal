@@ -88,6 +88,7 @@ const cse = () => {
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
                     <Tab>Curriculum</Tab>
+                    <Tab>Co - Academic</Tab>
                     <Tab>Publications</Tab>
                   </TabList>
 
@@ -274,6 +275,24 @@ const cse = () => {
                       <Syllabus />
                     </div>
                   </TabPanel>
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <p>Oracle academy provides  you with a wide range of FREE teaching resources, including Curriculum, classroom learning resources, software, cloud technology, practice environment, and much more.</p>
+                      <p>Oracle Academy provides educational institutions with the resources they need to help educators develop core computing knowledge and skills aligned to industry standards and using current technologies—so they can teach students the skills they need to succeed.</p>
+                      <p>At Oracle Academy, we know that educational institutions and teachers are invested in student success, and we share this core goal. It's critical that institutions and educators have access to the right resources to help ensure students achieve post-graduation success, whether moving onto college or graduate school, or into the job market.</p>
+                      <p>Oracle Academy can help educators keep up with ever-changing technologies and software to help prepare students for their futures. We understand and value educators as collaborators who are empowered to facilitate innovative student learning in and outside the classroom.</p>
+                      <p>Our free program offers institutions and educators access to a wide range of teaching and educational resources, including curriculum, classroom learning resources, software, cloud technology, practice environments, and much more.</p>
+                      <h4>Benefits:</h4>
+                      <ul>
+                        <li>Completely on-line</li>
+                        <li>Oracle academy certificate which is recognized all over the world</li>
+                        <li>Flexible timings to learn the weekly topics and is well paced</li>
+                        <li>All Oracle academy learning materials can be accessed free of cost</li>
+                        <li>Expert advice and on-line help if necessary</li>
+                      </ul>
+                    </div>
+                  </TabPanel>
+
                   <TabPanel>
                     <div className="syll text-center">
                       <Table />

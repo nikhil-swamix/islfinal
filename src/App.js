@@ -24,6 +24,8 @@ import AllNews from './Components/Pages/Other/components/allnews'
 import Exambranch from './Components/Pages/Exambranch'
 import Library from './Components/Pages/Other/components/library'
 import Nptel from './Components/Pages/Other/components/nptel'
+import Aws from './Components/Pages/Other/components/awseducate'
+
 import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -55,6 +57,7 @@ function App() {
 
           <Route path="/payment" component={Payment} />
           <Route path="/nptel" component={Nptel} />
+          <Route path="/awsEducate" component={Aws} />
 
           <Route component={NotFound} />
         </Switch>
