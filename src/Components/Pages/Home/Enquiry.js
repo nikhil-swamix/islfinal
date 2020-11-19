@@ -134,7 +134,7 @@ class Enquiry extends Component {
                       <option value="Mechanical Engineering">
                         Mechanical Engineering
                       </option>
-                      <option value="Mechanical Engineering">
+                      <option value="MBA">
                         MBA
                       </option>
                     </Form.Control>
