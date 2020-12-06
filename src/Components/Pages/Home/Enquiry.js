@@ -84,7 +84,6 @@ class Enquiry extends Component {
                     <Form.Control
                       required
                       type="text"
-                      placeholder="Name"
                       name="name"
                       value={this.state.values.name}
                       onChange={this.handleInputChange}
@@ -95,7 +94,6 @@ class Enquiry extends Component {
                     <Form.Label>Mobile</Form.Label>
                     <Form.Control
                       type="number"
-                      placeholder="Mobile No"
                       required
                       name="mobile"
                       value={this.state.values.mobile}
@@ -105,6 +103,7 @@ class Enquiry extends Component {
                 </Form.Row>
 
                 <Form.Row>
+                  
                   <Form.Group as={Col} controlId="formGridState">
                     <Form.Label>Department</Form.Label>
                     <Form.Control
@@ -116,24 +115,6 @@ class Enquiry extends Component {
                       onChange={this.handleInputChange}
                     >
                       <option>Choose...</option>
-                      <option value="Civil Engineering">
-                        Civil Engineering
-                      </option>
-                      <option value="Computer Science Engineering">
-                        Computer Science Engineering
-                      </option>
-                      <option value="Electronics & Communication Engineering">
-                        Electronics & Communication Engineering
-                      </option>
-                      <option value="Electrical & Electronics Engineering">
-                        Electrical & Electronics Engineering
-                      </option>
-                      <option value="Information Technology">
-                        Information Technology
-                      </option>
-                      <option value="Mechanical Engineering">
-                        Mechanical Engineering
-                      </option>
                       <option value="MBA">
                         MBA
                       </option>
@@ -141,11 +122,10 @@ class Enquiry extends Component {
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>Total Marks in Intermediate(Engineering) or UG Percentage(MBA)</Form.Label>
+                    <Form.Label>UG Percentage</Form.Label>
                     <Form.Control
                       required
                       type="number"
-                      placeholder="Total Intermediate Marks "
                       name="mark"
                       value={this.state.values.mark}
                       onChange={this.handleInputChange}
