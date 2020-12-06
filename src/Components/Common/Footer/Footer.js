@@ -29,6 +29,7 @@ const Footer = () => {
                   <a className="map" href="mailto:info@islec.edu.in">
                     <p>info@islec.edu.in</p>
                   </a>
+                  <br/>
 
                   <a className="map" href="https://g.page/ISLEC?share">
                     <p>View Location on Google Map</p>
