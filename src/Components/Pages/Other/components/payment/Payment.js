@@ -28,37 +28,55 @@ const Payment = () => {
           </Row>
         </Container>
       </section>
-      <section className="container mt-60 mb-60">
-        <div>
-          <h4>Guidlines for Online Payment</h4>
-          <button type="button" class="btn btn-primary btn-lg">
-            View Exam Notification
-          </button>
+
+
+
+      <section class="courses_details_area pt-40 pb-30">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 order-lg-last mt-50">
+                    <div class="courses_details_sidebar">
+                        <div class="courses_sidebar_image">
+                            <img src="https://image.freepik.com/free-vector/payment-information-concept-illustration_114360-2296.jpg" alt="courses details"/>
+
+                            <div class="courses_btn text-center mt-10">
+                                <a class="pay-btn" href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=945312">Pay Now</a>
+                            </div>
+                        </div>
+                        <div class="courses_sidebar_title">
+                            <h4 class="title">B.E Exam Fee</h4>
+                        </div>
+                        <div class="courses_sidebar_list">
+                            <ul class="list">
+                                <li> Last Date: 22 Sep 2020</li>
+                                <li><a href="https://drive.google.com/file/d/1vXcuNDyaOD7yrRI5cn1cU1HWc02RFM7V/view?usp=sharing"><i class="fa fa-eye"></i> View Notification </a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 order-lg-first">
+                    <div class="courses_details_content">
+                        {/* <div class="single_courses_details  mt-40">
+                            <h4 class="courses_details_title">Overview</h4>
+                            <p>What do you think is better to receive after each lesson: a lovely looking badge or important skills you can immediately put into practice? We thought you might choose the latter. tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                        </div> */}
+                        <div class="single_courses_details  mt-40">
+                            <h4 class="courses_details_title">Guidlines</h4>
+                            <ul>
+                                <li><i class="fa fa-check"></i> Clear your dues (Management Fee, Convenor Fee, Bus Fee and Misc Fee etc.) along with your exam fee. Otherwise, your exam application forms will not be accepted.</li>
+                                <li><i class="fa fa-check"></i> It's recommended to use a laptop or desktop for online transaction.</li>
+                                <li><i class="fa fa-check"></i> Before making online payments, make sure to check College Name and Pay your Total Exam Fee in a single transaction through the given link and generate e- receipt.</li>
+                                <li><i class="fa fa-check"></i> Student should submit their details carefully and will be Responsible for any Mistake in E-Reciept of payment.</li>
+                                <li><i class="fa fa-check"></i> Please make a note of Reference/ Transaction details in case of NetBanking or card payment.</li>
+                            </ul>
+                        </div>              
+                    </div>
+                </div>
+            </div>
         </div>
-        <ul>
-          <li>
-            It's recommended to use a laptop or desktop for online transactions.
-          </li>
-          <li>
-            Clear your dues (Management fee, Convenor Fee, Bus Fee and Misc Fee
-            etc.) along with your exam fee. Otherwise, your exam application
-            forms will not be accepted.
-          </li>
-          <li>
-            Before making payments online, make sure to check College Name and
-            Pay your Total Exam Fee in a single transaction through the given
-            link and generate e- receipt.
-          </li>
-          <li>
-            Student should submit their details carefully and will be
-            Responsible for any Mistake in E-Reciept of payment.
-          </li>
-          <li>
-            Please make a note of Reference/ Transaction details in case of
-            NetBanking or card payment.
-          </li>
-        </ul>
-      </section>
+    </section>
+
+
     </>
   )
 }
