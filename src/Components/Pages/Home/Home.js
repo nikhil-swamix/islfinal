@@ -146,7 +146,7 @@ class Home extends React.Component {
               <Col md={4} className="pt-25">
                 <section className="recents mb-25">
                   <div className="site-heading text-left">
-                    <h4>Recents </h4>
+                    <h4>Highlights </h4>
                   </div>
                   <Row>
                     <Reecent />
