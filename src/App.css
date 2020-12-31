@@ -154,12 +154,13 @@ a:hover {
 .useful .wrapper a {
   color: #3db166;
   text-decoration: none;
+  padding-left: 8px;
 }
 
 .useful .fa {
   color: #3db166;
 }
-.news .fa {
+.news .fa { 
   color: #3db166;
 }
 

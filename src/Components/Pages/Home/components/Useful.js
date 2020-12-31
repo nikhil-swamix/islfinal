@@ -38,11 +38,12 @@ class Useful extends React.Component {
 
           {!isLoading ? (
             useful_list.map((news) => {
-              const { title, link } = news
+              const { title, link, value } = news
               return (
                 <div className="section-content">
                   <div className="wrapper">
                     <h3 className="list">
+                    <img src={value} alt="logos useful" height="40" />
                       <a href={link}>
                         {title}{' '}
                         <i class="fa fa-external-link" aria-hidden="true"></i>

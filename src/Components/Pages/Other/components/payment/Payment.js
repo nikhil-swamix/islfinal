@@ -51,6 +51,10 @@ const Payment = () => {
                                 <li> Last Date: 22 Sep 2020</li>
                                 <li><a href="https://drive.google.com/file/d/1vXcuNDyaOD7yrRI5cn1cU1HWc02RFM7V/view?usp=sharing"><i class="fa fa-eye"></i> View Notification </a></li>
                             </ul>
+                            <ul class="list">
+                                <li> View Payment History</li>
+                                <li><a href="https://drive.google.com/file/d/18TmOW1e9lNM1Ds8nPGnBCAo93sARhIkc/view?usp=sharing"><i class="fa fa-angle-double-right"></i> Procedure </a></li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -63,11 +67,11 @@ const Payment = () => {
                         <div class="single_courses_details  mt-40">
                             <h4 class="courses_details_title">Guidlines</h4>
                             <ul>
-                                <li><i class="fa fa-check"></i> Clear your dues (Management Fee, Convenor Fee, Bus Fee and Misc Fee etc.) along with your exam fee. Otherwise, your exam application forms will not be accepted.</li>
+                                <li><i class="fa fa-check"></i> Clear your dues (Management Fee, Convenor Fee, Bus Fee and Misc Fee etc..) along with your exam fee. Otherwise, your exam application forms will not be accepted.</li>
                                 <li><i class="fa fa-check"></i> It's recommended to use a laptop or desktop for online transaction.</li>
-                                <li><i class="fa fa-check"></i> Before making online payments, make sure to check College Name and Pay your Total Exam Fee in a single transaction through the given link and generate e- receipt.</li>
+                                <li><i class="fa fa-check"></i> Before making online payments, make sure to check College Name and Pay your Total Exam Fee in a single transaction through the given link and generate e-receipt.</li>
                                 <li><i class="fa fa-check"></i> Student should submit their details carefully and will be Responsible for any Mistake in E-Reciept of payment.</li>
-                                <li><i class="fa fa-check"></i> Please make a note of Reference/ Transaction details in case of NetBanking or card payment.</li>
+                                <li><i class="fa fa-check"></i> Please make a note of Reference / Transaction details in case of NetBanking or card payment.</li>
                             </ul>
                         </div>              
                     </div>

@@ -19,8 +19,8 @@ const Footer = () => {
                     />
                   </div>
                   <p>
-                    International Airport Road, Bandlaguda, Hyderabad - 500005
-                    Telangana, India.
+                    International Airport Road, Bandlaguda, Chandrayangutta
+                     Hyderabad - 500005 Telangana, India.
                   </p>
                   <a className="map" href="tel:04029880083">
                     <p>040 - 29880083</p>
@@ -79,7 +79,6 @@ const Footer = () => {
                     <li>
                       <Link href="#ce" as={Link} to="/department/ce">
                         <i className="fa fa-angle-right"></i>Civil Engineering
-                        Department
                       </Link>
                     </li>
                     <li>

@@ -12,7 +12,7 @@ class Slide extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/carousels/it',
+      'https://mern1ayaz.herokuapp.com/api/carousels/cse',
     )
     try {
       this.setState({
