@@ -60,7 +60,7 @@ const nptel = () => {
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
                         <a href="https://islengg.ac.in">
-                          spoc@islec.edu.in
+                          nptel@islec.edu.in
                         </a>
                       </h6>
                     </div>
