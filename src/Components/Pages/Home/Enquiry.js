@@ -73,7 +73,7 @@ class Enquiry extends Component {
 
           <Modal.Dialog>
             <Modal.Header closeButton>
-              <Modal.Title>Admissions 2020 - Enquiry Form</Modal.Title>
+              <Modal.Title>Admissions 2021 - Enquiry Form</Modal.Title>
             </Modal.Header>
 
             <Modal.Body>
@@ -115,6 +115,21 @@ class Enquiry extends Component {
                       onChange={this.handleInputChange}
                     >
                       <option>Choose...</option>
+                      <option value="CSE">
+                        CSE
+                      </option>
+                      <option value="CIVIL">
+                        CIVIL
+                      </option>
+                      <option value="IT">
+                        IT
+                      </option>
+                      <option value="ECE">
+                        ECE
+                      </option>
+                      <option value="MECHANICAL">
+                        EEE
+                      </option>
                       <option value="MBA">
                         MBA
                       </option>
@@ -122,7 +137,7 @@ class Enquiry extends Component {
                   </Form.Group>
 
                   <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>UG Percentage</Form.Label>
+                    <Form.Label>10+2 Percentage</Form.Label>
                     <Form.Control
                       required
                       type="number"

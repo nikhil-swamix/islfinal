@@ -7,7 +7,7 @@ import News from './components/News'
 import Check from './components/Check'
 import ReadMoreAndLess from 'react-read-more-less'
 import BottomAlert from './BottomAlert'
-// import Enquiry from './Enquiry'
+import Enquiry from './Enquiry'
 import { Helmet } from 'react-helmet'
 class Home extends React.Component {
   constructor() {
@@ -49,7 +49,7 @@ class Home extends React.Component {
           </a>
         </div>
 
-        {/* <div className="nptel1">
+        <div className="nptel1">
           <a
             href="#/apply"
             className="nptel_content1 nptel_label1"
@@ -58,7 +58,7 @@ class Home extends React.Component {
             Apply Now
           </a>
           {this.state.showComponent ? <Admission /> : null}
-        </div> */}
+        </div>
 
         <div className="bottom_alert">
           <BottomAlert />
