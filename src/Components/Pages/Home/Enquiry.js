@@ -115,20 +115,23 @@ class Enquiry extends Component {
                       onChange={this.handleInputChange}
                     >
                       <option>Choose...</option>
-                      <option value="CSE">
-                        CSE
+                      <option value="Computer Science & Engineering">
+                      Computer Science & Engineering
                       </option>
-                      <option value="CIVIL">
-                        CIVIL
+                      <option value="Civil Engineering">
+                      Civil Engineering
                       </option>
-                      <option value="IT">
-                        IT
+                      <option value="Information Technology">
+                      Information Technology
                       </option>
-                      <option value="ECE">
-                        ECE
+                      <option value="Electronics & Communication Engineering">
+                      Electronics & Communication Engineering
                       </option>
-                      <option value="MECHANICAL">
-                        EEE
+                      <option value="Mechanical Engineering">
+                      Mechanical Engineering
+                      </option>
+                      <option value="Electronics & Electrical Engineering">
+                      Electronics & Electrical Engineering
                       </option>
                       <option value="MBA">
                         MBA
@@ -174,7 +177,7 @@ class Enquiry extends Component {
 
             <div className={`message ${this.state.isError && 'error'}`}>
               {this.state.isSubmitting ? (
-                <div className="alert alert-primary" role="alert">
+                <div className="alert alert-danger" role="alert">
                   Thank you ! We will Get Back to You Soon..
                 </div>
               ) : (

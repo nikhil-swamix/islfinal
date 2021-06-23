@@ -42,14 +42,14 @@ class Home extends React.Component {
           <link rel="canonical" href="http://islec.edu.in" />
         </Helmet>
 
-        {/* <Enquiry /> */}
+        <Enquiry />
         <div className="nptel">
           <a href="/nptel" class="nptel_content nptel_label">
             NPTEL
           </a>
         </div>
 
-        <div className="nptel1">
+        {/* <div className="nptel1">
           <a
             href="#/apply"
             className="nptel_content1 nptel_label1"
@@ -58,7 +58,7 @@ class Home extends React.Component {
             Apply Now
           </a>
           {this.state.showComponent ? <Admission /> : null}
-        </div>
+        </div> */}
 
         <div className="bottom_alert">
           <BottomAlert />

@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const Principal = () => {
   return (
@@ -10,20 +9,30 @@ const Principal = () => {
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
-                <h4 className="title">Principal</h4>
-                <div className="breadcrumb_content">
-                  <ul className="breadcrumb justify-content">
-                    <li>
-                      <Link href="#home" as={Link} to="/">
-                        <i className="fa fa-home" aria-hidden="true"></i> Home
-                      </Link>
-                    </li>
-                    <li>
-                      <a className="active" href="#active">
-                        Principal
-                      </a>
-                    </li>
-                  </ul>
+
+                <div className="d-flex flex-wrap">
+                  <div className="breadcrumb_media d-flex align-items-center mt-30">
+                    <div className="media_content media-body">
+                      <p>Principal</p>
+                      <h6 className="title">Dr. Mohammed Masood</h6>
+                    </div>
+                  </div>
+                  <div className="breadcrumb_media d-flex align-items-center mt-30">
+                    <div className="media_image">
+                      <img
+                        className="bookmark"
+                        src="https://i.ibb.co/z7NLwF0/mail.png"
+                        alt="mail"
+                      />
+                    </div>
+                    <div className="media_content media-body">
+                      <h6 className="title mt-2">
+                        <a href="mailto:principal@islec.edu.in">
+                          principal@islec.edu.in
+                        </a>
+                      </h6>
+                    </div>
+                  </div>
                 </div>
               </div>
             </Col>
