@@ -52,7 +52,7 @@ class Enquiry extends Component {
         this.setState({
           isError: false,
           message: '',
-          values: { name: '', mobile: '', dept: '', mark: '', cat: '' },
+          values: { name: '', mobile: '', dept: '', mark: '', cat: '', typ: '' },
         }),
       9000,
     )
@@ -105,6 +105,22 @@ class Enquiry extends Component {
                 <Form.Row>
                   
                   <Form.Group as={Col} controlId="formGridState">
+                    <Form.Label>Admission Type</Form.Label>
+                    <Form.Control
+                      required
+                      as="select"
+                      defaultValue="Select..."
+                      name="typ"
+                      value={this.state.values.typ}
+                      onChange={this.handleInputChange}
+                    >
+                      <option>Select...</option>
+                      <option value="ecet">ECET</option>
+                      <option value="eamcet">EAMCET</option>
+                    </Form.Control>
+                  </Form.Group>
+
+                  <Form.Group as={Col} controlId="formGridState">
                     <Form.Label>Department</Form.Label>
                     <Form.Control
                       required
@@ -115,23 +131,23 @@ class Enquiry extends Component {
                       onChange={this.handleInputChange}
                     >
                       <option>Choose...</option>
-                      <option value="Computer Science & Engineering">
-                      Computer Science & Engineering
+                      <option value="AI & DS">
+                        Artificial Intelligence & Data Science
                       </option>
                       <option value="Civil Engineering">
                       Civil Engineering
                       </option>
-                      <option value="Information Technology">
-                      Information Technology
+                      <option value="Computer Science & Engineering">
+                      Computer Science & Engineering
                       </option>
                       <option value="Electronics & Communication Engineering">
                       Electronics & Communication Engineering
                       </option>
+                      <option value="Information Technology">
+                      Information Technology
+                      </option>
                       <option value="Mechanical Engineering">
                       Mechanical Engineering
-                      </option>
-                      <option value="Electronics & Electrical Engineering">
-                      Electronics & Electrical Engineering
                       </option>
                       <option value="MBA">
                         MBA
@@ -139,7 +155,10 @@ class Enquiry extends Component {
                     </Form.Control>
                   </Form.Group>
 
-                  <Form.Group as={Col} controlId="formGridZip">
+                </Form.Row>
+
+                <Form.Row>
+                <Form.Group as={Col} controlId="formGridZip">
                     <Form.Label>10+2 Percentage</Form.Label>
                     <Form.Control
                       required
@@ -149,9 +168,7 @@ class Enquiry extends Component {
                       onChange={this.handleInputChange}
                     />
                   </Form.Group>
-                </Form.Row>
 
-                <Form.Row>
                   <Form.Group as={Col} controlId="formGridState">
                     <Form.Label>Category</Form.Label>
                     <Form.Control
