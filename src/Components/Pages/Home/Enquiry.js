@@ -68,7 +68,7 @@ class Enquiry extends Component {
       <div className="admission">
         <Modal size="lg" show={this.state.show} onHide={this.handleClose}>
           <h5 className="mt-5 text-center">
-            For Management quota Seats, call : 9985958422, 9989405490
+            For Management quota Seats, call : 9985958422, 8686300801, 9989405490
           </h5>
 
           <Modal.Dialog>
@@ -117,6 +117,7 @@ class Enquiry extends Component {
                       <option>Select...</option>
                       <option value="ecet">ECET</option>
                       <option value="eamcet">EAMCET</option>
+                      <option value="icet">ICET</option>
                     </Form.Control>
                   </Form.Group>
 

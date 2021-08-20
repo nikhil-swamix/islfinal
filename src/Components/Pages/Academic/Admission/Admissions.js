@@ -58,8 +58,8 @@ const Admissions = () => {
               <section className="course-details-info">
                 <Tabs className="myClass">
                   <TabList>
-                    <Tab>Bachelor of Engineering </Tab>
-                    <Tab>Master of Business Administration</Tab>
+                    <Tab>Bachelor Degree Courses </Tab>
+                    <Tab>Master Degree Courses</Tab>
                   </TabList>
                   <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="">
@@ -92,8 +92,8 @@ const Admissions = () => {
                             </tr>
 
                             <tr>
-                              <td>Electrical and Electronics Engineering</td>
-                              <td>30</td>
+                              <td>ArtificiaI Intelligence & Data Science</td>
+                              <td>60</td>
                               <td>4 Years</td>
                             </tr>
 
