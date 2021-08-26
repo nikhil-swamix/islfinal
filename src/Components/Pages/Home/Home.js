@@ -95,7 +95,7 @@ class Home extends React.Component {
                   />
                 </div>
                 <div className="">
-                  <h3>CE | CSE | ECE | EEE | IT | ME | MBA</h3>
+                  <h3>CIVIL | CSE | ECE | AI & DS | IT | ME | MBA</h3>
                 </div>
               </Col>{' '}
               <Col lg={3}>
