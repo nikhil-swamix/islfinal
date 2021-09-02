@@ -37,8 +37,8 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <Link href="#contact" as={Link} to="/contact">
-                        Contact
+                      <Link href="#contact" >
+                        Contact - 9985958422, 8686300801, 9989405490
                       </Link>
                     </li>
                   </ul>
