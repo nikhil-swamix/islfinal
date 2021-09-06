@@ -48,8 +48,8 @@ const Payment = () => {
                         </div>
                         <div class="courses_sidebar_list">
                             <ul class="list">
-                                <li> Last Date: 18 Feb 2021</li>
-                                <li><a href="https://drive.google.com/file/d/1NfXOe_VnrtRhctSZA7CkznMLTscHknpy/view?usp=sharing"><i class="fa fa-eye"></i> View Notification </a></li>
+                                <li> Last Date: 15 Sep 2021</li>
+                                <li><a href="https://drive.google.com/file/d/15kRu5fi0k_W120LYjJG8egg_6Y16b1Lx/view?usp=sharing"><i class="fa fa-eye"></i> View Notification </a></li>
                             </ul>
                             <ul class="list">
                                 <li> View Payment History</li>
