@@ -115,6 +115,10 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#cse" as={Link} to="/department/cse">
                 Computer Science & Engineering
               </NavDropdown.Item>
+              <NavDropdown.Item href="#ds" as={Link} to="/department/ds">
+                Artificial Intelligence & Data Science
+
+              </NavDropdown.Item>
               <NavDropdown.Item href="#ece" as={Link} to="/department/ece">
                 Electronics & Communication Engineering
               </NavDropdown.Item>
@@ -131,6 +135,9 @@ const NavigationBar = () => {
               <NavDropdown.Divider />
               <NavDropdown.Item href="#mba" as={Link} to="/department/mba">
                 Master of Business Administraion
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#mcse" as={Link} to="/department/mcse">
+                M.Tech CSE
               </NavDropdown.Item>
             </NavDropdown>
 

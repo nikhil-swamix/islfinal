@@ -3,6 +3,8 @@ import './App.css'
 import './App.scss'
 import Home from './Components/Pages/Home'
 import CSE from './Components/Pages/Department/CSE'
+import DS from './Components/Pages/Department/DS'
+import MCSE from './Components/Pages/Department/MCSE'
 import ECE from './Components/Pages/Department/ECE'
 import EEE from './Components/Pages/Department/EEE'
 import ME from './Components/Pages/Department/ME'
@@ -45,6 +47,8 @@ function App() {
           <Route path="/principal" component={Principal} />
           <Route path="/research" component={Research} />
           <Route path="/department/cse" component={CSE} />
+          <Route path="/department/ds" component={DS} />
+          <Route path="/department/mcse" component={MCSE} />
           <Route path="/department/ece" component={ECE} />
           <Route path="/department/eee" component={EEE} />
           <Route path="/department/it" component={IT} />
