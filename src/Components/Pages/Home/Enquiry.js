@@ -118,6 +118,7 @@ class Enquiry extends Component {
                       <option value="ecet">ECET</option>
                       <option value="eamcet">EAMCET</option>
                       <option value="icet">ICET</option>
+                      <option value="pgcet">PGCET</option>
                     </Form.Control>
                   </Form.Group>
 
@@ -152,6 +153,9 @@ class Enquiry extends Component {
                       </option>
                       <option value="MBA">
                         MBA
+                      </option>
+                      <option value="MTech CSE">
+                        M-Tech CSE
                       </option>
                     </Form.Control>
                   </Form.Group>
