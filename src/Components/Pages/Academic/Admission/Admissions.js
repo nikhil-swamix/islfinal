@@ -87,7 +87,7 @@ const Admissions = () => {
 
                             <tr>
                               <td>Electronics and Communication Engineering</td>
-                              <td>60</td>
+                              <td>30</td>
                               <td>4 Years</td>
                             </tr>
 
@@ -129,6 +129,11 @@ const Admissions = () => {
                             <tr>
                               <td>Master of Business Administration</td>
                               <td>120</td>
+                              <td>2 Years</td>
+                            </tr>
+                            <tr>
+                              <td>M-Tech CSE</td>
+                              <td>18</td>
                               <td>2 Years</td>
                             </tr>
                           </tbody>
