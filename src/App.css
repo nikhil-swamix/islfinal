@@ -68,6 +68,9 @@ body {
   background-color: #192f59 !important;
 }
 
+.cloud h6{
+  margin-bottom: 0rem !important;
+}
 .courses_area a {
   color: #3db166;
 }

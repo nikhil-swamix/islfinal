@@ -17,7 +17,7 @@ const awseducate = () => {
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
-            <Col lg={8} md={8} sm={12}>
+            <Col lg={4} md={4} sm={12}>
             <div className="breadcrumb_details_content">
                 <h4 className="title"> AWS Educate</h4>
                 <div className="breadcrumb_content">
@@ -48,22 +48,9 @@ const awseducate = () => {
                       <h6 className="title">Associate Professor : Dr. Mohammed Abdul Bari</h6>
                       <p>Deprtment : Computer Science & Engineering</p>
                     </div>
-                  </div>
-                  <div className="breadcrumb_media d-flex align-items-center mt-30">
-                    <div className="media_image">
-                      <img
-                        className="bookmark"
-                        src="https://i.ibb.co/z7NLwF0/mail.png"
-                        alt="mail"
-                      />
-                    </div>
-                    <div className="media_content media-body">
-                      <h6 className="title mt-2">
-                        <a href="https://islengg.ac.in">
-                          Email: cpoc@islec.edu.in
-                        </a>
-                      </h6>
-                    </div>
+
+
+                    
                   </div>
                 </div>
               </div>
