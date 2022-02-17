@@ -67,6 +67,7 @@ const Payment = () => {
                         <div class="single_courses_details  mt-40">
                             <h4 class="courses_details_title">Guidlines</h4>
                             <ul>
+                                <li><i class="fa fa-check"></i> <b>SEM I Regular Students & SEM III Regular Lateral Entry Students has to Pay Rs. 300/- .</b></li>
                                 <li><i class="fa fa-check"></i> <b>As Per University, All the B.E AICTE Regular Students has to pay an addidtional amount of Rs. 100/- extra along with their Main exam fee for OU Aadhar Based Biometric Attendance System (ABAS) and SMS Invoice Charges.</b></li>
                                 <li><i class="fa fa-check"></i> <b>Students are advised to use their personal or parent's debit card/Credit card for payment, In the event of transaction failure amount will be credited back into your account after 2 to 4 working days.</b></li>
                                 <li><i class="fa fa-check"></i> Clear your dues (Management Fee, Convenor Fee, Bus Fee and Misc Fee etc..) along with your exam fee. Otherwise, your exam application forms will not be accepted.</li>

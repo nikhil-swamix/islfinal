@@ -39,15 +39,15 @@ const Exambranch = () => {
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_image">
-                      <img
+                      {/* <img
                         className="authorExam"
                         src="https://i.ibb.co/RC8C8jx/raghavender-removebg-preview-1.jpg"
                         alt="author"
-                      />
+                      /> */}
                     </div>
                     <div className="media_content media-body">
                       <p>Superintendent</p>
-                      <h6 className="title">Raghavender Reddy</h6>
+                      <h6 className="title">Shubhakar Pariki</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
