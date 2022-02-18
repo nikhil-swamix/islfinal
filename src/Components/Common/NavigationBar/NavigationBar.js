@@ -32,7 +32,7 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://mail.google.com/a/islec.edu.in">
+                      <a href="https://mail.google.com/a/islec.edu.in" target="_blank">
                         <span className="fa fa-sign-in"></span> Email Login
                       </a>
                     </li>

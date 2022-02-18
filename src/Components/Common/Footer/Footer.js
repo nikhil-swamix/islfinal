@@ -94,9 +94,8 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link href="#ee" as={Link} to="/department/eee">
-                        <i className="fa fa-angle-right"></i>Electronics &
-                        Electrical Engineering{' '}
+                      <Link href="#ds" as={Link} to="/department/ds">
+                        <i className="fa fa-angle-right"></i>Artificial Inteligence & Data Science{' '}
                       </Link>
                     </li>
                     <li>
