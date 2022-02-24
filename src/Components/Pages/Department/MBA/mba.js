@@ -56,9 +56,9 @@ const mba = () => {
                       />
                     </div>
                     <div className="media_content media-body">
-                      <p>Head of Department</p>
                       <h6 className="title">Dr Mohammed Irfan Uddin</h6>
                       <p className="edu">B.E, MBA, PhD</p>
+                      <p>Head of Department</p>
                       </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">

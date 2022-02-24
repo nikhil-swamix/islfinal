@@ -24,6 +24,7 @@ import Footer from './Components/Common/Footer'
 import Payment from './Components/Pages/Other/components/payment'
 import AllNews from './Components/Pages/Other/components/allnews'
 import Exambranch from './Components/Pages/Exambranch'
+import Placement from './Components/Pages/Placement'
 import Library from './Components/Pages/Other/components/library'
 import Nptel from './Components/Pages/Other/components/nptel'
 import Aws from './Components/Pages/Other/components/awseducate'
@@ -57,6 +58,7 @@ function App() {
           <Route path="/department/mba" component={MBA} />
           <Route path="/news" component={AllNews} />
           <Route path="/exambranch" component={Exambranch} />
+          <Route path="/placement" component={Placement} />
           <Route path="/library" component={Library} />
 
           <Route path="/payment" component={Payment} />

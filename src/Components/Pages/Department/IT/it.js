@@ -49,8 +49,8 @@ const it = () => {
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
+                    <h6 className="title">Sheena Mohammed</h6>
                       <p>Head of Department</p>
-                      <h6 className="title">Sheena Mohammed</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">

@@ -9,8 +9,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.research .table td:first-child {
-  text-transform: uppercase !important;
+.research .table td{
+  text-transform:uppercase !important;
 }
 
 .research .table td:nth-child(3) {
@@ -60,6 +60,7 @@ body {
 .carousel-caption p {
   color: #ffffff;
 }
+
 
 .dropdown-item.active,
 .dropdown-item:active {

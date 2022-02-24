@@ -146,11 +146,14 @@ const NavigationBar = () => {
             </Nav.Link>
 
             <Nav.Link href="#Research" as={Link} to="/research">
-              Research & Development
+              R & D
             </Nav.Link>
 
-            <Nav.Link href="#contact" as={Link} to="/exambranch">
+            <Nav.Link href="#exambranch" as={Link} to="/exambranch">
               Exam Branch
+            </Nav.Link>
+            <Nav.Link href="#placement" as={Link} to="/placement">
+              Training & Placement
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>
