@@ -67,6 +67,11 @@ const Footer = () => {
                         <i className="fa fa-angle-right"></i>Rules & Regulations
                       </a>
                     </li>
+                    <li>
+                      <a href="https://forms.gle/sd53QUSfRM2dU63J9">
+                        <i className="fa fa-angle-right"></i>Student Grievance Form
+                      </a>
+                    </li>
                   </ul>
                 </div>
               </Col>

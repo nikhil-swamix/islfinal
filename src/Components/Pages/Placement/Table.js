@@ -38,7 +38,7 @@ class Table extends React.Component {
     const { isLoading, publication_list } = this.state
     const tableColumns = [
       {
-        title: 'Company',
+        title: 'Company ',
         prop: 'title',
       },
       {

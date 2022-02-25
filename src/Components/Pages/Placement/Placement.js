@@ -78,7 +78,7 @@ const Exambranch = () => {
                     </div>
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
-                        <a href="mailto:tpo@islec.edu.in">
+                        <a href="#">
                           +919182221317 / +919676544151
                         </a>
                       </h6>
@@ -91,7 +91,7 @@ const Exambranch = () => {
           </Row>
         </Container>
       </section>
-      <section className="mt-60 mb-60 exambranch">
+      <section className="mt-60 mb-60 placement">
         <Container>
           <Row>
             <Col md={4} className="sidebar academic">
@@ -100,6 +100,9 @@ const Exambranch = () => {
             </Col>
 
             <Col md={8}>
+            <div className="title">
+              <h4>Placement News</h4>
+            </div>
               <Table />
             </Col>
           </Row>

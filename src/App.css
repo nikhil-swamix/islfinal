@@ -9,6 +9,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.placement .title h4 {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.placement .title h4::before {
+  background: #ffb606 none repeat scroll 0 0;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 30px;
+}
+
+.placement .title h4::after {
+  background: #ffb606 none repeat scroll 0 0;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 35px;
+  position: absolute;
+  width: 10px;
+}
 .research .table td{
   text-transform:uppercase !important;
 }
