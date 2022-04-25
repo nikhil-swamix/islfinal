@@ -36,11 +36,11 @@ const NavigationBar = () => {
                         <span className="fa fa-sign-in"></span> Email Login
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link href="#contact" >
                         Contact - 9985958422, 8686300801, 9989405490
                       </Link>
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>

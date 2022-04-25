@@ -162,7 +162,7 @@ class Home extends React.Component {
           </Container>
         </section>
 
-        <section className="why_choose_area pt-60 pb-230">
+        <section className="why_choose_area pt-60 pb-80 pb-230">
           <div className="site-heading text-center">
             <h2>Why Choose Us?</h2>
           </div>
@@ -396,7 +396,7 @@ class Home extends React.Component {
           </div>
         </section>
 
-        <div className="site-heading text-center pt-90">
+        {/* <div className="site-heading text-center pt-90">
           <h2>Free to be !</h2>
         </div>
         <section className="about_area_2 d-flex flex-wrap">
@@ -608,7 +608,7 @@ class Home extends React.Component {
               </Col>
             </Row>
           </Container>
-        </section>
+        </section> */}
 
         {/* <section className="dvideo-feature pt-60 pb-110">
           <div className="container">
@@ -674,7 +674,7 @@ class Home extends React.Component {
           <div className="feature-bg"></div>
         </section> */}
 
-        <section className="courses_area pt-90 pb-50">
+        {/* <section className="courses_area pt-90 pb-50">
           <div className="site-heading text-center">
             <h2>In-House Events</h2>
           </div>
@@ -851,7 +851,7 @@ class Home extends React.Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
       </>
     )
   }
