@@ -13,7 +13,7 @@ const Footer = () => {
                 <div className="footer-address mt-40">
                   <div className="footer-title pb-25">
                     <img
-                      src="https://i.ibb.co/yfhVX06/Website-Logo.png"
+                      src="https://www.islec.edu.in/allimages/Website-Logo.webp"
                       className="img-fluid"
                       alt="Logo"
                     />

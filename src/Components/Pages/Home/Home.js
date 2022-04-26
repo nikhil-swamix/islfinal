@@ -391,7 +391,7 @@ class Home extends React.Component {
           </div>
           <div className="why_choose_image d-none d-lg-table">
             <div className="image">
-              <img src="https://i.ibb.co/5B1dkzm/Campus-Pic.jpg" alt="" />
+              <img src="https://i.ibb.co/5B1dkzm/Campus-Pic.webp" alt="" />
             </div>
           </div>
         </section>
