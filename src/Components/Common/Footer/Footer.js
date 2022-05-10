@@ -72,11 +72,6 @@ const Footer = () => {
                         <i className="fa fa-angle-right"></i>Student Grievance Form
                       </a>
                     </li>
-                    <li>
-                      <a href="https://drive.google.com/file/d/17fZd107gNz6GOiKv7pIim4upmzU7UPqK/view?usp=sharing">
-                        <i className="fa fa-angle-right"></i>Mandatory Disclosure
-                      </a>
-                    </li>
                   </ul>
                 </div>
               </Col>
