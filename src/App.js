@@ -26,6 +26,7 @@ import AllNews from './Components/Pages/Other/components/allnews'
 import Exambranch from './Components/Pages/Exambranch'
 import Placement from './Components/Pages/Placement'
 import Library from './Components/Pages/Other/components/library'
+import Approval from './Components/Pages/Other/components/approval'
 import Nptel from './Components/Pages/Other/components/nptel'
 import Aws from './Components/Pages/Other/components/awseducate'
 
@@ -60,6 +61,7 @@ function App() {
           <Route path="/exambranch" component={Exambranch} />
           <Route path="/placement" component={Placement} />
           <Route path="/library" component={Library} />
+          <Route path="/approvals" component={Approval} />
 
           <Route path="/payment" component={Payment} />
           <Route path="/nptel" component={Nptel} />

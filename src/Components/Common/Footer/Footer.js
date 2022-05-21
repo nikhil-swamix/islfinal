@@ -69,9 +69,15 @@ const Footer = () => {
                     </li>
                     <li>
                       <a href="https://forms.gle/sd53QUSfRM2dU63J9">
-                        <i className="fa fa-angle-right"></i>Student Grievance Form
+                        <i className="fa fa-angle-right"></i>Grievance redressal Form
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in/approval">
+                        <i className="fa fa-angle-right"></i>Approvals
+                      </a>
+                    </li>
+
                   </ul>
                 </div>
               </Col>
