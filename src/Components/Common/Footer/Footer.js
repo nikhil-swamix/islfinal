@@ -73,7 +73,7 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://islec.edu.in/approval">
+                      <a href="https://islec.edu.in/approvals">
                         <i className="fa fa-angle-right"></i>Approvals
                       </a>
                     </li>
