@@ -78,7 +78,7 @@ const Exambranch = () => {
                     </div>
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
-                        <a href="#">
+                        <a href="/#">
                           +919182221317 / +919676544151
                         </a>
                       </h6>

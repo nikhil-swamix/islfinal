@@ -1231,6 +1231,30 @@ trips_icons {
 .syll input {
   display: none;
 }
+.libr select, .pagination, option {
+  display: none;
+}
+
+label[for="page-menu"]
+{
+    display:none;
+}
+
+.libr ul {
+  display: none;
+}
+
+.libr input {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+
+
 /**/
 
 .academic input {

@@ -2,8 +2,9 @@ import React from "react";
 import { Row, Col, Container, Table } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
-
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from "../../../Academic/Sidebar";
+import Books from "../library/Books";
 
 const Library = () => {
   return (
@@ -47,8 +48,26 @@ const Library = () => {
               <Sidebar />
             </Col>
 
-            <Col md={9}>
-              <Table striped bordered hover>
+            <Col md={9} xs={{ order: 'first' }}>
+
+            <section className="dept-tabs mt-20">
+                <Tabs className="dept-tab">
+                  <TabList>
+                    <Tab>Overview</Tab>
+                    <Tab>Library Details</Tab>
+                   
+                  </TabList>
+
+                  <TabPanel>
+                    <div className="Libr text-center">
+                      <Books />
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel className="tab-content tab-content-info text-justify">
+                    <div className="mt-30">
+                      <h4>Library Details</h4>
+                      <Table striped bordered hover>
                 <thead>
                   <tr>
                     <th>Particulars</th>
@@ -86,6 +105,15 @@ const Library = () => {
                   </tr>
                 </tbody>
               </Table>
+                    </div>
+                  </TabPanel>
+             
+                  
+
+                  
+                </Tabs>
+              </section>
+              
             </Col>
           </Row>
         </Container>
