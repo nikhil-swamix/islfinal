@@ -48,7 +48,7 @@ const Footer = () => {
                       </Link>
                     </li>
                     <li>
-                      <a href="/#">
+                      <a href="https://drive.google.com/file/d/1e0y49PBcyvNmx0m5DJ2jHdyjWA2BbXyO/view">
                         <i className="fa fa-angle-right"></i>Almanac
                       </a>
                     </li>
@@ -77,11 +77,11 @@ const Footer = () => {
                         <i className="fa fa-angle-right"></i>AICTE Approvals
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://drive.google.com/file/d/1ej6ekl6tK1xKlSMjSO9-prAynbXGZhk-/view?usp=sharing">
                         <i className="fa fa-angle-right"></i>Mandatory Disclosure
                       </a>
-                    </li>
+                    </li> */}
 
                     <li>
                       <a href="https://forms.gle/xZd4yoAeLjjjbp7SA">

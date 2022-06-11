@@ -15,6 +15,9 @@ const NavigationBar = () => {
                 <div className="header_left">
                   <ul className="header_ul">
                     <li>
+                      <img src='https://www.islec.edu.in/allimages/temp.png'height={40} />
+                    </li>
+                    <li>
                       <a href="tel:04029880083">
                         <span className="fa fa-phone"></span> 040 - 29880083
                       </a>
@@ -26,8 +29,8 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="z">
-                        <span className="fa fa-envelope"></span>{' '}
+                    <a href="mailto:careers@islec.edu.in">
+                       <span className="fa fa-envelope"></span>{' '}
                         careers@islec.edu.in
                       </a>
                     </li>
@@ -46,24 +49,14 @@ const NavigationBar = () => {
               </div>
 
               <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                <div className="header_right text-center">
+                <div className="header_right text-center mt-10 copyright social text-md-right">
                   <ul className="header_ul">
                     <li>
                       <a href="https://islengg.ac.in#">
-                        EAMCET, ECET & ICET Code : ISLC{' '}
+                        EAMCET, ECET & ICET Code : <b>ISLEC</b>
                       </a>
                     </li>
-                    <li>
-                      <a href="https://www.linkedin.com/school/isl-engineering-college/">
-                        Follow{' '}
-                        <span className="linkedin">
-                          <img
-                            src="https://i.ibb.co/vvsfnVL/LI-In-Bug.png"
-                            alt="linkedin"
-                          />
-                        </span>{' '}
-                      </a>
-                    </li>
+                   
                   </ul>
                 </div>
               </div>
@@ -100,11 +93,11 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#admissions" as={Link} to="/admissions">
                 Admissions
               </NavDropdown.Item>
-              {/* <NavDropdown.Item href="#almanac" as={Link} to="/almanac">
-                Almanac
-              </NavDropdown.Item> */}
               <NavDropdown.Item href="#syllabus" as={Link} to="/syllabus">
                 Syllabus
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#library" as={Link} to="/library">
+                Library
               </NavDropdown.Item>
             </NavDropdown>
 

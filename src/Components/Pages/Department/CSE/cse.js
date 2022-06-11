@@ -87,7 +87,7 @@ const cse = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
-                    <Tab>Curriculum</Tab>
+                    <Tab>Syllabus</Tab>
                     <Tab>Publications</Tab>
                   </TabList>
 
