@@ -7,8 +7,12 @@ import News from './components/News'
 import Check from './components/Check'
 import ReadMoreAndLess from 'react-read-more-less'
 import BottomAlert from './BottomAlert'
-// import Enquiry from './Enquiry'
+import Enquiry from './Enquiry'
 import { Helmet } from 'react-helmet'
+import Marquee from "react-fast-marquee";
+
+
+
 class Home extends React.Component {
   constructor() {
     super()
@@ -42,7 +46,7 @@ class Home extends React.Component {
           <link rel="canonical" href="http://islec.edu.in" />
         </Helmet>
 
-        {/* <Enquiry /> */}
+        <Enquiry />
         <div className="nptel">
           <a href="/nptel" class="nptel_content nptel_label">
             NPTEL
@@ -66,6 +70,20 @@ class Home extends React.Component {
         <Container fluid style={{ padding: '0px' }}>
           <Karousel />
         </Container>
+
+        <div className='mar mt-25'>
+          <Marquee>
+            <img src='https://www.islec.edu.in/allimages/nptel1.jpg' alt='iic' height={60} />
+            <img src='https://www.islec.edu.in/allimages/iic.png' alt='iic' height={60} />
+            <img src='https://www.islec.edu.in/allimages/thub.jpg' alt='thub' height={60} />
+            <img src='https://www.islec.edu.in/allimages/aws.png' alt='aws' height={60} />
+            <img src='https://www.islec.edu.in/allimages/oracle.png' alt='oracle' height={60} />
+            <img src='https://www.islec.edu.in/allimages/redhat.png' alt='redhat' height={60} />
+            <img src='https://www.islec.edu.in/allimages/github.jpg' alt='github' height={60} />
+            <img src='https://www.islec.edu.in/allimages/cisco.png' alt='cisco' height={60} />
+           </Marquee>
+
+        </div>
 
         <section className="brand d-none d-sm-block">
           <Container fluid>

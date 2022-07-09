@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import { Form, Col, Modal, Button } from 'react-bootstrap'
 
+
+
 class Enquiry extends Component {
   constructor(props) {
     super(props)
@@ -90,6 +92,8 @@ class Enquiry extends Component {
                     />
                   </Form.Group>
 
+
+
                   <Form.Group as={Col}>
                     <Form.Label>Mobile</Form.Label>
                     <Form.Control
@@ -104,9 +108,70 @@ class Enquiry extends Component {
 
                 <Form.Row>
                   
-                  <Form.Group as={Col} controlId="formGridState">
+                    <Form.Group as={Col} controlId="formGridState">
                     <Form.Label>Admission Type</Form.Label>
+
+                    <Form>
+                      {['radio'].map((type) =>(    
+                        <div key={`inline-${type}`} className="mb-3">
+                      
+                          <Form.Check
+                            inline
+                            label="ECET"
+                            name="typ"
+                            value="ECET"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
+
+
+                          <Form.Check
+                            inline
+                            label="EAMCET"
+                            name="typ"
+                            value="EAMCET"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
+
+                          <Form.Check
+                            inline
+                            label="ICET"
+                            name="typ"
+                            value="ICET"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
+
+
+                        </div>
+                      ))}
+                    </Form>
+                    </Form.Group>
+                  </Form.Row>
+
+                  <Form.Row>  
+                    <Form.Group as={Col} controlId="formGridZip">
+                    <Form.Label>10+2 Percentage</Form.Label>
                     <Form.Control
+                      required
+                      type="number"
+                      name="mark"
+                      value={this.state.values.mark}
+                      onChange={this.handleInputChange}
+                    />
+                  </Form.Group>
+
+
+
+
+                    {/* <Form.Control
                       required
                       as="select"
                       defaultValue="Select..."
@@ -119,62 +184,83 @@ class Enquiry extends Component {
                       <option value="eamcet">EAMCET</option>
                       <option value="icet">ICET</option>
                       <option value="pgcet">PGCET</option>
-                    </Form.Control>
-                  </Form.Group>
+                    </Form.Control> */}
 
-                  <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Department</Form.Label>
-                    <Form.Control
-                      required
-                      as="select"
-                      defaultValue="Select..."
-                      name="dept"
-                      value={this.state.values.dept}
-                      onChange={this.handleInputChange}
-                    >
-                      <option>Choose...</option>
-                      <option value="AI & DS">
-                        Artificial Intelligence & Data Science
-                      </option>
-                      <option value="Civil Engineering">
-                      Civil Engineering
-                      </option>
-                      <option value="Computer Science & Engineering">
-                      Computer Science & Engineering
-                      </option>
-                      <option value="Electronics & Communication Engineering">
-                      Electronics & Communication Engineering
-                      </option>
-                      <option value="Information Technology">
-                      Information Technology
-                      </option>
-                      <option value="Mechanical Engineering">
-                      Mechanical Engineering
-                      </option>
-                      <option value="MBA">
-                        MBA
-                      </option>
-                      <option value="MTech CSE">
-                        M-Tech CSE
-                      </option>
-                    </Form.Control>
-                  </Form.Group>
+
 
                 </Form.Row>
 
                 <Form.Row>
-                <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>10+2 Percentage</Form.Label>
-                    <Form.Control
-                      required
-                      type="number"
-                      name="mark"
-                      value={this.state.values.mark}
-                      onChange={this.handleInputChange}
-                    />
-                  </Form.Group>
+                <Form.Group as={Col} controlId="formGridState">
+                    <Form.Label>Department</Form.Label>
 
-                  <Form.Group as={Col} controlId="formGridState">
+                    <Form>
+                      {['radio'].map((type) =>(    
+                        <div key={`inline-${type}`} className="mb-3">
+                      
+                          <Form.Check
+                            inline
+                            label="CSE"
+                            name="dept"
+                            value="CSE"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
+                          <Form.Check
+                            inline
+                            label="ECE"
+                            name="dept"
+                            value="ECE"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+                          <Form.Check
+                            inline
+                            label="AI & DS"
+                            name="dept"
+                            value="AI & DS"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+                          <Form.Check
+                            inline
+                            label="CIVIL"
+                            name="dept"
+                            value="CIVIL"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+                          <Form.Check
+                            inline
+                            label="IT"
+                            name="dept"
+                            value="IT"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+                          <Form.Check
+                            inline
+                            label="MECH"
+                            name="dept"
+                            value="MECH"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
+
+                        </div>
+                      ))}
+                    </Form>
+                    </Form.Group>
+
+                  {/* <Form.Group as={Col} controlId="formGridState">
                     <Form.Label>Category</Form.Label>
                     <Form.Control
                       required
@@ -188,7 +274,7 @@ class Enquiry extends Component {
                       <option value="general">General</option>
                       <option value="bc">BC</option>
                     </Form.Control>
-                  </Form.Group>
+                  </Form.Group> */}
                 </Form.Row>
 
                 <Button variant="primary" type="submit">
@@ -208,6 +294,9 @@ class Enquiry extends Component {
             </div>
           </Modal.Dialog>
         </Modal>
+
+
+        
       </div>
     )
   }
