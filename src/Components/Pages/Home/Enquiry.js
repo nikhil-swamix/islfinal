@@ -70,12 +70,13 @@ class Enquiry extends Component {
       <div className="admission">
         <Modal size="lg" show={this.state.show} onHide={this.handleClose}>
           <h5 className="mt-5 text-center">
-            For Management quota Seats, call : 9985958422, 8686300801, 9989405490
+            For Management Quota Admission <br/>
+             call : 9985958422, 8686300801, 9989405490
           </h5>
 
           <Modal.Dialog>
             <Modal.Header closeButton>
-              <Modal.Title>Admissions 2021 - Enquiry Form</Modal.Title>
+              <Modal.Title>Admissions 2022 - Enquiry Form</Modal.Title>
             </Modal.Header>
 
             <Modal.Body>
@@ -148,6 +149,16 @@ class Enquiry extends Component {
                             id={`inline-${type}-1`}
                           />
 
+                          <Form.Check
+                            inline
+                            label="PGCET"
+                            name="typ"
+                            value="PGCET"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
 
 
                         </div>
@@ -158,7 +169,7 @@ class Enquiry extends Component {
 
                   <Form.Row>  
                     <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>10+2 Percentage</Form.Label>
+                    <Form.Label>10+2  or Diploma or B.E/BTech Percentage</Form.Label>
                     <Form.Control
                       required
                       type="number"
@@ -249,6 +260,27 @@ class Enquiry extends Component {
                             label="MECH"
                             name="dept"
                             value="MECH"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
+
+                          <Form.Check
+                            inline
+                            label="M.Tech CSE"
+                            name="dept"
+                            value="M.Tech CSE"
+                            onChange={this.handleInputChange}
+                            type={type}
+                            id={`inline-${type}-1`}
+                          />
+
+                          <Form.Check
+                            inline
+                            label="MBA"
+                            name="dept"
+                            value="MBA"
                             onChange={this.handleInputChange}
                             type={type}
                             id={`inline-${type}-1`}
