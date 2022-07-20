@@ -169,7 +169,7 @@ class Enquiry extends Component {
 
                   <Form.Row>  
                     <Form.Group as={Col} controlId="formGridZip">
-                    <Form.Label>10+2  or Diploma or B.E/BTech Percentage</Form.Label>
+                    <Form.Label>10+2  or Diploma or B.E/BTech or Degree Percentage</Form.Label>
                     <Form.Control
                       required
                       type="number"
