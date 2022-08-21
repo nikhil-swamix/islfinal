@@ -50,7 +50,8 @@ const eee = () => {
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
                       <p>Head of Department</p>
-                      <h6 className="title">Mohd Mansoor Ali </h6>
+                      <h6 className="title">S. Md Mazhar ul Haq</h6>
+                      <p className="edu">M.Tech, MISTE, (Ph.D)</p>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">

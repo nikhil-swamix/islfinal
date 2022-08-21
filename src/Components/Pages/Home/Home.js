@@ -64,9 +64,9 @@ class Home extends React.Component {
           {this.state.showComponent ? <Admission /> : null}
         </div> */}
 
-        {/* <div className="bottom_alert">
+        <div className="bottom_alert">
           <BottomAlert />
-        </div> */}
+        </div>
         <Container fluid style={{ padding: '0px' }}>
           <Karousel />
         </Container>
