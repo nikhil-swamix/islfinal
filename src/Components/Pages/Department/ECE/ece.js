@@ -52,9 +52,9 @@ const ece = () => {
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
-                    <h6 className="title">Shubhakar Pariki</h6>
+                    <h6 className="title">Dr. Abdul Mateen Ahmed</h6>
                       <p>Head of Department</p>
-                      {/* <p className="edu">B.E., M-tech, PhD, MIE, MIEEE</p> */}
+                      <p className="edu">M.Tech, Ph.D</p>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
