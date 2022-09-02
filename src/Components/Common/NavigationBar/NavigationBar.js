@@ -15,7 +15,7 @@ const NavigationBar = () => {
                 <div className="header_left">
                   <ul className="header_ul">
                     <li>
-                      <img src='https://www.islec.edu.in/allimages/temp.png'height={40} />
+                      <img src='https://www.islec.edu.in/allimages/temp.png' height={40} alt='logo' />
                     </li>
                     <li>
                       <a href="tel:04029880083">
