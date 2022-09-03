@@ -10,7 +10,6 @@ import BottomAlert from './BottomAlert'
 import Enquiry from './Enquiry'
 import { Helmet } from 'react-helmet'
 import Marquee from "react-fast-marquee";
-import { NextSeo } from 'next-seo';
 
 
 
@@ -36,10 +35,6 @@ class Home extends React.Component {
   render() {
     return (
       <>
-      <NextSeo
-        title="ISL Engineering College"
-        description="ISL Engineering College is affiliated to Osmania University, and is approved by the All India Council for Technical Education Estd: 2008, it is a private engineering college located in Hyderabad, Telangana. The college is run and maintained by the Ahmed Memorial Educational society."
-      />
         <Helmet>
           <meta charSet="utf-8" />
           <title>ISL Engineering College</title>
