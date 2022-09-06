@@ -176,6 +176,52 @@ class Home extends React.Component {
           </Container>
         </section>
 
+        
+        <div className="site-heading text-center pt-90">
+          <h2>Free to be !</h2>
+        </div>
+        <section className="about_area_2 d-flex flex-wrap">
+          <div className="about_video bg_cover">
+            <div className="video">
+              <ModalVideo
+                channel="youtube"
+                isOpen={this.state.isOpen}
+                videoId="qsSbQtPe0IY"
+                onClose={() => this.setState({ isOpen: false })}
+              />
+              <a
+                href="#play"
+                onClick={this.openModal}
+                className="Video-popup video_play"
+              >
+                <i className="fa fa-play"></i>
+              </a>
+            </div>
+          </div>
+
+          <div className="about_content_2">
+            <div className="single_about_2 d-flex flex-wrap about_color_2">
+              <div className="about_2_content one">
+                <div className="about_2_content_wrapper1"></div>
+              </div>
+
+              <div className="about_2_content two order-md-last">
+                <div className="about_2_content_wrapper2"></div>
+              </div>
+            </div>
+
+            <div className="single_about_2 d-flex flex-wrap about_color_2">
+              <div className="about_2_content two order-md-last">
+                <div className="about_2_content_wrapper3"></div>
+              </div>
+              <div className="about_2_content two order-md-last">
+                <div className="about_2_content_wrapper4"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
         <section className="why_choose_area pt-60 pb-80 pb-230">
           <div className="site-heading text-center">
             <h2>Why Choose Us?</h2>
@@ -410,50 +456,7 @@ class Home extends React.Component {
           </div>
         </section>
 
-        {/* <div className="site-heading text-center pt-90">
-          <h2>Free to be !</h2>
-        </div>
-        <section className="about_area_2 d-flex flex-wrap">
-          <div className="about_video bg_cover">
-            <div className="video">
-              <ModalVideo
-                channel="youtube"
-                isOpen={this.state.isOpen}
-                videoId="CO3CerM4mYQ"
-                onClose={() => this.setState({ isOpen: false })}
-              />
-              <a
-                href="#play"
-                onClick={this.openModal}
-                className="Video-popup video_play"
-              >
-                <i className="fa fa-play"></i>
-              </a>
-            </div>
-          </div>
-
-          <div className="about_content_2">
-            <div className="single_about_2 d-flex flex-wrap about_color_2">
-              <div className="about_2_content one">
-                <div className="about_2_content_wrapper1"></div>
-              </div>
-
-              <div className="about_2_content two order-md-last">
-                <div className="about_2_content_wrapper2"></div>
-              </div>
-            </div>
-
-            <div className="single_about_2 d-flex flex-wrap about_color_2">
-              <div className="about_2_content two order-md-last">
-                <div className="about_2_content_wrapper3"></div>
-              </div>
-              <div className="about_2_content two order-md-last">
-                <div className="about_2_content_wrapper4"></div>
-              </div>
-            </div>
-          </div>
-        </section>
-
+{/* 
         <section className="guest pt-90">
           <div className="site-heading text-center">
             <h2>Listen to the Best Minds</h2>

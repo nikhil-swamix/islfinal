@@ -1,4 +1,5 @@
 import React from 'react'
+import { Col, Row } from 'react-bootstrap'
 class BottomAlert extends React.Component {
   constructor(props, context) {
     super(props, context)
@@ -27,26 +28,36 @@ class BottomAlert extends React.Component {
             role="alert"
           >
             <p className="alertContent">
-              {/* Download our Newsletter & Brochure{' '} */}
-              <a
-                href="https://drive.google.com/file/d/1p1w3mmRlmWiwy0aOat0kYek4FRA2cHmu/view?usp=sharing"
-                class="btn btn-primary btn-md active"
-                role="button"
-                aria-pressed="true"
-              >
-                Sports Brochure <i className="fa fa-download" aria-hidden="true"></i>
-              </a>
+
+              <Row>
+                <Col md={6} className='pull-right'>
+                  <a
+                    href="https://drive.google.com/file/d/1bcv_OWhLzU8MCdj9xiIrwJyzHXg7IfsV/view?usp=sharing"
+                    class="btn btn-primary btn-md active float-right"
+                    role="button"
+                    aria-pressed="true"
+                  >
+                    Newsletter 2022 <i className="fa fa-download" aria-hidden="true"></i>
+                  </a>
+                </Col>
+
+                <Col md={6}>
+                  <a
+                    href="https://drive.google.com/file/d/1p1w3mmRlmWiwy0aOat0kYek4FRA2cHmu/view?usp=sharing"
+                    class="btn btn-primary btn-md active float-left"
+                    role="button"
+                    aria-pressed="true"
+                  >
+                    Sports Brochure <i className="fa fa-download" aria-hidden="true"></i>
+                  </a>
+                </Col>
+
+              </Row>
+
+              
             </p>
 
-            <button
-              type="button"
-              className="close"
-              data-dismiss="alert"
-              aria-label="Close"
-              onClick={() => this.hideAlert()}
-            >
-              <span aria-hidden="true">&times;</span>
-            </button>
+            
           </div>
         ) : (
           ''
