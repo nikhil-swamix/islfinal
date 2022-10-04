@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../CSE/components/Sidebar'
 import Sidepost from '../CSE/components/Sidepost'
-import Syllabus from '../CSE/components/Syllabus'
+import Syllabus from '../DS/components/Syllabus'
 import Slide from '../CSE/components/Slide'
 import { Link } from 'react-router-dom'
 import Table from './components/Table'
@@ -65,7 +65,7 @@ const cse = () => {
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
                         <a href="mailto:cse.hod@islec.edu.in">
-                          cse.hod@islec.edu.in
+                          ads.hod@islec.edu.in
                         </a>
                       </h6>
                     </div>
@@ -87,8 +87,8 @@ const cse = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
-                    {/* <Tab>Curriculum</Tab>
-                    <Tab>Publications</Tab> */}
+                    <Tab>Curriculum</Tab>
+                    {/* <Tab>Publications</Tab> */}
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">

@@ -18,7 +18,7 @@ const NavigationBar = () => {
                       <img src='https://www.islec.edu.in/allimages/temp.png' height={40} alt='logo' />
                     </li>
                     <li>
-                      <a href="tel:04029880083">
+                      <a href="tel:04029880083" rel="noopener">
                         <span className="fa fa-phone"></span> 040 - 29880083
                       </a>
                     </li>
@@ -35,7 +35,7 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://mail.google.com/a/islec.edu.in" target="_blank">
+                      <a href="https://mail.google.com/a/islec.edu.in" target="_blank" rel="noopener">
                         <span className="fa fa-sign-in"></span> Email Login
                       </a>
                     </li>
