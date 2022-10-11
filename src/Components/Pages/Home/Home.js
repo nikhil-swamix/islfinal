@@ -76,6 +76,7 @@ class Home extends React.Component {
             <img src='https://www.islec.edu.in/allimages/redhat.png' alt='redhat' height={60} />
             <img src='https://www.islec.edu.in/allimages/github.jpg' alt='github' height={60} />
             <img src='https://www.islec.edu.in/allimages/cisco.png' alt='cisco' height={60} />
+            <img src='https://www.islec.edu.in/allimages/eccouncil.webp' alt='ec counsil' height={60} />
             <img src='https://www.islec.edu.in/allimages/coursera.png' alt='coursera' height={60} />
            </Marquee>
 

@@ -47,9 +47,9 @@ class Table extends React.Component {
       <>
         {!isLoading ? (
           <div className="text-center table-responsive">
-            <p className="font-weight-bold">
+            {/* <p className="font-weight-bold">
               Year I Common Group-A(ECE, IT, ME) -- Group-B(CE, CSE, EEE)
-            </p>
+            </p> */}
             <DataTable
               keys="id"
               columns={tableColumns}

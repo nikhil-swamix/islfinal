@@ -1281,7 +1281,7 @@ label[for="page-menu"]
   margin-bottom: 15px;
 }
 .academic input {
-  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='100%'><text x='20' y='25' fill='gray' font-size='15'> Type Depart Name CE, ECE, CSE, IT, EEE, ME </text></svg>");
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' height='50px' width='100%'><text x='20' y='25' fill='gray' font-size='15'> Type Depart Name AIDS,CE, ECE, CSE, IT, EEE, ME </text></svg>");
   background-repeat: no-repeat;
 }
 .academic input:focus {
