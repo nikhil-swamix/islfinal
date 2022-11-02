@@ -14,10 +14,16 @@ const NavigationBar = () => {
               <div className="col-xl-8 col-lg-8 col-md-8 col-12">
                 <div className="header_left">
                   <ul className="header_ul">
+                    {/* <li>
+                      <img src='https://www.iso.org/files/live/sites/isoorg/files/name_and_logo/iso%20logo%20registered%20trademark.gif' height={40} alt='logo' />
+                    </li>" " */}
+                    <li>
+                      <img src='https://www.islec.edu.in/allimages/iic.png' height={40} alt='logo' />
+                    </li>
                     <li>
                       <img src='https://www.islec.edu.in/allimages/temp.png' height={40} alt='logo' />
                     </li>
-                    <li>
+                      <li>
                       <a href="tel:04029880083" rel="noopener">
                         <span className="fa fa-phone"></span> 040 - 29880083
                       </a>

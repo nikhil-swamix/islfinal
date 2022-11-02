@@ -40,7 +40,7 @@ const Payment = () => {
                             <img src="https://image.freepik.com/free-vector/payment-information-concept-illustration_114360-2296.jpg" alt="courses details"/>
 
                             <div class="courses_btn text-center mt-10">
-                                <a class="pay-btn" href="https://www.onlinesbi.com/sbicollect/icollecthome.htm?corpID=945312">Pay Now</a>
+                                <a class="pay-btn" href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=945312">Pay Now</a>
                             </div>
                         </div>
                         <div class="courses_sidebar_title">

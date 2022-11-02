@@ -51,13 +51,13 @@ const mba = () => {
                     <div className="media_image">
                       <img
                         className="author"
-                        src="https://i.ibb.co/Cz896xL/Whats-App-Image-2022-06-04-at-8-24-43-PM.jpg"
+                        src="https://www.islec.edu.in/allimages/faculty/mbahodnov22.jpeg"
                         alt="author"
                       />
                     </div>
                     <div className="media_content media-body">
-                      <h6 className="title">Dr. P Ravi Kumar</h6>
-                      <p className="edu">MBA, M.Com PGDTIL, Ph.D</p>
+                      <h6 className="title">Dr. K. Padmaja</h6>
+                      <p className="edu">M.Com, MBA, PGCCA, M.Phil, PhD</p>
                       <p>Head of Department</p>
                       </div>
                   </div>

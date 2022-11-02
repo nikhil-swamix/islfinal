@@ -591,7 +591,8 @@ abbr.all-research-btn2 a {
 }
 
 .breadcrumb_media .media_image .author {
-  width: 50px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
 .breadcrumb_media .media_image .authorExam {
@@ -1288,6 +1289,12 @@ label[for="page-menu"]
   outline: 0;
   background-color: #fff;
   background-image: none;
+}
+
+
+
+.img.author{
+  border-radius: 50% !important;
 }
 
 .academic label,
@@ -2281,7 +2288,7 @@ h6 {
 .footer-address p {
   font-size: 16px;
   line-height: 1.7;
-  color: #dddddd;
+  color: #fff;
 }
 .footer-address .map {
   text-decoration: none;
