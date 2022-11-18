@@ -7,7 +7,7 @@ import News from './components/News'
 import Check from './components/Check'
 import ReadMoreAndLess from 'react-read-more-less'
 import BottomAlert from './BottomAlert'
-import Enquiry from './Enquiry'
+// import Enquiry from './Enquiry'
 import { Helmet } from 'react-helmet'
 import Marquee from "react-fast-marquee";
 
@@ -41,7 +41,7 @@ class Home extends React.Component {
           <link rel="canonical" href="http://islec.edu.in" />
         </Helmet>
 
-        <Enquiry />
+        {/* <Enquiry /> */}
         <div className="nptel">
           <a href="/nptel" class="nptel_content nptel_label">
             NPTEL
