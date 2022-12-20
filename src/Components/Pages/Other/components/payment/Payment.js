@@ -44,11 +44,12 @@ const Payment = () => {
                             </div>
                         </div>
                         <div class="courses_sidebar_title">
-                            <h4 class="title">B.E Exam Fee</h4>
+                            {/* <h4 class="title">Miscellaneous Fee</h4> */}
+                            <h4 class="title">Miscellaneous & OU Exam Fee</h4>
                         </div>
                         <div class="courses_sidebar_list">
                             <ul class="list">
-                                <li> Last Date: 18 Jan 2022</li>
+                                <li> Last Date: 28-12-2022</li>
                                 <li><a href="https://drive.google.com/file/d/15kRu5fi0k_W120LYjJG8egg_6Y16b1Lx/view?usp=sharing"><i class="fa fa-eye"></i> View Notification </a></li>
                             </ul>
                             <ul class="list">
@@ -67,8 +68,8 @@ const Payment = () => {
                         <div class="single_courses_details  mt-40">
                             <h4 class="courses_details_title">Guidlines</h4>
                             <ul>
-                                <li><i class="fa fa-check"></i> <b>SEM I Regular Students & SEM III Regular Lateral Entry Students has to Pay Rs. 300/- .</b></li>
-                                <li><i class="fa fa-check"></i> <b>As Per University, All the B.E AICTE Regular Students has to pay an addidtional amount of Rs. 100/- extra along with their Main exam fee for OU Aadhar Based Biometric Attendance System (ABAS) and SMS Invoice Charges.</b></li>
+                                {/* <li><i class="fa fa-check"></i> <b>SEM I Regular Students & SEM III Regular Lateral Entry Students has to Pay Rs. 300/- .</b></li> */}
+                                {/* <li><i class="fa fa-check"></i> <b>As Per University, All the B.E AICTE Regular Students has to pay an addidtional amount of Rs. 100/- extra along with their Main exam fee for OU Aadhar Based Biometric Attendance System (ABAS) and SMS Invoice Charges.</b></li> */}
                                 <li><i class="fa fa-check"></i> <b>Students are advised to use their personal or parent's debit card/Credit card for payment, In the event of transaction failure amount will be credited back into your account after 2 to 4 working days.</b></li>
                                 <li><i class="fa fa-check"></i> Clear your dues (Management Fee, Convenor Fee, Bus Fee and Misc Fee etc..) along with your exam fee. Otherwise, your exam application forms will not be accepted.</li>
                                 <li><i class="fa fa-check"></i> It's recommended to use a laptop or desktop for online transaction.</li>

@@ -12,7 +12,7 @@ class Reecent extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://backend-isl.herokuapp.com/api/blogs/recent',
+      'https://sore-plum-shrug.cyclic.app/api/blogs/main',
     )
     try {
       this.setState({

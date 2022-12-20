@@ -37,7 +37,7 @@ class Enquiry extends Component {
     console.log(this.state)
     this.setState({ isSubmitting: true })
 
-    const res = await fetch('https://mern1ayaz.herokuapp.com/api/admissions', {
+    const res = await fetch('https://sore-plum-shrug.cyclic.app/api/admissions', {
       method: 'POST',
       body: JSON.stringify(this.state.values),
       headers: {

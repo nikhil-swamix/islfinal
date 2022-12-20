@@ -17,7 +17,7 @@ class TopAlert extends React.Component {
   }
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/infos/topalert',
+      'https://sore-plum-shrug.cyclic.app/api/infos/topalert',
     )
     try {
       this.setState({
