@@ -35,6 +35,11 @@ const NavigationBar = () => {
                          Faculty List
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in/naac" rel="noopener">
+                         NAAC
+                      </a>
+                    </li>
 
                     <li>
                       <a href="mailto:info@islec.edu.in">
@@ -96,6 +101,12 @@ const NavigationBar = () => {
             <NavDropdown title="Administration" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#principal" as={Link} to="/principal">
                 Principal
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#principal" as={Link} to="/rti">
+                RTI
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#principal" as={Link} to="/naac">
+                <b>NAAC</b>
               </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Academics" id="collasible-nav-dropdown">

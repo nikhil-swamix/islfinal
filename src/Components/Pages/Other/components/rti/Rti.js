@@ -49,6 +49,9 @@ const Rti = () => {
                                         <th>S.No</th>
                                         <th>Name</th>
                                         <th>Designation</th>
+                                        <th>Office</th>
+                                        <th>E-Mail</th>
+                                        <th>Mobile</th>
                                     </tr>
                               </thead>
                         
@@ -56,7 +59,10 @@ const Rti = () => {
                                     <tr>
                                         <td>1</td>
                                         <td>Mohammed Pasha</td>
-                                        <td>PR Officer</td>
+                                        <td>PR Officer / Appellate Authority</td>
+                                        <td>Desk – 1, Admin Dept</td>
+                                        <td>rti@islec.edu.in</td>
+                                        <td>+91 9989405490</td>
                                     </tr>
 
                               </tbody>

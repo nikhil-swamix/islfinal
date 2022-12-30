@@ -31,6 +31,7 @@ import Nptel from './Components/Pages/Other/components/nptel'
 import Aws from './Components/Pages/Other/components/awseducate'
 import Rti from './Components/Pages/Other/components/rti'
 import Faculty from './Components/Pages/Other/components/faculty'
+import Naac from './Components/Pages/Other/components/naac'
 
 import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
@@ -70,6 +71,7 @@ function App() {
           <Route path="/awsEducate" component={Aws} />
           <Route path="/rti" component={Rti} />
           <Route path="/faculty" component={Faculty} />
+          <Route path="/naac" component={Naac} />
 
           <Route component={NotFound} />
         </Switch>
