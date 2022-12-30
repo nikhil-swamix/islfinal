@@ -100,12 +100,6 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#principal" as={Link} to="/principal">
                 Principal
               </NavDropdown.Item>
-              <NavDropdown.Item href="#principal" as={Link} to="/rti">
-                RTI
-              </NavDropdown.Item>
-              <NavDropdown.Item href="#principal" as={Link} to="/naac">
-                <b>NAAC</b>
-              </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown title="Academics" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#admissions" as={Link} to="/admissions">

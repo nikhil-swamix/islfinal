@@ -60,7 +60,7 @@ const Library = () => {
                   <tr>
                     <td>AICTE Approvals</td>
                     <td>
-                      <a href="https://islec.edu.in/docs/Approvals/AICTE.PDF">Click here </a>
+                      <a href="https://islec.edu.in/docs/Approvals/AICTE.pdf">Click here </a>
                     </td>
                   </tr>
                   <tr>

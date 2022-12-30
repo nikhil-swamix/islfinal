@@ -1,8 +1,22 @@
 import React from 'react'
 import { Row, Col, Container, Table } from 'react-bootstrap'
+import { Helmet } from 'react-helmet'
+
 const Rti = () => {
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>RTI</title>
+        <meta
+          name="description"
+          content="RTI"
+        />
+
+        <link rel="canonical" href="http://islec.edu.in" />
+      </Helmet>
+
+
       <section className="breadcrumb_details bg_cover">
         <Container>
           <Row>
