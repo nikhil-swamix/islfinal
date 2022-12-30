@@ -83,7 +83,7 @@ const Faculty = () => {
                   <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="mt-5">
 
-                      <h4>Teaching Staff</h4>
+                      <h4>Teaching List</h4>
                       <Table striped bordered hover>
     <tr>
         <th>S.No</th>
@@ -1249,9 +1249,9 @@ const Faculty = () => {
                   <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="mt-5 capital" >
 
-                      <h4>Non-Teaching Staff</h4>
+                      <h4>Non-Teaching List</h4>
 
-                        <p>The Non Teaching Staff includes; Laboratory Technicians, Laboratory Assistants, Office Assistants, Drivers, Watchmans, Sweepers (Ayas), Admin Staff.</p>
+                        <p>The Non Teaching List includes; Laboratory Technicians, Laboratory Assistants, Office Assistants, Drivers, Watchmans, Sweepers (Ayas), Admin Staff.</p>
 
                         <Table striped bordered hover>
                         <tr>
