@@ -9,8 +9,9 @@ const NavigationBar = () => {
       <TopAlert />
       <header>
         <div className="header-top">
+   
           <Container fluid>
-            <div className="row">
+            <div className="row mt-2">
               <div className="col-xl-8 col-lg-8 col-md-8 col-12">
                 <div className="header_left">
                   <ul className="header_ul">
@@ -24,10 +25,17 @@ const NavigationBar = () => {
                       <img src='https://www.islec.edu.in/allimages/temp.png' height={40} alt='logo' />
                     </li>
                       <li>
-                      <a href="tel:04029880083" rel="noopener">
-                        <span className="fa fa-phone"></span> 040 - 29880083
+                      <a href="https://islec.edu.in/rti" rel="noopener">
+                         RTI
                       </a>
                     </li>
+
+                    <li>
+                      <a href="https://islec.edu.in/faculty" rel="noopener">
+                         Faculty List
+                      </a>
+                    </li>
+
                     <li>
                       <a href="mailto:info@islec.edu.in">
                         <span className="fa fa-envelope"></span>{' '}
@@ -38,11 +46,6 @@ const NavigationBar = () => {
                     <a href="mailto:careers@islec.edu.in">
                        <span className="fa fa-envelope"></span>{' '}
                         careers@islec.edu.in
-                      </a>
-                    </li>
-                    <li>
-                      <a href="https://mail.google.com/a/islec.edu.in" target="_blank" rel="noopener">
-                        <span className="fa fa-sign-in"></span> Email Login
                       </a>
                     </li>
                     {/* <li>

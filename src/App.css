@@ -9,6 +9,10 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.capital{
+  text-transform: uppercase;
+}
+
 
 .mar img{
   margin-left: 50px !important;
