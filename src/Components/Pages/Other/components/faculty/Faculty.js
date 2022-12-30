@@ -75,8 +75,8 @@ const Faculty = () => {
               <section className="dept-tabs mt-2">
                 <Tabs className="dept-tab">
                   <TabList>
-                    <Tab>Teaching StaffT</Tab>
-                    <Tab>Non-Teaching Staff</Tab>
+                    <Tab>Teaching List</Tab>
+                    <Tab>Non-Teaching List</Tab>
     
                   </TabList>
 
@@ -1254,355 +1254,356 @@ const Faculty = () => {
                         <p>The Non Teaching Staff includes; Laboratory Technicians, Laboratory Assistants, Office Assistants, Drivers, Watchmans, Sweepers (Ayas), Admin Staff.</p>
 
                         <Table striped bordered hover>
-    <tr>
+                        <tr>
         <th>S.no</th>
         <th>Name</th>
     </tr>
     <tr>
         <td>1</td>
-        <td>Employee Name</td>
-    </tr>
-    <tr>
-        <td>2</td>
         <td>MD SHAHABUDDIN</td>
     </tr>
     <tr>
-        <td>3</td>
+        <td>2</td>
         <td>ZAHEER AHMED</td>
     </tr>
     <tr>
-        <td>4</td>
+        <td>3</td>
         <td>G. ASHOK KUMAR</td>
     </tr>
     <tr>
-        <td>5</td>
+        <td>4</td>
         <td>ARSHIYA TABASSUM</td>
     </tr>
     <tr>
-        <td>6</td>
+        <td>5</td>
         <td>MOHD ABDUL AFNAN</td>
     </tr>
     <tr>
-        <td>7</td>
+        <td>6</td>
         <td>K. VEERANJANEYULU</td>
     </tr>
     <tr>
-        <td>8</td>
+        <td>7</td>
         <td>P. SRINIVAS</td>
     </tr>
     <tr>
-        <td>9</td>
+        <td>8</td>
         <td>ASIF KHAN</td>
     </tr>
     <tr>
-        <td>10</td>
+        <td>9</td>
         <td>PAVAN K.</td>
     </tr>
     <tr>
-        <td>11</td>
+        <td>10</td>
         <td>MOHAMMED TOUSEF HUSSAIN</td>
     </tr>
     <tr>
-        <td>12</td>
+        <td>11</td>
         <td>G. DEVADAS</td>
     </tr>
     <tr>
-        <td>13</td>
+        <td>12</td>
         <td>P. PAVANI</td>
     </tr>
     <tr>
-        <td>14</td>
+        <td>13</td>
         <td>MD. SUJAD UDDIN</td>
     </tr>
     <tr>
-        <td>15</td>
+        <td>14</td>
         <td>MD ABDUL FAREED</td>
     </tr>
     <tr>
-        <td>16</td>
+        <td>15</td>
         <td>MOHAMMED SOHAIL</td>
     </tr>
     <tr>
-        <td>17</td>
+        <td>16</td>
         <td>SHABUDDIN NOORUDDIN</td>
     </tr>
     <tr>
-        <td>18</td>
+        <td>17</td>
         <td>THOKALA LAXMA REDDY</td>
     </tr>
     <tr>
-        <td>19</td>
+        <td>18</td>
         <td>MANZOOR MOHIUDDIN</td>
     </tr>
     <tr>
-        <td>20</td>
+        <td>19</td>
         <td>KHAJA MUSTAFA ALI</td>
     </tr>
     <tr>
-        <td>21</td>
+        <td>20</td>
         <td>MUNEERUNNISA BEGUM</td>
     </tr>
     <tr>
-        <td>22</td>
+        <td>21</td>
         <td>FAZAL AHMED</td>
     </tr>
     <tr>
-        <td>23</td>
+        <td>22</td>
         <td>SYED ETEMAD UDDIN</td>
     </tr>
     <tr>
-        <td>24</td>
+        <td>23</td>
         <td>NAUSHEEN FATIMA</td>
     </tr>
     <tr>
-        <td>25</td>
+        <td>24</td>
         <td>MOHAMMED D ABDUL MOIZ</td>
     </tr>
     <tr>
-        <td>26</td>
+        <td>25</td>
         <td>MD. ASADUDDIN SIDDIQI</td>
     </tr>
     <tr>
-        <td>27</td>
+        <td>26</td>
         <td>P PHANI SRIKANTH</td>
     </tr>
     <tr>
-        <td>28</td>
+        <td>27</td>
         <td>MOHD HAMEED KHAN</td>
     </tr>
     <tr>
-        <td>29</td>
+        <td>28</td>
         <td>ASIFUDDIN</td>
     </tr>
     <tr>
-        <td>30</td>
+        <td>29</td>
         <td>SYED RAZIUDDIN</td>
     </tr>
     <tr>
-        <td>31</td>
+        <td>30</td>
         <td>KANEEZ FATIMA</td>
     </tr>
     <tr>
-        <td>32</td>
+        <td>31</td>
         <td>MUKARRAM HUSSAINI</td>
     </tr>
     <tr>
-        <td>33</td>
+        <td>32</td>
         <td>CHANDER MOHAN BERI</td>
     </tr>
     <tr>
-        <td>34</td>
+        <td>33</td>
         <td>ZAID BIN MOHAMMED</td>
     </tr>
     <tr>
-        <td>35</td>
+        <td>34</td>
         <td>Taher Ali</td>
     </tr>
     <tr>
-        <td>36</td>
+        <td>35</td>
         <td>Mohammad Azhar Ali</td>
     </tr>
     <tr>
-        <td>37</td>
+        <td>36</td>
         <td>Adbul Bari</td>
     </tr>
     <tr>
+        <td>37</td>
+        <td>SHABUDDIN NOORUDDIN</td>
+    </tr>
+    <tr>
         <td>38</td>
-        <td>MOHAMMED KHAJA MOINUDDIN</td>
+        <td>ASIF KHAN</td>
     </tr>
     <tr>
         <td>39</td>
-        <td>S. D. BASHA</td>
+        <td>ZAHEER AHMED</td>
     </tr>
     <tr>
         <td>40</td>
-        <td>GULAM NAJAMUDDIN</td>
+        <td>P. PAVANI</td>
     </tr>
     <tr>
         <td>41</td>
-        <td>Md Mateenuddin</td>
+        <td>ARSHIYA TABASSUM</td>
     </tr>
     <tr>
         <td>42</td>
-        <td>Muneer Fatima</td>
+        <td>K. VEERANJANEYULU</td>
     </tr>
     <tr>
         <td>43</td>
-        <td>SYED MUNAWAR</td>
+        <td>G. ASHOK KUMAR</td>
     </tr>
     <tr>
         <td>44</td>
-        <td>MEHRAJ SULTANA</td>
+        <td>MOHD ABDUL AFNAN</td>
     </tr>
     <tr>
         <td>45</td>
-        <td>SHAZIA FARHANA</td>
+        <td>P. SRINIVAS</td>
     </tr>
     <tr>
         <td>46</td>
-        <td>ASRA KOUSAR</td>
+        <td>PAVAN K.</td>
     </tr>
     <tr>
         <td>47</td>
-        <td>MASARRATH FATIMA</td>
+        <td>MOHAMMED TOUSEF HUSSAIN</td>
     </tr>
     <tr>
         <td>48</td>
-        <td>MALAHATH SAMREEN</td>
+        <td>G. DEVADAS</td>
     </tr>
     <tr>
         <td>49</td>
-        <td>MD ALLAUDDIN KHAN</td>
+        <td>MD. SUJAD UDDIN</td>
     </tr>
     <tr>
         <td>50</td>
-        <td>MOHD JAMEEL</td>
+        <td>MD ABDUL FAREED</td>
     </tr>
     <tr>
         <td>51</td>
-        <td>MOHAMMED PASHA</td>
+        <td>MOHAMMED SOHAIL</td>
     </tr>
     <tr>
         <td>52</td>
-        <td>ALIYA BEGUM</td>
+        <td>THOKALA LAXMA REDDY</td>
     </tr>
     <tr>
         <td>53</td>
-        <td>MD ATHAR SHARIF</td>
+        <td>MANZOOR MOHIUDDIN</td>
     </tr>
     <tr>
         <td>54</td>
-        <td>RAGHAVA REDDY</td>
+        <td>KHAJA MUSTAFA ALI</td>
     </tr>
     <tr>
         <td>55</td>
-        <td>K RAVINDAR</td>
+        <td>MUNEERUNNISA BEGUM</td>
     </tr>
     <tr>
         <td>56</td>
-        <td>MEHAR UNISSA</td>
+        <td>MD. ASADUDDIN SIDDIQI</td>
     </tr>
     <tr>
         <td>57</td>
-        <td>MEHAR UNNISA</td>
+        <td>FAZAL AHMED</td>
     </tr>
     <tr>
         <td>58</td>
-        <td>IRFAN BEGUM</td>
+        <td>SYED ETEMAD UDDIN</td>
     </tr>
     <tr>
         <td>59</td>
-        <td>MUNNI BEGUM</td>
+        <td>NAUSHEEN FATIMA</td>
     </tr>
     <tr>
         <td>60</td>
-        <td>KHALIDA BEGUM</td>
+        <td>MOHAMMED KHAJA MOINUDDIN</td>
     </tr>
     <tr>
         <td>61</td>
-        <td>SHAKERA BEGUM</td>
+        <td>MOHAMMED D ABDUL MOIZ</td>
     </tr>
     <tr>
         <td>62</td>
-        <td>ZAHEEDA BEGUM</td>
+        <td>P PHANI SRIKANTH</td>
     </tr>
     <tr>
         <td>63</td>
-        <td>FAREEDA BEGUM</td>
+        <td>MOHD HAMEED KHAN</td>
     </tr>
     <tr>
         <td>64</td>
-        <td>SAFAI BEGUM</td>
+        <td>ASIFUDDIN</td>
     </tr>
     <tr>
         <td>65</td>
-        <td>SAFIA BEGUM</td>
+        <td>SYED RAZIUDDIN</td>
     </tr>
     <tr>
         <td>66</td>
-        <td>BALGULA KRISHTAMMA</td>
+        <td>KANEEZ FATIMA</td>
     </tr>
     <tr>
         <td>67</td>
-        <td>GADDAM YIAKAIAH</td>
+        <td>MUKARRAM HUSSAINI</td>
     </tr>
     <tr>
         <td>68</td>
-        <td>MD RIZWAN</td>
-    </tr>
-    <tr>
-        <td>69</td>
-        <td>SYED HAMED ALI</td>
-    </tr>
-    <tr>
-        <td>70</td>
-        <td>KALTROTH RAVINDER</td>
-    </tr>
-    <tr>
-        <td>71</td>
-        <td>SYED ASGHAR ALI</td>
-    </tr>
-    <tr>
-        <td>72</td>
         <td>Mohd. Shakeel</td>
     </tr>
     <tr>
-        <td>73</td>
+        <td>69</td>
         <td>Mohd Hameed Khan</td>
     </tr>
     <tr>
-        <td>74</td>
+        <td>70</td>
         <td>Mohammed Sohail Sufi</td>
     </tr>
     <tr>
-        <td>75</td>
+        <td>71</td>
         <td>S. D BASHA</td>
     </tr>
     <tr>
-        <td>76</td>
+        <td>72</td>
         <td>Gulam Najmuddin </td>
     </tr>
     <tr>
-        <td>77</td>
+        <td>73</td>
         <td>Mohammed Pasha</td>
     </tr>
     <tr>
-        <td>78</td>
+        <td>74</td>
         <td>Abdul Rahman Essa Al Amudi</td>
     </tr>
     <tr>
-        <td>79</td>
+        <td>75</td>
         <td>Salman Ahmed</td>
     </tr>
     <tr>
-        <td>80</td>
+        <td>76</td>
         <td>Muneerunnisa Begum</td>
     </tr>
     <tr>
-        <td>81</td>
+        <td>77</td>
         <td> Shaik Shah Vali</td>
     </tr>
     <tr>
-        <td>82</td>
+        <td>78</td>
         <td>Shaik Muneer</td>
     </tr>
     <tr>
-        <td>83</td>
+        <td>79</td>
         <td>Shaik Abdul Saleem</td>
     </tr>
     <tr>
-        <td>84</td>
+        <td>80</td>
         <td>Ishrath Jabeen</td>
     </tr>
     <tr>
-        <td>85</td>
+        <td>81</td>
         <td>Md Abdul Majid</td>
     </tr>
     <tr>
-        <td>86</td>
+        <td>82</td>
         <td>Buelah Sharon</td>
     </tr>
-                        </Table>
+    <tr>
+        <td>83</td>
+        <td>S M K Amjaad Ali Khan</td>
+    </tr>
+    <tr>
+        <td>84</td>
+        <td>Asma Begum</td>
+    </tr>
+    <tr>
+        <td>85</td>
+        <td>Syeda Summaiya</td>
+    </tr>
+    <tr>
+        <td>86</td>
+        <td>Saleha Parveen</td>
+    </tr>
+    
+                            </Table>
 
                     </div>
 

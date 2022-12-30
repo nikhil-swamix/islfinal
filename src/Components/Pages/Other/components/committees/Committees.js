@@ -87,13 +87,6 @@ const Committees = () => {
                       <h4>Committee for SC/ST</h4>
                       <Table striped bordered hover>
     <tr>
-        <td>SC/ST CELL</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
         <th>S.No</th>
         <th>Name</th>
         <th>Dept.</th>
@@ -147,13 +140,6 @@ const Committees = () => {
                       <h4>Grievence Redressal Committee</h4>
                       <Table striped bordered hover>
                         
-                      <tr>
-        <td>GRIVENCE REDRESSAL CELL</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
     <tr>
         <th>S.No</th>
         <th>Name</th>
@@ -234,14 +220,6 @@ const Committees = () => {
 
                       <h4>Internal Complaint Committee</h4>
                       <Table striped bordered hover>
-                        
-                      <tr>
-        <td>INTERNAL COMPLAINT  CELL</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
     <tr>
         <th>S.No</th>
         <th>Name</th>
@@ -330,13 +308,6 @@ const Committees = () => {
 
                       <h4>Anti-Ragging Committee</h4>
                       <Table striped bordered hover>
-                      <tr>
-        <td>ANTI RAGGING CELL</td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
     <tr>
         <th>S.No</th>
         <th>Name</th>
