@@ -52,17 +52,39 @@ const Library = () => {
                 <thead>
                   <tr>
                     <th>Particulars</th>
-                    <th>Downloads</th>
+                    <th>Download/View</th>
                   </tr>
                 </thead>
+
                 <tbody>
                   <tr>
                     <td>AICTE Approvals</td>
                     <td>
-                      <a href="https://drive.google.com/file/d/1OCRPMqp6HifUDYIY1jusbgc5SI3dfFMK/view?usp=sharing">Click here to Download</a>
+                      <a href="https://islec.edu.in/docs/Approvals/AICTE.PDF">Click here </a>
                     </td>
                   </tr>
+                  <tr>
+                    <td>Osmania University Approvals</td>
+                    <td>
+                      <a href="https://islec.edu.in/docs/Approvals/OU_Affiliation.pdf">Click here</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>MBA Affiliation</td>
+                    <td>
+                      <a href="https://islec.edu.in/docs/Approvals/MBA_Affiliation.pdf">Click here</a>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>AISHE</td>
+                    <td>
+                      <a href="https://islec.edu.in/docs/Approvals/AISHE.pdf">Click here</a>
+                    </td>
+                  </tr>
+
                 </tbody>
+
+
               </Table>
 
 

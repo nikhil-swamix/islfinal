@@ -29,6 +29,11 @@ const NavigationBar = () => {
                          RTI
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in/approvals" rel="noopener">
+                         Approvals
+                      </a>
+                    </li>
 
                     <li>
                       <a href="https://islec.edu.in/faculty" rel="noopener">
@@ -36,23 +41,16 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
+                      <a href="https://islec.edu.in/committees" rel="noopener">
+                         Committees
+                      </a>
+                    </li>
+                    <li>
                       <a href="https://islec.edu.in/naac" rel="noopener">
-                         NAAC
+                         <b>NAAC</b>
                       </a>
                     </li>
 
-                    <li>
-                      <a href="mailto:info@islec.edu.in">
-                        <span className="fa fa-envelope"></span>{' '}
-                        info@islec.edu.in
-                      </a>
-                    </li>
-                    <li>
-                    <a href="mailto:careers@islec.edu.in">
-                       <span className="fa fa-envelope"></span>{' '}
-                        careers@islec.edu.in
-                      </a>
-                    </li>
                     {/* <li>
                       <Link href="#contact" >
                         Contact - 9985958422, 8686300801, 9989405490
