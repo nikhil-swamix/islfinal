@@ -74,37 +74,37 @@ const Admissions = () => {
                           </thead>
                           <tbody>
                             <tr>
-                              <td>Civil Engineering</td>
+                              <td>B.E Civil Engineering</td>
                               <td>120</td>
                               <td>4 Years</td>
                             </tr>
 
                             <tr>
-                              <td>Computer Science Engineering</td>
+                              <td>B.E Computer Science Engineering</td>
                               <td>180</td>
                               <td>4 Years</td>
                             </tr>
 
                             <tr>
-                              <td>Electronics and Communication Engineering</td>
+                              <td>B.E Electronics and Communication Engineering</td>
                               <td>30</td>
                               <td>4 Years</td>
                             </tr>
 
                             <tr>
-                              <td>ArtificiaI Intelligence & Data Science</td>
+                              <td>B.E ArtificiaI Intelligence & Data Science</td>
                               <td>60</td>
                               <td>4 Years</td>
                             </tr>
 
                             <tr>
-                              <td>Information Technology</td>
+                              <td>B.E Information Technology</td>
                               <td>90</td>
                               <td>4 Years</td>
                             </tr>
 
                             <tr>
-                              <td>Mechanical Engineering</td>
+                              <td>B.E Mechanical Engineering</td>
                               <td>60</td>
                               <td>4 Years</td>
                             </tr>
@@ -132,7 +132,7 @@ const Admissions = () => {
                               <td>2 Years</td>
                             </tr>
                             <tr>
-                              <td>M-Tech CSE</td>
+                              <td>M.Tech CSE</td>
                               <td>18</td>
                               <td>2 Years</td>
                             </tr>

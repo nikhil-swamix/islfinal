@@ -37,7 +37,7 @@ const NavigationBar = () => {
 
                     <li>
                       <a href="https://islec.edu.in/faculty" rel="noopener">
-                         Faculty List
+                         Staff List
                       </a>
                     </li>
                     <li>
