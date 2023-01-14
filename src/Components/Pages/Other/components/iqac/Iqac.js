@@ -3,15 +3,15 @@ import { Container, Row, Col } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
-const Naac = () => {
+const Iqac = () => {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>NAAC</title>
+        <title>IQAC</title>
         <meta
           name="description"
-          content="NAAC"
+          content="IQAC"
         />
 
         <link rel="canonical" href="http://islec.edu.in" />
@@ -22,7 +22,7 @@ const Naac = () => {
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
-                <h4 className="title">NAAC</h4>
+                <h4 className="title">IQAC</h4>
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
@@ -32,7 +32,7 @@ const Naac = () => {
                     </li>
                     <li>
                       <a className="active" href="#/">
-                        NAAC
+                        IQAC
                       </a>
                     </li>
                   </ul>
@@ -68,42 +68,42 @@ const Naac = () => {
         </Container>
       </section>
 
-      <section className="course-details-area dept  pb-60">
+      <section className="course-details-area dept pt-60  pb-60">
         <Container>
+        <h4 className='text-center'>Internal Quality Assurance Cell (IQAC)</h4>                            
+
           <Row>
             <Col lg={12} md={12}>
              <section className="dept-tabs mt-2">
                 <Tabs className="dept-tab">
                   <TabList>
-                    <Tab>Self Declaration</Tab>
-                    <Tab>Undertaking</Tab>
+                    <Tab>IQAC</Tab><br></br>
+                    <Tab>Criterion 1</Tab>
+                    <Tab>Criterion 2</Tab>
+                    <Tab>Criterion 3</Tab>
+                    <Tab>Criterion 4</Tab>
+                    <Tab>Criterion 5</Tab>
+                    <Tab>Criterion 6</Tab>
+                    <Tab>Criterion 7</Tab>
                   </TabList>
 
-                  <TabPanel className="tab-content tab-content-info text-justify">
+                    <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="mt-5">
 
-                      <h4>Self Declaration</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-angle-double-right"></i> <a href='https://islec.edu.in/NAAC/SelfDeclaration.pdf'>
-                           View Self Declaration 
-                            </a>
-                        </li>
-                      </ul>
+                        <h4>About Internal Quality Assurance Cell (IQAC) | ISLEC</h4>                            
+                            <ul>
+                                <li>
+                                    <i className="fa fa-angle-double-right"></i> <a href='https://islec.edu.in/NAAC/SelfDeclaration.pdf'>
+                                     View  
+                                      </a>
+                                </li>
+                            </ul>
                     </div>
-                  </TabPanel>
+                    </TabPanel>
                   
                   <TabPanel className="tab-content tab-content-info text-justify">
-                    <div className="mt-5">
-
-                      <h4>Undertaking</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-angle-double-right"></i> <a href='https://islec.edu.in/NAAC/Undertaking.pdf'>
-                           View Undertaking 
-                            </a>
-                        </li>
-                      </ul>
+                  <div className="syll text-center">
+                      <p>Content here</p>
                     </div>
 
                   </TabPanel>
@@ -148,4 +148,4 @@ s                    </div>
   )
 }
 
-export default Naac
+export default Iqac

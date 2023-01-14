@@ -32,6 +32,7 @@ import Aws from './Components/Pages/Other/components/awseducate'
 import Rti from './Components/Pages/Other/components/rti'
 import Faculty from './Components/Pages/Other/components/faculty'
 import Naac from './Components/Pages/Other/components/naac'
+import Iqac from './Components/Pages/Other/components/iqac'
 import Committees from './Components/Pages/Other/components/committees'
 
 import NotFound from './Components/Pages/NotFound'
@@ -73,6 +74,7 @@ function App() {
           <Route path="/rti" component={Rti} />
           <Route path="/faculty" component={Faculty} />
           <Route path="/naac" component={Naac} />
+          <Route path="/iqac" component={Iqac} />
           <Route path="/committees" component={Committees} />
 
           <Route component={NotFound} />
