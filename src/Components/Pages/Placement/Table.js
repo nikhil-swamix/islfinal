@@ -31,9 +31,9 @@ class Table extends React.Component {
   }
 
   render() {
-    const renderSyllabusUrl = (val, row) => (
-      <a href={`${row['link']}`}> {`${row['title']}`} </a>
-    )
+    // const renderSyllabusUrl = (val, row) => (
+    //   <a href={`${row['link']}`}> {`${row['title']}`} </a>
+    // )
 
     const { isLoading, publication_list } = this.state
     const tableColumns = [

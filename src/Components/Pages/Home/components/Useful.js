@@ -10,7 +10,7 @@ class Useful extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://sore-plum-shrug.cyclic.app/api/infos/useful',
+      'https://mern1ayaz.herokuapp.com/api/infos/useful',
     )
     try {
       this.setState({

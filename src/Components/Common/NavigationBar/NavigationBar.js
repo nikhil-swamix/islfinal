@@ -50,6 +50,11 @@ const NavigationBar = () => {
                          <b>NAAC</b>
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in/iqac" rel="noopener">
+                         <b>IQAC</b>
+                      </a>
+                    </li>
 
                     {/* <li>
                       <Link href="#contact" >

@@ -11,7 +11,7 @@ class News extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://sore-plum-shrug.cyclic.app/api/infos',
+      'https://mern1ayaz.herokuapp.com/api/infos',
     )
     try {
       this.setState({

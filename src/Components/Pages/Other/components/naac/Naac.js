@@ -71,12 +71,20 @@ const Naac = () => {
       <section className="course-details-area dept  pb-60">
         <Container>
           <Row>
-            <Col lg={8} md={8}>
-..              <section className="dept-tabs mt-2">
+            <Col lg={12} md={12}>
+             <section className="dept-tabs mt-2">
                 <Tabs className="dept-tab">
                   <TabList>
                     <Tab>Self Declaration</Tab>
                     <Tab>Undertaking</Tab>
+                    <Tab>IQAC</Tab><br></br>
+                    <Tab>Criterion 1</Tab>
+                    <Tab>Criterion 2</Tab>
+                    <Tab>Criterion 3</Tab>
+                    <Tab>Criterion 4</Tab>
+                    <Tab>Criterion 5</Tab>
+                    <Tab>Criterion 6</Tab>
+                    <Tab>Criterion 7</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify">
@@ -109,7 +117,8 @@ const Naac = () => {
                   </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
-s                    </div>
+                      <p>Content here</p>
+                    </div>
                   </TabPanel>
 
                   <TabPanel>
