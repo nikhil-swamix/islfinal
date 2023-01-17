@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
@@ -76,7 +76,15 @@ const Naac = () => {
                 <Tabs className="dept-tab">
                   <TabList>
                     <Tab>Self Declaration</Tab>
-                    <Tab>Undertaking</Tab>
+                    <Tab>Undertaking</Tab><br></br>
+                    <Tab>IQAC</Tab><br></br>
+                    <Tab>Criterion 1</Tab>
+                    <Tab>Criterion 2</Tab>
+                    <Tab>Criterion 3</Tab>
+                    <Tab>Criterion 4</Tab>
+                    <Tab>Criterion 5</Tab>
+                    <Tab>Criterion 6</Tab>
+                    <Tab>Criterion 7</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify">
@@ -108,15 +116,247 @@ const Naac = () => {
 
                   </TabPanel>
                   <TabPanel>
-                    <div className="syll text-center">
-                      <p>Content here</p>
+                    <div className="syll">
+                    <h4>About Internal Quality Assurance Cell (IQAC) </h4>                            
                     </div>
                   </TabPanel>
 
                   <TabPanel>
-                    <div className="syll text-center">
-s                    </div>
+                    <div className="syll">
+                    <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'>Criterion 1 – Curricular Aspects</h5>                      
+                      <tr>
+                        <th>Key Indicators</th>
+                        <th></th>
+                      </tr>
+
+                      <tr>
+                        <td>1.1 Curricular Planning and Implementation</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+                      <tr>
+                        <td>1.2 Academic Flexibility</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>1.3 Curriculum Enrichment</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>1.4 Feedback System</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+  
+                    </Table>
+                    </div>
                   </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll">
+                    <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'>Criteria 2- Teaching- Learning and Evaluation</h5>                      
+                      <tr>
+                        <th>Key Indicators</th>
+                        <th></th>
+                      </tr>
+
+                      <tr>
+                        <td>2.1. Student Enrolment and Profile</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+                      <tr>
+                        <td>2.2. Student Teacher Ratio</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>2.3. Teaching- Learning Process</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>2.4 Teacher Profile and Quality</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>2.5. Evaluation Process and Reforms</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>2.6 Student Performance and Learning Outcome</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>2.7 Student Satisfaction Survey</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+  
+                    </Table>
+                    </div>
+                  </TabPanel>
+
+
+                  <TabPanel>
+                    <div className="syll">
+                    <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'>Criteria 3- Research, Innovations and Extension</h5>                      
+                      <tr>
+                        <th>Key Indicators</th>
+                        <th></th>
+                      </tr>
+
+                      <tr>
+                        <td>3.1 Resource Mobilization for Research</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+                      <tr>
+                        <td>3.2 Innovation Ecosystem</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>3.3 Research Publication and Award</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>3.5  Collaboration</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+  
+                    </Table>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll">
+                    <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'>Criterion 4 - Infrastructure and Learning Resources</h5>                      
+                      <tr>
+                        <th>Key Indicators</th>
+                        <th></th>
+                      </tr>
+
+                      <tr>
+                        <td>4.1 Physical Facilities</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+                      <tr>
+                        <td>4.2 Library as a learning Resource</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>4.3 IT Infrastructure</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>4.4 Maintenance of Campus Infrastructure</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+  
+                    </Table>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll">
+                    <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'>Criterion 5- Student Support and Progression</h5>                      
+                      <tr>
+                        <th>Key Indicators</th>
+                        <th></th>
+                      </tr>
+
+                      <tr>
+                        <td>5.1 Student Support</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+                      <tr>
+                        <td>5.2 Student Progression</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>5.3 Student Participation and Activities</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>5.4 Alumni Engagement</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+  
+                    </Table>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll">
+                    <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'>Criterion 6- Governance, Leadership and Management</h5>                      
+                      <tr>
+                        <th>Key Indicators</th>
+                        <th></th>
+                      </tr>
+
+                      <tr>
+                        <td>6.1 Institutional Vision and Leadership</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+                      <tr>
+                        <td>6.2 Strategy Development and Deployment</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>6.3 Faculty Empowerment Strategies</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>6.4 Financial Management and Resource Mobilization</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>6.5 Internal Quality Assurance System</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+  
+                    </Table>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll">
+                    <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'>Criterion 7-Institutional Values and Best Practices</h5>                      
+                      <tr>
+                        <th>Key Indicators</th>
+                        <th></th>
+                      </tr>
+
+                      <tr>
+                        <td>7.1 Institutional Values and Social Responsibilities</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>7.2 Best Practices</td>
+                        <td>Under Construction</td>
+                      </tr>
+                      <tr>
+                        <td>7.3 Institutional Distinctiveness</td>
+                        <td>Under Construction</td>
+                      </tr>
+
+  
+                    </Table>
+                    </div>
+                  </TabPanel>
+
                 </Tabs>
               </section>
             </Col>
