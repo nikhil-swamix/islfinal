@@ -72,7 +72,7 @@ const Naac = () => {
         <Container>
           <Row>
             <Col lg={12} md={12}>
-             <section className="dept-tabs mt-2">
+             <section className="dept-tabs mt-30">
                 <Tabs className="dept-tab">
                   <TabList>
                     <Tab>Self Declaration</Tab>

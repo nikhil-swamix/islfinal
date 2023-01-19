@@ -68,12 +68,12 @@ const Committees = () => {
         </Container>
       </section>
 
-      <section className="course-details-area dept  pb-60">
-        <Container>
+      <section className="course-details-area dept pb-60">
+        <Container className='mt-30'>
           <Row>
             <Col lg={12} md={12}>
               <section className="dept-tabs mt-2">
-                <Tabs className="dept-tab">
+                <Tabs className="dept-tab responsive">
                   <TabList>
                     <Tab>Committee for SC/ST</Tab>
                     <Tab>Grievence Redressal Committee</Tab>

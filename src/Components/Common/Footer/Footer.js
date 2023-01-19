@@ -187,21 +187,24 @@ const Footer = () => {
         <div className="footer-copyright">
           <Container>
             <Row>
-              <Col md={8} className="text-center">
+              <Col md={6} className="text-center">
                 <div className="copyright text-md-left">
                   <p>&copy; Copyrights 2020 ISL Engineering College. </p>
                 </div>
               </Col>
-              <Col md={4} className="text-center">
+              <Col md={6} className="text-center">
                 <div className="copyright social text-md-right">
                   <ul className="mt-0">
+                    <p>Follow us on</p>
                     <li>
-                      <p>
-                        Follow us{' '}
                         <p href="https://www.linkedin.com/school/isl-engineering-college/">
                           <i className="fa fa-linkedin"></i>
                         </p>
-                      </p>
+                    </li>
+                    <li>
+                        <p href="https://www.instagram.com/islengineeringcollege/?hl=en">
+                          <i className="fa fa-instagram"></i>
+                        </p>
                     </li>
                   </ul>
                 </div>

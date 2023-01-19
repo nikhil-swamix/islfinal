@@ -278,6 +278,50 @@ const it = () => {
                     <div className="syll text-center">
                       <Table />
                     </div>
+
+                    <TabPanel>
+                    <div className="syll text-center">
+                      <p>Faculty</p>
+                    </div>
+                  </TabPanel>
+                  
+
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <p>Infrastructure</p>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <p>Department Events</p>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel className="tab-content tab-content-info text-justify ">
+                    <div className="">
+                      <h4>Student Resources</h4>
+                      <ul className='mt-30'>
+                        <li>
+                          <i className="fa fa-angle-double-right"></i><a href='/#'> Academic Email usage Policy </a>
+                        </li>
+                        <li>
+                          <i className="fa fa-angle-double-right"></i><a href='https://internship.aicte-india.org/'> AICTE Internships  </a>
+                        </li>
+                        <li>
+                          <i className="fa fa-angle-double-right"></i><a href='https://nptel.ac.in/domains'>  NPTEL Domain Certificate </a>
+                        </li>
+
+                      </ul>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <p>Student Clubs</p>
+                    </div>
+                  </TabPanel>
+
                   </TabPanel>
                 </Tabs>
               </section>
