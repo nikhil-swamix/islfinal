@@ -12,18 +12,33 @@ const NavigationBar = () => {
    
           <Container fluid>
             <div className="row mt-2">
-              <div className="col-xl-8 col-lg-8 col-md-8 col-12">
+
+            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
                 <div className="header_left">
                   <ul className="header_ul">
-                    {/* <li>
+                  <li>
+                      <img src='https://www.islec.edu.in/allimages/temp.png' height={40} alt='logo' />
+                    </li>
+                    <li>
                       <img src='https://www.iso.org/files/live/sites/isoorg/files/name_and_logo/iso%20logo%20registered%20trademark.gif' height={40} alt='logo' />
-                    </li>" " */}
+                    </li>
                     <li>
                       <img src='https://www.islec.edu.in/allimages/iic.png' height={40} alt='logo' />
                     </li>
                     <li>
-                      <img src='https://www.islec.edu.in/allimages/temp.png' height={40} alt='logo' />
+                      <img src='https://upload.wikimedia.org/wikipedia/en/e/e0/Csi_logo_india.jpg' height={40} alt='logo' />
                     </li>
+                    <li>
+                      <img src='https://www.cssharmila.com/wp-content/uploads/2018/04/MSME.jpg' height={40} alt='logo' />
+                    </li>
+                    </ul>
+                </div>
+              </div>
+
+
+              <div className="col-xl-3 col-lg-3 col-md-3 col-12">
+                <div className="header_left text-center mt-10 copyright social text-md-left">
+                  <ul className="header_ul">
                       <li>
                       <a href="https://islec.edu.in/rti" rel="noopener">
                          RTI
@@ -65,7 +80,7 @@ const NavigationBar = () => {
                 </div>
               </div>
 
-              <div className="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+              <div className="col-xl-3 col-lg-3 col-md-3 col-sm-12">
                 <div className="header_right text-center mt-10 copyright social text-md-right">
                   <ul className="header_ul">
                     <li>
