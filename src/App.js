@@ -11,6 +11,7 @@ import ME from './Components/Pages/Department/ME'
 import IT from './Components/Pages/Department/IT'
 import MBA from './Components/Pages/Department/MBA'
 import CE from './Components/Pages/Department/CE'
+import HNS from './Components/Pages/Department/HNS'
 import Syllabus from './Components/Pages/Academic/Syllabus'
 import Almanac from './Components/Pages/Academic/Almanac'
 import Admissions from './Components/Pages/Academic/Admission'
@@ -32,7 +33,7 @@ import Aws from './Components/Pages/Other/components/awseducate'
 import Rti from './Components/Pages/Other/components/rti'
 import Faculty from './Components/Pages/Other/components/faculty'
 import Naac from './Components/Pages/Other/components/naac'
-import Iqac from './Components/Pages/Other/components/iqac'
+import Nirf from './Components/Pages/Other/components/nirf'
 import Committees from './Components/Pages/Other/components/committees'
 
 import NotFound from './Components/Pages/NotFound'
@@ -61,6 +62,7 @@ function App() {
           <Route path="/department/it" component={IT} />
           <Route path="/department/me" component={ME} />
           <Route path="/department/ce" component={CE} />
+          <Route path="/department/hs" component={HNS} />
           <Route path="/department/mba" component={MBA} />
           <Route path="/news" component={AllNews} />
           <Route path="/exambranch" component={Exambranch} />
@@ -74,7 +76,7 @@ function App() {
           <Route path="/rti" component={Rti} />
           <Route path="/faculty" component={Faculty} />
           <Route path="/naac" component={Naac} />
-          <Route path="/iqac" component={Iqac} />
+          <Route path="/nirf" component={Nirf} />
           <Route path="/committees" component={Committees} />
 
           <Route component={NotFound} />

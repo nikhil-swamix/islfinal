@@ -1,22 +1,21 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import Sidebar from '../CSE/components/Sidebar'
-import Sidepost from '../CSE/components/Sidepost'
-import Syllabus from '../CSE/components/Syllabus'
-import Slide from '../CSE/components/Slide'
-import { Link } from 'react-router-dom'
+import Sidebar from './components/Sidebar'
+import Sidepost from './components/Sidepost'
+import Syllabus from './components/Syllabus'
+import Slide from './components/Slide'
 import Table from './components/Table'
+import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
-
-const cse = () => {
+const hns = () => {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Computer Science & Engineering</title>
+        <title>Humanities and Sciences</title>
         <meta
-          name="description"
+          name="Humanities and Sciences"
           content="ISLEC is Approved by AICTE and Affiliated to Osmania University"
         />
 
@@ -28,7 +27,7 @@ const cse = () => {
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
-                <h4 className="title">Computer Science & Engineering</h4>
+                <h4 className="title">Humanities and Sciences</h4>
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
@@ -41,7 +40,7 @@ const cse = () => {
                     </li>
                     <li>
                       <a className="active" href="#/">
-                        Computer Science & Engineering
+                        Humanities and Sciences
                       </a>
                     </li>
                   </ul>
@@ -50,8 +49,9 @@ const cse = () => {
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
-                      <h6 className="title">Dr. Mohammed Abdul Bari</h6>
                       <p>Head of Department</p>
+                      <h6 className="title">Mohd Mukarram Uddin</h6>
+                      <p className="edu">M.Tech</p>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
@@ -64,8 +64,8 @@ const cse = () => {
                     </div>
                     <div className="media_content media-body">
                       <h6 className="title mt-2">
-                        <a href="mailto:cse.hod@islec.edu.in">
-                          cse.hod@islec.edu.in
+                        <a href="mailto:hns.hod@islec.edu.in">
+                          hns.hod@islec.edu.in
                         </a>
                       </h6>
                     </div>
@@ -87,55 +87,53 @@ const cse = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
-                    <Tab>Syllabus</Tab>
+                    <Tab>Curriculum</Tab>
                     <Tab>Publications</Tab>
-                    <Tab>Faculty</Tab>
-                    <Tab>Infrastructure</Tab>
-                    <Tab>Department Events</Tab>
-                    <Tab>Resources</Tab>
-                    <Tab>*Student Clubs</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
                     <div className="">
                       <h4>Course Description</h4>
                       <p>
-                        Computer Science is the study of the theory,
-                        experimentation, and engineering that form the basis for
-                        the design and use of computers. This Department give
-                        exposure to its students not only of Curriculum but also
-                        to various skills areas required by IT industry.Soft
-                        skills training and certification is an ongoing process
-                        for students of the department.
-                      </p>
-                      <p>
-                        The department has strong link with local IT companies
-                        with whom students can do projects training internship
-                        and mentor-ship sessions various technical training
-                        courses are held to equip students with latest trend.
+                        Electrical engineering is a field of engineering that
+                        generally deals with the study and application of
+                        electricity, electronics, and electromagnetism. This
+                        field first became an identifiable occupation in the
+                        later half of the 19th century after commercialization
+                        of the electric telegraph, the telephone, and electric
+                        power distribution and use. Subsequently, broadcasting
+                        and recording media made electronics part of daily life.
+                        The invention of the transistor, and later the
+                        integrated circuit, brought down the cost of electronics
+                        to the point they can be used in almost any household
+                        object.
                       </p>
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To empower students
-                          through knowledge and information. To meet the
-                          challenges of a complex and modern society through
-                          informed social outreach. To be one of the premier
-                          institution in the field of Engineering and Technology
-                          and to achieve excellence in teaching.
+                          <i className="fa fa-check"></i> To equip students with
+                          the knowledge of CAD.
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> To train students on
+                          controlling and monitoring of real-time machinery.
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> To develop basic,
+                          medium and large scale project with creative, logical
+                          and Critical orientation.
                         </li>
                       </ul>
                       <h4>Vision</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> The department aims to
-                          being recognized as a promoter of computing
-                          Technologies and their applications.
+                          <i className="fa fa-check"></i> To develop the
+                          department into a full fledged centre of learning.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To produce competent
-                          computer science professionals to the constantly
-                          evolving IT sector.
+                          <i className="fa fa-check"></i> To contribute dynamic,
+                          competent, knowledgeable electrical engineers to the
+                          nation for a brighter world.
                         </li>
                         <li>
                           <i className="fa fa-check"></i> To create linkages
@@ -144,31 +142,31 @@ const cse = () => {
                         </li>
                       </ul>
                       <h4>Program Educational Objectives (PEOs)</h4>
+                      <p>
+                        Electrical and Electronics Engineering is a broad
+                        discipline that incorporates skills and expertise in the
+                        areas which are essential to most sectors of industry.
+                        Bachelors program in Electrical and Electronics
+                        Engineering in the college is aimed at preparing
+                        graduates who will
+                      </p>
                       <ul>
                         <li>
                           <i className="fa fa-check"></i>
-                          Obtain strong fundamentals concepts, technical
-                          competency and problem solving skills to generate
-                          innovative solutions to engineering problems.
+                          Demonstrate technical competence in identifying,
+                          formulating, analyzing, and creating engineering
+                          solutions including multi disciplinary technical areas
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Continuously enhance
-                          their skills through training, independent inquiry,
-                          professional practices and pursue higher education or
-                          research by adapting to rapidly changing technology.
+                          <i className="fa fa-check"></i>Continuously enhance
+                          their skills through higher education or research to
+                          emerge as competent technologist, educators or
+                          professionals.
                         </li>
                         <li>
                           <i className="fa fa-check"></i> Advance in their
-                          professional careers including increased technical,
-                          multidisciplinary approach and managerial
-                          responsibility as well as attainment of leadership
-                          positions thus making them competent professionals at
-                          global level.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> Exhibit commitment to
-                          ethical practices, societal contributions and lifelong
-                          learning.
+                          careers as successful professionals demonstrating
+                          ethical and societal responsibilities.
                         </li>
                       </ul>
                     </div>
@@ -263,14 +261,16 @@ const cse = () => {
                       </li>
                       <h4>Program Specific Outcomes</h4>
                       <li>
-                        <i className="fa fa-check"></i>Efficient coding: an
-                        ability to analyse a problem, design the algorithm and
-                        optimally code its solution.
+                        <i className="fa fa-check"></i>Graduate will be able to
+                        demonstrate an ability to analyze, design and provide an
+                        engineering solution in the areas related to Electric
+                        Drives/ Control and Power systems.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Software deployment: an
-                        ability to identify & define computing requirements to
-                        test, implement and maintain a software product.
+                        <i className="fa fa-check"></i> Graduate will
+                        demonstrate an ability to design, simulate and develop
+                        electrical and electronic Products using Electronic
+                        Design Automation (EDA) tools
                       </li>
                     </ul>
                   </TabPanel>
@@ -279,61 +279,12 @@ const cse = () => {
                       <Syllabus />
                     </div>
                   </TabPanel>
-                 
-
                   <TabPanel>
                     <div className="syll text-center">
                       <Table />
                     </div>
                   </TabPanel>
-
-
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Faculty</p>
-                    </div>
-                  </TabPanel>
-                  
-
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Infrastructure</p>
-                    </div>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Department Events</p>
-                    </div>
-                  </TabPanel>
-
-                  <TabPanel className="tab-content tab-content-info text-justify ">
-                    <div className="">
-                      <h4>Student Resources</h4>
-                      <ul className='mt-30'>
-                        <li>
-                          <i className="fa fa-angle-double-right"></i><a href='/#'> Academic Email usage Policy </a>
-                        </li>
-                        <li>
-                          <i className="fa fa-angle-double-right"></i><a href='https://internship.aicte-india.org/'> AICTE Internships  </a>
-                        </li>
-                        <li>
-                          <i className="fa fa-angle-double-right"></i><a href='https://nptel.ac.in/domains'>  NPTEL Domain Certificate </a>
-                        </li>
-
-                      </ul>
-                    </div>
-                  </TabPanel>
-
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Student Clubs</p>
-                    </div>
-                  </TabPanel>
-
-
                 </Tabs>
-
               </section>
             </Col>
             <Col lg={4} md={4} className="sidebar">
@@ -366,4 +317,4 @@ const cse = () => {
   )
 }
 
-export default cse
+export default hns

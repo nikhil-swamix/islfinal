@@ -132,18 +132,6 @@ const Footer = () => {
                         Engineering
                       </Link>
                     </li>
-                    <li>
-                      <Link href="#mtech" as={Link} to="/department/mcse">
-                        <i className="fa fa-angle-right"></i>M.Tech CSE
-                        Engineering
-                      </Link>
-                    </li>
-                    <li>
-                      <Link href="#mba" as={Link} to="/department/mba">
-                        <i className="fa fa-angle-right"></i>Master of Business Administration
-
-                      </Link>
-                    </li>
                   </ul>
                 </div>
               </Col>

@@ -1,20 +1,20 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
-const Iqac = () => {
+const Nirf = () => {
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>IQAC</title>
+        <title>NIRF</title>
         <meta
           name="description"
-          content="IQAC"
+          content="NIRF"
         />
 
-        <link rel="canonical" href="http://islec.edu.in" />
+        <link rel="canonical" href="http://islec.edu.in/nirf" />
       </Helmet>
 
       <section className="breadcrumb_details bg_cover">
@@ -22,7 +22,7 @@ const Iqac = () => {
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
-                <h4 className="title">IQAC</h4>
+                <h4 className="title">National Institutional Ranking Framework</h4>
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
@@ -32,7 +32,7 @@ const Iqac = () => {
                     </li>
                     <li>
                       <a className="active" href="#/">
-                        IQAC
+                        NIRF
                       </a>
                     </li>
                   </ul>
@@ -68,55 +68,89 @@ const Iqac = () => {
         </Container>
       </section>
 
-      <section className="course-details-area dept pt-60  pb-60">
+      <section className="course-details-area dept  pb-60">
         <Container>
-        <h4 className='text-center'>Internal Quality Assurance Cell (IQAC)</h4>                            
-
           <Row>
-            <Col lg={12} md={12}>
-             <section className="dept-tabs mt-2">
+            <Col lg={6} md={6}>
+             <section className="dept-tabs mt-30">
                 <Tabs className="dept-tab">
                   <TabList>
-                    <Tab>IQAC</Tab><br></br>
-                    <Tab>Criterion 1</Tab>
-                    <Tab>Criterion 2</Tab>
-                    <Tab>Criterion 3</Tab>
-                    <Tab>Criterion 4</Tab>
-                    <Tab>Criterion 5</Tab>
-                    <Tab>Criterion 6</Tab>
-                    <Tab>Criterion 7</Tab>
+                    <Tab>Overall</Tab>
+                    <Tab>Engineering</Tab>
+                    <Tab>Management</Tab>
                   </TabList>
 
-                    <TabPanel className="tab-content tab-content-info text-justify">
+                  <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="mt-5">
 
-                        <h4>About Internal Quality Assurance Cell (IQAC) | ISLEC</h4>                            
-                            <ul>
-                                <li>
-                                    <i className="fa fa-angle-double-right"></i> <a href='https://islec.edu.in/NAAC/SelfDeclaration.pdf'>
-                                     View  
-                                      </a>
-                                </li>
-                            </ul>
+                      <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'> Overall</h5>                      
+                      <tr>
+                        <th>Academic Year </th>
+                        <th>View</th>
+                      </tr>
+
+                      <tr>
+                      <td>NIRF'2023'</td>
+                        <td>
+                          <a href='https://islec.edu.in/NAAC/Overall2023.pdf'>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                      </tr>
+  
+                    </Table>
                     </div>
-                    </TabPanel>
-                  
+                  </TabPanel>
+
                   <TabPanel className="tab-content tab-content-info text-justify">
-                  <div className="syll text-center">
-                      <p>Content here</p>
-                    </div>
+                    <div className="mt-5">
 
-                  </TabPanel>
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Content here</p>
+                      <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'> Engineering</h5>                      
+                      <tr>
+                        <th>Academic Year </th>
+                        <th>View</th>
+                      </tr>
+
+                      <tr>
+                      <td>NIRF'2023'</td>
+                        <td>
+                          <a href='https://islec.edu.in/NAAC/Engineering2023.pdf'>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                      </tr>
+  
+                    </Table>
                     </div>
                   </TabPanel>
 
-                  <TabPanel>
-                    <div className="syll text-center">
-s                    </div>
+                  <TabPanel className="tab-content tab-content-info text-justify">
+                    <div className="mt-5">
+
+                      <Table striped bordered hover>
+                      <h5 className='mt-3 mb-3 text-center'> Management</h5>                      
+                      <tr>
+                        <th>Academic Year </th>
+                        <th>View</th>
+                      </tr>
+
+                      <tr>
+                        <td>NIRF'2023'</td>
+                        <td>
+                          <a href='https://islec.edu.in/NAAC/Management2023.pdf'>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                      </tr>
+  
+                    </Table>
+                    </div>
                   </TabPanel>
+
+
+
                 </Tabs>
               </section>
             </Col>
@@ -148,4 +182,4 @@ s                    </div>
   )
 }
 
-export default Iqac
+export default Nirf

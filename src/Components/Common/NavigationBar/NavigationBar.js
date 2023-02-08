@@ -13,31 +13,40 @@ const NavigationBar = () => {
           <Container fluid>
             <div className="row mt-2">
 
-            <div className="col-xl-6 col-lg-6 col-md-6 col-12">
+            <div className="col-xl-5 col-lg-6 col-md-6 col-12">
                 <div className="header_left">
                   <ul className="header_ul">
-                  <li>
-                      <img src='https://www.islec.edu.in/allimages/temp.png' height={40} alt='logo' />
+                    <li>
+                      <img src='https://www.islec.edu.in/allimages/OU.png' height={40} alt='logo' />
+                    </li>
+                    <li>
+                      <img src='https://www.islec.edu.in/allimages/AICTE.png' height={40} alt='logo' />
+                    </li>
+                    <li>
+                      <img src='https://www.islec.edu.in/allimages/MoE.png' height={40} alt='logo' />
                     </li>
                     <li>
                       <img src='https://www.iso.org/files/live/sites/isoorg/files/name_and_logo/iso%20logo%20registered%20trademark.gif' height={40} alt='logo' />
                     </li>
                     <li>
-                      <img src='https://www.islec.edu.in/allimages/iic.png' height={40} alt='logo' />
-                    </li>
-                    <li>
-                      <img src='https://upload.wikimedia.org/wikipedia/en/e/e0/Csi_logo_india.jpg' height={40} alt='logo' />
-                    </li>
-                    <li>
                       <img src='https://www.cssharmila.com/wp-content/uploads/2018/04/MSME.jpg' height={40} alt='logo' />
                     </li>
-                    </ul>
+                    <li>
+                      <img src='https://i.ibb.co/kK7CHC8/EE0v-CMf-VAAA-Lxj-removebg-preview.png' height={40} alt='logo' />
+                    </li>
+                    <li>
+                      <img src='https://i.ibb.co/KVjJxD1/IEEE.png' height={40} alt='logo' />
+                    </li>
+                    {/* <li>
+                      <img src='https://upload.wikimedia.org/wikipedia/en/e/e0/Csi_logo_india.jpg' height={40} alt='logo' />
+                    </li> */}
+                  </ul>
                 </div>
               </div>
 
 
-              <div className="col-xl-3 col-lg-3 col-md-3 col-12">
-                <div className="header_left text-center mt-10 copyright social text-md-left">
+              <div className="col-xl-4 col-lg-4 col-md-4 col-12">
+                <div className="header_left mt-10 copyright social text-left">
                   <ul className="header_ul">
                       <li>
                       <a href="https://islec.edu.in/rti" rel="noopener">
@@ -65,11 +74,16 @@ const NavigationBar = () => {
                          <b>NAAC</b>
                       </a>
                     </li>
-                    {/* <li>
+                    <li>
                       <a href="https://islec.edu.in/iqac" rel="noopener">
                          <b>IQAC</b>
                       </a>
-                    </li> */}
+                    </li>
+                    <li>
+                      <a href="https://islec.edu.in/nirf" rel="noopener">
+                         <b>NIRF</b>
+                      </a>
+                    </li>
 
                     {/* <li>
                       <Link href="#contact" >
@@ -99,9 +113,11 @@ const NavigationBar = () => {
       <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Navbar.Brand as={Link} to="/" className="m-auto">
           <img
-            src="https://i.ibb.co/VwX0qt4/312-x-35.png"
+            src="https://islec.edu.in/allimages/temp2.jpg "
             className="img-fluid"
             alt="College Logo"
+            height={700}
+            width={350}
           />
         </Navbar.Brand>
         <Navbar.Toggle
@@ -134,6 +150,9 @@ const NavigationBar = () => {
             </NavDropdown>
 
             <NavDropdown title="Department" id="collasible-nav-dropdown">
+            <NavDropdown.Item href="#hs" as={Link} to="/department/hs">
+                Humanities and Sciences
+              </NavDropdown.Item>
               <NavDropdown.Item href="#ce" as={Link} to="/department/ce">
                 Civil Engineering
               </NavDropdown.Item>
@@ -142,7 +161,6 @@ const NavigationBar = () => {
               </NavDropdown.Item>
               <NavDropdown.Item href="#ds" as={Link} to="/department/ds">
                 Artificial Intelligence & Data Science
-
               </NavDropdown.Item>
               <NavDropdown.Item href="#ece" as={Link} to="/department/ece">
                 Electronics & Communication Engineering
@@ -168,6 +186,9 @@ const NavigationBar = () => {
 
             <Nav.Link href="#events" as={Link} to="/events">
               Events
+            </Nav.Link>
+            <Nav.Link href="#events" as={Link} to="/events">
+              Infrastructure
             </Nav.Link>
 
             <Nav.Link href="#Research" as={Link} to="/research">

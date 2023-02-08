@@ -12,6 +12,26 @@ body {
 .capital{
   text-transform: uppercase;
 }
+a:link { text-decoration: none; }
+
+table {
+  border: 0.5px dotted !important;
+}
+
+.nactable td{
+  text-transform: capitalize !important;
+}
+
+.nactable table{
+  width: 100%;
+}
+
+
+.navbar-light .navbar-nav .nav-item a{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
 
 
 .mar img{

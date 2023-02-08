@@ -77,7 +77,7 @@ const Naac = () => {
                   <TabList>
                     <Tab>Self Declaration</Tab>
                     <Tab>Undertaking</Tab><br></br>
-                    <Tab>IQAC</Tab><br></br>
+                    <Tab>DVV</Tab><br></br>
                     <Tab>Criterion 1</Tab>
                     <Tab>Criterion 2</Tab>
                     <Tab>Criterion 3</Tab>
@@ -117,7 +117,7 @@ const Naac = () => {
                   </TabPanel>
                   <TabPanel>
                     <div className="syll">
-                    <h4>About Internal Quality Assurance Cell (IQAC) </h4>                            
+                    <h4>About DVV </h4>                            
                     </div>
                   </TabPanel>
 
@@ -131,20 +131,77 @@ const Naac = () => {
                       </tr>
 
                       <tr>
-                        <td>1.1 Curricular Planning and Implementation</td>
+                        <td>1.1 Curricular Planning and Implementation
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>1.1.1: The Institution ensures effective curriculum planning and delivery through a well-planned and documented process including Academic calendar and conduct of continuous internal Assessment</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+                      </td>
+                        
                         <td>Under Construction</td>
                       </tr>
 
                       <tr>
-                        <td>1.2 Academic Flexibility</td>
+                        <td>1.2 Academic Flexibility
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>1.2.1: Number of Add on /Certificate/Value added programs offered during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>1.2.2: Percentage of students enrolled in Certificate/ Add-on/Value added programs as against the total number of students during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>1.2.2.1: Number of students enrolled in subject related Certificate/ Add-on/Value added programs year wise during last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
+                        
                         <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>1.3 Curriculum Enrichment</td>
+                        <td>1.3 Curriculum Enrichment
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>1.3.1: Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability into the Curriculum</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>1.3.2: Percentage of students undertaking project work/field work/ internships (Data for the latest completed academic year)</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>1.3.2.1: Number of students undertaking project work/field work / internships</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>1.4 Feedback System</td>
+                        <td>1.4 Feedback System
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>1.4.1: Institution obtains feedback on the academic performance and ambience of the institution from various stakeholders, such as Students, Teachers, Employers, Alumni etc. and action taken report on the feedback is made available on institutional website (Yes or No)</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
 
@@ -163,32 +220,147 @@ const Naac = () => {
                       </tr>
 
                       <tr>
-                        <td>2.1. Student Enrolment and Profile</td>
+                        <td>2.1. Student Enrolment and Profile
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>2.1.1: Enrolment percentage</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.1.1.1: Number of students admitted year wise during last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.1.1.2: Number of sanctioned seats year wise during last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr><br/>
+                            <tr>
+                              <td>2.1.2: Percentage of seats filled against seats reserved for various categories (SC, ST, OBC, Divyangjan, etc. as per applicable reservation policy) during the last five years (Exclusive of supernumerary seats)</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.1.2.1: Number of actual students admitted from the reserved categories year - wise during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.1.2.2: Number of seats earmarked for reserved category as per GOI/ State Govt rule year wise during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+
+                          </table>
+                          </p>
+                          
+                        </td>
                         <td>Under Construction</td>
                       </tr>
 
                       <tr>
-                        <td>2.2. Student Teacher Ratio</td>
+                        <td>2.2. Student Teacher Ratio
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>2.2.1: Student – Full time Teacher Ratio</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>2.3. Teaching- Learning Process</td>
+                        <td>2.3. Teaching- Learning Process
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>2.3.1: Student centric methods, such as experiential learning, participative learning and problem solving methodologies are used for enhancing learning experiences using ICT tools</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>2.4 Teacher Profile and Quality</td>
+                        <td>2.4 Teacher Profile and Quality
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>2.4.1: Percentage of full-time teachers against sanctioned posts during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.4.1.1: Number of Sanctioned posts / required positions for teaching staff/ full time teachers year wise during the last five years:</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.4.2: Percentage of full time teachers with NET/SET/SLET/ Ph. D. / D.M. / M.Ch. / D.N.B Superspeciality / D.Sc. / D.Litt. during the last five years (consider only highest degree for count)</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.4.2.1: Number of full time teachers with NET/SET/SLET/Ph. D. / D.M. / M.Ch. / D.N.B Superspeciality / D.Sc. / D.Litt. year wise during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>2.5. Evaluation Process and Reforms</td>
+                        <td>2.5. Evaluation Process and Reforms
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>2.5.1: Mechanism of internal/ external assessment is transparent and the grievance redressal system is time- bound and efficient</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>2.6 Student Performance and Learning Outcome</td>
+                        <td>2.6 Student Performance and Learning Outcome
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>2.6.1: Programme Outcomes (POs) and Course Outcomes (COs) for all Programmes offered by the institution are stated and displayed on website and attainment of POs and COs are evaluated</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.6.2: Pass percentage of Students during last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.6.2.1: Number of final year students who passed the university examination year wise during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>2.6.2.2: Number of final year students who appeared for the university examination year-wise during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>2.7 Student Satisfaction Survey</td>
+                        <td>2.7 Student Satisfaction Survey
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>2.7.1: Online student satisfaction survey regarding teaching learning process </td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
 
@@ -208,12 +380,44 @@ const Naac = () => {
                       </tr>
 
                       <tr>
-                        <td>3.1 Resource Mobilization for Research</td>
+                        <td>3.1 Resource Mobilization for Research
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>3.1.1: Grants received from Government and non-governmental agencies for research projects / endowments in the institution during the last five years (INR in Lakhs) </td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>3.1.1.1: Total Grants from Government and non-governmental agencies for research projects , endowments, Chairs in the institution during the last five years (INR in Lakhs) </td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
 
                       <tr>
-                        <td>3.2 Innovation Ecosystem</td>
+                        <td>3.2 Innovation Ecosystem
+                        <p>
+                          <table className='nactable'>
+                            <tr>
+                              <td>3.2.1: Institution has created an ecosystem for innovations and has initiatives for creation and transfer of knowledge </td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>3.2.2: Number of workshops/seminars/conferences including on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship conducted during the last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>3.2.2.1: Total number of workshops/seminars/conferences including programs conducted on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship year wise during last five years</td>
+                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                          </table>
+                          </p>
+
+                        </td>
                         <td>Under Construction</td>
                       </tr>
                       <tr>

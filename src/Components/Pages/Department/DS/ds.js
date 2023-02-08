@@ -85,15 +85,10 @@ const cse = () => {
               <section className="dept-tabs mt-20">
                 <Tabs className="dept-tab">
                   <TabList>
-                  <Tab>Overview</Tab>
+                    <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
-                    <Tab>Syllabus</Tab>
-                    <Tab>Publications</Tab>
-                    <Tab>Faculty</Tab>
-                    <Tab>Infrastructure</Tab>
-                    <Tab>Department Events</Tab>
-                    <Tab>Resources</Tab>
-                    <Tab>*Student Clubs</Tab>
+                    <Tab>Curriculum</Tab>
+                    {/* <Tab>Publications</Tab> */}
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">

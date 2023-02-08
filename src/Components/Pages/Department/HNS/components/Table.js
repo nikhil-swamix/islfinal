@@ -2,8 +2,6 @@ import React from 'react'
 import axios from 'axios'
 import { DataTable } from 'react-data-components'
 import { Spinner } from 'react-bootstrap'
-import moment from 'moment'
-
 
 class Table extends React.Component {
   state = {
@@ -14,7 +12,7 @@ class Table extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/placements/allPlacements',
+      'https://mern1ayaz.herokuapp.com/api/publications/eee',
     )
     try {
       this.setState({
@@ -38,35 +36,20 @@ class Table extends React.Component {
     const { isLoading, publication_list } = this.state
     const tableColumns = [
       {
-        title: 'Company ',
+        title: 'Title',
         prop: 'title',
+        render: renderSyllabusUrl,
       },
       {
-        title: 'Campus',
-        prop: 'dept',
-      },
-      {
-        title: 'Date',
+        title: 'National / International Journal / Conference',
         prop: 'journal',
-        render: function (data, type, row, meta) {
-          return moment(data).format('D MMM YYYY')
-        },
-      },
-      {
-        title: 'Department',
-        prop: 'link',
-      },
-      {
-        title: 'Package',
-        prop: 'salary',
       },
     ]
 
     return (
       <>
         {!isLoading ? (
-          <div className="research table-responsive">
-
+          <div className="table-responsive publication mt-10">
             <DataTable
               keys="id"
               columns={tableColumns}
