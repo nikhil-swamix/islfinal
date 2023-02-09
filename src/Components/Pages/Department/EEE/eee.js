@@ -87,6 +87,7 @@ const eee = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
+                    <Tab>Course Outcomes</Tab>
                     <Tab>Curriculum</Tab>
                     <Tab>Publications</Tab>
                   </TabList>
@@ -152,19 +153,19 @@ const eee = () => {
                       </p>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i>
+                          <i className="fa fa-check"></i>PEO 1 : 
                           Demonstrate technical competence in identifying,
                           formulating, analyzing, and creating engineering
                           solutions including multi disciplinary technical areas
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>Continuously enhance
+                          <i className="fa fa-check"></i>PEO 2 : Continuously enhance
                           their skills through higher education or research to
                           emerge as competent technologist, educators or
                           professionals.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Advance in their
+                          <i className="fa fa-check"></i>PEO 3 : Advance in their
                           careers as successful professionals demonstrating
                           ethical and societal responsibilities.
                         </li>
@@ -178,20 +179,20 @@ const eee = () => {
                     </p>
                     <ul>
                       <li>
-                        <i className="fa fa-check"></i> Engineering knowledge:
+                        <i className="fa fa-check"></i>PO 1 : Engineering knowledge:
                         Apply the knowledge of mathematics, science, engineering
                         fundamentals, and an engineering specialization to the
                         solution of complex engineering problems.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Problem analysis:
+                        <i className="fa fa-check"></i>PO 2 : Problem analysis:
                         Identify, formulate, review research literature, and
                         analyse complex engineering problems reaching
                         substantiated conclusions using first principles of
                         mathematics, natural sciences, and engineering sciences.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Design/development of
+                        <i className="fa fa-check"></i>PO 3 : Design/development of
                         solutions: Design solutions for complex engineering
                         problems and design system components or processes that
                         meet the specified needs with appropriate consideration
@@ -199,46 +200,46 @@ const eee = () => {
                         societal, and environmental considerations.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Conduct investigations
+                        <i className="fa fa-check"></i>PO 4 : Conduct investigations
                         of complex problems: Use research-based knowledge and
                         research methods including design of experiments,
                         analysis and interpretation of data, and synthesis of
                         the information to provide valid conclusions.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Modern tool usage:
+                        <i className="fa fa-check"></i>PO 5 : Modern tool usage:
                         Create, select, and apply appropriate techniques,
                         resources, and modern engineering and IT tools including
                         prediction and modelling to complex engineering
                         activities with an understanding of the limitations.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> The engineer and
+                        <i className="fa fa-check"></i>PO 6 : The engineer and
                         society: Apply reasoning informed by the contextual
                         knowledge to assess societal, health, safety, legal and
                         cultural issues and the consequent responsibilities
                         relevant to the professional engineering practice.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Environment and
+                        <i className="fa fa-check"></i>PO 7 : Environment and
                         sustainability: Understand the impact of the
                         professional engineering solutions in societal and
                         environmental contexts, and demonstrate the knowledge
                         of, and need for sustainable development.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Ethics: Apply ethical
+                        <i className="fa fa-check"></i>PO 8 : Ethics: Apply ethical
                         principles and commit to professional ethics and
                         responsibilities and norms of the engineering practice.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Individual and team
+                        <i className="fa fa-check"></i>PO 9 : Individual and team
                         work: Function effectively as an individual, and as a
                         member or leader in diverse teams, and in
                         multidisciplinary settings.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Communication:
+                        <i className="fa fa-check"></i>PO 10 : Communication:
                         Communicate effectively on complex engineering
                         activities with the engineering community and with
                         society at large, such as, being able to comprehend and
@@ -247,33 +248,37 @@ const eee = () => {
                         instructions.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Project management and
+                        <i className="fa fa-check"></i>PO 11 : Project management and
                         finance: Demonstrate knowledge and understanding of the
                         engineering and management principle and apply these to
                         one’s own work, as a member and leader in a team, to
                         manage projects and in multidisciplinary environments.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Lifelong learning:
+                        <i className="fa fa-check"></i>PO 13 : Lifelong learning:
                         Recognize the need for, and have the preparation and
                         ability to engage in independent and life-long learning
                         in the broadest context of technological change.
                       </li>
                       <h4>Program Specific Outcomes</h4>
                       <li>
-                        <i className="fa fa-check"></i>Graduate will be able to
+                        <i className="fa fa-check"></i>PSO 1 : Graduate will be able to
                         demonstrate an ability to analyze, design and provide an
                         engineering solution in the areas related to Electric
                         Drives/ Control and Power systems.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Graduate will
+                        <i className="fa fa-check"></i>PSO 2 : Graduate will
                         demonstrate an ability to design, simulate and develop
                         electrical and electronic Products using Electronic
                         Design Automation (EDA) tools
                       </li>
                     </ul>
                   </TabPanel>
+                  <TabPanel>
+                    <p>Course Outcomes</p>
+                  </TabPanel>
+
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />

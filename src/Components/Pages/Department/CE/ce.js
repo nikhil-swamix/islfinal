@@ -86,6 +86,7 @@ const ce = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
+                    <Tab>Course Outcomes</Tab>
                     <Tab>Syllabus</Tab>
                     <Tab>Publications</Tab>
                   </TabList>
@@ -152,14 +153,14 @@ const ce = () => {
                       </p>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i>A strong foundation in
+                          <i className="fa fa-check"></i>PEO 1 : A strong foundation in
                           mathematics, basic sciences and engineering
                           fundamentals, to successfully compete for entry-level
                           positions or pursue postgraduate programme in Civil
                           Engineering and related fields.{' '}
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>ontemporary Civil
+                          <i className="fa fa-check"></i>PEO 2 : ontemporary Civil
                           Engineering professional skills, collection, analysis
                           / interpretation and presentation of data, including
                           hands-on laboratory experience, exposure to modern
@@ -167,14 +168,14 @@ const ce = () => {
                           compete in the local, national and global market.{' '}
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Strong communication
+                          <i className="fa fa-check"></i>PEO 3 : Strong communication
                           and interpersonal skills, broad knowledge and an
                           understanding of multicultural and global perspectives
                           to work effectively in multidisciplinary teams, both
                           as team members and leaders.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Integral development
+                          <i className="fa fa-check"></i>PEO 4 : Integral development
                           of the personality to deal with ethical and
                           professional issues, taking into account the broader
                           societal implications of civil engineering and also
@@ -190,20 +191,20 @@ const ce = () => {
                     </p>
                     <ul>
                       <li>
-                        <i className="fa fa-check"></i>Engineering knowledge:
+                        <i className="fa fa-check"></i>PO 1 : Engineering knowledge:
                         Apply the knowledge of mathematics, science, engineering
                         fundamentals, and an engineering specialization to the
                         solution of complex engineering problems.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Problem analysis:
+                        <i className="fa fa-check"></i>PO 2 : Problem analysis:
                         Identify, formulate, review research literature, and
                         analyze complex engineering problems reaching
                         substantiated conclusions using first principles of
                         mathematics, natural sciences, and engineering sciences.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Design/development of
+                        <i className="fa fa-check"></i>PO 3: Design/development of
                         solutions: Design solutions for complex engineering
                         problems and design system components or processes that
                         meet the specified needs with appropriate consideration
@@ -211,46 +212,46 @@ const ce = () => {
                         societal, and environmental considerations.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i>Conduct investigations of
+                        <i className="fa fa-check"></i>PO 4 : Conduct investigations of
                         complex problems: Use research-based knowledge and
                         research methods including design of experiments,
                         analysis and interpretation of data, and synthesis of
                         the information to provide valid conclusions.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Modern tool usage:
+                        <i className="fa fa-check"></i>PO 5 : Modern tool usage:
                         Create, select, and apply appropriate
                         techniques,resources,and modern engineering and IT tools
                         including prediction and model into complex engineering
                         activities with an understanding of the limitations.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> The engineer and
+                        <i className="fa fa-check"></i>PO 6 : The engineer and
                         society: Apply reasoning informed by the contextual
                         knowledge to assess societal, health, safety, legal and
                         cultural issues and the consequent responsibilities
                         relevant to the professional engineering practice.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Environment and
+                        <i className="fa fa-check"></i>PO 7 : Environment and
                         sustainability: Understand the impact of the
                         professional engineering solutions in societal and
                         environmental contexts, and demonstrate the knowledge
                         of, and need for sustainable development.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Ethics: Apply ethical
+                        <i className="fa fa-check"></i>PO 8 : Ethics: Apply ethical
                         principles and commit to professional ethics and
                         responsibilities and norms of the engineering practice.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Individual and team
+                        <i className="fa fa-check"></i>PO 9 : Individual and team
                         work: Function effectively as an individual, and as a
                         member or leader in diverse teams, and in
                         multidisciplinary settings.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Communication:
+                        <i className="fa fa-check"></i>PO 10 : Communication:
                         Communicate effectively on complex engineering
                         activities with the engineering community and with
                         society at large, such as, being able to comprehend and
@@ -259,21 +260,21 @@ const ce = () => {
                         instructions.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Project management and
+                        <i className="fa fa-check"></i>PO 11 : Project management and
                         finance: Demonstrate knowledge and understanding of the
                         engineering and management principle and apply these to
                         one’s own work, as a member and leader in a team, to
                         manage projects and in multidisciplinary environments.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> Lifelong learning:
+                        <i className="fa fa-check"></i>PO 12 : Lifelong learning:
                         Recognize the need for, and have the preparation and
                         ability to engage in independent and life-long learning
                         in the broadest context of technological change.
                       </li>
                       <h4>Program Specific Outcomes</h4>
                       <li>
-                        <i className="fa fa-check"></i>PSO1: Plan, Analyze and
+                        <i className="fa fa-check"></i>PSO 1 : Plan, Analyze and
                         design various structural components for buildings,
                         Transportation elements, Water Resources Structures ,
                         Treatment plants, Geotechnical aspects, Geological
@@ -281,12 +282,16 @@ const ce = () => {
                         equipment and software.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i> PSO2: Exploration of
+                        <i className="fa fa-check"></i>PSO 2 : Exploration of
                         futuristic approaches in Civil Engineering for better
                         Industry compatibility.
                       </li>
                     </ul>
                   </TabPanel>
+                  <TabPanel>
+                    <p>Course Outcomes</p>
+                  </TabPanel>
+
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />
