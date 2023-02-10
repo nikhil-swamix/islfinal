@@ -11,7 +11,7 @@ class Middleevent extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://backend-isl.herokuapp.com/api/infos/event',
+      'https://islec.herokuapp.com/api/infos/event',
     )
     try {
       this.setState({

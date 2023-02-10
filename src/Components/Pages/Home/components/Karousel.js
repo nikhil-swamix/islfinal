@@ -12,7 +12,7 @@ class Karousel extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/carousels/main',
+      'https://islec.herokuapp.com/api/carousels/main',
     )
     try {
       this.setState({

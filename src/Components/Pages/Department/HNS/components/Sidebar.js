@@ -10,7 +10,7 @@ class Sidebar extends React.Component {
   }
   getPosts() {
     axios
-      .get('https://mern1ayaz.herokuapp.com/api/sidebars/eee')
+      .get('https://islec.herokuapp.com/api/sidebars/hs')
       .then((response) => {
         this.setState({
           quicklink_list: response.data,

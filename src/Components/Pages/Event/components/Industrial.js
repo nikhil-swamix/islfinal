@@ -4,7 +4,7 @@ import useAxios from 'axios-hooks'
 
 const Industrial = () => {
   const [{ data, loading, error }] = useAxios(
-    'https://mern1ayaz.herokuapp.com/api/blogs/industrial',
+    'https://islec.herokuapp.com/api/blogs/industrial',
   )
 
   if (loading)

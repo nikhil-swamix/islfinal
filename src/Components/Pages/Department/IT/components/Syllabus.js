@@ -12,7 +12,7 @@ class Syllabus extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/syllabs/it',
+      'https://islec.herokuapp.com/api/syllabs/it',
     )
     try {
       this.setState({

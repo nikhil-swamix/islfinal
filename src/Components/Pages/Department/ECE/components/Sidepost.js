@@ -11,7 +11,7 @@ class Sidepost extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/blogs/ece',
+      'https://islec.herokuapp.com/api/blogs/ece',
     )
     try {
       this.setState({
