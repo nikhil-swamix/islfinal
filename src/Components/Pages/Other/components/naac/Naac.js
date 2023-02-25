@@ -127,83 +127,93 @@ const Naac = () => {
                       <h5 className='mt-3 mb-3 text-center'>Criterion 1 – Curricular Aspects</h5>                      
                       <tr>
                         <th>Key Indicators</th>
-                        <th></th>
                       </tr>
 
                       <tr>
-                        <td>1.1 Curricular Planning and Implementation
                         <p>
                           <table className='nactable'>
+                          <th>1.1 Curricular Planning and Implementation</th>
                             <tr>
                               <td>1.1.1: The Institution ensures effective curriculum planning and delivery through a well-planned and documented process including Academic calendar and conduct of continuous internal Assessment</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                           </table>
                           </p>
-                      </td>
+                      
                         
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>1.2 Academic Flexibility
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>1.2 Academic Flexibility</th>
+
+                            </tr>
+                            <tr>
                               <td>1.2.1: Number of Add on /Certificate/Value added programs offered during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>1.2.2: Percentage of students enrolled in Certificate/ Add-on/Value added programs as against the total number of students during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>1.2.2.1: Number of students enrolled in subject related Certificate/ Add-on/Value added programs year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Support Document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
 
-                        </td>
                         
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>1.3 Curriculum Enrichment
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>1.3 Curriculum Enrichment</th>
+
+                            </tr>
+                            <tr>
                               <td>1.3.1: Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability into the Curriculum</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>1.3.2: Percentage of students undertaking project work/field work/ internships (Data for the latest completed academic year)</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>1.3.2.1: Number of students undertaking project work/field work / internships</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting Document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>1.4 Feedback System
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>1.4 Feedback System</th>
+
+                            </tr>
+                            <tr>
                               <td>1.4.1: Institution obtains feedback on the academic performance and ambience of the institution from various stakeholders, such as Students, Teachers, Employers, Alumni etc. and action taken report on the feedback is made available on institutional website (Yes or No)</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
   
                     </Table>
@@ -216,153 +226,172 @@ const Naac = () => {
                       <h5 className='mt-3 mb-3 text-center'>Criteria 2- Teaching- Learning and Evaluation</h5>                      
                       <tr>
                         <th>Key Indicators</th>
-                        <th></th>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>2.1. Student Enrolment and Profile
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>2.1: Student Enrolment and Profile</th>
+                            </tr>
+                            <tr>
                               <td>2.1.1: Enrolment percentage</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.1.1.1: Number of students admitted year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.1.1.2: Number of sanctioned seats year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
-                            </tr><br/>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='http://islec.edu.in/NAAC/2/2.1/2.1StudentEnrollmentandProfile.pdf'>Click here for Supporting Document</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                            </tr>
+                            
+                            <br/>
                             <tr>
                               <td>2.1.2: Percentage of seats filled against seats reserved for various categories (SC, ST, OBC, Divyangjan, etc. as per applicable reservation policy) during the last five years (Exclusive of supernumerary seats)</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.1.2.1: Number of actual students admitted from the reserved categories year - wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.1.2.2: Number of seats earmarked for reserved category as per GOI/ State Govt rule year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='https://islec.edu.in/NAAC/2.1.2.pdf'>Click here for Supporting Document</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/2.1.2/1.xlsx'>Click here for Data Template</a></td>
 
+                            </tr>
                           </table>
                           </p>
                           
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                        
+                       </tr>
 
                       <tr>
-                        <td>2.2. Student Teacher Ratio
                         <p>
                           <table className='nactable'>
+                            <tr>
+                              <th>2.2. Student Teacher Ratio</th>
+                            </tr>
                             <tr>
                               <td>2.2.1: Student – Full time Teacher Ratio</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>2.3. Teaching- Learning Process
                         <p>
                           <table className='nactable'>
+                            <tr>
+                              <th>2.3. Teaching- Learning Process</th>
+
+                            </tr>
                             <tr>
                               <td>2.3.1: Student centric methods, such as experiential learning, participative learning and problem solving methodologies are used for enhancing learning experiences using ICT tools</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/2/2.3/2.3.1AdditionalDoc.pdf'>View Additional Infomation</a></td>
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>2.4 Teacher Profile and Quality
                         <p>
                           <table className='nactable'>
                             <tr>
+                            <th>2.4 Teacher Profile and Quality</th>
+
+                            </tr>
+                            <tr>
                               <td>2.4.1: Percentage of full-time teachers against sanctioned posts during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.4.1.1: Number of Sanctioned posts / required positions for teaching staff/ full time teachers year wise during the last five years:</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+
                             </tr>
                             <tr>
                               <td>2.4.2: Percentage of full time teachers with NET/SET/SLET/ Ph. D. / D.M. / M.Ch. / D.N.B Superspeciality / D.Sc. / D.Litt. during the last five years (consider only highest degree for count)</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.4.2.1: Number of full time teachers with NET/SET/SLET/Ph. D. / D.M. / M.Ch. / D.N.B Superspeciality / D.Sc. / D.Litt. year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>2.5. Evaluation Process and Reforms
                         <p>
                           <table className='nactable'>
+                            <tr>
+                            <th>2.5. Evaluation Process and Reforms</th>
+
+                            </tr>
                             <tr>
                               <td>2.5.1: Mechanism of internal/ external assessment is transparent and the grievance redressal system is time- bound and efficient</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>2.6 Student Performance and Learning Outcome
                         <p>
                           <table className='nactable'>
                             <tr>
+                            <th>2.6 Student Performance and Learning Outcome</th>
+
+                            </tr>
+                            <tr>
                               <td>2.6.1: Programme Outcomes (POs) and Course Outcomes (COs) for all Programmes offered by the institution are stated and displayed on website and attainment of POs and COs are evaluated</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.6.2: Pass percentage of Students during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.6.2.1: Number of final year students who passed the university examination year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>2.6.2.2: Number of final year students who appeared for the university examination year-wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>2.7 Student Satisfaction Survey
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>2.7 Student Satisfaction Survey</th>
+
+                            </tr>
+                            <tr>
                               <td>2.7.1: Online student satisfaction survey regarding teaching learning process </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                           </table>
                           </p>
-
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
   
                     </Table>
@@ -376,112 +405,136 @@ const Naac = () => {
                       <h5 className='mt-3 mb-3 text-center'>Criteria 3- Research, Innovations and Extension</h5>                      
                       <tr>
                         <th>Key Indicators</th>
-                        <th></th>
-                      </tr>
-
+                       </tr>
                       <tr>
-                        <td>3.1 Resource Mobilization for Research
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>3.1 Resource Mobilization for Research</th>
+                            </tr>
+                            <tr>
                               <td>3.1.1: Grants received from Government and non-governmental agencies for research projects / endowments in the institution during the last five years (INR in Lakhs) </td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>3.1.1.1: Total Grants from Government and non-governmental agencies for research projects , endowments, Chairs in the institution during the last five years (INR in Lakhs) </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
-
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>3.2 Innovation Ecosystem
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>3.2 Innovation Ecosystem</th>
+
+                            </tr>
+                            <tr>
                               <td>3.2.1: Institution has created an ecosystem for innovations and has initiatives for creation and transfer of knowledge </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/3/3_2/3.2.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>3.2.2: Number of workshops/seminars/conferences including on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship conducted during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>3.2.2.1: Total number of workshops/seminars/conferences including programs conducted on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>3.3 Research Publication and Award
                         <p>
                           <table className='nactable'>
                             <tr>
-                              <td>3.3.1: Number of research papers published per teacher in the Journals notified on UGC care list during the last five years </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <th>3.3 Research Publication and Award</th>
                             </tr>
                             <tr>
+                              <td>3.3.1: Number of research papers published per teacher in the Journals notified on UGC care list during the last five years </td>
+                            </tr>
+                            <tr>
+                              <td>3.3.1.1: Number of research papers in the Journals notified on UGC CARE list year wise during the last five years </td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
+                            </tr>
+
+                            <tr>
                               <td>3.3.2: Number of books and chapters in edited volumes/books published and papers published in national/ international conference proceedings per teacher during last five years </td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>3.3.2.1: Total number of books and chapters in edited volumes/books published and papers in national/ international conference proceedings year wise during last five years </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
-
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>3.4: Extension Activities
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>3.4: Extension Activities</th>
+
+                            </tr>
+                            <tr>
                               <td>3.4.1: Extension activities are carried out in the neighborhood community, sensitizing students to social issues, for their holistic development, and impact thereof during the last five years. </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>3.4.2: Awards and recognitions received for extension activities from government / government recognised bodies</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>3.4.3: Number of extension and outreach programs conducted by the institution through NSS/NCC/Red cross/YRC etc., (including the programmes such as Swachh Bharat, AIDS awareness, Gender issues etc. and/or those organised in collaboration with industry, community and NGOs) during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>3.4.3.1: Number of extension and outreach Programs conducted in collaboration with industry, community, and Non- Government Organizations through NSS/ NCC/ Red Cross/ YRC etc., year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                           </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>3.5  Collaboration
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>3.5  Collaboration</th>
+
+                            </tr>
+                            <tr>
                               <td>3.5.1: Number of functional MoUs/linkages with institutions/ industries in India and abroad for internship, on-the-job training, project work, student / faculty exchange and collaborative research during the last five years.</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                           </table>
                         </p>
-
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
   
                     </Table>
@@ -494,89 +547,99 @@ const Naac = () => {
                       <h5 className='mt-3 mb-3 text-center'>Criterion 4 - Infrastructure and Learning Resources</h5>                      
                       <tr>
                         <th>Key Indicators</th>
-                        <th></th>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>4.1 Physical Facilities
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>4.1 Physical Facilities</th>
+
+                            </tr>
+                            <tr>
                               <td>4.1.1: Availability of adequate infrastructure and physical facilities viz., classrooms, laboratories, ICT facilities, cultural activities, gymnasium, yoga centre etc. in the institution </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>4.1.2: Percentage of expenditure, excluding salary for infrastructure augmentation during last five years (INR in Lakhs) </td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>4.1.2.1: Expenditure for infrastructure augmentation, excluding salary during the last five years (INR in lakhs)  </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>4.2 Library as a learning Resource
                         <p>
                           <table className='nactable'>
+                            <tr>
+                              <th>4.2 Library as a learning Resource</th>
+
+                            </tr>
                             <tr>
                               <td>4.2.1: Library is automated using Integrated Library Management System (ILMS), subscription to e-resources, amount spent on purchase of books, journals and per day usage of library</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>4.3 IT Infrastructure
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>4.3 IT Infrastructure</th>
+
+                            </tr>
+                            <tr>
                               <td>4.3.1: Institution frequently updates its IT facilities and provides sufficient bandwidth for internet connection</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>4.3.2: Student – Computer ratio (Data for the latest completed academic year)</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>4.3.2.1: Number of computers available for students usage during the latest completed academic year:</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>4.4 Maintenance of Campus Infrastructure
                         <p>
                           <table className='nactable'>
+                            <tr>
+                              <th>4.4 Maintenance of Campus Infrastructure</th>
+
+                            </tr>
                             <tr>
                               <td>4.4.1: Percentage of expenditure incurred on maintenance of infrastructure (physical and academic support facilities) excluding salary component during the last five years (INR in Lakhs)</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
-                          </table>
-                        </p>
-                        <p>
-                          <table className='nactable'>
                             <tr>
                               <td>4.4.1.1: Expenditure incurred on maintenance of infrastructure (physical facilities and academic support facilities) excluding salary component year wise during the last five years (INR in lakhs)</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
                       </tr>
 
   
@@ -590,120 +653,139 @@ const Naac = () => {
                       <h5 className='mt-3 mb-3 text-center'>Criterion 5- Student Support and Progression</h5>                      
                       <tr>
                         <th>Key Indicators</th>
-                        <th></th>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>5.1 Student Support
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>5.1 Student Support</th>
+
+                            </tr>
+                            <tr>
                               <td>5.1.1: Percentage of students benefited by scholarships and freeships provided by the Government and Non-Government agencies during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.1.1.1: Number of students benefited by scholarships and freeships provided by the Government and Non-Government agencies year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='https://islec.edu.in/NAAC/5/5.1/5.1.1SupportingDoc.pdf'>View Additional Supporting document</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/5/5.1.1/5.1.1-NAACTemplate.xlsx'>View Data Template</a></td>
+
                             </tr>
                             <tr>
                               <td>5.1.2: Capacity building and skills enhancement initiatives taken by the institution include the following</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.1.3: Percentage of students benefitted by guidance for competitive examinations and career counseling offered by the Institution during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.1.3.1: Number of students benefitted by guidance for competitive examinations and career counselling offered by the institution  year wise during last five years </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.1.4: The Institution has a transparent mechanism for timely redressal of student grievances including sexual harassment and ragging cases</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/5/5.1/5.1.4SupportingDoc.pdf'>View Supporting document</a></td>
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>5.2 Student Progression
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>5.2 Student Progression</th>
+
+                            </tr>
+                            <tr>
                               <td>5.2.1: Percentage of placement of outgoing students and students progressing to higher education during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.2.1.1: Number of outgoing students placed and / or progressed to higher education year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.2.1.2: Number of outgoing students year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                             <tr>
                               <td>5.2.2: Percentage of students qualifying in state/national/ international level examinations during the last five years (eg: JAM/CLAT/GATE/ GMAT/ CAT/ GRE/ TOEFL/ Civil Services/State government examinations)</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.2.2.1: Number of students qualifying in state/ national/ international level examinations (eg: JAM/CLAT/NET/ SLET/ GATE/ GMAT/CAT/GRE/ TOEFL/ Civil Services/ Judicial Services/Public Prosecution services/All India Bar Exams/State government examinations) year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.2.2.2: Number of students appearing in state/ national/ international level examinations (eg: JAM/CLAT/NET/ SLET/ GATE/ GMAT/CAT,GRE/ TOFEL/ Civil Services/ State government examinations) year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                         </p>
+                       </tr>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
                       <tr>
-                        <td>5.3 Student Participation and Activities
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>5.3 Student Participation and Activities</th>
+
+                            </tr>
+                            <tr>
                               <td>5.3.1: Number of awards/medals for outstanding performance in sports/ cultural activities at University / state/ national / international level (award for a team event should be counted as one) during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.3.1.1: Number of awards/medals for outstanding performance in sports/cultural activities at  national/international level (award for a team event should be counted as one) year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                             <tr>
                               <td>5.3.2: Average number of sports and cultural programs in which students of the Institution participated during last five years (organised by the institution/other institutions)</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>5.3.2.1: Number of sports and cultural programs in which students of the Institution participated year wise during last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                           </table>
                         </p>
+                       </tr>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
                       <tr>
-                        <td>5.4 Alumni Engagement
                         <p>
-                          <table className='nactable'>
+                        <table className='nactable'>
+                            <tr>
+                              <th>5.4 Student Participation and Activities</th>
+                            </tr>
                             <tr>
                               <td>5.4.1: There is a registered Alumni Association that contributes significantly to the development of the institution through financial and/or other support services</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional Information document is Under Construction</a></td>
                             </tr>
                           </table>
                         </p>
-
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
-
-  
+                       </tr>
+ 
                     </Table>
                     </div>
                   </TabPanel>
@@ -714,110 +796,121 @@ const Naac = () => {
                       <h5 className='mt-3 mb-3 text-center'>Criterion 6- Governance, Leadership and Management</h5>                      
                       <tr>
                         <th>Key Indicators</th>
-                        <th></th>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>6.1 Institutional Vision and Leadership
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>6.1 Institutional Vision and Leadership</th>
+
+                            </tr>
+                            <tr>
                               <td>6.1.1: The governance and leadership is in accordance with vision and mission of the institution and it is visible in various institutional practices such as decentralization and participation in the institutional governance</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Infomation document is Under Construction</a></td>
+
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>6.2 Strategy Development and Deployment
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>6.2 Strategy Development and Deployment</th>
+
+                            </tr>
+                            <tr>
                               <td>6.2.1: The functioning of the institutional bodies is effective and efficient as visible from policies, administrative setup, appointment and service rules, procedures, deployment of institutional Strategic/ perspective/development plan etc</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>6.2.2: Implementation of e-governance in areas of operation</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/6/6_2/6.2.2SuppportingDoc.pdf'>View Additional information</a></td>
                             </tr>
                           </table>
                         </p>
+                       </tr>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
                       <tr>
-                        <td>6.3 Faculty Empowerment Strategies
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>6.3 Faculty Empowerment Strategies</th>
+
+                            </tr>
+                            <tr>
                               <td>6.3.1: The institution has effective welfare measures and Performance Appraisal System for teaching and non-teaching staff</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>6.3.2: Percentage of teachers provided with financial support to attend conferences/workshops and towards membership fee of professional bodies during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>6.3.2.1: Number of teachers provided with financial support to attend conferences/workshops and towards membership fee of professional bodies year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
+
                             </tr>
                             <tr>
                               <td>6.3.3: Percentage of teaching and non-teaching staff participating in Faculty development Programmes (FDP), professional development /administrative training programs during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>6.3.3.1: Total number of teaching and non-teaching staff participating in Faculty development Programmes (FDP), professional development /administrative training programs during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>6.3.3.2: Number of non-teaching staff year wise during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                           </table>
                         </p>
+                       </tr>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+
                       <tr>
-                        <td>6.4 Financial Management and Resource Mobilization
                         <p>
                           <table className='nactable'>
+                            <tr>
+                              <th>6.4 Financial Management and Resource Mobilization</th>
+
+                            </tr>
                             <tr>
                               <td>6.4.1: Institution has strategies for mobilization and optimal utilization of resources and funds from various sources (government/ nongovernment organizations) and it conducts financial audits regularly (internal and external)</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                           </table>
                         </p>
+                       </tr>
 
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
                       <tr>
-                        <td>6.5 Internal Quality Assurance System
                         <p>
                           <table className='nactable'>
                             <tr>
-                              <td>6.5.1: Internal Quality Assurance Cell (IQAC) has contributed significantly for institutionalizing the quality assurance strategies and processes. It reviews teaching learning process, structures & methodologies of operations and learning outcomes at periodic intervals and records the incremental improvement in various activities</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <th>6.5 Internal Quality Assurance System</th>
+
                             </tr>
                             <tr>
-                              <td>Quality assurance initiatives of the institution</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td>6.5.1: Internal Quality Assurance Cell (IQAC) has contributed significantly for institutionalizing the quality assurance strategies and processes. It reviews teaching learning process, structures & methodologies of operations and learning outcomes at periodic intervals and records the incremental improvement in various activities</td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>6.5.2: Quality assurance initiatives of the institution include:</td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                           </table>
                         </p>
-
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
-
-  
+                       </tr>
+ 
                     </Table>
                     </div>
                   </TabPanel>
@@ -828,65 +921,65 @@ const Naac = () => {
                       <h5 className='mt-3 mb-3 text-center'>Criterion 7-Institutional Values and Best Practices</h5>                      
                       <tr>
                         <th>Key Indicators</th>
-                        <th></th>
-                      </tr>
+                       </tr>
 
                       <tr>
-                        <td>7.1 Institutional Values and Social Responsibilities
                         <p>
                           <table className='nactable'>
                             <tr>
-                              <td>7.1.1: Measures initiated by the Institution for the promotion of gender equity and Institutional initiatives to celebrate / organize national and international commemorative days, events and festivals during the last five years</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <th>7.1 Institutional Values and Social Responsibilities</th>
+
                             </tr>
                             <tr>
-                              <td>The Institution has facilities and initiatives</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td>7.1.1: Measures initiated by the Institution for the promotion of gender equity and Institutional initiatives to celebrate / organize national and international commemorative days, events and festivals during the last five years</td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                            </tr>
+                            <tr>
+                              <td>7.1.2: The Institution has facilities and initiatives</td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>7.1.3: Quality audits on environment and energy regularly undertaken by the Institution. The institutional environment and energy initiatives are confirmed through the following</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>7.1.4: Describe the Institutional efforts/initiatives in providing an inclusive environment i.e., tolerance and harmony towards cultural, regional, linguistic, communal socioeconomic diversity and Sensitization of students and employees to the constitutional obligations: values, rights, duties and responsibilities of citizens (Within 500 words) </td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='/#'>Additional information is Under Construction</a></td>
                             </tr>
                           </table>
                         </p>
-
-                        </td>
-                        <td>Under Construction</td>
-                      </tr>
+                       </tr>
                       <tr>
-                        <td>7.2 Best Practices
                         <p>
                           <table className='nactable'>
+                            <tr>
+                              <th>7.2 Best Practices</th>
+
+                            </tr>
                             <tr>
                               <td>7.2.1: Describe two best practices successfully implemented by the Institution as per NAAC format provided in the Manual</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/7.2_Best_Practices.pdf'>Click here</a></td>
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
                       </tr>
                       <tr>
-                        <td>7.3 Institutional Distinctiveness
                         <p>
                           <table className='nactable'>
                             <tr>
+                              <th>7.3 Institutional Distinctiveness</th>
+
+                            </tr>
+                            <tr>
                               <td>7.3.1: Portray the performance of the Institution in one area distinctive to its priority and thrust within 1000 words</td>
-                              <td><a href='/#'>Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/7.3/1.pdf'>Click here</a></td>
                             </tr>
                           </table>
                         </p>
 
-                        </td>
-                        <td>Under Construction</td>
                       </tr>
 
-  
                     </Table>
                     </div>
                   </TabPanel>

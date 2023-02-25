@@ -14,7 +14,7 @@ class Table extends React.Component {
 
   async getData() {
     const response = await axios.get(
-      'https://mern1ayaz.herokuapp.com/api/placements/allPlacements',
+      'https://islec.herokuapp.com/api/placements/allPlacements',
     )
     try {
       this.setState({

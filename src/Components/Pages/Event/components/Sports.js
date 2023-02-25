@@ -4,7 +4,7 @@ import useAxios from 'axios-hooks'
 
 const Sports = () => {
   const [{ data, loading, error }] = useAxios(
-    'https://islec.herokuapp.com/api/blogs/sports',
+    'https://islec.herokuapp.com/api/blogs/sp',
   )
 
   if (loading)
@@ -30,7 +30,8 @@ const Sports = () => {
         <Card key={_id} className="box">
           <Card.Img variant="top" src={card.img} />
           <Card.Body>
-            <Card.Text>
+            <Card.Title>
+              <h6>
               {card.descp}{' '}
               <a href={card.link}>
                 {card.link ? (
@@ -39,7 +40,8 @@ const Sports = () => {
                   ''
                 )}
               </a>
-            </Card.Text>
+              </h6>
+            </Card.Title>
           </Card.Body>
         </Card>
       </Col>

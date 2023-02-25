@@ -5,7 +5,6 @@ import Seminar from "./components/Seminar";
 import Inbound from "./components/Inbound";
 import Outbound from "./components/Outbound";
 import Sports from "./components/Sports";
-import Industrial from "./components/Industrial";
 import Sidebar from "./Sidebar";
 import { Helmet } from "react-helmet";
 import { Link } from "react-router-dom";
@@ -28,7 +27,7 @@ const Event = () => {
           <Row>
             <Col lg={8} md={8} sm={12}>
               <div className="breadcrumb_details_content">
-                <h4 className="title">Events</h4>
+                <h4 className="title">Infrastructure & Events</h4>
                 <div className="breadcrumb_content">
                   <ul className="breadcrumb justify-content">
                     <li>
@@ -38,7 +37,7 @@ const Event = () => {
                     </li>
                     <li>
                       <a className="active" href="#active">
-                        Events
+                        Infrastructure & Events
                       </a>
                     </li>
                   </ul>
@@ -69,9 +68,6 @@ const Event = () => {
                   <Tab.Pane eventKey="sports">
                     <Sports />
                   </Tab.Pane>
-                  <Tab.Pane eventKey="industrial">
-                    <Industrial />
-                  </Tab.Pane>
                 </Tab.Content>
               </Col>
               <Col lg={4} className="sidebar">
@@ -87,16 +83,16 @@ const Event = () => {
                     <Nav.Link eventKey="seminar">Seminar & Workshops</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="inbound">In-Bounds</Nav.Link>
+                    <Nav.Link eventKey="inbound">In-Bounds Events</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="outbound">Out-Bounds</Nav.Link>
+                    <Nav.Link eventKey="outbound">Out-Bound / Industrial Visits</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="sports">Sports</Nav.Link>
+                    <Nav.Link eventKey="sports">Sports & Physical Activity</Nav.Link>
                   </Nav.Item>
                   <Nav.Item>
-                    <Nav.Link eventKey="industrial">Industrial Visits</Nav.Link>
+                    <Nav.Link eventKey="">Classrooms & Labs</Nav.Link>
                   </Nav.Item>
                 </Nav>
                 <div>

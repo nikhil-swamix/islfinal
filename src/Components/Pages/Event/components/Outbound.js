@@ -4,7 +4,7 @@ import useAxios from 'axios-hooks'
 
 const Outbound = () => {
   const [{ data, loading, error }] = useAxios(
-    'https://islec.herokuapp.com/api/blogs/outbound',
+    'https://islec.herokuapp.com/api/blogs/oi',
   )
 
   if (loading)

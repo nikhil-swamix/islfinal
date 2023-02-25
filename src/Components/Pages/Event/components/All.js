@@ -4,7 +4,7 @@ import useAxios from 'axios-hooks'
 
 const All = () => {
   const [{ data, loading, error }] = useAxios(
-    'https://islec.herokuapp.com/api/blogs',
+    'https://islec.herokuapp.com/api/blogs/all',
   )
 
   if (loading)
@@ -30,16 +30,16 @@ const All = () => {
         <Card key={_id} className="box">
           <Card.Img variant="top" src={card.img} />
           <Card.Body>
-            <Card.Text>
-              {card.descp}{' '}
+            <Card.Title>
+              <h6>{card.descp}{' '}
               <a href={card.link}>
                 {card.link ? (
                   <i className="fa fa-external-link" aria-hidden="true"></i>
                 ) : (
                   ''
                 )}
-              </a>
-            </Card.Text>
+              </a></h6>
+            </Card.Title>
           </Card.Body>
         </Card>
       </Col>

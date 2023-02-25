@@ -34,6 +34,10 @@ const Footer = () => {
                   <a className="map" href="https://g.page/ISLEC?share">
                     <p>View Location on Google Map</p>
                   </a>
+                  <li>
+                      <img src='https://islec.edu.in/allimages/NORagging.png' alt='noRagging' width={70} height={50} />
+                    </li>
+
                 </div>
               </Col>{' '}
               <Col lg={3} md={6} sm={6}>

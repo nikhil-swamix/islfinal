@@ -84,6 +84,11 @@ const NavigationBar = () => {
                          <b>NIRF</b>
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in/NAAC/feedback.pdf" rel="noopener">
+                         <b>Feedback</b>
+                      </a>
+                    </li>
 
                     {/* <li>
                       <Link href="#contact" >
@@ -113,7 +118,7 @@ const NavigationBar = () => {
       <Navbar collapseOnSelect expand="md" bg="light" variant="light">
         <Navbar.Brand as={Link} to="/" className="m-auto">
           <img
-            src="https://islec.edu.in/allimages/temp2.jpg "
+            src="https://islec.edu.in/allimages/MainLogo.png"
             className="img-fluid"
             alt="College Logo"
             height={700}
@@ -146,6 +151,9 @@ const NavigationBar = () => {
               </NavDropdown.Item>
               <NavDropdown.Item href="#library" as={Link} to="/library">
                 Library
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://islec.edu.in/NAAC/7.2_Best_Practices.pdf">
+                Best Practices
               </NavDropdown.Item>
             </NavDropdown>
 
@@ -185,10 +193,7 @@ const NavigationBar = () => {
             </NavDropdown>
 
             <Nav.Link href="#events" as={Link} to="/events">
-              Events
-            </Nav.Link>
-            <Nav.Link href="#events" as={Link} to="/events">
-              Infrastructure
+              Infrastructure & Events
             </Nav.Link>
 
             <Nav.Link href="#Research" as={Link} to="/research">

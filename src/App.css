@@ -14,8 +14,8 @@ body {
 }
 a:link { text-decoration: none; }
 
-table {
-  border: 0.5px dotted !important;
+table, th, td {
+  border: 1px solid !important;
 }
 
 .nactable td{
@@ -26,12 +26,15 @@ table {
   width: 100%;
 }
 
+.stick-bottom{
+  position: inherit !important;
+  bottom: 0px !important;
 
-.navbar-light .navbar-nav .nav-item a{
-  padding-left: 10px !important;
-  padding-right: 10px !important;
 }
-
+.pagination {
+  position: inherit !important;
+  bottom: 0px !important;
+}
 
 
 .mar img{
