@@ -24,6 +24,7 @@
     "react-iframe": "^1.8.0",
     "react-loading-skeleton": "^2.1.1",
     "react-modal-video": "^1.2.5",
+    "react-pdf": "^6.2.2",
     "react-read-more-less": "^0.1.6",
     "react-redux": "^7.2.1",
     "react-responsive-embed": "^2.1.0",

@@ -152,7 +152,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>1.2.1: Number of Add on /Certificate/Value added programs offered during the last five years</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/1/1.2/1.2.1AdditionalInformation.pdf'>View Additional information</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                             <tr>
@@ -245,7 +245,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='http://islec.edu.in/NAAC/2/2.1/2.1StudentEnrollmentandProfile.pdf'>Click here for Supporting Document</a></td>
+                              <td><a href='http://islec.edu.in/NAAC/2/2.1/2.1.1SupportingDoc.pdf'>View Supporting Document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                             
@@ -261,8 +261,8 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='https://islec.edu.in/NAAC/2.1.2.pdf'>Click here for Supporting Document</a></td>
-                              <td><a href='https://islec.edu.in/NAAC/2.1.2/1.xlsx'>Click here for Data Template</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/2/2.1/2.1.2SupportingDoc.pdf'>View Supporting Document</a></td>
+                              <td><a href='#/'>Data Template is under construction</a></td>
 
                             </tr>
                           </table>
@@ -357,7 +357,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>2.6.1: Programme Outcomes (POs) and Course Outcomes (COs) for all Programmes offered by the institution are stated and displayed on website and attainment of POs and COs are evaluated</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/2/2.6/2.6.1AdditionalInformationDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>2.6.2: Pass percentage of Students during last five years</td>
@@ -586,7 +586,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>4.2.1: Library is automated using Integrated Library Management System (ILMS), subscription to e-resources, amount spent on purchase of books, journals and per day usage of library</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/4/4.2.1/4.2.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                           </table>
                         </p>
@@ -677,7 +677,7 @@ const Naac = () => {
                             <tr>
                               <td>5.1.2: Capacity building and skills enhancement initiatives taken by the institution include the following</td>
                               <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/5/5.1/5.1.2.xlsx'>View Data Template</a></td>
                             </tr>
                             <tr>
                               <td>5.1.3: Percentage of students benefitted by guidance for competitive examinations and career counseling offered by the Institution during the last five years</td>
@@ -810,7 +810,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Infomation document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/6/6.1.1/6.1.1AdditionalDoc.pdf'>View Additional Infomation document</a></td>
 
                             </tr>
                           </table>
@@ -827,7 +827,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>6.2.1: The functioning of the institutional bodies is effective and efficient as visible from policies, administrative setup, appointment and service rules, procedures, deployment of institutional Strategic/ perspective/development plan etc</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/6/6.2.1/6.2.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>6.2.2: Implementation of e-governance in areas of operation</td>
@@ -932,11 +932,11 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>7.1.1: Measures initiated by the Institution for the promotion of gender equity and Institutional initiatives to celebrate / organize national and international commemorative days, events and festivals during the last five years</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/7/7.1/7.1.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>7.1.2: The Institution has facilities and initiatives</td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/NAAC/7/7.1/7.1.2AdditionlDoc.pdf'>View Additional Supporting document</a></td>
                             </tr>
                             <tr>
                               <td>7.1.3: Quality audits on environment and energy regularly undertaken by the Institution. The institutional environment and energy initiatives are confirmed through the following</td>
