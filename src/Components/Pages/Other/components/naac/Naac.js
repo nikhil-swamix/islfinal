@@ -152,7 +152,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>1.2.1: Number of Add on /Certificate/Value added programs offered during the last five years</td>
-                              <td><a href='https://islec.edu.in/NAAC/1/1.2/1.2.1AdditionalInformation.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/1/1.2.1/1.2.1AdditionalInformation.pdf'>View Additional information</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                             <tr>
@@ -181,7 +181,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>1.3.1: Institution integrates crosscutting issues relevant to Professional Ethics, Gender, Human Values, Environment and Sustainability into the Curriculum</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/1/1.3.1/1.3.1AdditionalInformation.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>1.3.2: Percentage of students undertaking project work/field work/ internships (Data for the latest completed academic year)</td>
@@ -245,7 +245,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='http://islec.edu.in/NAAC/2/2.1/2.1.1SupportingDoc.pdf'>View Supporting Document</a></td>
+                              <td><a href='http://islec.edu.in/DATA/NAAC/2/2.1.1/2.1.1SupportingDoc.pdf'>View Supporting Document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
                             </tr>
                             
@@ -261,7 +261,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='https://islec.edu.in/NAAC/2/2.1/2.1.2SupportingDoc.pdf'>View Supporting Document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.1.2/2.1.2SupportingDoc.pdf'>View Supporting Document</a></td>
                               <td><a href='#/'>Data Template is under construction</a></td>
 
                             </tr>
@@ -293,7 +293,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>2.3.1: Student centric methods, such as experiential learning, participative learning and problem solving methodologies are used for enhancing learning experiences using ICT tools</td>
-                              <td><a href='https://islec.edu.in/NAAC/2/2.3/2.3.1AdditionalDoc.pdf'>View Additional Infomation</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.3.1/2.3.1AdditionalDoc.pdf'>View Additional Infomation</a></td>
                             </tr>
                           </table>
                           </p>
@@ -314,7 +314,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.4.1/2.4.1SupportingDoc.pdf'>View Supporting document</a></td>
 
                             </tr>
                             <tr>
@@ -325,7 +325,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.4.2/2.4.2SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
 
                             </tr>
@@ -357,7 +357,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>2.6.1: Programme Outcomes (POs) and Course Outcomes (COs) for all Programmes offered by the institution are stated and displayed on website and attainment of POs and COs are evaluated</td>
-                              <td><a href='https://islec.edu.in/NAAC/2/2.6/2.6.1AdditionalInformationDoc.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.6.1/2.6.1AdditionalInformationDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>2.6.2: Pass percentage of Students during last five years</td>
@@ -370,7 +370,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.6.2/2.6.2SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
 
                             </tr>
@@ -437,7 +437,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>3.2.1: Institution has created an ecosystem for innovations and has initiatives for creation and transfer of knowledge </td>
-                              <td><a href='https://islec.edu.in/NAAC/3/3_2/3.2.1AdditionalDoc.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.2.1/3.2.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>3.2.2: Number of workshops/seminars/conferences including on Research Methodology, Intellectual Property Rights (IPR) and entrepreneurship conducted during the last five years</td>
@@ -586,7 +586,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>4.2.1: Library is automated using Integrated Library Management System (ILMS), subscription to e-resources, amount spent on purchase of books, journals and per day usage of library</td>
-                              <td><a href='https://islec.edu.in/NAAC/4/4.2.1/4.2.1AdditionalDoc.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/4/4.2.1/4.2.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                           </table>
                         </p>
@@ -670,14 +670,14 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='https://islec.edu.in/NAAC/5/5.1/5.1.1SupportingDoc.pdf'>View Additional Supporting document</a></td>
-                              <td><a href='https://islec.edu.in/NAAC/5/5.1.1/5.1.1-NAACTemplate.xlsx'>View Data Template</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.1.1/5.1.1SupportingDoc.pdf'>View Additional Supporting document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.1.1/5.1.1Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                             <tr>
                               <td>5.1.2: Capacity building and skills enhancement initiatives taken by the institution include the following</td>
                               <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
-                              <td><a href='https://islec.edu.in/NAAC/5/5.1/5.1.2.xlsx'>View Data Template</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.1.2/5.1.2Template.xlsx'>View Data Template</a></td>
                             </tr>
                             <tr>
                               <td>5.1.3: Percentage of students benefitted by guidance for competitive examinations and career counseling offered by the Institution during the last five years</td>
@@ -685,11 +685,11 @@ const Naac = () => {
                             <tr>
                               <td>5.1.3.1: Number of students benefitted by guidance for competitive examinations and career counselling offered by the institution  year wise during last five years </td>
                               <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.1.3/5.1.3Template.xlsx'>View Data Template</a></td>
                             </tr>
                             <tr>
                               <td>5.1.4: The Institution has a transparent mechanism for timely redressal of student grievances including sexual harassment and ragging cases</td>
-                              <td><a href='https://islec.edu.in/NAAC/5/5.1/5.1.4SupportingDoc.pdf'>View Supporting document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.1.4/5.1.4SupportingDoc.pdf'>View Supporting document</a></td>
                             </tr>
                           </table>
                         </p>
@@ -714,7 +714,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.2.1/5.2.1SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
 
                             </tr>
@@ -729,7 +729,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.2.2/5.2.2SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
 
                             </tr>
@@ -752,7 +752,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.3.1/5.3.1SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
 
                             </tr>
@@ -764,7 +764,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.3.2/5.3.2SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
 
                             </tr>
@@ -810,7 +810,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='https://islec.edu.in/NAAC/6/6.1.1/6.1.1AdditionalDoc.pdf'>View Additional Infomation document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.1.1/6.1.1AdditionalDoc.pdf'>View Additional Infomation document</a></td>
 
                             </tr>
                           </table>
@@ -827,11 +827,11 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>6.2.1: The functioning of the institutional bodies is effective and efficient as visible from policies, administrative setup, appointment and service rules, procedures, deployment of institutional Strategic/ perspective/development plan etc</td>
-                              <td><a href='https://islec.edu.in/NAAC/6/6.2.1/6.2.1AdditionalDoc.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.2.1/6.2.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>6.2.2: Implementation of e-governance in areas of operation</td>
-                              <td><a href='https://islec.edu.in/NAAC/6/6_2/6.2.2SuppportingDoc.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.2.2/6.2.2SuppportingDoc.pdf'>View Additional information</a></td>
                             </tr>
                           </table>
                         </p>
@@ -846,7 +846,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>6.3.1: The institution has effective welfare measures and Performance Appraisal System for teaching and non-teaching staff</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.3.1/6.3.1AdditionalInformation.pdf'>Additional information is Under Construction</a></td>
                             </tr>
                             <tr>
                               <td>6.3.2: Percentage of teachers provided with financial support to attend conferences/workshops and towards membership fee of professional bodies during the last five years</td>
@@ -932,11 +932,11 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>7.1.1: Measures initiated by the Institution for the promotion of gender equity and Institutional initiatives to celebrate / organize national and international commemorative days, events and festivals during the last five years</td>
-                              <td><a href='https://islec.edu.in/NAAC/7/7.1/7.1.1AdditionalDoc.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.1.1/7.1.1AdditionalDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>7.1.2: The Institution has facilities and initiatives</td>
-                              <td><a href='https://islec.edu.in/NAAC/7/7.1/7.1.2AdditionlDoc.pdf'>View Additional Supporting document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.1.2/7.1.2SupportingDoc.pdf'>View Additional Supporting document</a></td>
                             </tr>
                             <tr>
                               <td>7.1.3: Quality audits on environment and energy regularly undertaken by the Institution. The institutional environment and energy initiatives are confirmed through the following</td>
@@ -958,7 +958,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>7.2.1: Describe two best practices successfully implemented by the Institution as per NAAC format provided in the Manual</td>
-                              <td><a href='https://islec.edu.in/NAAC/7.2_Best_Practices.pdf'>Click here</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.2.1/7.2.1_Best_Practices.pdf'>View Relevant Information</a></td>
                             </tr>
                           </table>
                         </p>
@@ -973,7 +973,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>7.3.1: Portray the performance of the Institution in one area distinctive to its priority and thrust within 1000 words</td>
-                              <td><a href='https://islec.edu.in/7.3/1.pdf'>Click here</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.3.1/7.3.1RelaventInformation.pdf'>View Relevant Information</a></td>
                             </tr>
                           </table>
                         </p>

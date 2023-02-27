@@ -89,6 +89,16 @@ const NavigationBar = () => {
                          <b>Feedback</b>
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in" rel="noopener">
+                         Alumni
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://islec.edu.in/" rel="noopener">
+                         Vision & Mission
+                      </a>
+                    </li>
 
                     {/* <li>
                       <Link href="#contact" >
