@@ -162,8 +162,11 @@ const NavigationBar = () => {
               <NavDropdown.Item href="#library" as={Link} to="/library">
                 Library
               </NavDropdown.Item>
-              <NavDropdown.Item href="https://islec.edu.in/NAAC/7.2_Best_Practices.pdf">
+              <NavDropdown.Item href="https://islec.edu.in/DATA/NAAC/7/7.2.1/7.2.1.Best_Practices.pdf">
                 Best Practices
+              </NavDropdown.Item>
+              <NavDropdown.Item href="https://islec.edu.in/DATA/NAAC/7/7.3.1/7.3.1Distinctiveness.pdf">
+                Distinctiveness
               </NavDropdown.Item>
             </NavDropdown>
 

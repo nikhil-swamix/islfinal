@@ -342,7 +342,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>2.5.1: Mechanism of internal/ external assessment is transparent and the grievance redressal system is time- bound and efficient</td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.5.1/2.5.1AdditionalInformation.pdf'>View Additional information</a></td>
                             </tr>
                           </table>
                           </p>
@@ -482,7 +482,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.3.2/3.3.2SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='/#'>Data Template is Under Construction</a></td>
 
                             </tr>
@@ -810,7 +810,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.1.1/6.1.1AdditionalDoc.pdf'>View Additional Infomation document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.1.1/6.1.1AdditionalInformationDoc.pdf'>View Additional Infomation</a></td>
 
                             </tr>
                           </table>
@@ -827,7 +827,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>6.2.1: The functioning of the institutional bodies is effective and efficient as visible from policies, administrative setup, appointment and service rules, procedures, deployment of institutional Strategic/ perspective/development plan etc</td>
-                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.2.1/6.2.1AdditionalDoc.pdf'>View Additional information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.2.1/6.2.1AdditionalInformationDoc.pdf'>View Additional information</a></td>
                             </tr>
                             <tr>
                               <td>6.2.2: Implementation of e-governance in areas of operation</td>
@@ -940,11 +940,11 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>7.1.3: Quality audits on environment and energy regularly undertaken by the Institution. The institutional environment and energy initiatives are confirmed through the following</td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.1.3/7.1.3SupportingDoc.pdf'>View Supporting document</a></td>
                             </tr>
                             <tr>
                               <td>7.1.4: Describe the Institutional efforts/initiatives in providing an inclusive environment i.e., tolerance and harmony towards cultural, regional, linguistic, communal socioeconomic diversity and Sensitization of students and employees to the constitutional obligations: values, rights, duties and responsibilities of citizens (Within 500 words) </td>
-                              <td><a href='/#'>Additional information is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.1.4/7.1.4AdditionalInformationDoc.pdf'>View Additional information</a></td>
                             </tr>
                           </table>
                         </p>
@@ -958,7 +958,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>7.2.1: Describe two best practices successfully implemented by the Institution as per NAAC format provided in the Manual</td>
-                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.2.1/7.2.1_Best_Practices.pdf'>View Relevant Information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.2.1/7.2.1.Best_Practices.pdf'>View Relevant Information</a></td>
                             </tr>
                           </table>
                         </p>
@@ -973,7 +973,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>7.3.1: Portray the performance of the Institution in one area distinctive to its priority and thrust within 1000 words</td>
-                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.3.1/7.3.1RelaventInformation.pdf'>View Relevant Information</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/7/7.3.1/7.3.1Distinctiveness.pdf'>View Relevant Information</a></td>
                             </tr>
                           </table>
                         </p>
