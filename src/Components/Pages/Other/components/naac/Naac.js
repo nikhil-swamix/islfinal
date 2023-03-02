@@ -244,8 +244,8 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='http://islec.edu.in/DATA/NAAC/2/2.1.1/2.1.1SupportingDoc.pdf'>View Supporting Document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.1.1/2.1.1SupportingDoc.pdf'>View Supporting Document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.1.1/2.1.1Template.xlsx'>View Data Template</a></td>
                             </tr>
                             
                             <br/>
@@ -261,7 +261,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/2/2.1.2/2.1.2SupportingDoc.pdf'>View Supporting Document</a></td>
-                              <td><a href='#/'>Data Template is under construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.1.2/2.1.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -325,7 +325,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/2/2.4.2/2.4.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.4.2/2.4.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -420,7 +420,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/3/3.1.1/3.1.1SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.1.1/3.1.1Template.xlsx'>Viw Data Template</a></td>
 
                             </tr>
                           </table>
@@ -447,7 +447,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/3/3.2.2/3.2.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.2.2/3.2.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -469,7 +469,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/3/3.3.1/3.3.1SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.3.1/3.3.1Template.xlsx'>View Data Template</a></td>
 
                             </tr>
 
@@ -512,7 +512,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/3/3.4.3/3.4.3SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.4.3/3.4.3Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -529,7 +529,7 @@ const Naac = () => {
                             <tr>
                               <td>3.5.1: Number of functional MoUs/linkages with institutions/ industries in India and abroad for internship, on-the-job training, project work, student / faculty exchange and collaborative research during the last five years.</td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/3/3.5.1/3.5.1SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.5.1/3.5.1Template.xlsx'>View Data Template</a></td>
                             </tr>
                           </table>
                         </p>
@@ -633,7 +633,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/4/4.4.1/4.4.1.SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/4/4.4.1/4.4.1Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
