@@ -85,637 +85,776 @@ const Faculty = () => {
 
                       <h4>Teaching List</h4>
                         <Table striped bordered hover>
-
     <tr>
-        <th>S.No</th>
-        <th>NAME</th>
-        <th>DEPT</th>
+        <td>S.No.</td>
+        <td>Name</td>
+        <td>Designation</td>
+        <td>Name of the Department</td>
     </tr>
     <tr>
         <td>1</td>
-        <td>Dr MOHAMMED ABDUL BARI</td>
-        <td>CSE</td>
+        <td>Dr.Mohammed Safiuddin</td>
+        <td>Assoc. Prof.</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>THOKALA ANITHA</td>
-        <td>CSE</td>
+        <td>Dr.K.Pandu</td>
+        <td>Assoc. Prof.</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>3</td>
-        <td>DR PATHAN AHMED KHAN</td>
-        <td>CSE</td>
+        <td>S Ramya Kala</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>4</td>
-        <td>KAKULLA PRAJWALA</td>
-        <td>CSE</td>
+        <td>Touseeq Anwar Wasif</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>5</td>
-        <td>SHAISTA FARHEEN</td>
-        <td>CSE</td>
+        <td>K.Nanchari</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>6</td>
-        <td>MOHD DASTAGIR</td>
-        <td>CSE</td>
+        <td>Waseem Ahmed</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>7</td>
-        <td>ASMA AKBAR</td>
-        <td>CSE</td>
+        <td>G Anjaneyulu</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>8</td>
-        <td>GOUSIA TABASSUM</td>
-        <td>CSE</td>
+        <td>Rafey Ahmed</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>9</td>
-        <td>REHANA FATIMA</td>
-        <td>CSE</td>
+        <td>Sri Charan</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>10</td>
-        <td>UMME RUMA</td>
-        <td>CSE</td>
+        <td>Ahmed Abdul Ahad</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>11</td>
-        <td>NEHA NAZNEIN</td>
-        <td>IT</td>
+        <td>Sheik Riyaz Uddin</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>12</td>
-        <td>DACHEPALLY MADURI</td>
-        <td>CSE</td>
+        <td>Nazeeruddin</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>13</td>
-        <td>MIRZA MUDASSIR ALI BAIG</td>
-        <td>IT</td>
+        <td>Mir Firasat Ali</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>14</td>
-        <td>SYED AKMAL HUSSAIN JUNAIDI</td>
-        <td>IT</td>
+        <td>Mohd Furkhan</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>15</td>
-        <td>Dr MOHAMMED MASOOD</td>
-        <td>MECH</td>
+        <td>Abdul Rahman</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>16</td>
-        <td>MOHAMMED ATTALIQUE RABBANI</td>
-        <td>MECH</td>
+        <td>Syed Shoeb</td>
+        <td>Asst.Prof</td>
+        <td>CIVIL</td>
     </tr>
     <tr>
         <td>17</td>
-        <td>MOHD JAMEEL</td>
-        <td>MECH</td>
+        <td>Mr.S.Md.Mazhar-Ul-Haq</td>
+        <td>Asst.Prof</td>
+        <td>EEE</td>
     </tr>
     <tr>
         <td>18</td>
-        <td>MIDTURE ABDUL SALMAN KHAN</td>
-        <td>MECH</td>
+        <td>Mrs. Asra Sultana</td>
+        <td>Asst.Prof</td>
+        <td>EEE</td>
     </tr>
     <tr>
         <td>19</td>
-        <td>MD BAHAUDDIN</td>
-        <td>MECH</td>
+        <td>Mr. Mohd.Imran</td>
+        <td>Asst.Prof</td>
+        <td>EEE</td>
     </tr>
     <tr>
         <td>20</td>
-        <td>HADIYA SAMEEN</td>
-        <td>IT</td>
+        <td>Mr. Sk.Khadar Basha</td>
+        <td>Asst.Prof</td>
+        <td>EEE</td>
     </tr>
     <tr>
         <td>21</td>
-        <td>TOUSEEQ ANWAR WASIF</td>
-        <td>CIVIL</td>
+        <td>Mrs. N.Sarawathi</td>
+        <td>Asst.Prof</td>
+        <td>EEE</td>
     </tr>
     <tr>
         <td>22</td>
-        <td>IRFAN AHMED</td>
-        <td>CIVIL</td>
+        <td>Dr Mohammed Masood</td>
+        <td>Professor</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>23</td>
-        <td>MIR FIRASATH ALI</td>
-        <td>CIVIL</td>
+        <td>Dr.B.Srinivasulu</td>
+        <td>Assoc. Prof.</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>24</td>
-        <td>AHMED ABDUL AHAD</td>
-        <td>CIVIL</td>
+        <td>K Srikanth Reddy</td>
+        <td>Asst.Prof</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>25</td>
-        <td>KOKKONDA SRICHARAN</td>
-        <td>CIVIL</td>
+        <td>Mr.Mohd.Attalique Rabbani</td>
+        <td>Asst.Prof</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>26</td>
-        <td>KANCHALA NANCHARI</td>
-        <td>CIVIL</td>
+        <td>Md Mohiuddin</td>
+        <td>Asst.Prof</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>27</td>
-        <td>SHAIK RIYAZ UDDIN</td>
-        <td>CIVIL</td>
+        <td>Midthur Abdul Salman Khan</td>
+        <td>Asst.Prof</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>28</td>
-        <td>MOHD NAZEER</td>
-        <td>CIVIL</td>
+        <td>Md Bahauddin</td>
+        <td>Asst.Prof</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>29</td>
-        <td>MIR FAROOQ ALI</td>
-        <td>CIVIL</td>
+        <td>Md  Jaleel Ahmed</td>
+        <td>Asst.Prof</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>30</td>
-        <td>RAMYAKALA SABBINENI</td>
-        <td>CIVIL</td>
+        <td>Mr.Mohammed Nayeem</td>
+        <td>Asst.Prof</td>
+        <td>MECH</td>
     </tr>
     <tr>
         <td>31</td>
-        <td>SHAIK FAREED AHMED</td>
-        <td>EEE</td>
+        <td>Ms. Ayesha Sultana Mohammed Begum</td>
+        <td>Asst.Prof</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>32</td>
-        <td>ASRA SULTANA</td>
-        <td>EEE</td>
+        <td>Ms. Zubeda Begum</td>
+        <td>Asst.Prof</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>33</td>
-        <td>S MOHAMMED MAZHAR UL HAQ</td>
-        <td>EEE</td>
+        <td>Mr. Shubhakar</td>
+        <td>Asst.Prof</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>34</td>
-        <td>AQSA FATIMA</td>
-        <td>EEE</td>
+        <td>Mr. Syed Sultan Mehmood</td>
+        <td>Asst.Prof</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>35</td>
-        <td>Dr SOHEL AHMED</td>
-        <td>IT</td>
+        <td>Mr. Mohammed Jayeed</td>
+        <td>Asst.Prof</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>36</td>
-        <td>Dr MD IBRAHEEM ALTAF</td>
-        <td>H&amp;S</td>
+        <td>Mr. Ahsan Jameel</td>
+        <td>Asst.Prof</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>37</td>
-        <td>MOHAMMED VAZEER KHAN</td>
-        <td>H&amp;S</td>
+        <td>Mr. Syed Zaffar Mahmood</td>
+        <td>Asst.Prof</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>38</td>
-        <td>AFEEFA SIDDIQUA</td>
-        <td>IT</td>
+        <td>Dr. Chandra Shekar</td>
+        <td> Professor</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>39</td>
-        <td>SYED MUJEEBUL HASSAN</td>
-        <td>IT</td>
+        <td>Dr. Abdul Mateen</td>
+        <td>Assoc. Prof.</td>
+        <td>ECE</td>
     </tr>
     <tr>
         <td>40</td>
-        <td>AHMED ABDUL MATEEN</td>
+        <td>Dr. Mohammed Azam</td>
+        <td>Assoc. Prof.</td>
         <td>ECE</td>
     </tr>
     <tr>
         <td>41</td>
-        <td>SHAIK VASEEM UDDIN</td>
-        <td>CSE</td>
+        <td>Dr.Surya Mukhi</td>
+        <td>Associate professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>42</td>
-        <td>MOHAMMED JAMEEL HASHMI</td>
-        <td>CSE</td>
+        <td>Dr.Venkatesan Selvaraj</td>
+        <td>Associate professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>43</td>
-        <td>AHMED ABDUL RAHMAN</td>
-        <td>MECH</td>
+        <td>Mr.Syed Mujeeb Ul Hassan</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>44</td>
-        <td>Dr ZAREENA SULTANA</td>
-        <td>H&amp;S</td>
+        <td>Mrs Arjumand Jamal</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>45</td>
-        <td>ABDUL BARI</td>
-        <td>CSE</td>
+        <td>Mr.Mohammed Arshad Hussain</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>46</td>
-        <td>HAMEEDA BEGUM</td>
-        <td>H&amp;S</td>
+        <td>Mrs.Neha Naznein</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>47</td>
-        <td>MIRDHATI RAMYASREE</td>
-        <td>H&amp;S</td>
+        <td>Mrs.Saba Sheiba</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>48</td>
-        <td>MOHAMMED RIYAZ QURESHI</td>
-        <td>H&amp;S</td>
+        <td>Mirza Mudassir Ali Baig</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>49</td>
-        <td>MOHAMMED JAYEED</td>
-        <td>ECE</td>
+        <td>Mr.Akmal Hussain</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>50</td>
-        <td>SYED SULTAN MAHMOOD</td>
-        <td>ECE</td>
+        <td>Mr.Younus Ali Baig</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>51</td>
-        <td>ZUBEDA BEGUM</td>
-        <td>ECE</td>
+        <td>Mr.Mohd Basit Mohiuddin</td>
+        <td>Assistant professor</td>
+        <td>IT</td>
     </tr>
     <tr>
         <td>52</td>
-        <td>KALVALA SRIKANTH</td>
-        <td>ECE</td>
+        <td>Dr. M.A. Bari</td>
+        <td>Assoc. Prof.</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>53</td>
-        <td>JUVERIA GHORI</td>
-        <td>ECE</td>
+        <td>Dr. Jameel Hashmi</td>
+        <td>Assoc. Prof.</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>54</td>
-        <td>SURYA MUKHI</td>
-        <td>ECE</td>
+        <td>Dr. Syed Asadullah Hussaini</td>
+        <td>Assoc. Prof.</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>55</td>
-        <td>AHSAN JAMIL</td>
-        <td>ECE</td>
+        <td>S.K. Saleem</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>56</td>
-        <td>RAFATH FARHA</td>
-        <td>ECE</td>
+        <td>Mukarram Uddin</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>57</td>
-        <td>MAHREEN AYESHA NAAZ</td>
-        <td>ECE</td>
+        <td>Asma Akbar</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>58</td>
-        <td>PARIKI SHUBHAKAR</td>
-        <td>ECE</td>
+        <td>T. Anita</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>59</td>
-        <td>AFSHAN BEGUM</td>
-        <td>ECE</td>
+        <td>Asjad Mohi Uddin</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>60</td>
-        <td>ASJAD MOHI UDDIN</td>
+        <td>Umme Ruma</td>
+        <td>Asst.Prof</td>
         <td>CSE</td>
     </tr>
     <tr>
         <td>61</td>
-        <td>RIYAZ KHAN</td>
-        <td>ECE</td>
+        <td>Shaista Farheen</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>62</td>
-        <td>SYEDA JABEEN</td>
+        <td>Mohammed Rahmat Ali</td>
+        <td>Asst.Prof</td>
         <td>CSE</td>
     </tr>
     <tr>
         <td>63</td>
-        <td>SYED SHAJIH UDDIN AHMED</td>
-        <td>EEE</td>
+        <td>Madhuri Dachapalli</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>64</td>
-        <td>MULIKI MANASA</td>
-        <td>ECE</td>
+        <td>Vaseem Uddin</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>65</td>
-        <td>AYESHA SIDDIQUA</td>
-        <td>IT</td>
+        <td>S. Sunaina</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>66</td>
-        <td>MOHD AHMED</td>
-        <td>CIVIL</td>
+        <td>Mohd Taqi Uddin Ahmed</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>67</td>
-        <td>MOHAMMED BEGUM</td>
-        <td>ECE</td>
+        <td>Mohd Akber Ali</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>68</td>
-        <td>FAROOQ MOHAMMED</td>
+        <td>Nishat Akbari</td>
+        <td>Asst.Prof</td>
         <td>CSE</td>
     </tr>
     <tr>
         <td>69</td>
-        <td>SYED MOHAMMED</td>
-        <td>CIVIL</td>
+        <td>Syed Omer Farooq</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>70</td>
-        <td>SYED UDDIN</td>
-        <td>ECE</td>
+        <td>L. Vaishnavi</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>71</td>
-        <td>MOHAMMED MOHIUDDIN</td>
-        <td>MECH</td>
+        <td>A.Raj Shaker</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>72</td>
-        <td>KRISHNA PUNNA</td>
-        <td>H&amp;S</td>
+        <td>Ijteba Sultana</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>73</td>
-        <td>SHAIK ABDUL SALEEM</td>
+        <td>Ayesha Mehreen</td>
+        <td>Asst.Prof</td>
         <td>CSE</td>
     </tr>
     <tr>
         <td>74</td>
-        <td>MOHAMMED RAHMAT ALI</td>
+        <td>Afsha Nishat</td>
+        <td>Asst.Prof</td>
         <td>CSE</td>
     </tr>
     <tr>
         <td>75</td>
-        <td>SAMDANI NOOR MOHD</td>
-        <td>CIVIL</td>
+        <td>Nousheen Fathima</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>76</td>
-        <td>MATHEEN SULTANA</td>
+        <td>Syed Moiduddin Shahbaaz</td>
+        <td>Asst.Prof</td>
         <td>CSE</td>
     </tr>
     <tr>
         <td>77</td>
-        <td>SHAHEEN FATIMA</td>
-        <td>ECE</td>
+        <td>Shaheen Fatima</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>78</td>
-        <td>S SUNAINA</td>
+        <td>Md Hasan Majeed Faaraan</td>
+        <td>Asst.Prof</td>
         <td>CSE</td>
     </tr>
     <tr>
         <td>79</td>
-        <td>MOHMMAD JALEEL AHMED</td>
-        <td>MECH</td>
+        <td>Mohammed Sheraz Nadeem</td>
+        <td>Asst.Prof</td>
+        <td>CSE</td>
     </tr>
     <tr>
         <td>80</td>
-        <td>SRIKANTH REDDY</td>
-        <td>MECH</td>
+        <td>Mr.Vaibhav Lall</td>
+        <td>Asst.Prof</td>
+        <td>AI&amp;DS</td>
     </tr>
     <tr>
         <td>81</td>
-        <td>MOHAMMED AHMED</td>
-        <td>CIVIL</td>
+        <td>Mrs.Syeda Anjum Sultana</td>
+        <td>Asst.Prof</td>
+        <td>AI&amp;DS</td>
     </tr>
     <tr>
         <td>82</td>
-        <td>RAGHAVENDER AVANGAPURAM</td>
-        <td>CSE</td>
+        <td>Aleemuddin Syed</td>
+        <td>Asst.Prof</td>
+        <td>AI&amp;DS</td>
     </tr>
     <tr>
         <td>83</td>
-        <td>MOHD MUKARRAM UDDIN</td>
-        <td>CSE</td>
+        <td>Dr.Pathan Ahmed Khan</td>
+        <td>Assoc. Prof.</td>
+        <td>M. Tech CSE</td>
     </tr>
     <tr>
         <td>84</td>
-        <td>Dr BATTULA SRINIVASULU</td>
-        <td>MECH</td>
+        <td>Heena Yasmin</td>
+        <td>Asst.Prof</td>
+        <td>M. Tech CSE</td>
     </tr>
     <tr>
         <td>85</td>
-        <td>Dr TUDI PREM CHANDER</td>
-        <td>IT</td>
+        <td>M. Sai Kiran</td>
+        <td>Asst.Prof</td>
+        <td>M. Tech CSE</td>
     </tr>
     <tr>
         <td>86</td>
-        <td>MOHAMMED  BARI</td>
+        <td>Dr. Md.Ibraheem Altaf  (Phy)</td>
+        <td>Assoc. Prof.</td>
         <td>H&amp;S</td>
     </tr>
     <tr>
         <td>87</td>
-        <td>MOHAMMED UDDIN</td>
-        <td>CIVIL</td>
+        <td>Dr. Zareena Sultana  (Eng)</td>
+        <td>Assoc. Prof.</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>88</td>
-        <td>TORLIKONDA  RAMALINGESWARA RAO</td>
+        <td>Dr. Sohel Ahmed  (Eng)</td>
+        <td>Assoc. Prof.</td>
         <td>H&amp;S</td>
     </tr>
     <tr>
         <td>89</td>
-        <td>MOHD FURKHAN</td>
-        <td>CIVIL</td>
+        <td>Dr.Ravi Ramavath  (Chem)</td>
+        <td>Assoc. Prof.</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>90</td>
-        <td>SYED SHOEB</td>
-        <td>CIVIL</td>
+        <td>Mr.Aziz Ettesham    (Phy)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>91</td>
-        <td>ABDUL REHMAN</td>
-        <td>CIVIL</td>
+        <td>Mr. Riyaz Qureshi   (Math)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>92</td>
-        <td>DR SYED ASADULLAH HUSSAINI</td>
-        <td>CSE</td>
+        <td>Mr. Vazeer Khan      (Math)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>93</td>
-        <td>SK KHADAR BASHA</td>
-        <td>EEE</td>
+        <td>Mr .Kareemuddin    (Math)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>94</td>
-        <td>N SARASWATHI</td>
-        <td>EEE</td>
+        <td>Mrs. Rama Lingeshwar Rao  (Phy)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>95</td>
-        <td>MIRZA YOUNUS ALI</td>
-        <td>IT</td>
+        <td>Mrs. Ayesha Hashmi  (Eng)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>96</td>
-        <td>JAMAL ARJUMAND</td>
-        <td>IT</td>
+        <td>Mr Smk Amjad Ali Khan   (Eng)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>97</td>
-        <td>SABA SHEIBA</td>
-        <td>IT</td>
+        <td>Mrs. Bushra Riyaz   (Chm)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>98</td>
-        <td>JYOTHSNA SABBJ</td>
-        <td>CIVIL</td>
+        <td>Mrs.M.Ramyashree   (Chm)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>99</td>
-        <td>ANJANEYULU GIRI</td>
-        <td>CIVIL</td>
+        <td>Mrs. Dolly Gautam   (Ic)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>100</td>
-        <td>k suresh</td>
-        <td>ECE</td>
+        <td>Mrs.Kakulla Prajwala  (Cse)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>101</td>
-        <td>MOHAMMED AZAM</td>
-        <td>ECE</td>
+        <td>Mrs. Imreena Ali (Cse)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>102</td>
-        <td>SYED ZAFFAR MAHMOOD</td>
-        <td>ECE</td>
+        <td>Mrs.Miriyala Gayatri  (Cse)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>103</td>
-        <td>DR CHANDRA SHEKAR</td>
-        <td>ECE</td>
+        <td>Mr.Mohd Abdul Mutalib (Eee)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>104</td>
-        <td>DR ZEESHAN WAKIL</td>
-        <td>ECE</td>
+        <td>Mr .Khaja Owais Ahmed (Ic)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>105</td>
-        <td>IMREENA ALI</td>
-        <td>CSE</td>
+        <td>Mr.Abdul Bari (Ic)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>106</td>
-        <td>AKBAR ALI</td>
-        <td>CSE</td>
+        <td>Mrs. Aqsa Fatima (Eee)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>107</td>
-        <td>MOHAMMED PARVEZ</td>
-        <td>MECH</td>
+        <td>Mrs.Navaneetha M P(Eee)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>108</td>
-        <td>MOHD ISMAIL</td>
-        <td>MBA</td>
+        <td>Mr.Jameel (Mech)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>109</td>
-        <td>MOHD AMER</td>
-        <td>MBA</td>
+        <td>Mr.Amer Qureshi  (Civil)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>110</td>
-        <td>NAYANI VENKATA SAI PRASAD</td>
-        <td>MBA</td>
+        <td>Mr.Syed Mohammed (Civil)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>111</td>
-        <td>ARJUMAND SIDDIQUI</td>
-        <td>MBA</td>
+        <td>Mrs.Amtul Tahmeena (Evs)</td>
+        <td>Asst.Prof</td>
+        <td>H&amp;S</td>
     </tr>
     <tr>
         <td>112</td>
-        <td>VENKAT VORUGANTI</td>
+        <td>Dr.K.Padmaja</td>
+        <td>Associate. Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>113</td>
-        <td>SYEDA SULTANA</td>
+        <td>Dr.Md.Irfan Uddin</td>
+        <td>AssociateProf</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>114</td>
-        <td>HAMEED BEGUM</td>
+        <td>Mr.Salman Ahmed</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>115</td>
-        <td>MOHD MUSHTAQ</td>
+        <td>Ms.Asma Khatoon</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>116</td>
-        <td>ASMA KHATOON</td>
+        <td>Mrs.Ishrathjabbeen</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>117</td>
-        <td>AZAM KHAN MAHAMMAD</td>
+        <td>Mrs.Saba Tarannum</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>118</td>
-        <td>RAFEEQ BEGUM</td>
+        <td>Mr.Syed Abdul Razak Quadri</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>119</td>
-        <td>MOHD IRFAN UDDIN</td>
+        <td>Mr.Rameshbabu</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>120</td>
-        <td>KUBRA FATIMA</td>
+        <td>Mr.Naimatullah Hussaini</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>121</td>
-        <td>SHAZIA FARHA</td>
+        <td>Mr.Azam Khan</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>122</td>
-        <td>SARA TABASSUM</td>
+        <td>Ms.Rakia Begum</td>
+        <td>Asst Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>123</td>
-        <td>SALMAN AHMED</td>
+        <td>Ms.Afifa Naaz</td>
+        <td>Asst. prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>124</td>
-        <td>TAHSEEN UNNISA</td>
+        <td>Mr.Rahamanessa Aalamudi</td>
+        <td>Asst.Prof</td>
         <td>MBA</td>
     </tr>
     <tr>
         <td>125</td>
-        <td>SYEDA IKRAMA</td>
+        <td>Mr.Venkata Sai Prasad</td>
+        <td>Asst.prof</td>
         <td>MBA</td>
     </tr>
+    <tr>
+        <td>126</td>
+        <td>Ms.Kubra Fatima</td>
+        <td>AsstProf</td>
+        <td>MBA</td>
+    </tr>
+    <tr>
+        <td>127</td>
+        <td>Mr.Mohammed Khanith</td>
+        <td>Asst Prof</td>
+        <td>MBA</td>
+    </tr>
+
+    
 
                         </Table>
 
