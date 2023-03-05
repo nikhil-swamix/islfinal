@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../MBA/components/Sidebar'
 import Sidepost from '../MBA/components/Sidepost'
@@ -94,6 +94,7 @@ const mba = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Syllabus</Tab>
+                    <Tab>Faculty</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
@@ -158,6 +159,99 @@ const mba = () => {
                       <Syllabus />
                     </div>
                   </TabPanel>
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dr.K.Padmaja</td>
+        <td>Associate. Prof</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr.Md.Irfan Uddin</td>
+        <td>AssociateProf</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Mr.Salman Ahmed</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Ms.Asma Khatoon</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mrs.Ishrathjabbeen</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mrs.Saba Tarannum</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Mr.Syed Abdul Razak Quadri</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Mr.Rameshbabu</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mr.Naimatullah Hussaini</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Mr.Azam Khan</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Ms.Rakia Begum</td>
+        <td>Asst Prof</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Ms.Afifa Naaz</td>
+        <td>Asst. prof</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Mr.Rahamanessa Aalamudi</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Mr.Venkata Sai Prasad</td>
+        <td>Asst.prof</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Ms.Kubra Fatima</td>
+        <td>AsstProf</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Mr.Mohammed Khanith</td>
+        <td>Asst Prof</td>
+    </tr>
+                      </Table>
+                    </div>
+                  </TabPanel>
+
+
                 </Tabs>
               </section>
             </Col>

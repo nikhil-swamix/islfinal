@@ -84,12 +84,12 @@ const Faculty = () => {
                     <div className="mt-5">
 
                       <h4>Teaching List</h4>
-                        <Table striped bordered hover>
+                      <Table className='striped bordered hover'>
     <tr>
-        <td>S.No.</td>
-        <td>Name</td>
-        <td>Designation</td>
-        <td>Name of the Department</td>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+        <th>Name of the Department</th>
     </tr>
     <tr>
         <td>1</td>

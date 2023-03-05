@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../CSE/components/Sidebar'
 import Sidepost from '../CSE/components/Sidepost'
 import Syllabus from '../CSE/components/Syllabus'
 import Slide from '../CSE/components/Slide'
 import { Link } from 'react-router-dom'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Helmet } from 'react-helmet'
 
 const cse = () => {
@@ -287,14 +287,160 @@ const cse = () => {
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
                   </TabPanel>
 
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <p>Faculty</p>
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dr. M.A. Bari</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr. Jameel Hashmi</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Dr. Syed Asadullah Hussaini</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>S.K. Saleem</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mukarram Uddin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Asma Akbar</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>T. Anita</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Asjad Mohi Uddin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Umme Ruma</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Shaista Farheen</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Mohammed Rahmat Ali</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Madhuri Dachapalli</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Vaseem Uddin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>S. Sunaina</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Mohd Taqi Uddin Ahmed</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Mohd Akber Ali</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Nishat Akbari</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>Syed Omer Farooq</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>L. Vaishnavi</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>A.Raj Shaker</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>Ijteba Sultana</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Ayesha Mehreen</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>Afsha Nishat</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>Nousheen Fathima</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>Syed Moiduddin Shahbaaz</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Shaheen Fatima</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>Md Hasan Majeed Faaraan</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>Mohammed Sheraz Nadeem</td>
+        <td>Asst.Prof</td>
+    </tr>
+</Table>
                     </div>
                   </TabPanel>
                   

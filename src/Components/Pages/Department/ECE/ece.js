@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../ECE/components/Sidebar'
 import Sidepost from '../ECE/components/Sidepost'
 import Syllabus from '../ECE/components/Syllabus'
 import Slide from '../ECE/components/Slide'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
@@ -312,13 +312,71 @@ const ece = () => {
                   </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
                   </TabPanel>
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <p>Faculty</p>
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Ms. Ayesha Sultana Mohammed Begum</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Ms. Zubeda Begum</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Mr. Shubhakar</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mr. Syed Sultan Mehmood</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mr. Mohammed Jayeed</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mr. Ahsan Jameel</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Mr. Syed Zaffar Mahmood</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Dr. Chandra Shekar</td>
+        <td> Professor</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Dr. Abdul Mateen</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Dr. Mohammed Azam</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+</Table>
+
+
                     </div>
                   </TabPanel>
                   

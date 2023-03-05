@@ -1,11 +1,10 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from './components/Sidebar'
 import Sidepost from './components/Sidepost'
 import Syllabus from './components/Syllabus'
 import Slide from './components/Slide'
-import Table from './components/Table'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 const hns = () => {
@@ -282,13 +281,161 @@ const hns = () => {
                   </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
+                      <p>Course Outcomes</p>
+                    </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll text-center">
                       <Syllabus />
                     </div>
                   </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <p>Publications</p>
                     </div>
+                  </TabPanel>
+                  <TabPanel>
+                    <div className="syll text-center">
+                    <Table className='striped bordered hover'>
+    <tr>
+        <td>S.No.</td>
+        <td>Name</td>
+        <td>Designation</td>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dr. Md.Ibraheem Altaf  (Phy)</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr. Zareena Sultana  (Eng)</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Dr. Sohel Ahmed  (Eng)</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Dr.Ravi Ramavath  (Chem)</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mr.Aziz Ettesham    (Phy)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mr. Riyaz Qureshi   (Math)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Mr. Vazeer Khan      (Math)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Mr .Kareemuddin    (Math)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mrs. Rama Lingeshwar Rao  (Phy)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Mrs. Ayesha Hashmi  (Eng)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Mr Smk Amjad Ali Khan   (Eng)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Mrs. Bushra Riyaz   (Chm)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Mrs.M.Ramyashree   (Chm)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Mrs. Dolly Gautam   (Ic)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Mrs.Kakulla Prajwala  (Cse)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Mrs. Imreena Ali (Cse)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Mrs.Miriyala Gayatri  (Cse)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>Mr.Mohd Abdul Mutalib (Eee)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>Mr .Khaja Owais Ahmed (Ic)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>Mr.Abdul Bari (Ic)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>Mrs. Aqsa Fatima (Eee)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Mrs.Navaneetha M P(Eee)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>Mr.Jameel (Mech)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>Mr.Amer Qureshi  (Civil)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>Mr.Syed Mohammed (Civil)</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Mrs.Amtul Tahmeena (Evs)</td>
+        <td>Asst.Prof</td>
+    </tr>
+</Table>
+                    </div>
+
                   </TabPanel>
                 </Tabs>
               </section>

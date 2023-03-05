@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../ME/components/Sidebar'
 import Sidepost from '../ME/components/Sidepost'
 import Syllabus from '../ME/components/Syllabus'
 import Slide from '../ME/components/Slide'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 const me = () => {
@@ -293,13 +293,65 @@ const me = () => {
                   </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
                   </TabPanel>
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <p>Faculty</p>
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dr Mohammed Masood</td>
+        <td>Professor</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr.B.Srinivasulu</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>K Srikanth Reddy</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mr.Mohd.Attalique Rabbani</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Md Mohiuddin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Midthur Abdul Salman Khan</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Md Bahauddin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Md  Jaleel Ahmed</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mr.Mohammed Nayeem</td>
+        <td>Asst.Prof</td>
+    </tr>
+                    </Table>
+
                     </div>
                   </TabPanel>
                   

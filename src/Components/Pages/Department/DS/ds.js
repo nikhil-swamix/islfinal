@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../CSE/components/Sidebar'
 import Sidepost from '../CSE/components/Sidepost'
 import Syllabus from '../DS/components/Syllabus'
 import Slide from '../CSE/components/Slide'
 import { Link } from 'react-router-dom'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Helmet } from 'react-helmet'
 
 const cse = () => {
@@ -269,6 +269,12 @@ const cse = () => {
                       </li>
                     </ul>
                   </TabPanel>
+                  
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <p>Course outcome</p>
+                    </div>
+                  </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />
@@ -278,13 +284,35 @@ const cse = () => {
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
                   </TabPanel>
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <p>Faculty</p>
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mr.Vaibhav Lall</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mrs.Syeda Anjum Sultana</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Aleemuddin Syed</td>
+        <td>Asst.Prof</td>
+    </tr>
+                    </Table>
+
                     </div>
                   </TabPanel>
                   

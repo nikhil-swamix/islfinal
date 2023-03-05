@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../IT/components/Sidebar'
 import Sidepost from '../IT/components/Sidepost'
 import Syllabus from '../IT/components/Syllabus'
 import Slide from '../IT/components/Slide'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 const it = () => {
@@ -278,21 +278,87 @@ const it = () => {
                   <TabPanel>
                     <p>Course Outcomes</p>
                   </TabPanel>
+
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />
                     </div>
                   </TabPanel>
+
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
+                  </TabPanel>
 
                     <TabPanel>
                     <div className="syll text-center">
-                      <p>Faculty</p>
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dr.Surya Mukhi</td>
+        <td>Associate professor</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr.Venkatesan Selvaraj</td>
+        <td>Associate professor</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Mr.Syed Mujeeb Ul Hassan</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mrs Arjumand Jamal</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mr.Mohammed Arshad Hussain</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mrs.Neha Naznein</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Mrs.Saba Sheiba</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Mirza Mudassir Ali Baig</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mr.Akmal Hussain</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Mr.Younus Ali Baig</td>
+        <td>Assistant professor</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Mr.Mohd Basit Mohiuddin</td>
+        <td>Assistant professor</td>
+    </tr>
+
+                    </Table>
                     </div>
                   </TabPanel>
+
                   
 
                   <TabPanel>
@@ -330,6 +396,7 @@ const it = () => {
                       <p>Student Clubs</p>
                     </div>
                   </TabPanel>
+                  <TabPanel>
 
                   </TabPanel>
                 </Tabs>

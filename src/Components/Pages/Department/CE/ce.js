@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../CE/components/Sidebar'
 import Sidepost from '../CE/components/Sidepost'
 import Syllabus from '../CE/components/Syllabus'
 import Slide from '../CE/components/Slide'
 import { Link } from 'react-router-dom'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Helmet } from 'react-helmet'
 const ce = () => {
   return (
@@ -305,13 +305,99 @@ const ce = () => {
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
                   </TabPanel>
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <p>Faculty</p>
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dr.Mohammed Safiuddin</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Dr.K.Pandu</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>S Ramya Kala</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Touseeq Anwar Wasif</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>K.Nanchari</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Waseem Ahmed</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>G Anjaneyulu</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Rafey Ahmed</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Sri Charan</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Ahmed Abdul Ahad</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Sheik Riyaz Uddin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Nazeeruddin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Mir Firasat Ali</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Mohd Furkhan</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Abdul Rahman</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Syed Shoeb</td>
+        <td>Asst.Prof</td>
+    </tr>
+</Table>
                     </div>
                   </TabPanel>
                   

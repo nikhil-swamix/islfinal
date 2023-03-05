@@ -1,12 +1,12 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
-import {  Tabs, TabList, TabPanel } from 'react-tabs'
+import { Container, Row, Col, Table } from 'react-bootstrap'
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../CSE/components/Sidebar'
 import Sidepost from '../CSE/components/Sidepost'
 import Syllabus from '../CSE/components/Syllabus'
 import Slide from '../CSE/components/Slide'
 import { Link } from 'react-router-dom'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Helmet } from 'react-helmet'
 
 const cse = () => {
@@ -85,10 +85,11 @@ const cse = () => {
               <section className="dept-tabs mt-20">
                 <Tabs className="dept-tab">
                   <TabList>
-                    {/* <Tab>Overview</Tab>
-                    <Tab>Programme Outcomes</Tab> */}
-                    {/* <Tab>Curriculum</Tab>
-                    <Tab>Publications</Tab> */}
+                    <Tab>Overview</Tab>
+                    <Tab>Programme Outcomes</Tab>
+                    <Tab>Curriculum</Tab>
+                    <Tab>Publications</Tab>
+                    <Tab>Faculty</Tab>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
@@ -272,9 +273,39 @@ const cse = () => {
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
                   </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll text-center">
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Dr.Pathan Ahmed Khan</td>
+        <td>Assoc. Prof.</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Heena Yasmin</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>M. Sai Kiran</td>
+        <td>Asst.Prof</td>
+    </tr>
+                    </Table>
+                    </div>
+                  </TabPanel>
+
+
+
                 </Tabs>
               </section>
             </Col>

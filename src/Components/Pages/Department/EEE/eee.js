@@ -1,11 +1,11 @@
 import React from 'react'
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col, Table } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import Sidebar from '../EEE/components/Sidebar'
 import Sidepost from '../EEE/components/Sidepost'
 import Syllabus from '../EEE/components/Syllabus'
 import Slide from '../EEE/components/Slide'
-import Table from './components/Table'
+import TableP from './components/Table'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 const eee = () => {
@@ -291,9 +291,48 @@ const eee = () => {
                   </TabPanel>
                   <TabPanel>
                     <div className="syll text-center">
-                      <Table />
+                      <TableP />
                     </div>
                   </TabPanel>
+                  <TabPanel>
+                    <div className="syll text-center">
+                    <Table className='striped bordered hover'>
+    <tr>
+        <th>S.No.</th>
+        <th>Name</th>
+        <th>Designation</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mr.S.Md.Mazhar-Ul-Haq</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mrs. Asra Sultana</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Mr. Mohd.Imran</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mr. Sk.Khadar Basha</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mrs. N.Sarawathi</td>
+        <td>Asst.Prof</td>
+    </tr>
+                    </Table>
+                    </div>
+                  </TabPanel>
+
+
+
                 </Tabs>
               </section>
             </Col>
