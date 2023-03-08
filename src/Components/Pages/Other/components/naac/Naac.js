@@ -153,7 +153,7 @@ const Naac = () => {
                             <tr>
                               <td>1.2.1: Number of Add on /Certificate/Value added programs offered during the last five years</td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/1/1.2.1/1.2.1AdditionalInformation.pdf'>View Additional information</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/1/1.2.1/1.2.1Template.xlsx'>View Data Template</a></td>
                             </tr>
                             <tr>
                               <td>1.2.2: Percentage of students enrolled in Certificate/ Add-on/Value added programs as against the total number of students during the last five years</td>
@@ -164,7 +164,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/1/1.2.2/1.2.2SupportingDoc.pdf'>View Supporting Document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/1/1.2.2/1.2.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -370,7 +370,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/2/2.6.2/2.6.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.6.2/2.6.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -386,7 +386,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>2.7.1: Online student satisfaction survey regarding teaching learning process </td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/2/2.7.1/2.7.1Template.xlsx'>View Data Template</a></td>
                             </tr>
                           </table>
                           </p>
@@ -482,7 +482,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/3/3.3.2/3.3.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/3/3.3.2/3.3.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -567,8 +567,8 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td></td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/4/4.1.2/4.1.2SupportingDoc.pdf'>View Supporting document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/4/4.1.2/4.1.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -675,7 +675,7 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>5.1.2: Capacity building and skills enhancement initiatives taken by the institution include the following</td>
-                              <td><a href='/#'>Supporting document is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.1.2/5.1.2SupportingDoc.pdf'>View Supporting document</a></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/5/5.1.2/5.1.2Template.xlsx'>View Data Template</a></td>
                             </tr>
                             <tr>
@@ -714,7 +714,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/5/5.2.1/5.2.1SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.2.1/5.2.1Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                             <tr>
@@ -729,7 +729,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/5/5.2.2/5.2.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.2.2/5.2.2Template.xlsx'>View Data Templaten</a></td>
 
                             </tr>
                           </table>
@@ -752,7 +752,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/5/5.3.1/5.3.1SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.3.1/5.3.1Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                             <tr>
@@ -764,7 +764,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/5/5.3.2/5.3.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/5/5.3.2/5.3.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                           </table>
@@ -856,7 +856,7 @@ const Naac = () => {
                             <tr>
                               <td></td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/6/6.3.2/6.3.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.3.2/6.3.2Template.xlsx'>View Data Template</a></td>
 
                             </tr>
                             <tr>
@@ -867,8 +867,8 @@ const Naac = () => {
                             </tr>
                             <tr>
                               <td>6.3.3.2: Number of non-teaching staff year wise during the last five years</td>
-                              <td><a href='/#'>Additional Supporting document is Under Construction</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.3.3/6.3.3SupportingDoc.pdf'>View Supporting document</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.3.3/6.3.3Template.xlsx'>View Data Template</a></td>
                             </tr>
                           </table>
                         </p>
@@ -904,7 +904,7 @@ const Naac = () => {
                             <tr>
                               <td>6.5.2: Quality assurance initiatives of the institution include:</td>
                               <td><a href='https://islec.edu.in/DATA/NAAC/6/6.5.2/6.5.2SupportingDoc.pdf'>View Supporting document</a></td>
-                              <td><a href='/#'>Data Template is Under Construction</a></td>
+                              <td><a href='https://islec.edu.in/DATA/NAAC/6/6.5.2/6.5.2Template.xlsx'>View Data Template</a></td>
                             </tr>
                           </table>
                         </p>

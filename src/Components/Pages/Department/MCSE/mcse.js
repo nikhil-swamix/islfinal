@@ -87,6 +87,7 @@ const cse = () => {
                   <TabList>
                     <Tab>Overview</Tab>
                     <Tab>Programme Outcomes</Tab>
+                    <Tab>Course Outcomes</Tab>
                     <Tab>Curriculum</Tab>
                     <Tab>Publications</Tab>
                     <Tab>Faculty</Tab>
@@ -264,6 +265,13 @@ const cse = () => {
                       </li>
                     </ul>
                   </TabPanel>
+
+                  <TabPanel>
+                  <object data="http://islec.edus.in/DATA/CO/mcse.pdf" type="application/pdf" width={900} height={900}>
+                    <p>View Course Outcome here  <a href="http://islec.edu.in/DATA/CO/mcse.pdf">View PDF!</a></p>
+                  </object> 
+                  </TabPanel>
+
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />

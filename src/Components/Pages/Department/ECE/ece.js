@@ -302,7 +302,9 @@ const ece = () => {
                     </ul>
                   </TabPanel>
                   <TabPanel>
-                    <p>Course Outcomes</p>
+                  <object data="http://islec.edus.in/DATA/CO/ece.pdf" type="application/pdf" width={900} height={900}>
+                    <p>View Course Outcome here  <a href="http://islec.edu.in/DATA/CO/ece.pdf">View PDF!</a></p>
+                  </object> 
                   </TabPanel>
 
                   <TabPanel>

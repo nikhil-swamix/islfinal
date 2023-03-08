@@ -93,6 +93,7 @@ const mba = () => {
                 <Tabs className="dept-tab">
                   <TabList>
                     <Tab>Overview</Tab>
+                    <Tab>Course Outcome</Tab>
                     <Tab>Syllabus</Tab>
                     <Tab>Faculty</Tab>
                   </TabList>
@@ -152,6 +153,12 @@ const mba = () => {
                         </li>
                       </ul>
                     </div>
+                  </TabPanel>
+
+                  <TabPanel>
+                  <object data="http://islec.edus.in/DATA/CO/mba.pdf" type="application/pdf" width={900} height={900}>
+                    <p>View Course Outcome here  <a href="http://islec.edu.in/DATA/CO/mba.pdf">View PDF!</a></p>
+                  </object> 
                   </TabPanel>
 
                   <TabPanel>

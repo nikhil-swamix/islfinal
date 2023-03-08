@@ -294,8 +294,12 @@ const ce = () => {
                     </ul>
                   </TabPanel>
                   <TabPanel>
-                    <p>Course Outcomes</p>
-                  </TabPanel>
+
+                  <object data="http://islec.edus.in/DATA/CO/ce.pdf" type="application/pdf" width={900} height={900}>
+                    <p>View Course Outcome here  <a href="http://islec.edu.in/DATA/CO/ce.pdf">View PDF!</a></p>
+                  </object> 
+
+                 </TabPanel>
 
                   <TabPanel>
                     <div className="syll text-center">
