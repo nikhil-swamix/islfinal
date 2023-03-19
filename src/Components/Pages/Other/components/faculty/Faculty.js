@@ -75,6 +75,7 @@ const Faculty = () => {
               <section className="dept-tabs mt-2">
                 <Tabs className="dept-tab">
                   <TabList>
+                    
                     <Tab>Teaching List</Tab>
                     <Tab>Non-Teaching List</Tab>
     
@@ -84,7 +85,8 @@ const Faculty = () => {
                     <div className="mt-5">
 
                       <h4>Teaching List</h4>
-                      <Table className='striped bordered hover'>
+                      <div className="syll text-center">
+                    <Table className='striped bordered hover'>
     <tr>
         <th>S.No.</th>
         <th>Name</th>
@@ -857,6 +859,7 @@ const Faculty = () => {
     
 
                         </Table>
+                        </div>
 
                     </div>
                   </TabPanel>
@@ -868,11 +871,12 @@ const Faculty = () => {
 
                         <p>The Non Teaching List includes; Laboratory Technicians, Laboratory Assistants, Office Assistants, Drivers, Watchmans, Sweepers (Ayas), Admin Staff.</p>
 
-                        <Table striped bordered hover>
+                        <div className="syll text-center">
+                        <Table className='striped bordered hover'>
 
                         <tr>
-        <td>S.NO</td>
-        <td>NAME</td>
+        <th>S.NO</th>
+        <th>NAME</th>
     </tr>
     <tr>
         <td>1</td>
@@ -1220,6 +1224,7 @@ const Faculty = () => {
     </tr>                            
     
                         </Table>
+                        </div>
 
                     </div>
 

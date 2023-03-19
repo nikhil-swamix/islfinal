@@ -75,6 +75,11 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
+                      <a href="https://islec.edu.in/dvv" rel="noopener">
+                         <b>DVV</b>
+                      </a>
+                    </li>
+                    <li>
                       <a href="https://islec.edu.in/iqac" rel="noopener">
                          <b>IQAC</b>
                       </a>

@@ -77,7 +77,6 @@ const Naac = () => {
                   <TabList>
                     <Tab>Self Declaration</Tab>
                     <Tab>Undertaking</Tab><br></br>
-                    <Tab>DVV</Tab><br></br>
                     <Tab>Criterion 1</Tab>
                     <Tab>Criterion 2</Tab>
                     <Tab>Criterion 3</Tab>
@@ -114,11 +113,6 @@ const Naac = () => {
                       </ul>
                     </div>
 
-                  </TabPanel>
-                  <TabPanel>
-                    <div className="syll">
-                    <h4>About DVV </h4>                            
-                    </div>
                   </TabPanel>
 
                   <TabPanel>
