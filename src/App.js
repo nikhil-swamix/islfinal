@@ -33,6 +33,7 @@ import Aws from './Components/Pages/Other/components/awseducate'
 import Rti from './Components/Pages/Other/components/rti'
 import Faculty from './Components/Pages/Other/components/faculty'
 import Naac from './Components/Pages/Other/components/naac'
+import Dvv from './Components/Pages/Other/components/dvv'
 import Nirf from './Components/Pages/Other/components/nirf'
 import Committees from './Components/Pages/Other/components/committees'
 
@@ -76,6 +77,7 @@ function App() {
           <Route path="/rti" component={Rti} />
           <Route path="/faculty" component={Faculty} />
           <Route path="/naac" component={Naac} />
+          <Route path="/dvv" component={Dvv} />
           <Route path="/nirf" component={Nirf} />
           <Route path="/committees" component={Committees} />
 
