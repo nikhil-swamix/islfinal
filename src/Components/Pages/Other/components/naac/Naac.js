@@ -1,9 +1,19 @@
 import React from 'react'
-import { Container, Row, Col, Table } from 'react-bootstrap'
+import { Container, Row, Col, Table, Button } from 'react-bootstrap'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
+import { useHistory } from 'react-router-dom';
+
+
 const Naac = () => {
+  const history = useHistory();
+
+  const handleLogout = () => {
+    localStorage.removeItem('isAuthenticated');
+    history.push('/');
+  };
+
   return (
     <>
       <Helmet>
@@ -71,7 +81,12 @@ const Naac = () => {
       <section className="course-details-area dept  pb-60">
         <Container>
           <Row>
+
             <Col lg={12} md={12}>
+              <div className='mt-5 text-right'>
+                <Button onClick={handleLogout} variant="danger">Logout</Button>{' '}
+              </div>
+
              <section className="dept-tabs mt-30">
                 <Tabs className="dept-tab">
                   <TabList>

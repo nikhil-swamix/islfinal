@@ -75,7 +75,7 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://islec.edu.in/dvv" rel="noopener">
+                      <a href="https://islec.edu.in/dvvs" rel="noopener">
                          <b>DVV</b>
                       </a>
                     </li>
