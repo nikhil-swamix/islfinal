@@ -31,14 +31,14 @@ const All = () => {
           <Card.Img variant="top" src={card.img} />
           <Card.Body>
             <Card.Title>
-              <h6>{card.descp}{' '}
+              <p>{card.title}{' '}
               <a href={card.link}>
                 {card.link ? (
                   <i className="fa fa-external-link" aria-hidden="true"></i>
                 ) : (
                   ''
                 )}
-              </a></h6>
+              </a></p>
             </Card.Title>
           </Card.Body>
         </Card>

@@ -75,7 +75,7 @@ const Admissions = () => {
                           <tbody>
                             <tr>
                               <td>B.E Civil Engineering</td>
-                              <td>120</td>
+                              <td>60</td>
                               <td>4 Years</td>
                             </tr>
 
@@ -93,7 +93,7 @@ const Admissions = () => {
 
                             <tr>
                               <td>B.E ArtificiaI Intelligence & Data Science</td>
-                              <td>60</td>
+                              <td>120</td>
                               <td>4 Years</td>
                             </tr>
 

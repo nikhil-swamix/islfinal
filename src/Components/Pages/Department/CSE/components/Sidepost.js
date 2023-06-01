@@ -39,7 +39,7 @@ class Sidepost extends React.Component {
               <div className="card mb-10">
                 <img className="card-img-top" src={img} alt="CardImage " />
                 <div className="card-body">
-                  <h6 className="card-title">{title}</h6>
+                  <p className="card-title">{title}</p>
                   <p className="card-text">{descp}</p>
 
                   {!link ? (

@@ -500,6 +500,7 @@ const cse = () => {
                 </div>
 
                 <Sidepost />
+                
                 <div className="text-right">
                   <a href="/events" className="pt-10 ">
                     More{' '}

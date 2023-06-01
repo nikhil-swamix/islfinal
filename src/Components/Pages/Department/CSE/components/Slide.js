@@ -46,7 +46,7 @@ class Slide extends React.Component {
                     alt="CE Carousel Images"
                   />
 
-                  {!descp ? " " : (                  <Carousel.Caption>
+                  {!descp ? " " : (<Carousel.Caption>
                     <p>{descp}</p>
                   </Carousel.Caption>
 )}

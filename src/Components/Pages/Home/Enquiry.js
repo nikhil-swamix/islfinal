@@ -76,7 +76,7 @@ class Enquiry extends Component {
 
           <Modal.Dialog>
             <Modal.Header closeButton>
-              <Modal.Title>Admissions 2022 - Enquiry Form</Modal.Title>
+              <Modal.Title>Admissions 2023 - Enquiry Form</Modal.Title>
             </Modal.Header>
 
             <Modal.Body>
