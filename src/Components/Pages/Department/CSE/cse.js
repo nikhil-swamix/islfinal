@@ -115,61 +115,35 @@ const cse = () => {
                         and mentor-ship sessions various technical training
                         courses are held to equip students with latest trend.
                       </p>
+                      <h4>Vision</h4>
+                      <p>
+                      To Establish the department as a centre of learning and innovation in computing and its applications, to produce successful graduates in computer science & engineering through collaboration between industry and academician to meet the global demand.
+                      </p>
+
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To empower students
-                          through knowledge and information. To meet the
-                          challenges of a complex and modern society through
-                          informed social outreach. To be one of the premier
-                          institution in the field of Engineering and Technology
-                          and to achieve excellence in teaching.
+                          <i className="fa fa-check"></i> MD1 : To empower students through knowledge sharing and adapting to emerging technology.
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> MD2 : To equip students with cutting-edge tools for adapting to the demands of a global economy.
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> MD3 : To inculcate the urge for lifelong learning along with professional and ethical practices.
                         </li>
                       </ul>
-                      <h4>Vision</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i> The department aims to
-                          being recognized as a promoter of computing
-                          Technologies and their applications.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To produce competent
-                          computer science professionals to the constantly
-                          evolving IT sector.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To create linkages
-                          between industry and academy for better absorption in
-                          job market.
-                        </li>
-                      </ul>
+
                       <h4>Program Educational Objectives (PEOs)</h4>
                       <ul>
                         <li>
                           <i className="fa fa-check"></i>PEO 1 :
-                          Obtain strong fundamentals concepts, technical
-                          competency and problem solving skills to generate
-                          innovative solutions to engineering problems.
+                          Gain strong fundamentals concepts and technical competency through innovate solutions to solve emerging problems.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 2 : Continuously enhance
-                          their skills through training, independent inquiry,
-                          professional practices and pursue higher education or
-                          research by adapting to rapidly changing technology.
+                          <i className="fa fa-check"></i>PEO 2 : Continuously enhance their skills through training in multidisciplinary rapidly changing technology.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 3 : Advance in their
-                          professional careers including increased technical,
-                          multidisciplinary approach and managerial
-                          responsibility as well as attainment of leadership
-                          positions thus making them competent professionals at
-                          global level.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i>PEO 4 : Exhibit commitment to
-                          ethical practices, societal contributions and lifelong
-                          learning.
+                          <i className="fa fa-check"></i>PEO 3 : Exhibit commitment to ethical practices, societal contributions, and lifelong learning.
                         </li>
                       </ul>
                     </div>
@@ -289,6 +263,39 @@ const cse = () => {
 
                   <TabPanel>
                     <div className="syll text-center">
+
+                    <Table className='striped bordered hover'>
+                     <tr>
+                        <th>Name</th>
+                        <th>View</th>
+                     </tr>
+                     <tr>
+                        <td>CSE PAPER PUBLICATION 2019_23</td>
+                        <td><a href='https://islec.edu.in/docs/cse/publications/CSE-PAPER-PUBLICATION-19-23.pdf'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>CSE PAPER PUBLICATION 2017_21</td>
+                        <td><a href='https://islec.edu.in/docs/cse/publications/CSE-PAPER-PUBLICATION-2017_21.pdf'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>CSE PAPER PUBLICATION 2016_20</td>
+                        <td><a href='https://islec.edu.in/docs/cse/publications/CSE-PAPER-PUBLICATION-2016_20.pdf'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>CSE 2018-22 All Publicaton</td>
+                        <td><a href='https://islec.edu.in/docs/cse/publications/CSE-2018-22-All-Publicaton.pdf'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>2_Grants_2017_18</td>
+                        <td><a href='https://islec.edu.in/docs/cse/publications/2_Grants_2017_18.pdf'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>3_Grants_2016_20</td>
+                        <td><a href='https://islec.edu.in/docs/cse/publications/3_Grants_2016_20.pdf'>View</a></td>
+                     </tr>
+                    </Table>
+
+                      
                       <TableP />
                     </div>
                   </TabPanel>
@@ -453,9 +460,35 @@ const cse = () => {
                     </div>
                   </TabPanel>
 
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Department Events</p>
+                  <TabPanel className="tab-content tab-content-info text-justify ">
+                    <div className="">
+                      <h4>Departmental Events</h4>
+                      <ul>
+                        <li><a href='https://islec.edu.in/docs/cse/Club_Activities-Red_Hat.pdf'><h6>
+                          Club Activities-Red Hat <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
+                        </li>
+                        <li><a href='https://islec.edu.in/docs/cse/FDP-2020-21.pdf'><h6>
+                          FDP-2020-21 <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
+                        </li>
+                        <li><a href='https://islec.edu.in/docs/cse/Club-Activities-Cyber-Security.pdf'><h6>
+                          Club Activities-Cyber Security <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
+                        </li>
+                        <li><a href='https://islec.edu.in/docs/cse/Club-Activities-Full-Stack.pdf'><h6>
+                          Club Activities-Full Stack <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
+                        </li>
+                        <li><a href='https://islec.edu.in/docs/cse/Club-Activities-Python.pdf'><h6>
+                          Club Activities-Python <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
+                        </li>
+                        
+                        <li><a href='https://islec.edu.in/docs/cse/Club-Activities-Big-Data-Analytics.pdf'><h6>
+                          Club Activities- Big Data Analytics <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
+                        </li>
+                        <li><a href='https://islec.edu.in/docs/cse/Club-Activities-AWS.pdf'><h6>
+                          Club Activities-AWS <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
+                        </li>
+
+                      </ul>
+                    
                     </div>
                   </TabPanel>
 
@@ -477,11 +510,33 @@ const cse = () => {
                     </div>
                   </TabPanel>
 
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Student Clubs</p>
+                  <TabPanel className="tab-content tab-content-info text-justify ">
+                    <div className="">
+                      <h4>Students Club</h4>
+                      <ul>
+                        <li>
+                          <i className="fa fa-check"></i> Big Data Analytics
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> AWS
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> Cyber Security
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> Full Stack Web Developer
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> Python
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> Red Hat
+                        </li>
+                      </ul>
+                    
                     </div>
                   </TabPanel>
+
 
 
                 </Tabs>

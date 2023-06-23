@@ -37,10 +37,10 @@ import Dvv from './Components/Pages/Other/components/dvv'
 import Nirf from './Components/Pages/Other/components/nirf'
 import Committees from './Components/Pages/Other/components/committees'
 
-import SSRLogin from './Components/SSRLogin'
-import DVVLogin from './Components/DVVLogin'
-import SSRPrivateRoute from './Components/SSRRoute';
-import DVVPrivateRoute from './Components/DVVRoute';
+// import SSRLogin from './Components/SSRLogin'
+// import DVVLogin from './Components/DVVLogin'
+// import SSRPrivateRoute from './Components/SSRRoute';
+// import DVVPrivateRoute from './Components/DVVRoute';
 
 
 import NotFound from './Components/Pages/NotFound'
@@ -55,12 +55,12 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-        <Route exact path='/SSRlogin' render={() => <SSRLogin setAuthenticated={setAuthenticated} />} />
+        {/* <Route exact path='/SSRlogin' render={() => <SSRLogin setAuthenticated={setAuthenticated} />} />
         <Route exact path='/DVVlogin' render={() => <DVVLogin setAuthenticated={setAuthenticated} />} />
         <SSRPrivateRoute exact path='/naac' authenticated={authenticated} component={Naac} setAuthenticated={setAuthenticated} />
-        <DVVPrivateRoute exact path='/dvvs' authenticated={authenticated} component={Dvv} setAuthenticated={setAuthenticated} />
+        <DVVPrivateRoute exact path='/dvvs' authenticated={authenticated} component={Dvv} setAuthenticated={setAuthenticated} /> */}
 
-        <Route exact path="/" component={Home} />
+          <Route exact path="/" component={Home} />
           <Route path="/syllabus" component={Syllabus} />
           <Route path="/almanac" component={Almanac} />
           <Route path="/admissions" component={Admissions} />

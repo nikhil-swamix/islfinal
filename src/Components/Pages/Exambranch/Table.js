@@ -31,7 +31,8 @@ class Table extends React.Component {
 
   render() {
     const renderSyllabusUrl = (val, row) => (
-      <a href={`${row['link']}`}> {`${row['title']}`} </a>
+      <a href={`${row['link']}`}> {`${row['title']}`} {''}<i class="fa fa-external-link" aria-hidden="true"></i>
+      </a>
     )
 
     const { isLoading, news_list } = this.state

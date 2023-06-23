@@ -54,7 +54,7 @@ const ece = () => {
                     <div className="media_content media-body">
                     <h6 className="title">Dr. Abdul Mateen Ahmed</h6>
                       <p>Head of Department</p>
-                      <p className="edu">M.Tech, Ph.D</p>
+                      <p className="edu">M.Tech, Ph.D(IITH)</p>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">

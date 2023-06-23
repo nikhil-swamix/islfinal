@@ -42,79 +42,53 @@ const Principal = () => {
       <div className="chairman_section mt-60 mb-60">
         <Container>
           <Row>
-            <Col lg={4}></Col>
+            <Col lg={4}>
+            <img src="https://islec.edu.in/images/principal.jpeg"
+                 className="img-fluid d-block"
+                 width={250}
+                 height={350}
+                 alt="Principal "
+             />
+            </Col>
             <Col lg={8} className="text-justify">
               <p>
-                <strong>Dr. Mohammed Masood</strong> a renowned scholar and
-                educationist and a prolific principal has got 24 years of
-                teaching experience in engineering colleges.
+                <strong>Dr. Mohammed Masood</strong> obtained his Bachelor’s degree in Mechanical engineering from Muffakham Jah College of Engineering & Technology affiliated to Osmania University Hyderabad, in the year 1989, M.Tech. & PhD from Jawaharlal Nehru Technology University Hyderabad in the years 1998 & 2007 respectively.
               </p>
 
               <p>
                 {" "}
-                He started his career as a lecturer in MJCET before taking up an
-                inspection engineer in SWCC-KSA.
+                Over all He is having 32 years of academic, Industry and research experience.
               </p>
 
               <p>
                 {" "}
-                After serving SWCC for 4 yrs he returned back to India and
-                joined as an Asst.Professor in the Dept. of Mechanical
-                Engineering in the year 2005.
+                Prior to Joining ISL Engineering College as Professor and Principal, he has held various designations in reputed organizations as Principal, Dean R & D, Dean Academics & Planning etc.</p>
+
+              <p>
+                {" "}
+                He has worked as Principal Investigator and Co-PI for various research projects funded by AICTE, and other Governmental agencies.
               </p>
 
               <p>
                 {" "}
-                Eventually he joined LIET as a principal and continued to work
-                at Lords as a professor and Director Research and Development.
+                He has guided more than 22 PhD candidates, supervised many M.Tech and B.Tech projects.
               </p>
 
               <p>
                 {" "}
-                Under his able guidance 20 Ph.D scholars from 9 Universities
-                have carried out their research work using advanced research
-                facility.
+                He is an accomplished administrator, academician and researcher. He has published more than 100 papers in international and nation journals & conferences, along with more than a dozen patents to his credit. He was instrumental in establishing advance computational combustion laboratory which has served as a research centre to the research scholars from many universities and colleges. 
               </p>
 
               <p>
                 {" "}
-                He published around 40 research papers in International and
-                National Journals and conferences.
+                As an administrator has reformed the intuitions where worked by establishing systems, procedures, getting NAAC & NBA accreditations with very good grades.
               </p>
 
               <p>
                 {" "}
-                Ha has a lot of achievements to his credit. He developed, guided
-                and presented the MJIET successfully for NBA accreditation in
-                2011 and 2017 and got accreditation for 4 branches. NAAC with
-                grade A for 5 yesrs. ISO certification.
+                He was awarded as Best faculty award, Best project award, Excellence in teaching award, etc by many Institutions and semi governmental organizations.  
               </p>
 
-              <p>
-                {" "}
-                He established systems, procedures,standards(Academic and
-                Administration). Internal research and development cell with
-                seed funding. Advance R&D centre in the area of Advanced
-                internal combustion of CFD analysis with AICTE funds.
-              </p>
-
-              <p>
-                {" "}
-                Entrepreneurship development cell. Faculty incubation center for
-                in house faculty training and development. Initiated many
-                student centric activities like orators club knowledge club and
-                finishing school for final year students. Organized many
-                seminars, guest lectures, industrial visits, model exhibition
-                and FDP programs.
-              </p>
-
-              <p>
-                {" "}
-                His memberships include fellow of Institution of Engineers,
-                FIE-India Member of society of automative engineers, USA. Member
-                of combustion Institute-Indian Chapter Member of Indian Society
-                for Tech Education,MISTE.
-              </p>
             </Col>
           </Row>
         </Container>

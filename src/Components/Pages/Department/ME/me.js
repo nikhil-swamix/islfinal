@@ -100,81 +100,42 @@ const me = () => {
                     <div className="">
                       <h4>Course Description</h4>
                       <p>
-                        This department is forward looking department with
-                        vision to produce theoretical sound and industry ready
-                        engineers. As a part of industry orientation, we have
-                        partnered with various major industries and institutes
-                        for specialized modular training and certifications
-                        courses. Mechanical engineering is the discipline that
-                        applies the principles of Engineering Physics and
-                        material science for the design analysis and factoring
-                        and maintenance of mechanical system. Mechanical
-                        Engineer also expected to understand and be able to
-                        apply basic concepts from Chemistry, Physics, chemical
-                        engineering. Introduction to CAE & CAD is given to the
-                        students to understand the working in a commercial
-                        establishment and multinational corporations.
+                      Mechanical engineering is a discipline of engineering that encompasses the design, analysis, manufacturing, and maintenance of mechanical systems. It involves the application of principles from physics, materials science, and mathematics to create and operate machinery and mechanical systems that contribute to various industries.
                       </p>
+                      <p>
+                      Throughout the course of a mechanical engineering program, students will gain a strong foundation in core engineering principles and develop the necessary technical skills to solve real-world engineering problems. The curriculum typically includes a combination of theoretical coursework, laboratory experiments, and design projects to provide a well-rounded education.
+                      </p>
+
+                      <h4>Vision</h4>
+                      <p>To establish the department of mechanical engineering as a centre of excellence in technology, training and research; to produce mechanical engineering graduates with enhanced capabilities through industry and academic collaboration to meet global demands.</p>
+
+
+
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To be employed as
-                          practicing engineer in field such as design research
-                          and development testing my fracturing operations and
-                          service systems.
+                            <i className="fa fa-check"></i>  M1:-To enhance technical skill among the students by adopting effective teaching learning process.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To offer certificate
-                          programs in new software and high-end machinery.
+                          <i className="fa fa-check"></i>  M2:- To impart knowledge with state of art labs to excel in Research, Development, Testing, Operation and training.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To execute projects on
-                          automobile, refrigeration systems, robotics and
-                          manufacturing.
+                          <i className="fa fa-check"></i>  M3:-To inculcate an urge for lifelong learning and adhering to professional and ethical practices.  
                         </li>
+
                       </ul>
-                      <h4>Vision</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i> Vision endeavors to be
-                          recognized nationally for outstanding teaching
-                          training and Technology.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To produce highly
-                          innovative, conceptual strong mechanical engineers.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To create linkages
-                          between industry and Academy of a better absorption in
-                          job market.
-                        </li>
-                      </ul>
+                      
                       <h4>Program Educational Objectives (PEOs)</h4>
                       <ul>
                         <li>
                           <i className="fa fa-check"></i>PEO 1 :
-                          Establish themselves as successful professionals while
-                          working independently or in multidisciplinary teams
-                          demonstrating professional, ethical and societal
-                          responsibilities
+                          To Prepare students to excel in all Mechanical Engineering fields such as Design, Analysis, Multi-disciplinary areas to take up professional challenges throughout  the globe.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 2 : Have high levels of
-                          technical competency and problem solving skills to
-                          generate innovative solutions to engineering problems.
+                          <i className="fa fa-check"></i>PEO 2 : To provide students with clear concepts in the mechanical engineering fundamental to challenging projects with innovative and real time solutions.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 3 : Continuously enhance
-                          their skills through training, independent inquiry,
-                          professional practices and / or pursuit of higher
-                          education or research.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i>PEO 4 : Advance in their
-                          careers through increased technical and managerial
-                          responsibility as well as attainment of leadership
-                          positions.
+                          <i className="fa fa-check"></i>PEO 3 : To Promote students awareness for Lifelong learning and to follow codes of professional practice, ethics.
                         </li>
                       </ul>
                     </div>
@@ -269,16 +230,10 @@ const me = () => {
                       </li>
                       <h4>Program Specific Outcomes</h4>
                       <li>
-                        <i className="fa fa-check"></i>PSO 1 : Research Potential: Usage
-                        of advanced software packages commonly used in industry
-                        for modeling, assembly and to carry out multiphysics
-                        analysis.
+                        <i className="fa fa-check"></i>PSO 1 : Professional Skills: An ability to understand the basic concepts in Mechanical Engineering and to Apply them to various areas ; production, thermal, designing etc.
                       </li>
                       <li>
-                        <i className="fa fa-check"></i>PSO 2 : Competent areas: Design
-                        and build components and systems related to mechanical
-                        and allied disciplines, using various manufacturing
-                        methods.
+                        <i className="fa fa-check"></i>PSO 2 : Problem-Solving Skills: An ability to solve complex Mechanical Engineering Problems, using latest hardware and software tools, along with analytical skills to arrive cost effective and appropriate solutions.
                       </li>
                     </ul>
                   </TabPanel>
@@ -390,12 +345,26 @@ const me = () => {
                     </div>
                   </TabPanel>
 
-                  <TabPanel>
-                    <div className="syll text-center">
-                      <p>Student Clubs</p>
+                  <TabPanel className="tab-content tab-content-info text-justify ">
+                    <div className="">
+                      <h4>Students Club</h4>
+                      <ul>
+                        <li>
+                          <i className="fa fa-check"></i> BIM
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i>	AUTOMOBILE CLUB
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> AWS CLUB
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> SIEGER PRO KARTING CHAMPIONSHIP(SPKC)
+                        </li>
+                      </ul>
+                    
                     </div>
                   </TabPanel>
-
                 </Tabs>
               </section>
             </Col>

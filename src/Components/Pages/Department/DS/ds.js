@@ -109,61 +109,49 @@ const cse = () => {
                         and mentor-ship sessions various technical training
                         courses are held to equip students with latest trend.
                       </p>
+
+
+                      <h4>Vision</h4>
+                      <p>Strive to make the dept a center of excellence in artificial intelligence and
+data science by producing world class engineers equipped with latest
+technologies to build an eco system that will contribute knowledge to
+society.</p>
+
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To empower students
-                          through knowledge and information. To meet the
-                          challenges of a complex and modern society through
-                          informed social outreach. To be one of the premier
-                          institution in the field of Engineering and Technology
-                          and to achieve excellence in teaching.
+                          <i className="fa fa-check"></i> To train the students in the state-of-the-art technologies of artificial
+intelligence and data science.
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> To sensitize and bring awareness among the students to solve societal
+issues through AI techniques by inculcating values and ethics.
+                        </li>
+                        <li>
+                          <i className="fa fa-check"></i> To Enhance research, employability and entrepreneurial skills of students
+in the field of AI & DS through project-based learning.
                         </li>
                       </ul>
-                      <h4>Vision</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i> The department aims to
-                          being recognized as a promoter of computing
-                          Technologies and their applications.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To produce competent
-                          computer science professionals to the constantly
-                          evolving IT sector.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To create linkages
-                          between industry and academy for better absorption in
-                          job market.
-                        </li>
-                      </ul>
+
+
                       <h4>Program Educational Objectives (PEOs)</h4>
                       <ul>
                         <li>
                           <i className="fa fa-check"></i>
-                          Obtain strong fundamentals concepts, technical
-                          competency and problem solving skills to generate
-                          innovative solutions to engineering problems.
+                          Graduate will solve real-time problems using analytical skills
+acquired in the field of Artificial Intelligence and Data Science
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Continuously enhance
-                          their skills through training, independent inquiry,
-                          professional practices and pursue higher education or
-                          research by adapting to rapidly changing technology.
+                          <i className="fa fa-check"></i> Graduate will embrace the professional code of ethics while
+participating in projects that benefit society.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Advance in their
-                          professional careers including increased technical,
-                          multidisciplinary approach and managerial
-                          responsibility as well as attainment of leadership
-                          positions thus making them competent professionals at
-                          global level.
+                          <i className="fa fa-check"></i>Graduates will innovate and adapt new technologies of AI & DS in
+their chosen field of profession.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Exhibit commitment to
-                          ethical practices, societal contributions and lifelong
-                          learning.
+                          <i className="fa fa-check"></i> Graduate will have the capacity to engage in life-long learning by
+pursuing higher education to augment career development
                         </li>
                       </ul>
                     </div>

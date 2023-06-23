@@ -114,37 +114,30 @@ const eee = () => {
                         to the point they can be used in almost any household
                         object.
                       </p>
+
+                      <h4>Vision</h4>
+                      <p>
+                      To establish the department of Electrical and Electronics Engineering as a
+center of excellence in academics and research,to produce Electrical and
+Electronics engineering graduates with enhanced capabilities through
+industry and acadamia collabration
+                      </p>
+
+
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To equip students with
-                          the knowledge of CAD.
+                          <i className="fa fa-check"></i> MD 1: To enhance technical skills among the students by adopting effective
+teaching-learning processes.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To train students on
-                          controlling and monitoring of real-time machinery.
+                          <i className="fa fa-check"></i> MD 2: To produce world class electrical and electronics engineers by
+imparting knowledge through state of art labs blended with practical
+engineering skills.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To develop basic,
-                          medium and large scale project with creative, logical
-                          and Critical orientation.
-                        </li>
-                      </ul>
-                      <h4>Vision</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i> To develop the
-                          department into a full fledged centre of learning.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To contribute dynamic,
-                          competent, knowledgeable electrical engineers to the
-                          nation for a brighter world.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To create linkages
-                          between industry and academy for better absorption in
-                          job market.
+                          <i className="fa fa-check"></i> MD 3: To inculcate and urge for life long learning ,adhering to professional
+and ethical practices
                         </li>
                       </ul>
                       <h4>Program Educational Objectives (PEOs)</h4>

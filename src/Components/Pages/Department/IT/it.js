@@ -49,8 +49,10 @@ const it = () => {
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
-                    <h6 className="title">Sheena Mohammed</h6>
+                    <h6 className="title">SYED MUJEEB UL HASAN</h6>
                       <p>Head of Department</p>
+                      <p className="edu">MSc, M.Tech., Ph.D.</p>
+
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
@@ -115,33 +117,27 @@ const it = () => {
                         semiconductors, internet, telecom equipment, and
                         e-commerce.
                       </p>
-                      <h4>Mission</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i> To empower students
-                          through knowledge and information. To meet the
-                          challenges of a complex and modern society through
-                          informed social outreach. To be one of the premier
-                          institution in the field of Engineering and Technology
-                          and to achieve excellence in teaching.
-                        </li>
-                      </ul>
                       <h4>Vision</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> The department aims to
-                          being recognized as a promoter of computing
-                          Technologies and their applications.
+                          <i className="fa fa-check"></i> To establish the department which helps the IT Engineers to excel
+the concept in research, problem solving, innovation, and entrepreneurship to meet the
+global demands through industry and academia collaboration.
+                        </li>
+                      </ul>
+                      <h4>Mission</h4>
+                      <ul>
+                        <li>
+                          <i className="fa fa-check"></i> MD 1 : Enable the students to understand concept by adopting effective teaching
+learning process for solving complex problems
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To produce competent
-                          computer science professionals to the constantly
-                          evolving IT sector.
+                          <i className="fa fa-check"></i> MD2: To impart knowledge through implementing and adapting to emerging
+technology.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To create linkages
-                          between industry and academy for better absorption in
-                          job market.
+                          <i className="fa fa-check"></i> MD 3: To inculcate the urge for lifelong learning along with professional and ethical
+practices.
                         </li>
                       </ul>
                       <h4>Program Educational Objectives (PEOs)</h4>
@@ -152,21 +148,16 @@ const it = () => {
                       <ul>
                         <li>
                           <i className="fa fa-check"></i>PEO 1 :
-                          Apply knowledge of mathematics and Information
-                          Technology to analyze, design and implement solutions
-                          for real world problems in core or in
-                          multidisciplinary areas.
+                          To develop strong computational capabilities to provide innovative programming
+solutions.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 2 : Communicate
-                          effectively, work in a team, practice professional
-                          ethics and apply knowledge of computing technologies
-                          for societal development.
+                          <i className="fa fa-check"></i>PEO 2 : To make Students employable through efficient training for programming
+experts worldwide.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Engage in Professional
-                          development or postgraduate education to be a
-                          life-long learner.
+                          <i className="fa fa-check"></i> Exhibit commitment to ethical practices societal contribution and lifelong
+learning.
                         </li>
                       </ul>
                     </div>

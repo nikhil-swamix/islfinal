@@ -49,8 +49,8 @@ const hns = () => {
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
                       <p>Head of Department</p>
-                      <h6 className="title">Mohd Mukarram Uddin</h6>
-                      <p className="edu">M.Tech</p>
+                      <h6 className="title">Dr. Md Ibraheem Altaf</h6>
+                      <p className="edu">M.Sc., PhD.</p>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
@@ -98,7 +98,7 @@ const hns = () => {
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
                     <div className="">
-                      <h4>Course Description</h4>
+                      {/* <h4>Course Description</h4>
                       <p>
                         Electrical engineering is a field of engineering that
                         generally deals with the study and application of
@@ -112,38 +112,29 @@ const hns = () => {
                         integrated circuit, brought down the cost of electronics
                         to the point they can be used in almost any household
                         object.
+                      </p> */}
+                      <h4>Vision</h4>
+                      <p>To establish the department as a launching pad for young engineers to
+become successful professionals in their respective field; by
+providing conducive atmosphere that encrouges critical thinking,
+research, innovation, ethics and lifelong learning.
+
                       </p>
+                      
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To equip students with
-                          the knowledge of CAD.
+                          <i className="fa fa-check"></i> MD 1 : To implement the curriculum through effective teaching learning
+process that promotes conceptual learning.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To train students on
-                          controlling and monitoring of real-time machinery.
+                          <i className="fa fa-check"></i> MD 2 : To enculcate professional skills by adopting new emerging
+Technologies.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> To develop basic,
-                          medium and large scale project with creative, logical
-                          and Critical orientation.
-                        </li>
-                      </ul>
-                      <h4>Vision</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i> To develop the
-                          department into a full fledged centre of learning.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To contribute dynamic,
-                          competent, knowledgeable electrical engineers to the
-                          nation for a brighter world.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To create linkages
-                          between industry and academy for better absorption in
-                          job market.
+                          <i className="fa fa-check"></i> MD 3 : To provide co-curricular and extracurricular activities through
+student clubs, mentoring and motivation for their holistic
+development.
                         </li>
                       </ul>
                       <h4>Program Educational Objectives (PEOs)</h4>

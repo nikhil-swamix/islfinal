@@ -84,7 +84,7 @@ const Naac = () => {
 
             <Col lg={12} md={12}>
               <div className='mt-5 text-right'>
-                <Button onClick={handleLogout} variant="danger">Logout</Button>{' '}
+                {/* <Button onClick={handleLogout} variant="danger">Logout</Button>{' '} */}
               </div>
 
              <section className="dept-tabs mt-30">

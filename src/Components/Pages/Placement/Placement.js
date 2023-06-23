@@ -91,20 +91,51 @@ const Exambranch = () => {
           </Row>
         </Container>
       </section>
+
       <section className="mt-60 mb-60 placement">
         <Container>
-          <Row>
-            <Col md={4} className="sidebar academic">
-              <Slide />
-              <Sidebar />
-            </Col>
 
-            <Col md={8}>
+          <div className="tab-content tab-content-info text-justify ">
+    
+           <div className="">
+             <h4>vision</h4>
+             <ul>
+                 <li>
+                  To enhance the skills of students through rigorous training in all spheres aimed at making them employable and placed through campus recruitment.
+                 </li>
+              </ul>
+
+
+             <h4>Mission</h4>
+  
+               <ul>
+                 <li>
+                   <i className="fa fa-check"></i> MD1 : To empower students through knowledge sharing and adapting to emerging technology.
+                 </li>
+                 <li>
+                    <i className="fa fa-check"></i> MD2 : To equip students with cutting-edge tools for adapting to the demands of a global economy.
+                 </li>
+        
+                 <li>
+                   <i className="fa fa-check"></i> MD3 : To inculcate the urge for lifelong learning along with professional and ethical practices.
+                 </li>
+                </ul>
+            </div>
+          </div>
+
+          <Row>
+          <Col md={8}>
             <div className="title">
               <h4>Placement News</h4>
             </div>
               <Table />
             </Col>
+
+            <Col md={4} className="sidebar academic">
+              <Slide />
+              <Sidebar />
+            </Col>
+
           </Row>
         </Container>
       </section>
