@@ -55,7 +55,7 @@ class Slide extends React.Component {
               )
             })
           ) : (
-            <Skeleton height={350} width={640} />
+            <Skeleton  width={640} height={360} />
           )}
         </Carousel>
       </React.Fragment>

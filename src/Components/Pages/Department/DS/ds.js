@@ -51,7 +51,7 @@ const cse = () => {
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
                       <p>Head of Department</p>
-                      {/* <h6 className="title">Dr. Mohammed Abdul Bari</h6> */}
+                      <h6 className="title">S. Md.Mazhar ul haq</h6>
                     </div>
                   </div>
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
@@ -286,17 +286,52 @@ pursuing higher education to augment career development
     </tr>
     <tr>
         <td>1</td>
-        <td>Mr.Vaibhav Lall</td>
-        <td>Asst.Prof</td>
+        <td>Dr. UPPARA NARESH</td>
+        <td>Associate Prof</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>Mrs.Syeda Anjum Sultana</td>
+        <td>Syed Shah Mehmood Sarmasth</td>
         <td>Asst.Prof</td>
     </tr>
     <tr>
         <td>3</td>
-        <td>Aleemuddin Syed</td>
+        <td>Mr. SYED ABDUL WAHAB ASIF</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mr. S Mohammed Mazhar-Ul- Haq</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mrs.Imreena Ali</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Dr. Mohd Azam</td>
+        <td>Associate Prof</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Mr. A.Raja Shekar</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Mr.Akmal Hussain</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mrs.Hadiya sameen</td>
+        <td>Asst.Prof</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Mohd faisal</td>
         <td>Asst.Prof</td>
     </tr>
                     </Table>

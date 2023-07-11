@@ -95,7 +95,7 @@ const mba = () => {
                     <Tab>Overview</Tab>
                     <Tab>Syllabus</Tab>
                     <Tab>Faculty</Tab>
-                    <Tab>Departmental Events</Tab>
+                    {/* <Tab>Departmental Events</Tab> */}
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">

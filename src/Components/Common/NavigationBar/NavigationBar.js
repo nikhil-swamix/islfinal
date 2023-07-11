@@ -118,8 +118,8 @@ const NavigationBar = () => {
                 <div className="header_right text-center mt-10 copyright social text-md-right">
                   <ul className="header_ul">
                     <li>
-                      <a href="https://islengg.ac.in#">
-                        EAMCET, ECET & ICET Code : <b>ISLC</b>
+                      <a href="/#">
+                        EAMCET, ECET, ICET & PGECET Code : <b>ISLC</b>
                       </a>
                     </li>
                    
@@ -130,7 +130,7 @@ const NavigationBar = () => {
           </Container>
         </div>
       </header>
-      <Navbar collapseOnSelect expand="md" bg="light" variant="light">
+      <Navbar collapseOnSelect expand="md" bg="light" variant="light" >
         <Navbar.Brand as={Link} to="/" className="m-auto">
           <img
             src="https://islec.edu.in/allimages/MainLogo.png"

@@ -49,6 +49,14 @@ const cse = () => {
 
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
+                  <div className="media_image">
+                      <img
+                        className="author"
+                        src="https://www.islec.edu.in/docs/cse/csehod.jpg"
+                        alt="author"
+                      />
+                    </div>
+
                     <div className="media_content media-body">
                       <h6 className="title">Dr. Mohammed Abdul Bari</h6>
                       <p>Head of Department</p>
@@ -101,20 +109,22 @@ const cse = () => {
                     <div className="">
                       <h4>Course Description</h4>
                       <p>
-                        Computer Science is the study of the theory,
-                        experimentation, and engineering that form the basis for
-                        the design and use of computers. This Department give
-                        exposure to its students not only of Curriculum but also
-                        to various skills areas required by IT industry.Soft
-                        skills training and certification is an ongoing process
-                        for students of the department.
+                      Department of CSE has started its UG program BE(CSE) in the year 2008 with an intake of 60. At present the department has expanded to 180 students. M. Tech in CSE was started in the year 2021 with an intake of 18. The intellectual ambiance in CSE Department is conducive to the holistic development of the students with well-equipped labs.
                       </p>
                       <p>
-                        The department has strong link with local IT companies
-                        with whom students can do projects training internship
-                        and mentor-ship sessions various technical training
-                        courses are held to equip students with latest trend.
+                      CSE department is in process of recognized research under Osmania University. Faculty and students have few patents to their credit. Department of CSE has center of excellence approved from Osmania University.
                       </p>
+                      <p>Department has committed well qualified and professionally active staff and most of the staff are pursuing Ph.D. in emerging areas like AI, ML, Cyber Security, Data Science, Data Mining, and Block Chain.</p>
+                      <p>Department is conducting the workshops and certifications under EduSkills, EC-Council. Various activities are conducted in collaboration with professional bodies like CSI, ISTE along with student branches of IEEE and CSI.</p>
+                      <p>The placement records of the CSE department are exceptional, students getting placed in various MNC. Our placement record has been consistent with the placement record more of students placed every year. Top companies that visited the campus for placements. The number of students who are doing internships is gradually increasing every year.</p>
+
+                      <h4>ABOUT THE HOD</h4>
+
+                      <p><b>Dr. Mohammed Abdul Bari</b> – Currently Working as Professor and HOD in CSE Dept , ISL Engineering College ,having More than 15 years of teaching experience in reputed Engineering Colleges in India, Europe, and Gulf University. More than 49 international journals, including, IEEE, Elsevier and Springer     Co-Author of 3(Three) books, Strong knowledge of relational databases (RDBMS), data modelling, SAP, Software Engineering, and Manet. 3 Patent, I2OR National Eminent Researcher Award 2020. Double Masters, Cisco Certified., Reviewer of Conference CSAE-2019, Reviewer Journal Mathematics and Computer Science (MCS), ICACECS-Springer; AWS Cloud Practitioner Certified, Juniper Networks Cloud, Designed Syllabus VII Sem Osmania University -Cyber Security & Forensic Subjects. 2022, Cloud & DevOps 6 months course from the school of Continuing & Distance Education (SCDE) -JNTUH.</p>
+
+
+
+
                       <h4>Vision</h4>
                       <p>
                       To Establish the department as a centre of learning and innovation in computing and its applications, to produce successful graduates in computer science & engineering through collaboration between industry and academician to meet the global demand.
@@ -257,6 +267,66 @@ const cse = () => {
                   <TabPanel>
                     <div className="syll text-center">
                       <Syllabus />
+
+                      <Table className='striped bordered hover'>
+                        <tr>
+                          <th>Lab</th>
+                          <th>Download</th>
+                        </tr>
+
+                        <tr>
+                          <td>ADVANCED COMPUTER SKILLS LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/ACS_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+
+                        <tr>
+                          <td>COMPUTER NETWORKS LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/CN_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>  
+                        <tr>
+                          <td>COMPUTER ORGANIZATION LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/CO_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>DESIGN AND ANALYSIS OF ALGORITHMS LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/DAA_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>DATABASE MANAGEMENT SYSTEMS LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/DBMS_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>DISTRIBUTED SYSTEM LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/DISTRIBUTED_SYSTEM_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>DATA STRUCTURESAND ALGORITHMS LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/DSA_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>DATA SCIENCE LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/DSR_LAB FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>MACHINE LEARNING LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/ML_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>OOPS USING JAVA LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/OOP_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>OPERATING SYSTEM LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/OS_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+                        <tr>
+                          <td>SOFTWARE ENGINEERING LAB</td>
+                          <td><a href='https://islec.edu.in/docs/cse/LAB/SE_LAB_FINAL.pdf'><i class="fa fa-download" aria-hidden="true"></i> </a></td>
+                        </tr>
+
+
+                      </Table>
+
                     </div>
                   </TabPanel>
                  
@@ -455,14 +525,141 @@ const cse = () => {
                   
 
                   <TabPanel>
-                    <div className="syll text-center">
-                      <p>Infrastructure</p>
+                    <div className="syll">
+                      <h4>INFRASTRUCTURE</h4>
+
+                      <div className='mt-30'>
+                      <Row>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Infra/in1.png" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Infra/in2.png" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Infra/in3.png" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Infra/in5.JPG" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Infra/in3.JPG" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                      </Row>
+                      </div>
                     </div>
                   </TabPanel>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
                     <div className="">
                       <h4>Departmental Events</h4>
+
+                      <Row>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/career_guidance.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/interview.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/fullstack.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/hackathon.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/phishing.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/python.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/ISRO.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/cell.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+                        <Col md={4}>
+                        <div className="card mb-10">
+                          <img className="card-img-top" src="https://islec.edu.in/docs/cse/Events/higher.jpg" alt="CardImage " />
+                            {/* <div className="card-body">
+                              <h6 className="card-title">Computer Lab</h6>
+                            </div> */}
+                        </div>
+                        </Col>
+
+                        
+                      </Row>
+
+
                       <ul>
                         <li><a href='https://islec.edu.in/docs/cse/Club_Activities-Red_Hat.pdf'><h6>
                           Club Activities-Red Hat <i class="fa fa-external-link" aria-hidden="true"></i></h6></a>
@@ -496,6 +693,12 @@ const cse = () => {
                     <div className="">
                       <h4>Student Resources</h4>
                       <ul className='mt-30'>
+                        <li>
+                          <i className="fa fa-angle-double-right"></i><a href='https://islec.edu.in/docs/cse/Resources/EC_Council.pdf'> MoU | EduSkills </a>
+                        </li>
+                        <li>
+                          <i className="fa fa-angle-double-right"></i><a href='https://islec.edu.in/docs/cse/Resources/EC_Council.pdf'> MoU | EC-Council </a>
+                        </li>
                         <li>
                           <i className="fa fa-angle-double-right"></i><a href='/#'> Academic Email usage Policy </a>
                         </li>

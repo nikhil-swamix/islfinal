@@ -19,7 +19,7 @@ import Event from './Components/Pages/Event'
 import Contact from './Components/Pages/contact'
 import Chairman from './Components/Pages/About/chairman'
 import Principal from './Components/Pages/About/principal'
-import Research from './Components/Pages/Research/components/publication'
+import Research from './Components/Pages/Research/research'
 import NavBar from './Components/Common/NavigationBar'
 import Footer from './Components/Common/Footer'
 import Payment from './Components/Pages/Other/components/payment'
@@ -35,19 +35,20 @@ import Faculty from './Components/Pages/Other/components/faculty'
 import Naac from './Components/Pages/Other/components/naac'
 import Dvv from './Components/Pages/Other/components/dvv'
 import Nirf from './Components/Pages/Other/components/nirf'
+import IQAC from './Components/Pages/Other/components/iqac'
 import Committees from './Components/Pages/Other/components/committees'
 
-// import SSRLogin from './Components/SSRLogin'
-// import DVVLogin from './Components/DVVLogin'
-// import SSRPrivateRoute from './Components/SSRRoute';
-// import DVVPrivateRoute from './Components/DVVRoute';
+import SSRLogin from './Components/SSRLogin'
+import DVVLogin from './Components/DVVLogin'
+import SSRPrivateRoute from './Components/SSRRoute';
+import DVVPrivateRoute from './Components/DVVRoute';
 
 
 import NotFound from './Components/Pages/NotFound'
-import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 function App() {
-  const [authenticated, setAuthenticated] = useState(false);
+ const [authenticated, setAuthenticated] = useState(false);
 
 
   return (
@@ -55,10 +56,10 @@ function App() {
       <Router>
         <NavBar />
         <Switch>
-        {/* <Route exact path='/SSRlogin' render={() => <SSRLogin setAuthenticated={setAuthenticated} />} />
+        <Route exact path='/SSRlogin' render={() => <SSRLogin setAuthenticated={setAuthenticated} />} />
         <Route exact path='/DVVlogin' render={() => <DVVLogin setAuthenticated={setAuthenticated} />} />
         <SSRPrivateRoute exact path='/naac' authenticated={authenticated} component={Naac} setAuthenticated={setAuthenticated} />
-        <DVVPrivateRoute exact path='/dvvs' authenticated={authenticated} component={Dvv} setAuthenticated={setAuthenticated} /> */}
+        <DVVPrivateRoute exact path='/dvvs' authenticated={authenticated} component={Dvv} setAuthenticated={setAuthenticated} />
 
           <Route exact path="/" component={Home} />
           <Route path="/syllabus" component={Syllabus} />
@@ -93,6 +94,7 @@ function App() {
           <Route path="/naac" component={Naac} />
           <Route path="/dvvs" component={Dvv} />
           <Route path="/nirf" component={Nirf} />
+          <Route path="/iqac" component={IQAC} />
           <Route path="/committees" component={Committees} />
 
           <Route component={NotFound} />

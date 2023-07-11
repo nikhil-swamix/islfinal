@@ -98,6 +98,12 @@ const hns = () => {
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
                     <div className="">
+                      <h4>HoD Profile</h4>
+                      <p><b>Dr. Mohammed Ibraheem Altaf</b> graduated from osmania university in the year 2001 and proceeded to obtain M.Sc from Osmania University in the year 2003.
+In his quest for betterment he obtained M.Phil in 2005, B.Ed in the year 2006 and finally he was awarded Doctrate in Philosophy in the year 2019.
+</p>
+                      <p>With 20 years of teaching experience and vast industry experience. He is the author of 2 books and 10 papers which were published in various international journals, attended various conferences, workshops and faculty development programs and is the holder 2 patents.</p>
+                      <p>Now as the Head of the Department of Humanities and Sciences in ISLEC he strives to give quality education and ample opportunity for growth to the leaders of tomorrow. </p>
                       {/* <h4>Course Description</h4>
                       <p>
                         Electrical engineering is a field of engineering that

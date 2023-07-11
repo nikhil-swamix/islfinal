@@ -53,7 +53,7 @@ const ece = () => {
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
                     <div className="media_content media-body">
                     <h6 className="title">Dr. Abdul Mateen Ahmed</h6>
-                      <p>Head of Department</p>
+                      <p>Head of the Department</p>
                       <p className="edu">M.Tech, Ph.D(IITH)</p>
                     </div>
                   </div>
@@ -114,46 +114,25 @@ const ece = () => {
                         typically also designs passive electrical components,
                         usually based on printed circuit boards.
                       </p>
+                      <h4>Vision</h4>
+                      <p>To establish the department of Electronics & Communication Engineering as
+a centre of excellence in research and training; to produce Electronics and
+Communication Engineers with enhanced capabilities through Industry and
+Academia collaboration to meet the global demand.</p>
+
+
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To inculcate a spirit
-                          of scientific temper and analytical thinking, and
-                          train the students in contemporary technologies.
+                          <i className="fa fa-check"></i> MD 1: To inculcate a spirit of scientific temper and analytical thinking, and to
+solve technological problems in real time.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Establish a unique
-                          learning environment to enable the students to face
-                          the challenges of the outside world.
+                          <i className="fa fa-check"></i> MD 2: To impart practical knowledge through state of the art labs.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i> Enable students to
-                          develop skills to solve complex technological problems
-                          of current times.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To motivate, mould and
-                          transform individuals to aspire bigger, work harder,
-                          think smarter and contribute towards green
-                          engineering.
-                        </li>
-                      </ul>
-                      <h4>Vision</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i> To produce finest
-                          Electronics & Communication Engineers in India.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To establish the
-                          department of Electronics & Communication as centre of
-                          excellence in research and training.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i> To create linkages
-                          between industry and academia for enhanced
-                          capabilities aimed at becoming multidisciplinary
-                          entrepreneurship.
+                          <i className="fa fa-check"></i> MD 3: To motivate, inculcate a habit of lifelong learning adhering to
+professional and ethical practices.
                         </li>
                       </ul>
                       <h4>Program Educational Objectives (PEOs)</h4>

@@ -45,11 +45,11 @@ const Payment = () => {
                         </div>
                         <div class="courses_sidebar_title">
                             {/* <h4 class="title">Miscellaneous Fee</h4> */}
-                            <h4 class="title">Miscellaneous & OU Exam Fee</h4>
+                            <h4 class="title">OU Exam Fee</h4>
                         </div>
                         <div class="courses_sidebar_list">
                             <ul class="list">
-                                <li> Last Date: 24-04-2023</li>
+                                <li> Last Date: 25-07-2023</li>
                                 <li><a href="https://drive.google.com/file/d/15kRu5fi0k_W120LYjJG8egg_6Y16b1Lx/view?usp=sharing"><i class="fa fa-eye"></i> View Notification </a></li>
                             </ul>
                             <ul class="list">

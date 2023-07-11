@@ -114,77 +114,39 @@ const ce = () => {
                         lab give a stiff competition to the best in the sector.
                       </p>
 
+                      <h4>Vision</h4>
+                      <p>
+                      To establish the department of Civil Engineering as a center of excellence in acadamics and research,to produce civil engineering graduates with enhanced capabilities through industry and acadamia collabration
+                      </p>
+
+
                       <h4>Mission</h4>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i> To formulate and solve
-                          civil engineering problems that need specified
-                          performance cost time safety and other quality needs.
+                          <i className="fa fa-check"></i> MD1: To enhance technical skills among the students by adopting effective teaching-learning processes.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>To exposed students to
-                          hands on lab experience with latest softwares.
-                        </li>
-
-                        <li>
-                          <i className="fa fa-check"></i>To align students
-                          conceptual knowledge to real time application there by
-                          developing prototypes using cement coarse and fine
-                          aggregates.
-                        </li>
-                      </ul>
-                      <h4>Vision</h4>
-                      <ul>
-                        <li>
-                          <i className="fa fa-check"></i>Emerge as a Centre of
-                          excellence in civil engineering providing best in
-                          class facilities.
+                          <i className="fa fa-check"></i> MD2: To impart knowledge through state of the art labs to produce sustainable material and design.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>Foster on generation of
-                          thinkers planners and executors.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i>Create linkages between
-                          industry and academy for better absorption in job
-                          market.
+                          <i className="fa fa-check"></i> MD3: To inculcate and urge for life long learning ,adhering  to professional and ethical practices
                         </li>
                       </ul>
                       <h4>Program Educational Objectives (PEOs)</h4>
                       <p>
                         Program educational objectives are broad statements that
                         describe the career and professional accomplishments
-                        that the program is preparing the graduates to achieve.
+                        that the program is preparing the students to achieve.
                       </p>
                       <ul>
                         <li>
-                          <i className="fa fa-check"></i>PEO 1 : A strong foundation in
-                          mathematics, basic sciences and engineering
-                          fundamentals, to successfully compete for entry-level
-                          positions or pursue postgraduate programme in Civil
-                          Engineering and related fields.{' '}
+                          <i className="fa fa-check"></i>PEO 1 : To prepare students to excel in undergraduate and graduate programs and to succeed as a successful Civil Engineers to take up professional challenges throughout the globe.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 2 : ontemporary Civil
-                          Engineering professional skills, collection, analysis
-                          / interpretation and presentation of data, including
-                          hands-on laboratory experience, exposure to modern
-                          software, creativity, and innovation to successfully
-                          compete in the local, national and global market.{' '}
+                          <i className="fa fa-check"></i>PEO 2 : To train students with  scientific and engineering concepts so as to comprehend, analyze, design and pursue innovative, challenging projects for real time application.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 3 : Strong communication
-                          and interpersonal skills, broad knowledge and an
-                          understanding of multicultural and global perspectives
-                          to work effectively in multidisciplinary teams, both
-                          as team members and leaders.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i>PEO 4 : Integral development
-                          of the personality to deal with ethical and
-                          professional issues, taking into account the broader
-                          societal implications of civil engineering and also
-                          develop independent and lifelong learning.
+                          <i className="fa fa-check"></i>PEO 3 : To groom the students with excellent leadership,qualities, moral values  for a successful professional career.
                         </li>
                       </ul>
                     </div>
@@ -309,6 +271,33 @@ const ce = () => {
 
                   <TabPanel>
                     <div className="syll text-center">
+
+                      
+                    <Table className='striped bordered hover'>
+                     <tr>
+                        <th>Name</th>
+                        <th>View</th>
+                     </tr>
+                     <tr>
+                        <td>CIVIL PAPER PUBLICATION 2022-2023</td>
+                        <td><a href='https://islec.edu.in/docs/ce/publications/CIVIL_2022-2023.pdf'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>CIVIL PAPER PUBLICATION 2021-2022</td>
+                        <td><a href='https://islec.edu.in/docs/ce/publications/CIVIL_2021-2022.pdf'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>CIVIL PAPER PUBLICATION 2020-2021</td>
+                        <td><a href='https://islec.edu.in/docs/ce/publications/CIVIL_2020_2021.docx'>View</a></td>
+                     </tr>
+                     <tr>
+                        <td>CIVIL PAPER PUBLICATION 2019-2020</td>
+                        <td><a href='https://islec.edu.in/docs/ce/publications/CIVIL_2019-2020.pdf'>View</a></td>
+                     </tr>
+
+
+                    </Table>
+
                       <TableP />
                     </div>
                   </TabPanel>
