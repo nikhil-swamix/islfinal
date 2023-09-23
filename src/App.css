@@ -9,6 +9,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+/* In your CSS file, e.g., App.css */
+.instagram-embed-caption {
+  display: none;
+}
+p {
+  font-size: 16px !important;
+}
+
 .capital{
   text-transform: uppercase;
 }

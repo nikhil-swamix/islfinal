@@ -37,6 +37,7 @@ import Dvv from './Components/Pages/Other/components/dvv'
 import Nirf from './Components/Pages/Other/components/nirf'
 import IQAC from './Components/Pages/Other/components/iqac'
 import Committees from './Components/Pages/Other/components/committees'
+import Nisp from './Components/Pages/Other/components/nisp'
 
 import SSRLogin from './Components/SSRLogin'
 import DVVLogin from './Components/DVVLogin'
@@ -85,6 +86,7 @@ function App() {
           <Route path="/placement" component={Placement} />
           <Route path="/library" component={Library} />
           <Route path="/approvals" component={Approval} />
+          <Route path="/nisp" component={Nisp} />
 
           <Route path="/payment" component={Payment} />
           <Route path="/nptel" component={Nptel} />

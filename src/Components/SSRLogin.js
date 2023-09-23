@@ -23,7 +23,7 @@ const SSRLogin = ({ setAuthenticated }) => {
   return (
     <div>
       <Container className='mt-50 mb-100'>
-        <Row>
+        <Row  className='justify-content-center'>
           <Col md={5}>
           <h4>Login to access SSR/NAAC</h4>
 

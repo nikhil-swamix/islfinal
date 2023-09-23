@@ -22,8 +22,8 @@ const SSRLogin = ({ setAuthenticated }) => {
   return (
     <div>
       <Container className='mt-50 mb-100'>
-        <Row>
-          <Col md={5}>
+      <Row  className='justify-content-center'>
+         <Col md={5}>
             <h4>Login to access DVV</h4>
 
           <Form onSubmit={handleLogin}>

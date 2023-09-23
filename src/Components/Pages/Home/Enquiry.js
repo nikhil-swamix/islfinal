@@ -80,6 +80,8 @@ class Enquiry extends Component {
             </Modal.Header>
 
             <Modal.Body>
+
+              
               <Form onSubmit={this.submitForm}>
                 <Form.Row>
                   <Form.Group as={Col} controlId="formGridEmail">
@@ -179,26 +181,6 @@ class Enquiry extends Component {
                     />
                   </Form.Group>
 
-
-
-
-                    {/* <Form.Control
-                      required
-                      as="select"
-                      defaultValue="Select..."
-                      name="typ"
-                      value={this.state.values.typ}
-                      onChange={this.handleInputChange}
-                    >
-                      <option>Select...</option>
-                      <option value="ecet">ECET</option>
-                      <option value="eamcet">EAMCET</option>
-                      <option value="icet">ICET</option>
-                      <option value="pgcet">PGCET</option>
-                    </Form.Control> */}
-
-
-
                 </Form.Row>
 
                 <Form.Row>
@@ -291,22 +273,6 @@ class Enquiry extends Component {
                       ))}
                     </Form>
                     </Form.Group>
-
-                  {/* <Form.Group as={Col} controlId="formGridState">
-                    <Form.Label>Category</Form.Label>
-                    <Form.Control
-                      required
-                      as="select"
-                      defaultValue="Select..."
-                      name="cat"
-                      value={this.state.values.cat}
-                      onChange={this.handleInputChange}
-                    >
-                      <option>Select...</option>
-                      <option value="general">General</option>
-                      <option value="bc">BC</option>
-                    </Form.Control>
-                  </Form.Group> */}
                 </Form.Row>
 
                 <Button variant="primary" type="submit">
@@ -315,7 +281,7 @@ class Enquiry extends Component {
               </Form>
             </Modal.Body>
 
-            <div className={`message ${this.state.isError && 'error'}`}>
+            {/* <div className={`message ${this.state.isError && 'error'}`}>
               {this.state.isSubmitting ? (
                 <div className="alert alert-danger" role="alert">
                   Thank you ! We will Get Back to You Soon..
@@ -323,7 +289,7 @@ class Enquiry extends Component {
               ) : (
                 this.state.message
               )}
-            </div>
+            </div> */}
           </Modal.Dialog>
         </Modal>
 

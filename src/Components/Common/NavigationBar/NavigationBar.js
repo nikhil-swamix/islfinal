@@ -22,6 +22,7 @@ const NavigationBar = () => {
                     <li>
                       <img src='https://www.islec.edu.in/allimages/AICTE.png' height={40} alt='logo' />
                     </li>
+
                     <li>
                       <img src='https://www.islec.edu.in/allimages/MoE.png' height={40} alt='logo' />
                     </li>
@@ -36,6 +37,12 @@ const NavigationBar = () => {
                     </li>
                     <li>
                       <img src='https://i.ibb.co/KVjJxD1/IEEE.png' height={40} alt='logo' />
+                    </li>{" "}
+                    <li>
+                      <img src='https://islec.edu.in/images/NAAC_LOGO.png' height={40} alt='logo' />
+                    </li>
+                    <li>
+                      <img src='https://islec.edu.in/images/naac_a.png' height={40} alt='logo' />
                     </li>
                     {/* <li>
                       <img src='https://upload.wikimedia.org/wikipedia/en/e/e0/Csi_logo_india.jpg' height={40} alt='logo' />
@@ -104,6 +111,16 @@ const NavigationBar = () => {
                          Vision & Mission
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in/NAAC/iicUpdated.pdf" rel="noopener">
+                         <b>IIC</b>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://islec.edu.in/nisp" rel="noopener">
+                         <b>NISP</b>
+                      </a>
+                    </li>
 
                     {/* <li>
                       <Link href="#contact" >
@@ -122,7 +139,6 @@ const NavigationBar = () => {
                         EAMCET, ECET, ICET & PGECET Code : <b>ISLC</b>
                       </a>
                     </li>
-                   
                   </ul>
                 </div>
               </div>
