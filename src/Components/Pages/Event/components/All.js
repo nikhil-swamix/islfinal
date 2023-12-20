@@ -29,6 +29,8 @@ const All = () => {
       <Col md={4} lg={4} className="mt-15 mb-15">
         <Card key={_id} className="box">
           <Card.Img variant="top" src={card.img} />
+
+          
           <Card.Body>
             <Card.Title>
               <p>{card.title}{' '}

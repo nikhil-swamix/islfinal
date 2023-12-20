@@ -107,7 +107,7 @@ const NavigationBar = () => {
                       </a>
                     </li>
                     <li>
-                      <a href="https://islec.edu.in/" rel="noopener">
+                      <a href="https://islec.edu.in/college" rel="noopener">
                          Vision & Mission
                       </a>
                     </li>
@@ -119,6 +119,16 @@ const NavigationBar = () => {
                     <li>
                       <a href="https://islec.edu.in/nisp" rel="noopener">
                          <b>NISP</b>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://islec.edu.in/auditedstatements" rel="noopener">
+                         <b>Audited Statements</b>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://islec.edu.in/hrpolicy" rel="noopener">
+                         <b>HR Policy</b>
                       </a>
                     </li>
 

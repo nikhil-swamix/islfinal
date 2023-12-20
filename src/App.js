@@ -19,6 +19,7 @@ import Event from './Components/Pages/Event'
 import Contact from './Components/Pages/contact'
 import Chairman from './Components/Pages/About/chairman'
 import Principal from './Components/Pages/About/principal'
+import College from './Components/Pages/About/college'
 import Research from './Components/Pages/Research/research'
 import NavBar from './Components/Common/NavigationBar'
 import Footer from './Components/Common/Footer'
@@ -68,6 +69,7 @@ function App() {
           <Route path="/admissions" component={Admissions} />
           <Route path="/events" component={Event} />
           <Route path="/contact" component={Contact} />
+          <Route path="/college" component={College} />
           <Route path="/chairman" component={Chairman} />
           <Route path="/principal" component={Principal} />
           <Route path="/research" component={Research} />

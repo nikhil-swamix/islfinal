@@ -62,7 +62,7 @@ const research = () => {
                   </TabPanel>
 
                   <TabPanel className="tab-content tab-content-info text-justify">
-                  <h2 className='mt-50 mb-30 text-center'>IIC </h2>
+                  <h2 className='mt-50 mb-30 text-center'>Institution's Innovation Council </h2>
 
                     <ul>
                     <li><a href='https://islec.edu.in/NAAC/IIC.pdf'><h6>

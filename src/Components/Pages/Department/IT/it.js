@@ -95,7 +95,9 @@ const it = () => {
                     <Tab>Infrastructure</Tab>
                     <Tab>Department Events</Tab>
                     <Tab>Resources</Tab>
+                    <Tab>Course Materials</Tab>
                     <Tab>*Student Clubs</Tab>
+                    <a href='https://islec.edu.in/docs/paqic/it.pdf'><Tab>*PAQIC</Tab></a>
                   </TabList>
 
                   <TabPanel className="tab-content tab-content-info text-justify ">
@@ -383,6 +385,11 @@ learning.
                       </ul>
                     </div>
                   </TabPanel>
+
+                  <TabPanel>
+                    <h1 className='mt-50'>Work in progress</h1>
+                  </TabPanel>
+
 
                   <TabPanel>
                     <div className="syll text-center">
