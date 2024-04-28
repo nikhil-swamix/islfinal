@@ -48,6 +48,14 @@ const it = () => {
 
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
+                  <div className="media_image">
+                      <img
+                        className="author"
+                        src="https://www.islec.edu.in/docs/cse/ithod.jpeg"
+                        alt="author"
+                      />
+                    </div>
+
                     <div className="media_content media-body">
                     <h6 className="title">Dr. Abdul Ahad Afroz</h6>
                       <p>Head of Department</p>
