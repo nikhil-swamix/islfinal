@@ -46,6 +46,13 @@ import SSRPrivateRoute from './Components/SSRRoute';
 import DVVPrivateRoute from './Components/DVVRoute';
 
 
+import Ractivities from './Components/Pages/Research/components/activities';
+import Rfacilities from './Components/Pages/Research/components/facilities';
+
+
+import pteam from './Components/Pages/Placement/components/pteam';
+
+
 import NotFound from './Components/Pages/NotFound'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
@@ -72,7 +79,7 @@ function App() {
           <Route path="/college" component={College} />
           <Route path="/chairman" component={Chairman} />
           <Route path="/principal" component={Principal} />
-          <Route path="/research" component={Research} />
+          <Route path="/researchdevelopment" component={Research} />
           <Route path="/department/cse" component={CSE} />
           <Route path="/department/ds" component={DS} />
           <Route path="/department/mcse" component={MCSE} />
@@ -100,6 +107,13 @@ function App() {
           <Route path="/nirf" component={Nirf} />
           <Route path="/iqac" component={IQAC} />
           <Route path="/committees" component={Committees} />
+
+          <Route path="/research/activities" component={Ractivities} />
+          <Route path="/research/facilities" component={Rfacilities} />
+
+
+          <Route path="/placementTeam" component={pteam} />
+
 
           <Route component={NotFound} />
         </Switch>

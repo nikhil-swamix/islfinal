@@ -47,6 +47,14 @@ const hns = () => {
 
                 <div className="d-flex flex-wrap">
                   <div className="breadcrumb_media d-flex align-items-center mt-30">
+                  <div className="media_image">
+                      <img
+                        className="author"
+                        src="https://i.ibb.co/dL0Z218/Whats-App-Image-2024-04-26-at-4-35-49-AM.jpg"
+                        alt="author"
+                      />
+                    </div>
+
                     <div className="media_content media-body">
                       <p>Head of Department</p>
                       <h6 className="title">Dr. Md Ibraheem Altaf</h6>
@@ -297,142 +305,313 @@ development.
                   <TabPanel>
                     <div className="syll text-center">
                     <Table className='striped bordered hover'>
+
     <tr>
-        <td>S.No.</td>
-        <td>Name</td>
-        <td>Designation</td>
+        <th>S.No</th>
+        <th>Name </th>
+        <th>Designation</th>
+        <th>Date of Joinijg</th>
+        <th>Qualification</th>
+        <th>Nature of Association</th>
     </tr>
     <tr>
         <td>1</td>
-        <td>Dr. Md.Ibraheem Altaf  (Phy)</td>
-        <td>Assoc. Prof.</td>
+        <td>Dr.Md.Ibraheem Altaf</td>
+        <td>ASSOCIATE PROFESSOR</td>
+        <td>1/5/18</td>
+        <td>M.Sc.andPhD</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>Dr. Zareena Sultana  (Eng)</td>
-        <td>Assoc. Prof.</td>
+        <td>Mr. Rama Lingeshwar Rao</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>18/03/2015</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>3</td>
-        <td>Dr. Sohel Ahmed  (Eng)</td>
-        <td>Assoc. Prof.</td>
+        <td>Mr.Aziz Ehtesham</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>13/12/2021</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>4</td>
-        <td>Dr.Ravi Ramavath  (Chem)</td>
-        <td>Assoc. Prof.</td>
+        <td>Dr.MinhajAhmed</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>20/02/2017</td>
+        <td>M.Sc.andPhD</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>5</td>
-        <td>Mr.Aziz Ettesham    (Phy)</td>
-        <td>Asst.Prof</td>
+        <td>Dr.Zareena Sultana</td>
+        <td>ASSOCIATE PROFESSOR</td>
+        <td>8/8/16</td>
+        <td>M.AandPh.D</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>6</td>
-        <td>Mr. Riyaz Qureshi   (Math)</td>
-        <td>Asst.Prof</td>
+        <td>Dr.Sohel Ahmed</td>
+        <td>ASSOCIATE PROFESSOR</td>
+        <td>24/07/2015</td>
+        <td>MBA&amp;Ph.D</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>7</td>
-        <td>Mr. Vazeer Khan      (Math)</td>
-        <td>Asst.Prof</td>
+        <td>SAMEER MAJEED</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>5/10/23</td>
+        <td>MA</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>8</td>
-        <td>Mr .Kareemuddin    (Math)</td>
-        <td>Asst.Prof</td>
+        <td>Mr Smk Amjad Ali Khan</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>9/5/16</td>
+        <td>MA</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>9</td>
-        <td>Mrs. Rama Lingeshwar Rao  (Phy)</td>
-        <td>Asst.Prof</td>
+        <td>MRS NUZHATH. SULTANA</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>13/10/2023</td>
+        <td>MA</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>10</td>
-        <td>Mrs. Ayesha Hashmi  (Eng)</td>
-        <td>Asst.Prof</td>
+        <td>Dr.Mabusab</td>
+        <td>ASSOCIATE PROFESSOR</td>
+        <td>22/07/2021</td>
+        <td>M.Sc.andPhD</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>11</td>
-        <td>Mr Smk Amjad Ali Khan   (Eng)</td>
-        <td>Asst.Prof</td>
+        <td>Mrs.Bushra Riyaz</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>2/1/17</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>12</td>
-        <td>Mrs. Bushra Riyaz   (Chm)</td>
-        <td>Asst.Prof</td>
+        <td>MS.BLESSY BHAGYASREE</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>24/08/2016</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>13</td>
-        <td>Mrs.M.Ramyashree   (Chm)</td>
-        <td>Asst.Prof</td>
+        <td>Mrs.ArshiyaAnjum</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>10/10/17</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>14</td>
-        <td>Mrs. Dolly Gautam   (Ic)</td>
-        <td>Asst.Prof</td>
+        <td>Mr.Vazeer Khan</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>20/07/2017</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>15</td>
-        <td>Mrs.Kakulla Prajwala  (Cse)</td>
-        <td>Asst.Prof</td>
+        <td>MS AFIFA NAAZ</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>7/11/22</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>16</td>
-        <td>Mrs. Imreena Ali (Cse)</td>
-        <td>Asst.Prof</td>
+        <td>Mr.RiyazQureshi</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>16/11/2020</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>17</td>
-        <td>Mrs.Miriyala Gayatri  (Cse)</td>
-        <td>Asst.Prof</td>
+        <td>Mr. Md. Kareemuddin</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>15/5/2020</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>18</td>
-        <td>Mr.Mohd Abdul Mutalib (Eee)</td>
-        <td>Asst.Prof</td>
+        <td>Dr. Nawazoddin USman Patel </td>
+        <td>ASSOCIATE PROFESSOR</td>
+        <td>22/1/2024</td>
+        <td>Ph.D.</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>19</td>
-        <td>Mr .Khaja Owais Ahmed (Ic)</td>
-        <td>Asst.Prof</td>
+        <td>Mr.AVINASH PULIMAMIDI</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>21/12/2020</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>20</td>
-        <td>Mr.Abdul Bari (Ic)</td>
-        <td>Asst.Prof</td>
+        <td>Mrs.Imreena Ali</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>12/10/17</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>21</td>
-        <td>Mrs. Aqsa Fatima (Eee)</td>
-        <td>Asst.Prof</td>
+        <td>MOHD AMER</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>2/1/24</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>22</td>
-        <td>Mrs.Navaneetha M P(Eee)</td>
-        <td>Asst.Prof</td>
+        <td>SYED MOHAMMED FURQAN ISHAQUI</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>4/1/24</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>23</td>
-        <td>Mr.Jameel (Mech)</td>
-        <td>Asst.Prof</td>
+        <td>Mrs Miriyala Gayatri</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>25/05/2019</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>24</td>
-        <td>Mr.Amer Qureshi  (Civil)</td>
-        <td>Asst.Prof</td>
+        <td>MRS. ASRA SULTHANA</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>1/7/09</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>25</td>
-        <td>Mr.Syed Mohammed (Civil)</td>
-        <td>Asst.Prof</td>
+        <td>MR.MAZHAR UL HAQ</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>14/09/2020</td>
+        <td>M.Sc</td>
+        <td>Reg</td>
     </tr>
     <tr>
         <td>26</td>
-        <td>Mrs.Amtul Tahmeena (Evs)</td>
-        <td>Asst.Prof</td>
+        <td>Mr.Rajesh Sagar</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>10/6/19</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>SK KHADAR BASHA</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>31/03/2022</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>MRS. K. NANCHARI</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>25/08/2015</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>MOHD AZHERUDDIN</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>14/09/2020</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>SALAHUDDIN SHAKEEB S M</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>16/09/2020</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>M.A.RABBANI</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>6/13/12</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>MD BAHAUDDIN</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>9/23/20</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>Mr.Mohammad Jameel</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>23/09/2020</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>MR. KHAJA AWAIS AHMED</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>18/11/2019</td>
+        <td>M.E/M.Tech</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>MR.MOHD ABDUL MUHEEB</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>15/03/2021</td>
+        <td>LLM</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>36</td>
+        <td>MRS AMTULTAHMEENA</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>22/10/2021</td>
+        <td>LLB</td>
+        <td>Reg</td>
+    </tr>
+    <tr>
+        <td>37</td>
+        <td>Mr.ALEEMJAFRIMA</td>
+        <td>ASSISTANT PROFESSOR</td>
+        <td>8/7/20</td>
+        <td>LLB</td>
+        <td>Reg</td>
     </tr>
 </Table>
+   
                     </div>
 
                   </TabPanel>

@@ -33,7 +33,15 @@ const Chairman = () => {
       <div className="chairman_section mt-60 mb-60">
         <Container>
           <Row>
-            <Col lg={4}></Col>
+            <Col lg={4}>
+            <img src="https://islec.edu.in/images/chairman.jpeg"
+                 className="img-fluid d-block"
+                 width={250}
+                 height={350}
+                 alt="Principal "
+             />
+
+            </Col>
             <Col lg={8} className="text-justify">
               <p>
                 <b>Mr. Salman Ahmed</b> is carrying forward the pioneering

@@ -99,6 +99,7 @@ const ece = () => {
                     <Tab>Resources</Tab>
                     <Tab>Course Materials</Tab>
                     <Tab>*Student Clubs</Tab>
+                    <Tab>Placement</Tab>
                     <a href='https://islec.edu.in/docs/paqic/ece.pdf'><Tab>*PAQIC</Tab></a>
                   </TabList>
 
@@ -146,36 +147,20 @@ professional and ethical practices.
                       <ul>
                         <li>
                           <i className="fa fa-check"></i>
-                          PEO 1 : Core competence : Graduates will be able to
-                          provide engineering solutions with strong base of
-                          science and mathematics, subject domain knowledge for
-                          challenging problems in electronics and
-                          multidisciplinary disciplines such as IoT, Robotics
-                          and Mechatronics etc.
+                          PEO 1 : Core competence: Graduates will develop strong concepts in domain
+to solve for challenging problems in electronics and multidisciplinary
+disciplines such as IoT, Robotics and Mechatronics etc.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 2 : Career building:
-                          Graduates will be able to fulfill professional and
-                          social responsibilities effectively in all the
-                          disciplines including teaching by synchronizing
-                          theoretical and practical skills through our rigorous
-                          yet love and logic approached teaching learning
-                          methodologies.
+                          <i className="fa fa-check"></i>PEO 2 : Career building: Graduates will have strong subject knowledge by
+synchronizing beneficial topics with state of the art labs, emerging
+technologies and effective teaching learning methods to fulfil professional
+and social responsibilities around the globe.
                         </li>
                         <li>
-                          <i className="fa fa-check"></i>PEO 3 : Technical
-                          proficiency : Graduates will be able to practice
-                          analytical, creative and innovative skills in the
-                          chosen area of education, research or industrial
-                          development.
-                        </li>
-                        <li>
-                          <i className="fa fa-check"></i>PEO 4 : Managerial
-                          Skills : Graduates will be able to manage future fast
-                          communication and smart cities complex problems using
-                          moral/ethical practice, managerial and entrepreneurial
-                          skills for the welfare of country using green
-                          engineering concepts.
+                          <i className="fa fa-check"></i>PEO 3 : Technical proficiency: Graduates will be able to practice analytical,
+innovative skills in his/her chosen area to develop entrepreneurial skills for
+the welfare of society
                         </li>
                       </ul>
                     </div>
@@ -268,17 +253,17 @@ professional and ethical practices.
                         ability to engage in independent and life-long learning
                         in the broadest context of technological change.
                       </li>
+
+
                       <h4>Program Specific Outcomes</h4>
                       <li>
-                        <i className="fa fa-check"></i>PSO 1 : To design and investigate
-                        complex Electronics and communication systems for multi
-                        disciplinary tasks.
+                        <i className="fa fa-check"></i>PSO 1 : Design and Develop relevant solutions using domain knowledge with respect to Design,
+Analysis, and Implementation in the area of Communications and IOT based AI Systems
                       </li>
                       <li>
-                        <i className="fa fa-check"></i>PSO 2 : To use modern Electronic
-                        Design Automation (EDA) tools and state of art softwares
-                        to synthesize and implement Electronics and
-                        Communication Systems.
+                        <i className="fa fa-check"></i>PSO 2 : : Identify and apply domain-specific tools for design, analysis, synthesis, and validation
+of Integrated Electronic Devices and Systems and also to develop a product for
+commercialization.
                       </li>
                     </ul>
                   </TabPanel>
@@ -303,61 +288,127 @@ professional and ethical practices.
                     <div className="syll text-center">
                     <Table className='striped bordered hover'>
     <tr>
-        <th>S.No.</th>
+        <th>S.No</th>
         <th>Name</th>
-        <th>Designation</th>
+        <th>Current Designation</th>
+        <th>Date of Joining</th>
+        <th>Qualification</th>
+        <th>Nature of association (Regular / Contract/ Adjunct)</th>
     </tr>
     <tr>
         <td>1</td>
-        <td>Ms. Ayesha Sultana Mohammed Begum</td>
-        <td>Asst.Prof</td>
+        <td>Dr. M. Chandra Shekar</td>
+        <td>Professor</td>
+        <td>1/9/20</td>
+        <td>M. Tech and PhD</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>2</td>
-        <td>Ms. Zubeda Begum</td>
-        <td>Asst.Prof</td>
+        <td>Dr. Abdul Mateen Ahmed</td>
+        <td>Associate Professor</td>
+        <td>1/11/21</td>
+        <td>M. Tech and PhD</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>3</td>
-        <td>Mr. Shubhakar</td>
-        <td>Asst.Prof</td>
+        <td>Dr. Surya Mukhi</td>
+        <td>Associate Professor</td>
+        <td>7/3/17</td>
+        <td>M. Tech and PhD</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>4</td>
-        <td>Mr. Syed Sultan Mehmood</td>
-        <td>Asst.Prof</td>
+        <td>Ms. Ayesha Sultana</td>
+        <td>Assistant Professor</td>
+        <td>1/2/17</td>
+        <td>M.E</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>5</td>
-        <td>Mr. Mohammed Jayeed</td>
-        <td>Asst.Prof</td>
+        <td>Ms. Zubeda Begum</td>
+        <td>Assistant Professor</td>
+        <td>1/6/17</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>6</td>
-        <td>Mr. Ahsan Jameel</td>
-        <td>Asst.Prof</td>
+        <td>Mr. Mohammed Jayeed</td>
+        <td>Assistant Professor</td>
+        <td>2/7/18</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>7</td>
-        <td>Mr. Syed Zaffar Mahmood</td>
-        <td>Asst.Prof</td>
+        <td>Mr. Ahsan Jameel</td>
+        <td>Assistant Professor</td>
+        <td>9/7/12</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>8</td>
-        <td>Dr. Chandra Shekar</td>
-        <td> Professor</td>
+        <td>Mr. Syed Zaffar Mahmood</td>
+        <td>Assistant Professor</td>
+        <td>23-08-2018</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>9</td>
-        <td>Dr. Abdul Mateen</td>
-        <td>Assoc. Prof.</td>
+        <td>Ms. Syeda Bushra Fatima</td>
+        <td>Assistant Professor</td>
+        <td>17-03-2023</td>
+        <td>M.E</td>
+        <td>Regular</td>
     </tr>
     <tr>
         <td>10</td>
-        <td>Dr. Mohammed Azam</td>
-        <td>Assoc. Prof.</td>
+        <td>Ms. Ahmed Unnisa</td>
+        <td>Assistant Professor</td>
+        <td>17-04-2017</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
     </tr>
-</Table>
+    <tr>
+        <td>11</td>
+        <td>Mr. B. Madhukar</td>
+        <td>Assistant Professor</td>
+        <td>1/6/18</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Ms. Shaheen Fatima</td>
+        <td>Assistant Professor</td>
+        <td>9/2/15</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Mr. MD. Saiful Islam</td>
+        <td>Assistant Professor</td>
+        <td>18-03-2024</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Mr. MD. Ashraf</td>
+        <td>Assistant Professor</td>
+        <td>1/4/24</td>
+        <td>M.Tech</td>
+        <td>Regular</td>
+    </tr>
+    
+                    </Table>
 
 
                     </div>
@@ -395,14 +446,818 @@ professional and ethical practices.
                   </TabPanel>
 
                   <TabPanel>
-                    <h1 className='mt-50'>Work in progress</h1>
+                    <h4 className='mt-50'>Work in progress</h4>
                   </TabPanel>
 
                   <TabPanel>
                     <div className="syll text-center">
-                      <p>Student Clubs</p>
+                      <h4>Student Clubs</h4>
                     </div>
                   </TabPanel>
+
+                  <TabPanel>
+                    <div className="syll text-center">
+                      <h4>Year of Passing , A.Y.- 2022-2023</h4>
+                      <Table>
+    <tr>
+        <th>Sl.No</th>
+        <th>Name Of The Student</th>
+        <th>Roll.No</th>
+        <th>Salary Per Annum</th>
+        <th>On/Off Campus</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Katam Pravidik Reddy </td>
+        <td>160519735006</td>
+        <td>3.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mohammed Nazeer</td>
+        <td>160519735013</td>
+        <td>3.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Khudeja Rafiya </td>
+        <td>160519735003</td>
+        <td>3.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Mir Azam Ali</td>
+        <td>160519735019</td>
+        <td>3.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Hafsa Fatima </td>
+        <td>160519735024</td>
+        <td>3.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Kazi Anwarullah Siddiqui</td>
+        <td>160519735027</td>
+        <td>3.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Md. Javeed Ahmed</td>
+        <td>160519735029</td>
+        <td>3.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Lubna Maheen</td>
+        <td>160519735313</td>
+        <td>3.10 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mohammed Abdullah Ali</td>
+        <td>160519735306</td>
+        <td>3.10 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Mohammed Imtiyaz </td>
+        <td>160519735047</td>
+        <td>3.10 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Mohd Waseem Ali Siddique</td>
+        <td>160519735309</td>
+        <td>3.10 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Syed Ghouse Ahmed</td>
+        <td>160519735311</td>
+        <td>3.10 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Summya Samreen</td>
+        <td>160519735305</td>
+        <td>3.10 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Bajrai Salam</td>
+        <td>160519735009</td>
+        <td>4.15 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>Zaki Ahmed Siddiqui </td>
+        <td>160519735017</td>
+        <td>4.15 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Shabnam Fathima </td>
+        <td>160519735014</td>
+        <td>4.15 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Mohammed Tajdaar</td>
+        <td>160519735025</td>
+        <td>4.15 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>Shaik Jaffer Faiyaz</td>
+        <td>160519735031</td>
+        <td>4.15 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>Syed Maroof Ali</td>
+        <td>160519735036</td>
+        <td>3.6 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>Mohammed Shareeq Uddin</td>
+        <td>160519735037</td>
+        <td>3.6 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>Shaik Sahil Riyaz</td>
+        <td>160519735042</td>
+        <td>3.6 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Syed Ikram Uddin</td>
+        <td>160519735303</td>
+        <td>3.6 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>Syed Ameenul Hassan</td>
+        <td>160519735304</td>
+        <td>3.6 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>Mir Ahmed Ali Khan</td>
+        <td>160519735316</td>
+        <td>3.6 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>Syed Ashraf Ahmed</td>
+        <td>160519735312</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Shaik Arbaz</td>
+        <td>160519735310</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>Mohammed Ghouse Uddin</td>
+        <td>160519735308</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+</Table>
+
+
+                        <h4 className='mt-35 mb-15'>Year of Passing , A.Y.- 2021-2022</h4>
+
+                        <Table>
+      <tr>
+        <th>Sl.No</th>
+        <th>Name Of The Student</th>
+        <th>Roll.No</th>
+        <th>Salary Per Annum</th>
+        <th>On/Off Campus</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mohd Rasheed</td>
+        <td>160518735306</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mohd Viquar Uddin</td>
+        <td>160518735075</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Syed Shahab</td>
+        <td>160518735001</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Shayesta Naaz</td>
+        <td>160518735002</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Sumaiya Sulthana</td>
+        <td>160518735004</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mohammed Muzzamil Khan</td>
+        <td>160518735005</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td> S. Dinesh Choudhary</td>
+        <td>160518735011</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Mohammed Azizuddin</td>
+        <td>160518735012</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mohammed Khaleel</td>
+        <td>160518735015</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>     10</td>
+        <td> Ali Hussain</td>
+        <td>160518735017</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Mohammed Abdul Sattar</td>
+        <td>160518735020</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Mohd Shamsuddin</td>
+        <td>160518735021</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Mohammed Abdul Azam</td>
+        <td>160518735022</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Mohammed Anas Ahmed</td>
+        <td>160518735023</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td> Sana Sultana</td>
+        <td>160518735024</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Syed Fahad Uddin</td>
+        <td>160518735025</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Shaik Mohammed Junaid</td>
+        <td>160518735033</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>Mariya Tasneem</td>
+        <td>160518735034</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>     19</td>
+        <td>Nudiya Anjum</td>
+        <td>160518735037</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>Mohammed Eshaan Ali</td>
+        <td>160518735039</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>MohdAfroz</td>
+        <td>160518735043</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Jaber Bin Omer</td>
+        <td>160518735045</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td> Mohammed Muzzammil Uddin Arham</td>
+        <td>160518735046</td>
+        <td>4.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td> Syed Abdul Majeed Ahmed</td>
+        <td>160518735047</td>
+        <td>4.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>Mohammed Musharaf Uddin </td>
+        <td>160518735049</td>
+        <td>4.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Mohd Ismail Ahmed</td>
+        <td>160518735054</td>
+        <td>3.36 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>Safiullah Sayeed</td>
+        <td>160518735059</td>
+        <td> 3.36 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>Mirza Arbaz Ali Baig</td>
+        <td>160518735061</td>
+        <td>3.4 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>Shaik Ahmed Hussain</td>
+        <td>160518735063</td>
+        <td>      3.4 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>Mohammad Rumman Haseeb</td>
+        <td>160518735064</td>
+        <td>3.4 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td> Mohammed Shoaib</td>
+        <td>160518735074</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>Mohd Faraz</td>
+        <td>160518735301</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>Syed Hanoof Ishaqi</td>
+        <td>160518735303</td>
+        <td>3.75 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>Hussain Quraishi</td>
+        <td>160518735304</td>
+        <td>3.75 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>Mohd Anwar Ullah</td>
+        <td>160518735305</td>
+        <td>3.75 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+</Table>
+
+
+                <h4 className='mt-35 mb-15'>Year of Passing , A.Y.- 2020-2021</h4>
+
+                <Table>
+     <tr>
+        <th>Sl.No</th>
+        <th>Name Of The Student</th>
+        <th>Roll.No</th>
+        <th>Salary Per Annum</th>
+        <th>On/Off Campus</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mohd Rasheed</td>
+        <td>160518735306</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mohd Viquar Uddin</td>
+        <td>160518735075</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Syed Shahab</td>
+        <td>160518735001</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Shayesta Naaz</td>
+        <td>160518735002</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Sumaiya Sulthana</td>
+        <td>160518735004</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mohammed Muzzamil Khan</td>
+        <td>160518735005</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td> S. Dinesh Choudhary</td>
+        <td>160518735011</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Mohammed Azizuddin</td>
+        <td>160518735012</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mohammed Khaleel</td>
+        <td>160518735015</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>     10</td>
+        <td> Ali Hussain</td>
+        <td>160518735017</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>Mohammed Abdul Sattar</td>
+        <td>160518735020</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Mohd Shamsuddin</td>
+        <td>160518735021</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>Mohammed Abdul Azam</td>
+        <td>160518735022</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>Mohammed Anas Ahmed</td>
+        <td>160518735023</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td> Sana Sultana</td>
+        <td>160518735024</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>Syed Fahad Uddin</td>
+        <td>160518735025</td>
+        <td>4.6 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>Shaik Mohammed Junaid</td>
+        <td>160518735033</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>Mariya Tasneem</td>
+        <td>160518735034</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>     19</td>
+        <td>Nudiya Anjum</td>
+        <td>160518735037</td>
+        <td>6.5 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>Mohammed Eshaan Ali</td>
+        <td>160518735039</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>MohdAfroz</td>
+        <td>160518735043</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Jaber Bin Omer</td>
+        <td>160518735045</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td> Mohammed Muzzammil Uddin Arham</td>
+        <td>160518735046</td>
+        <td>4.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td> Syed Abdul Majeed Ahmed</td>
+        <td>160518735047</td>
+        <td>4.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>Mohammed Musharaf Uddin </td>
+        <td>160518735049</td>
+        <td>4.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>Mohd Ismail Ahmed</td>
+        <td>160518735054</td>
+        <td>3.36 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>Safiullah Sayeed</td>
+        <td>160518735059</td>
+        <td> 3.36 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>Mirza Arbaz Ali Baig</td>
+        <td>160518735061</td>
+        <td>3.4 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>Shaik Ahmed Hussain</td>
+        <td>160518735063</td>
+        <td>      3.4 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>Mohammad Rumman Haseeb</td>
+        <td>160518735064</td>
+        <td>3.4 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td> Mohammed Shoaib</td>
+        <td>160518735074</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>Mohd Faraz</td>
+        <td>160518735301</td>
+        <td>3.0 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>Syed Hanoof Ishaqi</td>
+        <td>160518735303</td>
+        <td>3.75 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>Hussain Quraishi</td>
+        <td>160518735304</td>
+        <td>3.75 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>Mohd Anwar Ullah</td>
+        <td>160518735305</td>
+        <td>3.75 LPA</td>
+        <td>ON CAMPUS</td>
+    </tr>
+</Table>
+
+        <h4 className='mt-35 mb-15'>Year of Passing , A.Y.- 2019-2020</h4>
+
+        <Table>
+    <tr>
+        <th>Sl.No</th>
+        <th>Name Of The Student</th>
+        <th>Roll.No</th>
+        <th>Salary Per Annum</th>
+        <th>On/Off Campus</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Ruheena Begum</td>
+        <td>160516735012</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Mohd Khaja Saif Ullah K</td>
+        <td>160516735017</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Rizwan Ahmed</td>
+        <td>160516735018</td>
+        <td>4.13 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>Md Faizan Khan</td>
+        <td>160516735026</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>Mohammed Mubassir</td>
+        <td>160516735046</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>Mohd Asad Uddin</td>
+        <td>160516735053</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>Mohammed Osman</td>
+        <td>160516735057</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>Mohd Imran</td>
+        <td>160516735065</td>
+        <td>3.0 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>Mohd Altaf</td>
+        <td>160516735068</td>
+        <td>2.8 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>Azeem Uddin</td>
+        <td>160516735044</td>
+        <td>2.8 LPA</td>
+        <td>OFF CAMPUS</td>
+    </tr>
+</Table>
+
+                    </div>
+                  </TabPanel>
+
 
                 </Tabs>
               </section>

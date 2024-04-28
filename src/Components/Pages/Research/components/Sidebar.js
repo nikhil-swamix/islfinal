@@ -1,44 +1,18 @@
 import React from 'react'
-import axios from 'axios'
-import Skeleton from 'react-loading-skeleton'
 
 class Sidebar extends React.Component {
-  state = {
-    quicklink_list: [],
-    isLoading: true,
-    errors: null,
-  }
-  getPosts() {
-    axios
-      .get('https://mern1ayaz.herokuapp.com/api/sidebars/research')
-      .then((response) => {
-        this.setState({
-          quicklink_list: response.data,
-          isLoading: false,
-        })
-      })
-      .catch((error) => this.setState({ error, isLoading: false }))
-  }
-  componentDidMount() {
-    this.getPosts()
-  }
+
   render() {
-    const { isLoading, quicklink_list } = this.state
     return (
       <React.Fragment>
-        <div className="sidebar-item category">
-          {/* <div className="title">
-            <h4>Quick Links</h4>
-          </div> */}
+        <div className="sidebar-item category mt-30">
+          <div className="title">
+            <h4>important Links</h4>
+          </div>
           <div className="sidebar-info">
-            {!isLoading ? (
-              quicklink_list.map((quicklist) => {
-                const { _id, title, link } = quicklist
-                return (
                   <ul>
-                    <li key={_id}>
-                      <a href={link}>
-                        {title}
+                    <li>
+                      <a href="https://islec.edu.in/research/activities">R & D Cell Activities and Events
                         <span>
                           <i
                             className="fa fa-long-arrow-right"
@@ -47,17 +21,70 @@ class Sidebar extends React.Component {
                         </span>
                       </a>
                     </li>
+                    <li>
+                      <a href="https://islec.edu.in/research/facilities">Facilities
+                        <span>
+                          <i
+                            className="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/#">Vision & Mission
+                        <span>
+                          <i
+                            className="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/#">Research Team
+                        <span>
+                          <i
+                            className="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/#">Research infrastructure
+                        <span>
+                          <i
+                            className="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/#">Research policy
+                        <span>
+                          <i
+                            className="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="/#">MOUs
+                        <span>
+                          <i
+                            className="fa fa-long-arrow-right"
+                            aria-hidden="true"
+                          ></i>
+                        </span>
+                      </a>
+                    </li>
+
+
                   </ul>
-                )
-              })
-            ) : (
-              <p>
-                <Skeleton height={10} width={400} />
-                <Skeleton height={10} width={400} />
-                <Skeleton height={10} width={400} />
-                <Skeleton height={10} width={400} />
-              </p>
-            )}
+                
           </div>
         </div>
       </React.Fragment>

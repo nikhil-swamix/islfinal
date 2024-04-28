@@ -76,12 +76,12 @@ const Faculty = () => {
                 <Tabs className="dept-tab">
                   <TabList>
                     
-                    <Tab>Teaching List</Tab>
+                    {/* <Tab>Teaching List</Tab> */}
                     <Tab>Non-Teaching List</Tab>
     
                   </TabList>
 
-                  <TabPanel className="tab-content tab-content-info text-justify">
+                  {/* <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="mt-5">
 
                       <h4>Teaching List</h4>
@@ -862,7 +862,7 @@ const Faculty = () => {
                         </div>
 
                     </div>
-                  </TabPanel>
+                  </TabPanel> */}
                   
                   <TabPanel className="tab-content tab-content-info text-justify">
                     <div className="mt-5 capital" >

@@ -91,11 +91,11 @@ const NavigationBar = () => {
                          <b>IQAC</b>
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <a href="https://islec.edu.in/nirf" rel="noopener">
                          <b>NIRF</b>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="https://islec.edu.in/NAAC/feedback.pdf" rel="noopener">
                          <b>Feedback</b>
@@ -240,7 +240,7 @@ const NavigationBar = () => {
               Infrastructure & Events
             </Nav.Link>
 
-            <Nav.Link href="#Research" as={Link} to="/research">
+            <Nav.Link href="#Research" as={Link} to="/researchdevelopment">
               R & D
             </Nav.Link>
 

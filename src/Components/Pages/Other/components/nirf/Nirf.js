@@ -98,6 +98,14 @@ const Nirf = () => {
                             </a>
                         </td>
                       </tr>
+                      <tr>
+                      <td>NIRF'2024'</td>
+                        <td>
+                          <a href='https://islec.edu.in/NAAC/Overall2024.pdf'>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                      </tr>
   
                     </Table>
                     </div>
@@ -121,6 +129,14 @@ const Nirf = () => {
                             </a>
                         </td>
                       </tr>
+                      <tr>
+                      <td>NIRF'2024'</td>
+                        <td>
+                          <a href='https://islec.edu.in/NAAC/Engineering2024.pdf'>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                      </tr>
   
                     </Table>
                     </div>
@@ -140,6 +156,14 @@ const Nirf = () => {
                         <td>NIRF'2023'</td>
                         <td>
                           <a href='https://islec.edu.in/NAAC/Management2023.pdf'>
+                            <i class="fa fa-eye" aria-hidden="true"></i>
+                            </a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>NIRF'2024'</td>
+                        <td>
+                          <a href='https://islec.edu.in/NAAC/Management2024.pdf'>
                             <i class="fa fa-eye" aria-hidden="true"></i>
                             </a>
                         </td>
