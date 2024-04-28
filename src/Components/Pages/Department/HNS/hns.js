@@ -303,7 +303,7 @@ development.
                     </div>
                   </TabPanel>
                   <TabPanel>
-                    <div className="syll text-center">
+                    <div className=" text-center">
                     <Table className='striped bordered hover'>
 
     <tr>
