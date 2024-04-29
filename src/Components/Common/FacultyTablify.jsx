@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
-import { CSVReader } from 'react-csv-reader';
+import React, { useState, useEffect } from 'react';
 import { useTable } from 'react-table';
 
-const CSVTable = () => {
-    const [data, setData] = useState([]);
+
+const CSVTable = ({ parsedData }) => {
+    let [data, setData] = useState([]);
+    console.log(parsedData)
+    data = parsedData
+
 
     const columns = React.useMemo(
         () => [
@@ -35,34 +38,37 @@ const CSVTable = () => {
         []
     );
 
-    const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ columns, data });
+    const { getTableProps, getTableBodyProps, headerGroups, rows, prepareRow } = useTable({ columns, data, getRowId: (originalRow) => originalRow['S.No.'] });
 
     return (
         <div>
-            <CSVReader onFileLoaded={(data) => setData(data)} parserOptions={{ header: true }} />
-            <table {...getTableProps()}>
-                <thead>
-                    {headerGroups.map((headerGroup) => (
-                        <tr {...headerGroup.getHeaderGroupProps()}>
-                            {headerGroup.headers.map((column) => (
-                                <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+        <img src="/faculty-table-logo.png" className="img-fluid" alt="" />
+
+        <table {...getTableProps()}>
+            <thead>
+                {headerGroups.map((headerGroup) => (
+                    <tr {...headerGroup.getHeaderGroupProps()}>
+                        {headerGroup.headers.map((column) => (
+                            <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+                        ))}
+                    </tr>
+                ))}
+            </thead>
+            <tbody {...getTableBodyProps()}>
+                {rows.map((row) => {
+                    prepareRow(row);
+                    return (
+                        <tr {...row.getRowProps()}>
+                            <td>{row.original['S.No.']}</td>
+                            {row.cells.slice(1).map((cell) => (
+                                <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
                             ))}
                         </tr>
-                    ))}
-                </thead>
-                <tbody {...getTableBodyProps()}>
-                    {rows.map((row) => {
-                        prepareRow(row);
-                        return (
-                            <tr {...row.getRowProps()}>
-                                {row.cells.map((cell) => (
-                                    <td {...cell.getCellProps()}>{cell.render('Cell')}</td>
-                                ))}
-                            </tr>
-                        );
-                    })}
-                </tbody>
-            </table>
+                    );
+                })}
+            </tbody>
+        </table>
+
         </div>
     );
 };

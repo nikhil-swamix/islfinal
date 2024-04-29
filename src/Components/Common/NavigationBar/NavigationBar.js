@@ -66,11 +66,11 @@ const NavigationBar = () => {
                       </a>
                     </li>
 
-                    <li>
+                    {/* <li>
                       <a href="https://islec.edu.in/faculty" rel="noopener">
                          Staff List
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="https://islec.edu.in/committees" rel="noopener">
                          Committees
