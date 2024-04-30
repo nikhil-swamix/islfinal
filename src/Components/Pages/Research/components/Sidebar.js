@@ -28,7 +28,7 @@ class Sidebar extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="/#">
+                            <a href="/RnD-VisionMission.pdf">
                                 Vision & Mission
                                 <span>
                                     <i className="fa fa-long-arrow-right" aria-hidden="true"></i>
@@ -36,7 +36,6 @@ class Sidebar extends React.Component {
                             </a>
                         </li>
 
-                      
                         <li>
                             <a href="/RnD-Policy.pdf" target="_blank">
                                 Research policy
